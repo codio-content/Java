@@ -1,0 +1,34 @@
+[
+ {
+  "taskId": "parsons-puzzle-2919609863",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-1264740481",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "test-2965980592",
+  "points": 1,
+  "results": [
+   {
+    "code": 0,
+    "output": "",
+    "timestamp": 1569430508276,
+    "state": "pass"
+   }
+  ]
+ }
+]

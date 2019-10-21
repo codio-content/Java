@@ -1,0 +1,533 @@
+{
+ "sections": [
+  {
+   "id": "5c92649d-fdc3-bf93-21be-0314daa673ae",
+   "title": "(OLD) Loops",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/-OLD--Loops-5c92.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c042772a-91cf-d5cc-a5b1-3b8b454584f3",
+   "title": "Loop Syntax",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loop-Syntax-c042.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b4db97bc-408c-940e-2174-6eb37371da0f",
+   "title": "Iteration",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Iteration-b4db.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "cf3cd399-d0f7-b507-8fea-6bbfaa0d3ff2",
+   "title": "Loop Header: How many times?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loop-Header--How-many-times--cf3c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ce97aac3-fed3-1820-fb02-e926b4d43514",
+   "title": "Loop Header: Conditionals",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "loop.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loop-Header--Conditionals-ce97.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "95b30c33-7e2c-3051-2734-c051973e0e64",
+   "title": "Loop Body: What is being repeated?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loop-Body--What-is-being-repeated--95b3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3c48f9d0-faca-e828-b41f-3072a1dc56ec",
+   "title": "Loop Body: Fence-posting",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "fence.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loop-Body--Fence-posting-3c48.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "63c8f749-17a4-1dd2-a85d-08de7d689892",
+   "title": "Infinite Loops",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Infinite-Loops-63c8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ba8b1ce2-4dfa-e2fe-c5cf-456d4d008b23",
+   "title": "Check your understanding: Loop Syntax",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Check-your-understanding--Loop-Syntax-ba8b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5ca5c2bd-6fe1-7ab1-f8d8-a2bfa888eea2",
+   "title": "For Loops",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/For-Loops-5ca5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3c82445b-88e1-cab8-c1ff-d8029a57d29b",
+   "title": "For Loops: For a certain number of iterations",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/For-Loops--For-a-certain-number-of-iterations-3c82.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f32f5f02-1bb0-8922-6a4d-232cafc256bf",
+   "title": "For loop: Flow",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ForLoop.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/ForLoop.java",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/For-loop--Flow-f32f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ff2059c9-828d-3218-c31b-855409dad881",
+   "title": "For Loop Flow 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/For-Loop-Flow-2-ff20.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "99c90c85-1bc4-9a4d-414a-d39f167a2007",
+   "title": "Writing a For Loop: Counting by Twos",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ByTwos.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Writing-a-For-Loop--Counting-by-Twos-99c9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7e614dd6-3000-f97c-103d-9cfb75682381",
+   "title": "Learning Objectives - Printing",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Printing-7e61.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e0f4c5e4-fd4d-4708-d83a-b3ac8f0a31d7",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-e0f4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b1842de6-2990-a9a7-fe0f-17ae29a8f6d6",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-b184.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0a78a4dd-02f8-a1c0-8207-83da24d11ea3",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-0a78.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ccbb35ac-6f93-5258-2b81-4f3a888fe4d4",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-ccbb.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "543e1988-8933-a9e3-7649-2ccc025f672f",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-543e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "25d8ad82-8f97-c08a-4b7a-d145a270c406",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-25d8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "642566ec-8130-664b-28e5-3a60abc7fb0b",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-6425.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1256260a-b636-3d14-9914-b4b3600a5e64",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-1256.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "da560394-ef8a-4ece-d95a-adb6b68b4ed6",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-da56.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f1abddba-2216-5461-a129-adae8b3d901a",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-f1ab.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2038a28e-a1bf-9f1d-766b-eb2cbcf3f0c2",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-2038.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "aee7ff8f-04c5-5934-8f26-2087db8ec881",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-aee7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2a2ff45f-d53f-a4d2-1ef0-45a03fe58d96",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-2a2f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1b0bd3bf-6b0f-ef6a-a25c-2b5ad1602562",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-1b0b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "33451da2-5800-fee6-4872-d7d8b1c14c6c",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-3345.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0eef8d3a-265f-1669-0ec7-3e46a14f5be0",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-0eef.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "51fea23a-09fe-4a26-dc9b-a41db5ae5df7",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-51fe.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7cce297e-b2fe-8800-2e23-90af2205edf8",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-7cce.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c68ad3a9-f3fb-8aa4-83f3-633d0038399b",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-c68a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9fda1e9e-fc67-eb56-10a2-ece51024fbb9",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-9fda.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": true,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": true,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

@@ -1,0 +1,365 @@
+[
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2919609863",
+  "source": {
+   "name": "Make a Triangle",
+   "showName": true,
+   "instructions": "Construct a program by drag&amp;dropping and reordering lines from the left to the right. You can change the loop header (<span class=\"jsparson-toggle\"></span>) by clicking them. The constructed program should draw a triangle like shown below.\n\nHint: You need to indent the lines of code within the loop by dragging the blocks slightly to the right. We'll talk about this next.",
+   "initial": "REPEAT $$toggle::2::3::4$$ TIMES\nforward(100)\nleft(120)\nENDREPEAT\n",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\n  \"executable_code\": \"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\n  \"programmingLang\": \"pseudo\"\n}",
+   "grader": "5",
+   "guidance": "The loop header is setting up how many times code is repeated. In the case of a triangle, it makes sense to repeat 3 times - one for each side.\n\n```\nREPEAT 3 TIMES\n  forward(100)\n  left(120)\nENDREPEAT\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Loop Headers"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Psuedo"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT... define a loop header"
+  },
+  "linkedId": "5038b41f-51e1-4de2-bba9-0435fc132d47",
+  "libraryId": "a6135984-c66a-483f-9eb2-48cdba182812",
+  "version": 0
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1264740481",
+  "source": {
+   "name": "Make a Square",
+   "showName": true,
+   "instructions": "Construct a program by drag&amp;dropping and reordering lines from the left to the right. You can change the loop header (<span class=\"jsparson-toggle\"></span>) by clicking them. The constructed program should draw a square like shown below. Be sure to indent the loop body by dragging repeated blocks slightly to the right.",
+   "initial": "REPEAT $$toggle::2::3::4$$ TIMES\nforward(100)\nleft(90)\nENDREPEAT\n",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"max_wrong_lines\": 1,\n  \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(90)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(90)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(90)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(90)\",\n  \"executable_code\": \"for i in range(0,4):\\nmyTurtle.forward(100)\\nmyTurtle.left(90)\\npass\",\n  \"programmingLang\": \"pseudo\"\n}",
+   "grader": "5",
+   "guidance": "The loop header is setting up how many times code is repeated. In the case of a square, it makes sense to repeat 4 times - one for each side.\n\nThe loop body are the lines to be repeated, in this case the blocks instructing the turtle to turn and step forward.\n\n```\nREPEAT 4 TIMES\n  forward(100)\n  left(90)\nENDREPEAT\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     },
+     {
+      "name": "Content",
+      "value": "Loop Body"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Psuedo"
+     }
+    ],
+    "files": [
+     "loop.flode"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT... define a loop body"
+  },
+  "libraryId": "a6135984-c66a-483f-9eb2-48cdba182812",
+  "version": 0,
+  "linkedId": "5f45c731-8ac5-40c6-bc8a-39bdd9fb9098"
+ },
+ {
+  "type": "test",
+  "taskId": "test-2965980592",
+  "source": {
+   "name": "Fence-Posting Answer",
+   "showName": true,
+   "instructions": "Click here to see the bug-free flow chart",
+   "command": "/bin/true",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "![](.guides/img/fenceSoln.png)",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "fence.flode"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "fence.flode"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2167968400",
+  "source": {
+   "name": "Loop Vocabulary",
+   "showName": true,
+   "instructions": "Select the appropriate vocabulary words in the paragraph below.",
+   "text": "In code, we use loops to repeat or <<<iterate>>> over sections of code. The <<<loop header>>> indicates how many times the loop will repeat the code. The code section that is repeated is called the <<<loop body>>>.",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "iterate",
+     "loop header",
+     "loop body"
+    ],
+    "text": [
+     "In code, we use loops to repeat or ",
+     0,
+     " over sections of code. The ",
+     0,
+     " indicates how many times the loop will repeat the code. The code section that is repeated is called the ",
+     0,
+     "."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1835017652",
+  "source": {
+   "name": "How many repetitions?",
+   "showName": true,
+   "instructions": "Looking at the psuedo-code below, how many times will the loop repeat?\n\n```\ni = 0;\nloop while i <= 5\n    print(i);\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "a808549d-ff49-8b80-25f6-82e574dbb137",
+     "correct": false,
+     "answer": "4"
+    },
+    {
+     "_id": "e0673c9d-66a3-ac21-5859-66d305a1c788",
+     "correct": false,
+     "answer": "5"
+    },
+    {
+     "_id": "cd425d6d-bb39-2944-a89b-e2718ae7df0b",
+     "correct": false,
+     "answer": "6"
+    },
+    {
+     "_id": "dc97bc08-3ee0-5559-e9f0-8015a7ee8826",
+     "correct": true,
+     "answer": "infinite"
+    }
+   ],
+   "guidance": "`i` is never incremented, so `i` remains `0` forever. Because `i=0` forever, `i<=5` will ALWAYS be true.\n\nWithout the incriminator, we get an infinite loop!",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3591130309",
+  "source": {
+   "name": "What is the output?",
+   "showName": true,
+   "instructions": "What is the output of the following psuedo-code?\n\n```\ni = 0;\nloop while i < 10\n    i = i + 2;\n    print(i + \",\");\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "f52be2d7-c7cf-c811-84e4-78bb3063bf56",
+     "correct": false,
+     "answer": "0,2,4,6,8"
+    },
+    {
+     "_id": "ee4b10b2-8a26-9023-5442-12fff710589e",
+     "correct": false,
+     "answer": "0,2,4,6,8,"
+    },
+    {
+     "_id": "18bdba2f-5a19-7cff-849d-73140f3b2bc9",
+     "correct": false,
+     "answer": "2,4,6,8,10"
+    },
+    {
+     "_id": "ef6389af-113a-b054-fdde-ccf361074cd4",
+     "correct": true,
+     "answer": "2,4,6,8,10,"
+    }
+   ],
+   "guidance": "Because the print statement is *after* the increment of i, we see values 2-10. Flipping the two lines within the loop body would change the values to 0-8.\n\nBecause we do not use fence-posting, we have an extraneous `,` in our output.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3185531965",
+  "source": {
+   "name": "For Loop flow",
+   "showName": true,
+   "instructions": "After completing the loop body, what part of the for loop header is run?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "02056a52-0228-34db-d77e-2a6f318f6148",
+     "correct": false,
+     "answer": "int i = 10"
+    },
+    {
+     "_id": "85e8fcaa-693d-2843-0ce4-12c0bb9d400d",
+     "correct": false,
+     "answer": "i >= 0"
+    },
+    {
+     "_id": "37555a97-5218-c552-09f5-bc2a668f6156",
+     "correct": true,
+     "answer": "i--"
+    }
+   ],
+   "guidance": "Even though it is the last part of the for loop header, the incrementing is the first piece of the header run after an iteration.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/ForLoop.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ForLoop.java"
+     },
+     {
+      "type": "tutor",
+      "panelNumber": 1,
+      "content": "code/ForLoop.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-336859680",
+  "source": {
+   "name": "For Loop Flow",
+   "showName": true,
+   "instructions": "Re-arrange the blocks below so that is shows the flow of execution for the code:\n```java\nfor(int i = 0; i < 2; i++) {\n    System.out.println(i);\n}\n```\n",
+   "initial": "for(int i = 0;\ni < 2;\nSystem.out.println(i);\ni++\ni < 2;\nSystem.out.println(i);\ni++\ni < 2;\nfor(int i = 0; #distractor\ni < 2; #distractor\nSystem.out.println(i); #distractor\ni++ #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"can_indent\": false,\n  \"max_wrong_lines\": 2\n}",
+   "grader": "1",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/ForLoop.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ForLoop.java"
+     },
+     {
+      "type": "tutor",
+      "panelNumber": 1,
+      "content": "code/ForLoop.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]
