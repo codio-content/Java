@@ -279,11 +279,22 @@
   },
   {
    "id": "e0f4c5e4-fd4d-4708-d83a-b3ac8f0a31d7",
-   "title": "New Page",
-   "files": [],
+   "title": "Printing to the Console",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundPrinting1.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-e0f4.md",
+   "content-file": ".guides/content/Printing-to-the-Console-e0f4.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -291,11 +302,22 @@
   },
   {
    "id": "b1842de6-2990-a9a7-fe0f-17ae29a8f6d6",
-   "title": "New Page",
-   "files": [],
+   "title": "Printing",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundPrinting2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-b184.md",
+   "content-file": ".guides/content/Printing-b184.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -303,11 +325,17 @@
   },
   {
    "id": "0a78a4dd-02f8-a1c0-8207-83da24d11ea3",
-   "title": "New Page",
-   "files": [],
+   "title": "Formative Assessment 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-0a78.md",
+   "content-file": ".guides/content/Formative-Assessment-1-0a78.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -315,11 +343,11 @@
   },
   {
    "id": "ccbb35ac-6f93-5258-2b81-4f3a888fe4d4",
-   "title": "New Page",
+   "title": "Formative Assessment 2",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-ccbb.md",
+   "content-file": ".guides/content/Formative-Assessment-2-ccbb.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -327,71 +355,39 @@
   },
   {
    "id": "543e1988-8933-a9e3-7649-2ccc025f672f",
-   "title": "New Page",
+   "title": "Learning Objectives - Variables",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-543e.md",
+   "content-file": ".guides/content/Learning-Objectives---Variables-543e.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "25d8ad82-8f97-c08a-4b7a-d145a270c406",
-   "title": "New Page",
-   "files": [],
+   "id": "e9f8ad54-0091-57dd-510c-09a52d11197c",
+   "title": "Variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables1.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/fundamentals/PlaygroundVariables1.java",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-25d8.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "642566ec-8130-664b-28e5-3a60abc7fb0b",
-   "title": "New Page",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/New-Page-6425.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "1256260a-b636-3d14-9914-b4b3600a5e64",
-   "title": "New Page",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/New-Page-1256.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "da560394-ef8a-4ece-d95a-adb6b68b4ed6",
-   "title": "New Page",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/New-Page-da56.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "f1abddba-2216-5461-a129-adae8b3d901a",
-   "title": "New Page",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/New-Page-f1ab.md",
+   "content-file": ".guides/content/Variables-e9f8.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -399,11 +395,126 @@
   },
   {
    "id": "2038a28e-a1bf-9f1d-766b-eb2cbcf3f0c2",
-   "title": "New Page",
+   "title": "Data Types - Integers",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Data-Types---Integers-2038.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "469c57e1-6eff-a679-8cf3-13e201145f7f",
+   "title": "Data Types - Floating Point Numbers",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Data-Types---Floating-Point-Numbers-469c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f1abddba-2216-5461-a129-adae8b3d901a",
+   "title": "Data Types - Boolean",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables4.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Data-Types---Boolean-f1ab.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "da560394-ef8a-4ece-d95a-adb6b68b4ed6",
+   "title": "Data Types - Strings",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables5.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Data-Types---Strings-da56.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "25d8ad82-8f97-c08a-4b7a-d145a270c406",
+   "title": "Declaring Variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables6.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Declaring-Variables-25d8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1256260a-b636-3d14-9914-b4b3600a5e64",
+   "title": "Initializing, Assigning, and Accessing",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-2038.md",
+   "content-file": ".guides/content/Initializing--Assigning--and-Accessing-1256.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -411,11 +522,17 @@
   },
   {
    "id": "aee7ff8f-04c5-5934-8f26-2087db8ec881",
-   "title": "New Page",
-   "files": [],
+   "title": "Formative Assessment 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-aee7.md",
+   "content-file": ".guides/content/Formative-Assessment-1-aee7.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -423,11 +540,17 @@
   },
   {
    "id": "2a2ff45f-d53f-a4d2-1ef0-45a03fe58d96",
-   "title": "New Page",
-   "files": [],
+   "title": "Formative Assessment 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-2a2f.md",
+   "content-file": ".guides/content/Formative-Assessment-2-2a2f.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -435,11 +558,22 @@
   },
   {
    "id": "1b0bd3bf-6b0f-ef6a-a25c-2b5ad1602562",
-   "title": "New Page",
-   "files": [],
+   "title": "Lab - Printing",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/Lab_Printing.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-1b0b.md",
+   "content-file": ".guides/content/Lab---Printing-1b0b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -447,11 +581,22 @@
   },
   {
    "id": "33451da2-5800-fee6-4872-d7d8b1c14c6c",
-   "title": "New Page",
-   "files": [],
+   "title": "Lab - Variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/Lab_Variables.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-3345.md",
+   "content-file": ".guides/content/Lab---Variables-3345.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -459,11 +604,22 @@
   },
   {
    "id": "0eef8d3a-265f-1669-0ec7-3e46a14f5be0",
-   "title": "New Page",
-   "files": [],
+   "title": "Lab - Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/Lab_Challenge.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-0eef.md",
+   "content-file": ".guides/content/Lab---Challenge-0eef.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -471,11 +627,45 @@
   },
   {
    "id": "51fea23a-09fe-4a26-dc9b-a41db5ae5df7",
-   "title": "New Page",
-   "files": [],
+   "title": "Exercise 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/Exercise1.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-51fe.md",
+   "content-file": ".guides/content/Exercise-1-51fe.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fce4684a-c233-cc4a-a433-de23f460cd5b",
+   "title": "Exercise 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/Exercise2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-fce4.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -483,11 +673,22 @@
   },
   {
    "id": "7cce297e-b2fe-8800-2e23-90af2205edf8",
-   "title": "New Page",
-   "files": [],
+   "title": "Exercise 3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/Exercise3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-7cce.md",
+   "content-file": ".guides/content/Exercise-3-7cce.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -495,11 +696,22 @@
   },
   {
    "id": "c68ad3a9-f3fb-8aa4-83f3-633d0038399b",
-   "title": "New Page",
-   "files": [],
+   "title": "Exercise 4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/Exercise4.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-c68a.md",
+   "content-file": ".guides/content/Exercise-4-c68a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -507,11 +719,1207 @@
   },
   {
    "id": "9fda1e9e-fc67-eb56-10a2-ece51024fbb9",
+   "title": "Exercise 5",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/Exercise5.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-9fda.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b9d3327d-a121-105f-7d53-c365433687f0",
+   "title": "Learning Objectives - Arithmetic Operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Arithmetic-Operators-b9d3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "8b043e4c-4e67-aead-f764-fa33c75066db",
+   "title": "Addition",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundAddition.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Addition-8b04.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1e6784e4-9502-efeb-f713-fd172dfe9fde",
+   "title": "Incrementing Variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundIncrement.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Incrementing-Variables-1e67.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e856c577-523b-1361-76ca-dc6178d8a507",
+   "title": "Type Casting",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundCasting.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Type-Casting-e856.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "aec17567-352d-ab93-e78b-898950b8e332",
+   "title": "String Concatenation",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundConcatenation.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/String-Concatenation-aec1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1a3dabd7-1621-5a92-4c2b-f2b948119e80",
+   "title": "Subtraction",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundSubtraction.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Subtraction-1a3d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1592ab7a-dee6-22dc-6f2c-034e4e9dd08d",
+   "title": "Division",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundDivision.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Division-1592.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dc88e72f-be5c-bd9a-1424-e4915350d536",
+   "title": "Multiplication",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundMultiply.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Multiplication-dc88.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "de1038b6-6d91-9442-28c0-ca19bb68820b",
+   "title": "Order of Operations",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundOrder.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Order-of-Operations-de10.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e1ca0db8-95ef-a128-0a10-d7dabce5539a",
+   "title": "Modulo",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundModulo.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Modulo-e1ca.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "08e1e637-26b8-08f7-967d-9b18d7469790",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-08e1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b6071694-41d5-7b92-8d88-27b2a6299b0e",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-b607.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ef0f1509-657d-173c-8c46-b9360d0aa0a7",
+   "title": "Learning Objectives - Boolean Operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Boolean-Operators-ef0f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "473b09e9-149b-f502-7450-5bfd4153e6ac",
+   "title": "Equal To & Not Equal To",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundEquality.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Equal-To---Not-Equal-To-473b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2fe4d672-2289-e677-198b-eee215eef254",
+   "title": "Less Than & Less Than or Equal To",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundLessThan.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Less-Than---Less-Than-or-Equal-To-2fe4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b315fb4a-2279-6922-64a9-2b37dda0ddc0",
+   "title": "Greater Than & Greater Than or Equal To",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundGreaterThan.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Greater-Than---Greater-Than-or-Equal-To-b315.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e72ccf45-1c81-4b86-93cc-80c758599ae4",
+   "title": "And",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundAnd.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/And-e72c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "07f2f007-4eec-4c8c-1fec-4a6f1b683007",
+   "title": "Or",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundOr.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Or-07f2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7248973b-3b6a-4db2-976b-be4d85dea7d3",
+   "title": "Not",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundNot.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Not-7248.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0d06a6d7-cc41-7032-2d8b-96f86bf81910",
+   "title": "Short-Circuiting",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundShortCircuiting.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Short-Circuiting-0d06.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "28e10284-875a-776c-ea0b-9813a01d887c",
+   "title": "Formative Assessment 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-28e1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "289f4b6c-9edf-99eb-fdb3-fb06944014b7",
+   "title": "Formative Assessment 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-289f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5d39cff5-82fd-a1a7-42a1-2d0ea455f6ed",
+   "title": "Lab - Arithmetic Operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/LabArithmetic.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---Arithmetic-Operators-5d39.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "80fa6bfa-a6d4-f322-d48c-5147f87e7a36",
+   "title": "Lab - Strings",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/LabStrings.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---Strings-80fa.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3820b2dd-7ccf-e205-e33c-e0f400e08f2d",
+   "title": "Lab - Order of Operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/LabPEMDAS.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---Order-of-Operators-3820.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9fa9ea58-d523-49b4-eea1-776dd5698668",
+   "title": "Lab - Boolean Operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/LabBoolean.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---Boolean-Operators-9fa9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "8dae39f0-fd2a-2b63-84b6-b87042676836",
+   "title": "Lab Challenge - Operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/LabChallenge.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-Challenge---Operators-8dae.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e281e418-c38e-474b-bd7c-41a2edcf23dd",
+   "title": "Exercise 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/Exercise1.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-e281.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "39fef915-e95f-603b-82f0-d84b22f9cb2d",
+   "title": "Exercise 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/Exercise2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-39fe.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a3bfeb7b-7bc9-faa0-1f11-5f624e3bca59",
+   "title": "Exercise 3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/Exercise3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-a3bf.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "372082c7-9bf8-2f8c-4e5c-289fa283618b",
+   "title": "Exercise 4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/Exercise4.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-3720.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "47069315-1ca3-7731-2ab5-6c2d684031ef",
+   "title": "Exercise 5",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/Exercise5.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-4706.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d3184825-b088-2d6a-517d-628ebce9094d",
+   "title": "Learning Objectives",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives-d318.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a8bb3a62-d9f2-63f1-867d-20266185f282",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-a8bb.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "12bd8ce6-9a87-f494-54a0-64de8f3cbd33",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-12bd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e976d132-e235-91f0-4063-fd62ef191a2f",
+   "title": "Learning Objectives",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives-e976.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "87f14948-38dc-7ab3-df48-ee131c35d0a1",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-87f1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5ddd8cf0-55c1-9a93-8b02-720ca581ac58",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-5ddd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e3c9bbc3-4fd4-c17d-0c5d-d274e55e1178",
+   "title": "Lab -",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---e3c9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ec25ed64-97a1-96f6-fb0e-201943b4acf2",
+   "title": "Lab - Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---Challenge-ec25.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ea96fdbe-dd22-2594-ab09-b4ef89b8fc16",
+   "title": "Exercise 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-ea96.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "87a6dc60-7b4c-6a79-1f56-58d2c52f0c1c",
+   "title": "Exercise 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-87a6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2dd9f2f5-e430-31c5-eeb6-7d0183b8ba35",
+   "title": "Exercise 3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-2dd9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7dcff941-1795-b653-e027-d907adf76e35",
+   "title": "Exercise 4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-7dcf.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "963e29c8-ea3e-7404-f0f8-5e659ac86f46",
+   "title": "Exercise 5",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-963e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Learning Objectives",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Lear.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Formative Assessment 1",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Form.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Formative Assessment 2",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Form.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Learning Objectives",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Lear.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Formative Assessment 1",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Form.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Formative Assessment 2",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Form.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Lab -",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Lab .md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Lab - Challenge",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Lab .md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Exercise 1",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Exer.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Exercise 2",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Exer.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Exercise 3",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Exer.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Exercise 4",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Exer.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Exercise 5",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Exer.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5e1a8f9a-9a83-746d-a4c8-50f76ac7039f",
    "title": "New Page",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-9fda.md",
+   "content-file": ".guides/content/New-Page-5e1a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "bba31669-80f3-ebae-f155-eaa44d973938",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-bba3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fccdba1b-57bf-9c7e-52b5-17240a035650",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-fccd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c5aa1e32-9e8c-4950-8aae-492e188cb3b7",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-c5aa.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Learning Objectives",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Lear.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "New Page",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-New .md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "New Page",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-New .md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Formative Assessment 1",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Form.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Formative Assessment 2",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Form.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Learning Objectives",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Lear.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "New Page",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-New .md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "New Page",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-New .md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Formative Assessment 1",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Form.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "Formative Assessment 2",
+   "title": "New Section",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-Form.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

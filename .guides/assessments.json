@@ -361,5 +361,2524 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2547412741",
+  "source": {
+   "name": "Printing - Reading Question 1",
+   "showName": true,
+   "instructions": "What is wrong with the code snippet below?\n```\nSystem.out.println(Hello world);\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "98269ac4-221e-99c2-a370-5bb9a7a1e43f",
+     "correct": false,
+     "answer": "Capitalize `print`"
+    },
+    {
+     "_id": "24ba2369-1319-d169-5724-ae922d7b9a84",
+     "correct": false,
+     "answer": "Use `{}` instead of `()`"
+    },
+    {
+     "_id": "d9d0f578-f0b5-9920-478b-5dedad2afc65",
+     "correct": true,
+     "answer": "Missing `\"` around `Hello world`"
+    },
+    {
+     "_id": "5b259746-35ab-8daf-e7f7-e85013da0125",
+     "correct": false,
+     "answer": "Add a `;` at the end of the line of code"
+    }
+   ],
+   "guidance": "After the print command use parentheses and quotation marks around the words to be printed.\n```\nSystem.out.print(\"Hello world\");\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundPrinting1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundPrinting1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2710921318",
+  "source": {
+   "name": "Printing - Reading Question 2",
+   "showName": true,
+   "instructions": "Which of the following commands adds a newline character?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "0f4cd3f1-1bc1-7bca-c5b7-b3ed441ad84a",
+     "correct": false,
+     "answer": "`System.out.print(\"Hello\");`"
+    },
+    {
+     "_id": "06080af5-6086-6f81-d3ba-ecc73cc8b1f6",
+     "correct": true,
+     "answer": "`System.out.println(\"Hello\");`"
+    }
+   ],
+   "guidance": "`System.out.println(\"Hello\");` inserts a new line character after `Hello` which is hard to see when you only print one line of text. However, if you print two lines like:\n```\nSystem.out.println(\"Hello\");\nSystem.out.println(\"World!\");\n```\nIt outputs:\n```\nHello\nWorld!\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundPrinting2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundPrinting2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1191669709",
+  "source": {
+   "name": "Print Statement",
+   "showName": true,
+   "instructions": "What does the `System.out.print();` or `print` statement do?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "d7d80be3-ec5a-1dd2-3dec-7f197270a0a2",
+     "correct": false,
+     "answer": "Sends your output to the printer"
+    },
+    {
+     "_id": "8c3f2936-de60-039c-ab3b-923944853e61",
+     "correct": false,
+     "answer": "Sends your output to a file"
+    },
+    {
+     "_id": "47224aaf-0efb-46b5-471b-eb90cec3cd6e",
+     "correct": true,
+     "answer": "Sends your output to the screen"
+    },
+    {
+     "_id": "9311dd34-afec-1afa-4a22-40bd88277de9",
+     "correct": false,
+     "answer": "Sends your output to the compiler"
+    }
+   ],
+   "guidance": "The `print` command sends your output to your computer's default output which is the computer console or terminal.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2355446782",
+  "source": {
+   "name": "Printing with the Newline Character",
+   "showName": true,
+   "instructions": "Fill in the blank with the missing text that will print the text `Hi!` **with** a newline character?",
+   "text": "`System.out.<<<println>>>(\"Hi!\");`",
+   "guidance": "To add the newline character, you use the `println` command instead of the `print` command. The code should look like: `System.out.println(\"Hi!\")`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "println"
+    ],
+    "text": [
+     "`System.out.",
+     0,
+     "(\"Hi!\");`"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-328592840",
+  "source": {
+   "name": "Variables - Reading Question 1",
+   "showName": true,
+   "instructions": "Which parts of a variable do *not* change in Java?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "b1beff98-719d-cc43-3796-8bd3cac2bc03",
+     "correct": true,
+     "answer": "data type"
+    },
+    {
+     "_id": "b1f8b186-381e-4a69-4bc5-859981f8f85f",
+     "correct": true,
+     "answer": "name"
+    },
+    {
+     "_id": "1a9e1dc1-1581-42e8-ad92-79d34f0e0bfe",
+     "correct": false,
+     "answer": "value"
+    }
+   ],
+   "guidance": "For each variable, the data type and name of the variable *never* change. The value can be re-assigned as many times as you want!",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundVariables1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundVariables1.java"
+     },
+     {
+      "type": "tutor",
+      "panelNumber": 1,
+      "content": "code/fundamentals/PlaygroundVariables1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3784696113",
+  "source": {
+   "name": "Variables - int vs double",
+   "showName": true,
+   "instructions": "Fill in the following with the appropriate vocabulary to explain the difference between a double and an int.",
+   "text": "A <<<double>>> is a <<<floating point number>>> meaning it has a <<<decimal>>>, where an <<<int>>> is a <<<whole number>>> meaning it does not have a decimal.",
+   "guidance": "A `double` is a floating point number or a rational number meaning it has a decimal or represents a fraction, where an `int` (short for integer) is a whole number meaning it does not have a decimal.\n\nBoth can be positive or negative!",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundVariables3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundVariables3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "double",
+     "floating point number",
+     "decimal",
+     "int",
+     "whole number"
+    ],
+    "text": [
+     "A ",
+     0,
+     " is a ",
+     0,
+     " meaning it has a ",
+     0,
+     ", where an ",
+     0,
+     " is a ",
+     0,
+     " meaning it does not have a decimal."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3562273974",
+  "source": {
+   "name": "Variables - Booleans RQ",
+   "showName": true,
+   "instructions": "What is the general rule for boolean values in Java?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "fffe32a5-3fb4-d6e3-24f9-830f2795f75f",
+     "correct": true,
+     "answer": "Boolean values are case sensitive and must be lowercase."
+    },
+    {
+     "_id": "af3927d1-6442-b597-3ae1-33a7d5018b99",
+     "correct": false,
+     "answer": "Boolean values are not case sensitive and can be either uppercase or lowercase."
+    },
+    {
+     "_id": "950da155-8c2e-44d8-f8f0-6e775bf686e4",
+     "correct": false,
+     "answer": "Boolean values are case sensitive and must be uppercase."
+    },
+    {
+     "_id": "7c3ce400-ac2d-3bed-fbfe-57a0811ef3a1",
+     "correct": false,
+     "answer": "Boolean values are case sensitive and must be all caps."
+    }
+   ],
+   "guidance": "Boolean values in Java are case sensitive and must start with a lowercase letter: `true` or `false`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundVariables3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundVariables3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-78767737",
+  "source": {
+   "name": "Variables - Strings",
+   "showName": true,
+   "instructions": "Complete the line of code below so that variable declaration and assignment is correct.",
+   "text": "`<<<String>>> var = \"words and num63rs<<<\">>>;`",
+   "guidance": "Unlike the previous data types, `String` is capitalized and the value of a String is surrounded by double quotation marks.\n\n`String var = \"words and num63rs\";`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundVariables5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundVariables5.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "String",
+     "\""
+    ],
+    "text": [
+     "`",
+     0,
+     " var = \"words and num63rs",
+     0,
+     ";`"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1839186458",
+  "source": {
+   "name": "Declaring Variables",
+   "showName": true,
+   "instructions": "Which of the following code snippets contain correct variable declerations?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "34add045-19a1-30fe-1590-a921287d1899",
+     "correct": false,
+     "answer": "```\nint var;\nString var;\n```"
+    },
+    {
+     "_id": "d70b48eb-03de-f36b-0701-7b972ce58971",
+     "correct": false,
+     "answer": "```\nString var;\nString var;\n```"
+    },
+    {
+     "_id": "a2f56772-5cf8-0a1c-596a-251d9a37d745",
+     "correct": false,
+     "answer": "```\nString var;\nint var 2;\n```"
+    },
+    {
+     "_id": "9998090e-4e0f-efc2-8edb-4060ae5d6d8b",
+     "correct": true,
+     "answer": "```\nString var;\nint Var;\n```"
+    }
+   ],
+   "guidance": "Java does not allow different variables to have the same name - regardless of data type.\n\nAdditionally, Java does not allow spaces in variable names - either user `camelCase` or `snake_case` to separate words.\n\nSince Java variables are case sensitive, `var` and `Var` are different variables.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundVariables6.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundVariables6.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2935644769",
+  "source": {
+   "name": "Declaring, Initializing, and Assigning Variables",
+   "showName": true,
+   "instructions": "Construct a program that initializes variable <code>my_variable</code> to 5 and prints it out. \n\nThen, re-assign <code>my_variable</code> to 10 and print it out.\n\nThe output of the code you are constructing looks like:\n```\n5\n10\n```\n\nYou will not need to use all of the blocks.",
+   "initial": "int my_variable = 5;\nSystem.out.println(my_variable);\nmy_variable = 10;\nSystem.out.println(my_variable);\nint my_variable = 10; #distractor\ndouble my_variable = 5; #distractor\nmy_variable = 5; #distractor\nmy_variable = \"10\"; #distractor",
+   "options": "{\n                \"sortableId\": \"sortable\",\n                \"trashId\": \"sortableTrash\",\n                \"vartests\": [{\"initcode\": \"output = ''\", \"code\": \"\", \"message\": \"Testing...\", \"variables\": {\"output\": \"510\"}}\n                    ],\n                \"executable_code\": \"my_variable = 5\\noutput += str(my_variable)\\nmy_variable = 10\\noutput += str(my_variable)\",\n                \"programmingLang\": \"java\"\n            }",
+   "grader": "4",
+   "guidance": "You will use an `int` instead of a double since 5 and 10 are whole numbers. Additionally, if you use `double` it would print out `5.0` and `10.0` by default.\n\nYou cannot assign a String (`\"10\"`) to an `int`.\n\nYou do not need to re-declare when you reassign (`int my_variable = 10`).\n\n```\nint my_variable = 5;\nSystem.out.println(my_variable);\nmy_variable = 10;\nSystem.out.println(my_variable);\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundVariables6.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundVariables6.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1224395313",
+  "source": {
+   "name": "Variable names",
+   "showName": true,
+   "instructions": "Which of the following is a correct variable name?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "19d4bcaf-a480-896d-176c-e1a268e515ca",
+     "correct": false,
+     "answer": "1st_variable"
+    },
+    {
+     "_id": "a2520066-4178-e626-c39c-c76f0cf2fdfa",
+     "correct": true,
+     "answer": "variable_1"
+    },
+    {
+     "_id": "5def279b-4c97-971e-2d01-dc8db8299403",
+     "correct": false,
+     "answer": "variable_1!"
+    },
+    {
+     "_id": "d1ce0668-9733-2afd-fbf3-90d9e13a79bb",
+     "correct": false,
+     "answer": "-1-variable-"
+    }
+   ],
+   "guidance": "Here are the basic rules for variable names: \n1. Start with a letter, dollar sign or underscore\n2. Remainder of variable name is letters, numbers, or underscores\n3. Cannot use a Java keyword\n4. Variables are case sensitive",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundVariables6.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundVariables6.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2166592224",
+  "source": {
+   "name": "Data Types",
+   "showName": true,
+   "instructions": "What are the four basic data types used in Java?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "2248a790-0e3c-9a40-9927-a703a227627d",
+     "correct": false,
+     "answer": "short"
+    },
+    {
+     "_id": "852b4c55-184a-ae33-e327-6d7077949001",
+     "correct": true,
+     "answer": "int"
+    },
+    {
+     "_id": "bfae0f9f-bbe9-ebde-66a5-f97b0eadae4d",
+     "correct": false,
+     "answer": "long"
+    },
+    {
+     "_id": "f2876720-d2e2-8833-3a7c-971e1b0d1bda",
+     "correct": true,
+     "answer": "double"
+    },
+    {
+     "_id": "d200699b-8abc-1e1d-b7d2-4f36694f921a",
+     "correct": false,
+     "answer": "char"
+    },
+    {
+     "_id": "fb5473ff-c05c-4276-5e3f-9b121323fb3d",
+     "correct": false,
+     "answer": "number"
+    },
+    {
+     "_id": "f20011ad-f2f6-4b10-8d0f-8ee4a94e8da8",
+     "correct": true,
+     "answer": "String"
+    },
+    {
+     "_id": "548f680a-74e6-658e-a0b9-19dc17463c1e",
+     "correct": true,
+     "answer": "boolean"
+    },
+    {
+     "_id": "1ed50fdf-3e31-1d3a-e1d4-f00fc934069f",
+     "correct": false,
+     "answer": "bits"
+    }
+   ],
+   "guidance": "The four basic data types that you have learned so far are:\n\nString - collections of letters, numbers, and symbols\nboolean - true or false\nint - integers (no decimal)\ndouble - numbers with a decimal",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundVariables6.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundVariables6.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2085987884",
+  "source": {
+   "name": "Chat greeting",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "java -cp code/fundamentals/ Lab_Challenge",
+   "preExecuteCommand": "javac code/fundamentals/Lab_Challenge.java",
+   "guidance": "If you used the hint, you could have done this lab in 2 lines:\n```\n   System.out.println(greeting + \" Today is \" + dayOfWeek + \", \" + month + \" \" + day + \".\");\n   System.out.println(\"The current wait time is \" + currentWaitMinutes + \" minutes.\");\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": false,
+   "sequence": [
+    {
+     "arguments": "Hello! Monday July 4 9",
+     "input": "",
+     "output": "Hello! Today is Monday, July 4.\nThe current wait time is 9 minutes.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Howdy! Monday May 5 19",
+     "input": "",
+     "output": "Howdy! Today is Monday, May 5.\nThe current wait time is 19 minutes.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Greetings! Wednesday May 18 1",
+     "input": "",
+     "output": "Greetings! Today is Wednesday, May 18.\nThe current wait time is 1 minutes.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Hi, banana pear 52 -4",
+     "input": "",
+     "output": "Hi, Today is banana, pear 52.\nThe current wait time is -4 minutes.",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/Lab_Challenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/Lab_Challenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-330789572",
+  "source": {
+   "name": "Exercise 1",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "java -cp code/fundamentals/ Exercise1",
+   "preExecuteCommand": "javac code/fundamentals/Exercise1.java",
+   "guidance": "```\nboolean my_boolean = true;\nSystem.out.println(my_boolean);\nmy_boolean = test;\nSystem.out.println(my_boolean);\n```\nYou can initialize `my_boolean` on a separate line and use `print` instead of `println`.\n```\nboolean my_boolean;\nmy_boolean = true;\nSystem.out.print(my_boolean);\nmy_boolean = test;\nSystem.out.print(my_boolean);\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "true",
+     "input": "",
+     "output": "true\ntrue",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "false",
+     "input": "",
+     "output": "true\nfalse",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/Exercise1.java",
+     "code/fundamentals/Lab_Challenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/Exercise1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-903040154",
+  "source": {
+   "name": "Exercise 2",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "java -cp code/fundamentals/ Exercise2",
+   "preExecuteCommand": "javac code/fundamentals/Exercise2.java",
+   "guidance": "You can do the declaration and initialization on the same line:\n```\n    int my_int = first_num;\n    System.out.println(my_int);\n    my_int = second_num;\n    System.out.println(my_int);\n    my_int = third_num;\n    System.out.println(my_int);\n```\nYou can also use `print` instead of `println`",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "1\n2\n3",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "-3 -2 -1",
+     "input": "",
+     "output": "-3\n-2\n-1",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "5 99 -2",
+     "input": "",
+     "output": "5\n99\n-2",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/Exercise2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/Exercise2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2269653152",
+  "source": {
+   "name": "Exercise 3",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "java -cp code/fundamentals/ Exercise3",
+   "preExecuteCommand": "javac code/fundamentals/Exercise3.java",
+   "guidance": "Because the string variables are already declared and initialized, you simply need to access them. You need to use `println` to ensure the newlines after each line is printed.\n```\n    System.out.println(line1);\n    System.out.println(line2);\n```\n\nYou could use empty `println` commands if you wanted:\n```\n    System.out.print(line1);\n    System.out.println();\n    System.out.print(line2);\n    System.out.println();\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": false,
+    "ignoreNewline": false,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "Hi Bye",
+     "input": "",
+     "output": "Hi\nBye\n",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2",
+     "input": "",
+     "output": "1\n2\n",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "true false",
+     "input": "",
+     "output": "true\nfalse\n",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/Exercise3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1000393404",
+  "source": {
+   "name": "Exercise 4",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "java -cp code/fundamentals/ Exercise4",
+   "preExecuteCommand": "javac code/fundamentals/Exercise4.java",
+   "guidance": "You can separate your decleration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "-9",
+     "input": "",
+     "output": "0.0\n-9.0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "33.22",
+     "input": "",
+     "output": "0.0\n33.22",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/Exercise4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/Exercise4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2105043593",
+  "source": {
+   "name": "Exercise 5",
+   "showName": true,
+   "instructions": "Use **two** print statements to write the following String:\n`Okay, it is time to learn about operators.`\n\nMake sure there are **no** new lines.",
+   "command": "java -cp code/fundamentals/ Exercise5",
+   "preExecuteCommand": "javac code/fundamentals/Exercise5.java",
+   "guidance": "You should not use **any** `println` statements - instead, only use `print`. It does not matter where you split up the string...\n\n```\nSystem.out.print(\"Okay, it is time to \");\nSystem.out.print(\"learn about operators.\");\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": false,
+    "ignoreNewline": false,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Okay, it is time to learn about operators.",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/Exercise4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/Exercise4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-225606126",
+  "source": {
+   "name": "Adding ints and doubles",
+   "showName": true,
+   "instructions": "What happens when you add an int and a double together?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "bc8dbe64-eda2-60df-5c38-cc446b03866b",
+     "correct": false,
+     "answer": "You get an error"
+    },
+    {
+     "_id": "f4263f0e-d245-4f11-2073-a517e90270b0",
+     "correct": false,
+     "answer": "You get an int"
+    },
+    {
+     "_id": "01063c21-7332-6c64-65d6-cd9f918314cd",
+     "correct": true,
+     "answer": "You get a double"
+    }
+   ],
+   "guidance": "Since a double can represent the same value as an integer (`2.0` is the same value as `2`), but not necessarily the other way around (`2.4` cannot be an int) the result will be a double. For example:\n\n`7.0 + 3 = 10.0`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundAddition.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundAddition.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3212025220",
+  "source": {
+   "name": "Incrementing",
+   "showName": true,
+   "instructions": "Use the fewest characters possible to complete the code as described.",
+   "text": "`int evens = 0;`\n`//add 2`\n`evens <<<+=2>>>;`\n`int all = 0;`\n`//add 1`\n`all<<<++>>>;`",
+   "guidance": "```\nint evens = 0;\n//add 2\nevens+=2;\nint all = 0;\n//add 1\nall++;\n```\nIf you are incrementing by 1, the shortest way is the `++` operator, if you are incrementing by any other number (like 2) the shortest way is the `+=` operator.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundAddition.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundAddition.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "+=2",
+     "++"
+    ],
+    "text": [
+     "`int evens = 0;`\n`//add 2`\n`evens ",
+     0,
+     ";`\n`int all = 0;`\n`//add 1`\n`all",
+     0,
+     ";`"
+    ]
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1012342029",
+  "source": {
+   "name": "Concatenation",
+   "showName": true,
+   "instructions": "Construct a program that will print:\n`I understand String concatenation!`\n",
+   "initial": "String a = \"I understand\";\nString b = a + \" String concatenation\";\nSystem.out.println(b);\nString b = a + \"String concatenation\"; #distractor\nString a = 'I understand '; #distractor\nSystem.out.println(a+b); #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\":\"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "```\nString a = \"I understand\";\nString b = a + \" String concatenation\";\nSystem.out.println(b);\n```\nIn Java, Strings must use double quotes (\") - not single quotes ('). \n\nAdditionally, you need to either end or start with a space when concatenating two Strings to get normal spacing in your resulting String. \n\nString a needs to be declared and instantiated *before* you use it in the instantiation of String b.\n\nSince you are concatenating String a in the initialization of String b, you do not need to concatenate it *again* in the print statement.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundIncrement.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundIncrement.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-436876892",
+  "source": {
+   "name": "Decrementing",
+   "showName": true,
+   "instructions": "Use the fewest characters possible to complete the code as described.",
+   "text": "`int a = 42;`\n`int b = 2;`\n`//decrement a by 1`\n`a<<<-->>>;`\n`//decrement a by b`\n`a<<<-=b>>>;`",
+   "guidance": "```\nint a = 42;\nint b = 2;\n//decrement a by 1\na--;\n//decrement a by b\na-=b;\n```\n\nTo decrement by 1, you use the `--` operator. To decrement or subtract by any other number, you use `-=`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundSubtraction.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundSubtraction.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "--",
+     "-=b"
+    ],
+    "text": [
+     "`int a = 42;`\n`int b = 2;`\n`//decrement a by 1`\n`a",
+     0,
+     ";`\n`//decrement a by b`\n`a",
+     0,
+     ";`"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3182685241",
+  "source": {
+   "name": "Division",
+   "showName": true,
+   "instructions": "Which of the following statements about division in Java is **FALSE**?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "20cbdcb8-5d89-be8b-0e2a-ce06b400dc63",
+     "correct": false,
+     "answer": "You can use the division operator with `int`s"
+    },
+    {
+     "_id": "a18c3f44-9a7a-d473-3e9a-1db4bfe10522",
+     "correct": true,
+     "answer": "You will get the same result from the division operator using `int`s and `double`s"
+    },
+    {
+     "_id": "8709f43c-8f4f-bf49-e28e-da9defcd5268",
+     "correct": false,
+     "answer": "You can use the division operator with `double`s"
+    },
+    {
+     "_id": "1204353c-1b27-9b96-1cbb-3587ca3cdf73",
+     "correct": false,
+     "answer": "You are not allowed to divide by 0"
+    }
+   ],
+   "guidance": "`int`s and `double`s behave differently with the division operator. Using `double` will result in a decimal where `int` will result in a whole number with the decimal removed. This means that `10/3` is either `3.3333...` or `3` based on data types.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundDivision.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundDivision.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2865610959",
+  "source": {
+   "name": "Modulo",
+   "showName": true,
+   "instructions": "What does modulo (`%`) do?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "caa5ead1-0e21-0ee9-07b9-4294ae467633",
+     "correct": false,
+     "answer": "Determines if a number is even or odd"
+    },
+    {
+     "_id": "1683c18e-8028-78e4-ed08-400978af773a",
+     "correct": false,
+     "answer": "Is another name for division"
+    },
+    {
+     "_id": "23427095-50b5-eede-b414-bb5eb204d056",
+     "correct": false,
+     "answer": "Determines the percentage of two numbers"
+    },
+    {
+     "_id": "582039a5-37e3-9388-8c53-a0973032e295",
+     "correct": true,
+     "answer": "Returns the remainder after division if performed"
+    }
+   ],
+   "guidance": "Modulo is the remainder after division is performed. So division is a part of modulo, but modulo is not division. Modulo can be used to determine if a number is even or odd, but modulo can do more than that. Finally, the `%` is used with modulo, but modulo does not deal with percentages.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundModulo.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundModulo.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3051591814",
+  "source": {
+   "name": "Multiplication",
+   "showName": true,
+   "instructions": "Complete the code below with as few characters as possible so that the program prints the product of `a` and `b`.",
+   "text": "```\nint a = 5;\nint b = 9;\nSystem.out.println( a <<<*b>>>);\n```",
+   "guidance": "Use `*` for multiplication. You also need to add the variable b, multiplication requires two numbers.\n\n`System.out.println(a * b);`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundMultiply.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundMultiply.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "*b"
+    ],
+    "text": [
+     "```\nint a = 5;\nint b = 9;\nSystem.out.println( a ",
+     0,
+     ");\n```"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2569485715",
+  "source": {
+   "name": "Order of Operations",
+   "showName": true,
+   "instructions": "At what point does Java calculate modulo?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "bae16272-bd40-019b-1894-2535626dd0df",
+     "correct": false,
+     "answer": "Parantheses"
+    },
+    {
+     "_id": "6d3054a3-b8b7-0bfd-3598-4f5e8bbaa08b",
+     "correct": false,
+     "answer": "Exponent"
+    },
+    {
+     "_id": "a58d58e9-c3c7-39f7-0fa8-efb0f23fa031",
+     "correct": true,
+     "answer": "Multiplication and Division"
+    },
+    {
+     "_id": "5d14a9b2-2ada-924d-22d1-07a5582ec20e",
+     "correct": false,
+     "answer": "Addition and Subtraction"
+    }
+   ],
+   "guidance": "Modulo is a type of division, so it is done in order from left to right with the `/` and `*` operators.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundOrder.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundOrder.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3851320160",
+  "source": {
+   "name": "Programming Math",
+   "showName": true,
+   "instructions": "Construct a program below such that Java reaches the same answer a normal calculator would. You will **not** use all the blocks.",
+   "initial": "double a = 2;\nSystem.out.println(5/a);\nint a = 2; #distractor\nSystem.out.println( (double) (5/a) ); #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\" : \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "```\ndouble a = 2;\nSystem.out.println(5/a);\n```\n\nFor \"normal\" division to take place, a needs to be a `double` because `5` is not. If it was `5.0` then `int` vs `double` would not matter.\n\nCasting the result as `double` is not necessary since the result of division including a double is always going to be a double.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundModulo.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundModulo.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3653165015",
+  "source": {
+   "name": "Modulo",
+   "showName": true,
+   "instructions": "Which of the following is **not** correct?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "b40c3d4f-3efe-8f7e-df26-10fade52fe33",
+     "correct": false,
+     "answer": "6 % 4 = 2"
+    },
+    {
+     "_id": "7f92f93a-0d40-5a7b-ca48-463ac360621b",
+     "correct": true,
+     "answer": "1 % 0 = 1"
+    },
+    {
+     "_id": "142ba911-4fa7-ce20-2eab-1e4ceb7fc4ad",
+     "correct": false,
+     "answer": "0 % 2 = 0"
+    },
+    {
+     "_id": "df6cfe79-ab30-6760-2322-8f75241f738e",
+     "correct": false,
+     "answer": "15 % 4 = 3"
+    }
+   ],
+   "guidance": "Because modulo is a type of division, you cannot modulo divide by 0. Similar to `/0`, `%0` produces an error.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundModulo.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundModulo.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1997792767",
+  "source": {
+   "name": "Equality",
+   "showName": true,
+   "instructions": "Enter the appropriate operator for each definition.",
+   "text": "This operator checks if two values are equal - <<<==>>>\nThis operator assigns a value to a variable - <<<=>>>\nThis operator checks if two values are not equal - <<<!=>>>",
+   "guidance": "* The `=` operator assigns a value to a variable\n* The `==` operator checks equality between two values\n* The `!=` operator checks inequality between two values",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundEquality.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundEquality.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "==",
+     "=",
+     "!="
+    ],
+    "text": [
+     "This operator checks if two values are equal - ",
+     0,
+     "\nThis operator assigns a value to a variable - ",
+     0,
+     "\nThis operator checks if two values are not equal - ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3157845998",
+  "source": {
+   "name": "Equating to True",
+   "showName": true,
+   "instructions": "Which of the following conditions would cause the expression `a <= b` to equate to true? \n\n**Hint:** there is more than one correct answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "a9b98a69-e35a-df53-1cf9-525ae460df2f",
+     "correct": true,
+     "answer": "If `a` is less than `b`"
+    },
+    {
+     "_id": "f8444326-0244-3aa6-fb25-f2a1075ed55e",
+     "correct": false,
+     "answer": "If `a` is less than and equal to `b`"
+    },
+    {
+     "_id": "d1a1e3b0-d207-d0ce-193b-5fb5a0e876ec",
+     "correct": true,
+     "answer": "If `a` is equal to `b`"
+    },
+    {
+     "_id": "52f37bf4-a901-5735-0cc0-76c78c8bda54",
+     "correct": false,
+     "answer": "If `a` is greater than `b`"
+    }
+   ],
+   "guidance": "There are two conditions that would case `a <= b` to be true. One is if `a` is less than `b` and the other is `a` is equal to `b`. \n\nAs long as one of those conditions is true, then `a <= b` will be true.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundLessThan.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundLessThan.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2590570867",
+  "source": {
+   "name": "Evaluating to True",
+   "showName": true,
+   "instructions": "Select all of the statements below that are true.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "2bb86746-f9a5-13b4-478f-c4691e628d11",
+     "correct": true,
+     "answer": "19 >= 19"
+    },
+    {
+     "_id": "71f1966f-0b30-4d20-0160-78689bdb06c4",
+     "correct": false,
+     "answer": "18.9 >= 19"
+    },
+    {
+     "_id": "7b067fe8-177f-487f-c1a7-8fec20f51528",
+     "correct": false,
+     "answer": "-19 >= 19"
+    },
+    {
+     "_id": "d851e12a-2a2f-dffa-2c6a-8054c374d40c",
+     "correct": true,
+     "answer": "19 >= 9"
+    }
+   ],
+   "guidance": "The `>=` operator only returns `true` if the first number is greater than or equal to the second number. So the follow statements would evaluate to true:\n`19 >= 19` and `19 >= 9`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundLessThan.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundLessThan.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2191103233",
+  "source": {
+   "name": "Evaluating &&",
+   "showName": true,
+   "instructions": "Fill in the blanks for the following two statements.",
+   "text": "For an `&&` statement to be true, all of the boolean expressions must be <<<true>>>.\n\nFor an `&&` statement to be false, only one of the boolean expressions needs to be <<<false>>>.",
+   "guidance": "All of the boolean expressions must be true if an and statement is true.\n\nOnly one boolean expression needs to be false for an and statement to be false.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundAnd.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundAnd.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "true",
+     "false"
+    ],
+    "text": [
+     "For an `&&` statement to be true, all of the boolean expressions must be ",
+     0,
+     ".\n\nFor an `&&` statement to be false, only one of the boolean expressions needs to be ",
+     0,
+     "."
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3858330751",
+  "source": {
+   "name": "Evaluating ||",
+   "showName": true,
+   "instructions": "Fill in the blanks for the following two statements.",
+   "text": "For an `||` statement to be false, all of the boolean expressions must be <<<false>>>.\n\nFor an `||` statement to be true, only one of the boolean expressions needs to be <<<true>>>.",
+   "guidance": "The `or` operator requires that all boolean expressions be false for the whole thing to be false.\n\nHowever, only one boolean expressions needs to be true for an `or` operator to be true.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundOr.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundOr.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "false",
+     "true"
+    ],
+    "text": [
+     "For an `||` statement to be false, all of the boolean expressions must be ",
+     0,
+     ".\n\nFor an `||` statement to be true, only one of the boolean expressions needs to be ",
+     0,
+     "."
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3532271981",
+  "source": {
+   "name": "Many ways to tie a not",
+   "showName": true,
+   "instructions": "Evaluate the two expressions below.\n\n",
+   "text": "`5 != 4` returns <<<true>>>\n`! 5 == 4` returns <<<true>>>",
+   "guidance": "Both values evaluate to `true`. In the second case, 5==4 first evaluates to `false` and then `! false` evaluates to `true`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundNot.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundNot.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "true",
+     "true"
+    ],
+    "text": [
+     "`5 != 4` returns ",
+     0,
+     "\n`! 5 == 4` returns ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1476766980",
+  "source": {
+   "name": "Short Circuiting",
+   "showName": true,
+   "instructions": "Use the dropdown menus to complete the text below.",
+   "text": "## Or Operator\nWhen using the `||` operator, Python checks to see if the first boolean expression is <<<true>>>. If it is <<<true>>>, Python returns <<<true>>> and ignores the second boolean expression.\n\n## And Operator\nWhen using the `&&` operator, Python checks to see if the first boolean expression is <<<false>>>. If it is <<<false>>>, Python returns <<<false>>> and ignores the second boolean expression.",
+   "guidance": "If the first boolean expression for the `||` operator is true, then the entire thing is true. The second boolean expression is ignored.\n\nIf the first boolean expression for the `&&` operator is false, then the entire thing is false. The second boolean expression is ignored.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundNot.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundNot.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "true",
+     "true",
+     "true",
+     "false",
+     "false",
+     "false"
+    ],
+    "text": [
+     "## Or Operator\nWhen using the `||` operator, Python checks to see if the first boolean expression is ",
+     0,
+     ". If it is ",
+     0,
+     ", Python returns ",
+     0,
+     " and ignores the second boolean expression.\n\n## And Operator\nWhen using the `&&` operator, Python checks to see if the first boolean expression is ",
+     0,
+     ". If it is ",
+     0,
+     ", Python returns ",
+     0,
+     " and ignores the second boolean expression."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4056916696",
+  "source": {
+   "name": "Evaluating Expressions",
+   "showName": true,
+   "instructions": "Using your knowledge of boolean operators, choose the best answer about evaluating the below:\n\n`( 5 != 4 ) && ( 3 > 0 ) && ( ! 2 == 3 ) || #unknown condition#`",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "a8e887c3-38a8-8ba3-d3ee-3a9fd77ab135",
+     "correct": false,
+     "answer": "The answer if `false` - Java short circuits because you have a `false` condition with an `&&` operator"
+    },
+    {
+     "_id": "079b5b97-52d0-deb8-74a9-445f0a776a03",
+     "correct": true,
+     "answer": "The answer if `true` - Java short circuits because you have a `true` condition with an `||` operator"
+    },
+    {
+     "_id": "90c1995a-3fa5-654c-2a47-88fa9f8958bf",
+     "correct": false,
+     "answer": "There is not enough information - we would need to know the \"unknown condition\""
+    }
+   ],
+   "guidance": "Because the first three conditions evaluate as true, when combined with `&&` evaluates as true. When you reach the `||` operator you then have `true || #unknown condition#`. Java short circuits and evaluates the entire line as `true` without ever evaluating the #unknown condition#.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundNot.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundNot.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4124457133",
+  "source": {
+   "name": "Boolean Operators",
+   "showName": true,
+   "instructions": "Determine if the code below returns true or false.\n\n`(7 >= 7) && (true || 99 < 1) || ! (3 > 5 && 7 < 10) && 2 != 4`",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "03e1b0ec-1cd4-5c0e-53e1-789ae07832a6",
+     "correct": true,
+     "answer": "true"
+    },
+    {
+     "_id": "be9205d9-0f7f-d5c5-6ea9-1a4ade3a4d99",
+     "correct": false,
+     "answer": "false"
+    }
+   ],
+   "guidance": "First, start by evaluating the expressions in the parentheses.\n\n`( 7 >= 7)` returns true.\n`(true || 99 < 1)` returns true\n`! (3 > 5 && 7 < 10)` returns true\n`2 != 4` returns true\nSo the boolean expression is now `true && true || true && true`, which returns true.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundNot.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundNot.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-4285137417",
+  "source": {
+   "name": "Identify the arithmetic operators",
+   "showName": true,
+   "instructions": "",
+   "text": "<<<*>>> is the operator for multiplication\n<<<%>>> is the operator for modulo\n<<</>>> is the operator for division\nThe <<</>>> operator might return a result different from a calculator if both numbers are `int`s",
+   "guidance": "* is the operator for multiplication\n% is the operator for modulo\n/ is the operator for division\nThe / operator might return a result different from a calculator if both numbers are `int`s",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundNot.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundNot.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "*",
+     "%",
+     "/",
+     "/"
+    ],
+    "text": [
+     0,
+     " is the operator for multiplication\n",
+     0,
+     " is the operator for modulo\n",
+     0,
+     " is the operator for division\nThe ",
+     0,
+     " operator might return a result different from a calculator if both numbers are `int`s"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1823701392",
+  "source": {
+   "name": "String operators",
+   "showName": true,
+   "instructions": "Which of the following operators *can* be used with strings?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "ebe1275b-9c27-0629-379a-3a195038672e",
+     "correct": false,
+     "answer": "`/`"
+    },
+    {
+     "_id": "571f7ac6-9f11-492f-6988-fd2f4d585b90",
+     "correct": false,
+     "answer": "`*`"
+    },
+    {
+     "_id": "ecf1554a-0dd1-a4ba-12ff-243e013bb21e",
+     "correct": false,
+     "answer": "`-`"
+    },
+    {
+     "_id": "daa326f6-a645-58b8-dc55-202b6775ec0f",
+     "correct": true,
+     "answer": "`+`"
+    }
+   ],
+   "guidance": "Only the `+` operator can be used with Strings. It serves as the concatenation operator - merging two strings together.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundNot.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundNot.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1182062674",
+  "source": {
+   "name": "Order of Operations",
+   "showName": true,
+   "instructions": "Drag the blocks into the correct order of operations.\n\n**Hint:** You will not need all the blocks - and make sure to explicitly list when modulo is done!",
+   "initial": "Parentheses\nExponents\nMultiplication and Division and Modulo\nAddition and Subtraction\nParentheses and Exponents #distractor\nMultiplication and Division #distractor\nModulo #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "Order of operations starts with any expression in parentheses. Next, any exponents are calculated. Then multiplication and division (including modulo) are done moving from left to right. Finally, addition and subtraction are done moving from left to right.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundNot.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundNot.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3834665657",
+  "source": {
+   "name": "Evaluating Mixed Operator Expressions",
+   "showName": true,
+   "instructions": "What is the results of the following expression?\n\n```\n! (5 != 3) && (5 % 3 >= 2)\n```\n\n",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "885eb97e-a6b7-bca5-9703-58253153d292",
+     "correct": false,
+     "answer": "True"
+    },
+    {
+     "_id": "f85db587-ae19-8e0f-4e9d-7ac458c88ea0",
+     "correct": true,
+     "answer": "False"
+    }
+   ],
+   "guidance": "Starting with parentheses, `5 != 3` is `true`. So `! true` would be `false`. \n\nUsing the short circuit principal, we can stop evaluating the problem because when we use the `&&` operator, both boolean expressions must be `true` for it to return `true`. Since we have `false` for the first expression, it cannot be `true`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundNot.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundNot.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3510090921",
+  "source": {
+   "name": "Compilation Error",
+   "showName": true,
+   "instructions": "When you have the compilation error fixed, submit by clicking the button below.",
+   "command": "bash .guides/secure/compiles.sh code/operators/Exercise1.java",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The compilation bug is located on the following line:\n```\nboolean b = 9;\n```\n\nThe bug is that `b` is declared as a `boolean` but is being assigned `9` which is an `int`. To correct this, you would replace `boolean` with `int` which results in:\n```\nint b = 9;\n```\n",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/LabChallenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3481226015",
+  "source": {
+   "name": "Run-time Error",
+   "showName": true,
+   "instructions": "Once you have fixed the run-time error, submit your code using the button below.",
+   "command": "bash .guides/secure/operators/exercise1.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The following will solve the code:\n```\nint a = 4;\nint b = 9;\n```\n\nBut there are other valid solutions! Can you find another one?",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/LabChallenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4227872246",
+  "source": {
+   "name": "Exercise 2",
+   "showName": true,
+   "instructions": "Use the button below to submit your code.",
+   "command": "bash .guides/secure/operators/exercise2.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Here are a few ways to accomplish this task:\n\n```\nSystem.out.println( 5 == 4 );\nSystem.out.println( ! 5 < 8 && 6 >= 2 );\nSystem.out.println( 5 > 8 || 6 < 2 );\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/Exercise2.java",
+     "code/operators/Exercise1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/Exercise2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4024654471",
+  "source": {
+   "name": "String concatenation",
+   "showName": true,
+   "instructions": "When your code is ready, submit it using the button below.",
+   "command": "bash .guides/secure/operators/exercise3.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The variables names can be anything you want. One needs to contain the string `Hello` and the other `world`. Don’t forget that there needs to be a space separating the two words. To print both variables at once, use the `+` operator to concatenate the strings.\n```\nString var_1 = \"Hello \";\nString var_2 = \"world\";\nSystem.out.println(var_1 + var_2);\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/Exercise3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4157427635",
+  "source": {
+   "name": "Division",
+   "showName": true,
+   "instructions": "When you are ready to submit your code, press the button below.",
+   "command": "bash .guides/secure/operators/exercise4.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "You can either declare one or both of the variables as double:\n\n```\ndouble seven = 7.0;\ndouble two = 2.0;\nSystem.out.println(seven/two);\n```\n\nOr you can type cast one or both of the variables:\n```\nint seven = 7;\nint two = 2;\nSystem.out.println( (double) seven / (double) two);\n```\n",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/Exercise3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2976548927",
+  "source": {
+   "name": "Casting and Parsing",
+   "showName": true,
+   "instructions": "Which of the following throws an error?\n\nAssume the following:\n```java\nint number = 5;\ndouble decimal = 6.2;\nboolean TF = true;\nString words = \"text\";\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "3475e980-f49b-2cb6-50a4-0674ef31a148",
+     "correct": false,
+     "answer": "```java\nSystem.out.println(words + String.valueOf(number+decimal));\n```"
+    },
+    {
+     "_id": "21d677b3-0059-a906-2b72-f86955febd94",
+     "correct": false,
+     "answer": "```java\nSystem.out.println(String.valueOf(TF) + words);\n```"
+    },
+    {
+     "_id": "f105b229-9ea1-8aca-d6f0-94c2750fb7e1",
+     "correct": false,
+     "answer": "```java\nwords = 3;\nSystem.out.println(Integer.parseInt(words) + number);\n```"
+    },
+    {
+     "_id": "670739aa-775e-2d81-c9bb-8b7e1044d967",
+     "correct": false,
+     "answer": "```java\nwords = 3;\nSystem.out.println(Double.parseDouble(words) + decimal);\n```"
+    },
+    {
+     "_id": "bf8b9c32-b228-62a3-bcca-7af5f8f255c0",
+     "correct": true,
+     "answer": "```java\nSystem.out.println(Boolean.parseBoolean(words));\n```"
+    }
+   ],
+   "guidance": "`System.out.println(Boolean.parseBoolean(words));` is invalid because `text` cannot be parsed into a boolean. The string must have a value of `true` or `false`. You can see in the other parse examples (`parseInt` and `parseDouble`) that words has to be re-assigned to a compatible String.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/PlaygroundCasting.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/PlaygroundCasting.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3275115534",
+  "source": {
+   "name": "Operators",
+   "showName": true,
+   "instructions": "When your code is ready, press the submit button below.",
+   "command": "bash .guides/secure/operators/labChallenge.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/LabChallenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3620880377",
+  "source": {
+   "name": "Concatenating Calculations",
+   "showName": true,
+   "instructions": "Once you have fixed the code, submit by pressing the button below.",
+   "command": "java -cp code/operators/ Exercise1",
+   "preExecuteCommand": "javac code/operators/Exercise1.java",
+   "guidance": "Your friend is attempting to add Strings - but the `+` operate concatenates them! To solve this, you need to use `Integer.parseInt()` to transform the user input to `int`s. One example of a solution is:\n```\nint sum = Integer.parseInt(firstNum) + Integer.parseInt(secondNum);\nSystem.out.println(firstNum + \" + \" + secondNum + \" = \" + String.valueOf(sum));\n```\nYou might have noticed you do not need the `String.valueOf` since Java auto-converts some types - but being explicit is helpful to the readers of your code!",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "5\n4\n",
+     "output": "9\n",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "1\n7\n",
+     "output": "8\n",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "3\n4\n",
+     "output": "7\n",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/Exercise5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/Exercise5.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

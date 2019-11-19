@@ -1,33 +1,79 @@
 [
  {
-  "taskId": "parsons-puzzle-2919609863",
-  "points": 0,
-  "state": {
-   "trashHash": null,
-   "solutionHash": null,
-   "toggleStates": "{}"
-  },
-  "results": []
- },
- {
-  "taskId": "parsons-puzzle-1264740481",
-  "points": 0,
-  "state": {
-   "trashHash": null,
-   "solutionHash": null,
-   "toggleStates": "{}"
-  },
-  "results": []
- },
- {
-  "taskId": "test-2965980592",
+  "taskId": "test-4157427635",
   "points": 1,
   "results": [
    {
     "code": 0,
-    "output": "",
-    "timestamp": 1569430508276,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work",
+    "timestamp": 1574117673872,
     "state": "pass"
+   },
+   {
+    "code": 0,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work",
+    "timestamp": 1574117624922,
+    "state": "pass"
+   },
+   {
+    "code": 0,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work",
+    "timestamp": 1574117622543,
+    "state": "pass"
+   },
+   {
+    "code": 0,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work",
+    "timestamp": 1574117573956,
+    "state": "pass"
+   },
+   {
+    "code": 0,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work",
+    "timestamp": 1574117553343,
+    "state": "pass"
+   },
+   {
+    "code": 0,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work",
+    "timestamp": 1574117546747,
+    "state": "pass"
+   },
+   {
+    "code": 0,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work",
+    "timestamp": 1574117507834,
+    "state": "pass"
+   },
+   {
+    "code": 0,
+    "output": "Nice use of type-casting\n<h3>Your code is error-free and works as expected!</h3>\nNice work",
+    "timestamp": 1574117494747,
+    "state": "pass"
+   },
+   {
+    "code": 1,
+    "output": "Make sure you are declaring two variables.2\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment",
+    "timestamp": 1574117022623,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Make sure you are declaring two variables.2\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment",
+    "timestamp": 1574117019886,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Make sure you are declaring two variables.2\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment",
+    "timestamp": 1574117017404,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Make sure you are declaring two variables.2\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment",
+    "timestamp": 1574116990547,
+    "state": "fail"
    }
   ]
  }

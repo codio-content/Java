@@ -65,3 +65,5 @@ tab_size = 2
 [education]
 ; enter your education preferences here...
 
+[codio-lsp]
+enable_lsp_support = true
