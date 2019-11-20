@@ -2960,5 +2960,112 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2128281602",
+  "source": {
+   "name": "If Statement",
+   "showName": true,
+   "instructions": "What does an if statement *not* do?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "82f3ef50-cd00-df93-f733-a39c92698ea0",
+     "correct": false,
+     "answer": "Allows specific code to run only when the boolean expression is true."
+    },
+    {
+     "_id": "59c6cf83-b039-7035-288d-6d4cff82bb34",
+     "correct": true,
+     "answer": "If the boolean expression is false, the program never reaches the if statement."
+    },
+    {
+     "_id": "e2a9a46d-7ca7-685f-62ce-05ad5845edae",
+     "correct": false,
+     "answer": "Allows your program to make decisions about what to do."
+    },
+    {
+     "_id": "e5a437cc-4726-0765-861b-3cc7805e849e",
+     "correct": false,
+     "answer": "Checks to see if a certain condition is true."
+    }
+   ],
+   "guidance": "The program will only know the boolean expression is false after reaching the if statement. The first line with the `if` keyword is always checked, it is the code in the `{}` which will not be run if the boolean expression is false.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2774974450",
+  "source": {
+   "name": "Even numbers",
+   "showName": true,
+   "instructions": "Complete the if statements below so that it will determine if the variable `num` is even or odd.",
+   "text": "`if<<<(>>>num%2==0<<<)>>> <<<{>>>`\n`    System.out.println(\"Even\");`\n`<<<}>>>`\n`if<<<(>>>num%2==1<<<)>>> <<<{>>>`\n`    System.out.println(\"Odd\");`\n`<<<}>>>`",
+   "guidance": "```\nif(num%2==0) {\n    System.out.println(\"Even\");\n}\nif(num%2==1) {\n    System.out.println(\"Odd\");\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "(",
+     ")",
+     "{",
+     "}",
+     "(",
+     ")",
+     "{",
+     "}"
+    ],
+    "text": [
+     "`if",
+     0,
+     "num%2==0",
+     0,
+     " ",
+     0,
+     "`\n`    System.out.println(\"Even\");`\n`",
+     0,
+     "`\n`if",
+     0,
+     "num%2==1",
+     0,
+     " ",
+     0,
+     "`\n`    System.out.println(\"Odd\");`\n`",
+     0,
+     "`"
+    ]
+   }
+  }
  }
 ]
