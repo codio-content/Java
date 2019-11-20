@@ -1,271 +1,6 @@
 {
  "sections": [
   {
-   "id": "5c92649d-fdc3-bf93-21be-0314daa673ae",
-   "title": "(OLD) Loops",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/-OLD--Loops-5c92.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "c042772a-91cf-d5cc-a5b1-3b8b454584f3",
-   "title": "Loop Syntax",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Loop-Syntax-c042.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "b4db97bc-408c-940e-2174-6eb37371da0f",
-   "title": "Iteration",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Iteration-b4db.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "cf3cd399-d0f7-b507-8fea-6bbfaa0d3ff2",
-   "title": "Loop Header: How many times?",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Loop-Header--How-many-times--cf3c.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "ce97aac3-fed3-1820-fb02-e926b4d43514",
-   "title": "Loop Header: Conditionals",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "loop.flode",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Loop-Header--Conditionals-ce97.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "95b30c33-7e2c-3051-2734-c051973e0e64",
-   "title": "Loop Body: What is being repeated?",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Loop-Body--What-is-being-repeated--95b3.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "3c48f9d0-faca-e828-b41f-3072a1dc56ec",
-   "title": "Loop Body: Fence-posting",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "fence.flode",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Loop-Body--Fence-posting-3c48.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "63c8f749-17a4-1dd2-a85d-08de7d689892",
-   "title": "Infinite Loops",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Infinite-Loops-63c8.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "ba8b1ce2-4dfa-e2fe-c5cf-456d4d008b23",
-   "title": "Check your understanding: Loop Syntax",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Check-your-understanding--Loop-Syntax-ba8b.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "5ca5c2bd-6fe1-7ab1-f8d8-a2bfa888eea2",
-   "title": "For Loops",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/For-Loops-5ca5.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "3c82445b-88e1-cab8-c1ff-d8029a57d29b",
-   "title": "For Loops: For a certain number of iterations",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/For-Loops--For-a-certain-number-of-iterations-3c82.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "f32f5f02-1bb0-8922-6a4d-232cafc256bf",
-   "title": "For loop: Flow",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/ForLoop.java",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#tutor: code/ForLoop.java",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/For-loop--Flow-f32f.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "ff2059c9-828d-3218-c31b-855409dad881",
-   "title": "For Loop Flow 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/For-Loop-Flow-2-ff20.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "99c90c85-1bc4-9a4d-414a-d39f167a2007",
-   "title": "Writing a For Loop: Counting by Twos",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/ByTwos.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Writing-a-For-Loop--Counting-by-Twos-99c9.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
    "id": "7e614dd6-3000-f97c-103d-9cfb75682381",
    "title": "Learning Objectives - Printing",
    "files": [],
@@ -805,29 +540,6 @@
    "learningObjectives": ""
   },
   {
-   "id": "e856c577-523b-1361-76ca-dc6178d8a507",
-   "title": "Type Casting",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/operators/PlaygroundCasting.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Type-Casting-e856.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
    "id": "aec17567-352d-ab93-e78b-898950b8e332",
    "title": "String Concatenation",
    "files": [
@@ -897,6 +609,52 @@
    "learningObjectives": ""
   },
   {
+   "id": "e856c577-523b-1361-76ca-dc6178d8a507",
+   "title": "Type Casting",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundCasting.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Type-Casting-e856.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e1ca0db8-95ef-a128-0a10-d7dabce5539a",
+   "title": "Modulo",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/PlaygroundModulo.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Modulo-e1ca.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "dc88e72f-be5c-bd9a-1424-e4915350d536",
    "title": "Multiplication",
    "files": [
@@ -937,29 +695,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Order-of-Operations-de10.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "e1ca0db8-95ef-a128-0a10-d7dabce5539a",
-   "title": "Modulo",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/operators/PlaygroundModulo.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Modulo-e1ca.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
