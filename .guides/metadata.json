@@ -1771,11 +1771,22 @@
   },
   {
    "id": "bba31669-80f3-ebae-f155-eaa44d973938",
-   "title": "New Page",
-   "files": [],
+   "title": "If Statement Syntax",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/PlaygroundIfSyntax.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-bba3.md",
+   "content-file": ".guides/content/If-Statement-Syntax-bba3.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -1783,11 +1794,22 @@
   },
   {
    "id": "fccdba1b-57bf-9c7e-52b5-17240a035650",
-   "title": "New Page",
-   "files": [],
+   "title": "If statement",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/PlaygroundIf.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-fccd.md",
+   "content-file": ".guides/content/If-statement-fccd.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

@@ -2880,5 +2880,85 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-4036047307",
+  "source": {
+   "name": "If Statement Syntax",
+   "showName": true,
+   "instructions": "Rearrange the code blocks below to create an if statement. Not all of the code blocks will be used. Hint: do not forget about indenting.",
+   "initial": "if( 7 != 4 ) {\n    System.out.println(\"Only print this if true\");\n}\nSystem.out.println(\"Always print me!\");\nif 7 != 4 { #distractor\nif( 7 != 4 ) #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "```\nif( 7 != 4 ) {\n    System.out.println(\"Only print this if true\");\n}\nSystem.out.println(\"Always print me!\");\n```\nThe three main pieces of an if statement are:\n1) The keyword `if`\n2) A boolean expression in `()`\n3) Statements in `{}` the run only if `true`",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-952800372",
+  "source": {
+   "name": "Test Coverage",
+   "showName": true,
+   "instructions": "Which of the following code segments does *not* account for all possible values?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "87da37bf-08f2-42a5-55ea-ed97ffe29212",
+     "correct": false,
+     "answer": "```\nif( probability < .01 ) {\nSystem.out.println(\"That's improbable!\"); }\nif( probability < .05 && probability >= .01) {\nSystem.out.println(\"That's unlikely!\"); }\nif( probability >= .05 ) {\nSystem.out.println(\"I am not confident it wasn't chance.\"); }\n```"
+    },
+    {
+     "_id": "ac9dd922-efd9-b640-2772-c51062233082",
+     "correct": true,
+     "answer": "```\nif( age < 18 ) {\nSystem.out.println(\"No voting, try again next year.\"); }\nif( age > 18 ) {\nSystem.out.println(\"You can vote!\"); }\n```"
+    },
+    {
+     "_id": "d407bb93-9486-fc6b-af2a-f52e80348e27",
+     "correct": false,
+     "answer": "```\nif( chartPosition <=10 ) {\nSystem.out.println(\"You made it into the top 10 songs!\"); }\nif( chartPosition > 10 ) {\nSystem.out.println(\"Better luck next week.\"); }\n```"
+    }
+   ],
+   "guidance": "The case where age is 18 is not covered by this set of if statements.\n```\nif( age < 18 ) {\nSystem.out.println(\"No voting, try again next year.\"); }\nif( age > 18 ) {\nSystem.out.println(\"You can vote!\"); }\n```\nTo correct it, you would need to change the third line of code to:\n```\nif( age >= 18 ) {\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/PlaygroundIf.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/PlaygroundIf.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
