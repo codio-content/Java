@@ -3067,5 +3067,147 @@
     ]
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-88978139",
+  "source": {
+   "name": "If Else Syntax",
+   "showName": true,
+   "instructions": "Which of the following are true about using an if-else? \n\n*Hint:* There is more than one right answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "cd52c537-1fcf-1212-7a1a-7986c3965d9f",
+     "correct": false,
+     "answer": "Indentation effects how the code runs"
+    },
+    {
+     "_id": "973c96f5-bcd6-cb79-fe3b-bd84b945b50d",
+     "correct": true,
+     "answer": "You use curly braces `{}` after both the `if` condition and the `else` keyword"
+    },
+    {
+     "_id": "dac65968-086b-e561-367d-a13da0472f27",
+     "correct": true,
+     "answer": "The `else` condition does not have another boolean expression"
+    },
+    {
+     "_id": "d3c023ca-81b6-f26d-391a-107d268a91b7",
+     "correct": false,
+     "answer": "There should be empty parentheses `()` after the `else` keyword"
+    }
+   ],
+   "guidance": "Java uses curly braces to group code commands. While indention is helpful, it does not effect how the program runs. Instead, you need to use curly braces to tell Java what code runs in both the true condition (after the `if`) and the false condition (after the `else`).\n\nAdditionally, because `else` refers to the `if`, it does not need its own boolean expression. Nor does it need parentheses.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/PlaygroundIfElseSyntax.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/PlaygroundIfElseSyntax.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3652686275",
+  "source": {
+   "name": "Evens and Odd with If Else",
+   "showName": true,
+   "instructions": "Construct code that determines whether `num` is even or odd.",
+   "initial": "if ( num % 2 == 0 ) {\n    System.out.println(\"Even\");\n} else {\n    System.out.println(\"Odd\");\n}",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "```\nif ( num % 2 == 0 ) {\n    System.out.println(\"Even\");\n} else {\n    System.out.println(\"Odd\");\n}\n```\nIf the remainder of `num`/2 is `0` then it is even. We can find the remainder using `%` the modulo operator.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/conditionals/PlaygroundIf.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/PlaygroundIf.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-34021480",
+  "source": {
+   "name": "Debugging If Else",
+   "showName": true,
+   "instructions": "What is wrong with the code below? \n\n**Hint:** There is more than one right answer.\n\n```\nif 3 > 4 {\n   System.out.println(\"true\");\nelse\n   System.out.println(\"false\");\n}\n```",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "d92ac4eb-b394-4441-353c-8b18abfcf326",
+     "correct": true,
+     "answer": "A closing curly brace is missing before the `else` keyword"
+    },
+    {
+     "_id": "308a0669-c6a0-f2d1-6696-a850ade75d05",
+     "correct": false,
+     "answer": "Parentheses are missing after the `else` keyword"
+    },
+    {
+     "_id": "23f4bb9c-338f-1c08-a688-d310ece95e1e",
+     "correct": true,
+     "answer": "An open curly brace is missing after the `else` keyword "
+    },
+    {
+     "_id": "8c22423b-7d44-47f8-51dd-18db8a5023cd",
+     "correct": true,
+     "answer": "Parentheses are missing around the boolean expression after the `if` keyword"
+    }
+   ],
+   "guidance": "The corrected code looks like:\n```\nif (3 > 4) {\n   System.out.println(\"true\");\n}\nelse {\n   System.out.println(\"false\");\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

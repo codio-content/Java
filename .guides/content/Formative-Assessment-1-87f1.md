@@ -1,1 +1,1 @@
-# Sample content New Page
+{Check It!|assessment}(multiple-choice-34021480)

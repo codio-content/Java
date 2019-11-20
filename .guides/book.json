@@ -549,7 +549,7 @@
        "pageId": "bba31669-80f3-ebae-f155-eaa44d973938"
       },
       {
-       "title": "If statement",
+       "title": "If Statement",
        "id": "829b8fc4-381a-8ef3-997d-bd38a0a1b564",
        "type": "page",
        "pageId": "fccdba1b-57bf-9c7e-52b5-17240a035650"
@@ -587,21 +587,21 @@
        "pageId": "e976d132-e235-91f0-4063-fd62ef191a2f"
       },
       {
-       "title": "New Page",
-       "id": "068a3258-3e35-6045-789e-b645a242789b",
-       "type": "page",
-       "pageId": "5e1a8f9a-9a83-746d-a4c8-50f76ac7039f"
-      },
-      {
-       "title": "New Page",
+       "title": "If Else Syntax",
        "id": "44b26337-91ca-7a62-e59e-e0dda750729e",
        "type": "page",
        "pageId": "c5aa1e32-9e8c-4950-8aae-492e188cb3b7"
+      },
+      {
+       "title": "If Else Statement",
+       "id": "068a3258-3e35-6045-789e-b645a242789b",
+       "type": "page",
+       "pageId": "5e1a8f9a-9a83-746d-a4c8-50f76ac7039f"
       }
      ]
     },
     {
-     "title": "Formative Assessment",
+     "title": "Formative Assessment - If Else Statement",
      "id": "44e2b22d-bca8-702f-c59f-06579d9bbcef",
      "type": "section",
      "children": [

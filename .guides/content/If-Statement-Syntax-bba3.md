@@ -19,6 +19,8 @@ if (5 > 4) {
 System.out.println("I will ALWAYS print!");
 ```
 
+It is best practice to indent the lines of code within the curly braces to differentiate them but the indention does not effect how the program runs.
+
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIfSyntax.java)
 
 {Try it}(sh .guides/bg.sh javac code/operators/PlaygroundIfSyntax.java java -cp code/operators/ PlaygroundIfSyntax )
