@@ -428,6 +428,101 @@
      ]
     }
    ]
+  },
+  {
+   "title": "Conditionals",
+   "id": "4b861f5e-6e95-5c01-fea3-e76c0c8d9f85",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "If Statements",
+     "id": "1db68da3-c040-e11e-d2ec-ac09e29d6340",
+     "type": "section",
+     "children": [
+      {
+       "title": "Learning Objectives",
+       "id": "0c0f60e6-9037-b72c-88e3-a9cdfb891745",
+       "type": "page",
+       "pageId": "4b55ce00-fc5b-ad95-44ee-6bf2b82ec60a"
+      },
+      {
+       "title": "If Statement Syntax",
+       "id": "cdb31699-1d5b-b2b0-562f-f38a53821572",
+       "type": "page",
+       "pageId": "235fcd16-7fc0-5d8a-4975-6d24ea23de01"
+      },
+      {
+       "title": "If Statement",
+       "id": "4a4895db-fd8d-dfd8-3ddd-8099ab8d07ba",
+       "type": "page",
+       "pageId": "4c7ef6e5-b078-2eed-2809-281ee049b3f2"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment - If Statement",
+     "id": "50f94b78-f0b0-9763-567e-85f8afd49513",
+     "type": "section",
+     "children": [
+      {
+       "title": "Formative Assessment 1",
+       "id": "faa741cc-a223-32b9-cc1c-c3c61651f579",
+       "type": "page",
+       "pageId": "dcef9d35-19fe-6c68-f7f8-ab2dee498342"
+      },
+      {
+       "title": "Formative Assessment 2",
+       "id": "e4a6fc32-d33f-5ad6-a7cc-4004aff0d62c",
+       "type": "page",
+       "pageId": "20af77cd-ab5e-cfbf-8e0d-eb778fddcd4d"
+      }
+     ]
+    },
+    {
+     "title": "If Else Statement",
+     "id": "c98f6346-450a-0322-ef2c-1eb2a597b333",
+     "type": "section",
+     "children": [
+      {
+       "title": "Learning Objectives - If Else Statement",
+       "id": "dabc207e-f2b7-3b17-aebd-4a2ff82942ec",
+       "type": "page",
+       "pageId": "fc1bdb44-6b79-3ad4-4c3a-8dfc50bf90fa"
+      },
+      {
+       "title": "If Else Statement Syntax",
+       "id": "f9e7c8f7-62de-db00-6628-173bf9199d7a",
+       "type": "page",
+       "pageId": "2cb2647e-4900-a2ad-8986-5b73b847b225"
+      },
+      {
+       "title": "If Else Statement",
+       "id": "d317dfe5-2929-fffa-ecb2-a799be5a6a55",
+       "type": "page",
+       "pageId": "3aa54e77-7170-94aa-e02c-3f47580e761a"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment - If Else Statement",
+     "id": "0ee9c2a1-3d9a-901d-8c00-3e7a985b9e9e",
+     "type": "section",
+     "children": [
+      {
+       "id": "38bfc3dc-b4c8-409f-f7b5-cfc90e3643bf",
+       "title": "Formative Assessment 1",
+       "pageId": "64878379-7ad8-b74c-961a-00c1c113e068",
+       "type": "page"
+      },
+      {
+       "id": "1e59d17a-2b50-c305-fc95-9a9a916582e2",
+       "title": "Formative Assessment 2",
+       "pageId": "5bba1e21-1285-3f28-e819-d2455e50ba12",
+       "type": "page"
+      }
+     ]
+    }
+   ]
   }
  ]
 }
