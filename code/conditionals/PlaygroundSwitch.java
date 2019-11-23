@@ -1,4 +1,4 @@
-public class PlaygroundSwitchSyntax {
+public class PlaygroundSwitch {
   public static void main(String args[]) {
     
     //add code below this line

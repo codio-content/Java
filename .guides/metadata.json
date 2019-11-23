@@ -1429,7 +1429,18 @@
   {
    "id": "eba17df1-ef6c-3739-df37-0dfda84e5db9",
    "title": "Switch Case vs If Else",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/PlaygroundSwitch.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Switch-Case-vs-If-Else-eba1.md",
@@ -1441,7 +1452,13 @@
   {
    "id": "15c6d26c-7d5d-6c0c-3c83-27671c689fac",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-15c6.md",

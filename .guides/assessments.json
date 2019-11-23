@@ -3351,5 +3351,158 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2751211238",
+  "source": {
+   "name": "Switch Case or If Else?",
+   "showName": true,
+   "instructions": "Which of the following would be most appropriate for a `switch` statement?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "905ff6cf-c38b-2113-f728-6ec8d5e1e916",
+     "correct": true,
+     "answer": "Providing different types information about a caller's bank account (or re-directing the call) based on the number they pressed on their keypad"
+    },
+    {
+     "_id": "97135b54-8949-1e9c-52c4-9e62d6f3b7a1",
+     "correct": false,
+     "answer": "Generating the overall and category (male under 20, male over 50, female under 20, female over 50, etc) winners of a 5k race"
+    },
+    {
+     "_id": "4e254ba9-60b9-8ea4-25ce-76a64aea539e",
+     "correct": false,
+     "answer": "Using a car's mileage and service history to list what work needs to be done"
+    }
+   ],
+   "guidance": "Generating race winners requires comparing unknown times and for categories you will need a compound conditional -- so you need `if else`.\n\nSimilarly, a car's milage is going to fall into a range. Additionally, you will need to check against variables to see if the service has been done -- so you need `if else`.\n\nA `switch` would work well in the phone example since the user can only press 10 discrete buttons with constant values.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/PlaygroundSwitch.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/PlaygroundSwitch.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1569349997",
+  "source": {
+   "name": "Only 4 pennies",
+   "showName": true,
+   "instructions": "You are programming a children's game where the most \"money\" they can hold is 4 pennies. Which of the following is the most elegant way to print out a full list of store items the player can afford based on the number of `pennies` they have?\n\nWhile **elegant code** has no firm definition, assume for now it means \"uses cleverness to accomplish something in much less code, but in a way that's readable\". It is also assumed that the code works as intended (which some of the below do not).",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "559ca87f-9d7f-7354-fc1f-e25bfa0e5194",
+     "correct": false,
+     "answer": "```\nswitch(pennies) {\n    case 1: System.out.println(\"Marble (1 penny)\"); break;\n    case 2: System.out.println(\"Pet rock (2 pennies)\");\n            System.out.println(\"Marble (1 penny)\"); break;    \n    case 3: System.out.println(\"Jump rope (3 pennies)\");\n            System.out.println(\"Pet rock (2 pennies)\");\n            System.out.println(\"Marble (1 penny)\"); break; \n    case 4: System.out.println(\"Goldfish (4 pennies)\");\n            System.out.println(\"Jump rope (3 pennies)\");\n            System.out.println(\"Pet rock (2 pennies)\");\n            System.out.println(\"Marble (1 penny)\"); break; \n   default: System.out.println(\"It looks like you need some pennies!\");\n}\n```"
+    },
+    {
+     "_id": "9a1836f3-7817-7599-8468-c7d55f6baceb",
+     "correct": false,
+     "answer": "```\nswitch(pennies) {\n    case 1: System.out.println(\"Marble (1 penny)\");\n    case 2: System.out.println(\"Pet rock (2 pennies)\");\n    case 3: System.out.println(\"Jump rope (3 pennies)\");\n    case 4: System.out.println(\"Goldfish (4 pennies)\"); break; \n   default: System.out.println(\"It looks like you need some pennies!\");\n}\n```"
+    },
+    {
+     "_id": "216898d2-dd31-1823-d0ba-1548b8b8c2ed",
+     "correct": true,
+     "answer": "```\nswitch(pennies) {\n    case 4: System.out.println(\"Goldfish (4 pennies)\");\n    case 3: System.out.println(\"Jump rope (3 pennies)\");\n    case 2: System.out.println(\"Pet rock (2 pennies)\");\n    case 1: System.out.println(\"Marble (1 penny)\"); break;\n    default: System.out.println(\"It looks like you need some pennies!\");\n}\n```"
+    },
+    {
+     "_id": "d3a192ff-8218-9b60-0a2e-e864523d2d26",
+     "correct": false,
+     "answer": "```\nswitch(pennies) {\n    case 4: System.out.println(\"Goldfish (4 pennies)\"); break;\n    case 3: System.out.println(\"Jump rope (3 pennies)\"); break;\n    case 2: System.out.println(\"Pet rock (2 pennies)\"); break;\n    case 1: System.out.println(\"Marble (1 penny)\"); break;\n    default: System.out.println(\"It looks like you need some pennies!\");\n}\n```"
+    }
+   ],
+   "guidance": "By listing the items from most expensive to least expensive, we can assume that every item after the true case is also affordable.\n\n```\nswitch(pennies) {\n    case 4: System.out.println(\"Goldfish (4 pennies)\");\n    case 3: System.out.println(\"Jump rope (3 pennies)\");\n    case 2: System.out.println(\"Pet rock (2 pennies)\");\n    case 1: System.out.println(\"Marble (1 penny)\"); break;\n    default: System.out.println(\"It looks like you need some pennies!\");\n}\n```\n\nAdditionally, by removing the `break` statements between cases, Java continues down until the end of case 1. \n\nExploiting these two facts results in only having to state each item once.\n\nThe one break statement after case 1 is so that the out of money message should really only show if they do not have any pennies.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3628618227",
+  "source": {
+   "name": "Switch key words",
+   "showName": true,
+   "instructions": "Select the correct key word to make the code below a valid switch statement.",
+   "text": "```\n<<<switch>>> (years) {\n    <<<case>>> 5: System.out.println(\"5 years of employment award\"); break;\n    <<<case>>> 10: System.out.println(\"10 years of employment award\"); break;\n    <<<case>>> 20: System.out.println(\"20 years of employment award\"); break;\n    <<<case>>> 30: System.out.println(\"30 years of employment award\"); break;\n    <<<default>>>: System.out.println(\"You are not eligible for a longevity award this year\");\n}\n```",
+   "guidance": "```\nswitch (years) {\n    case 5: System.out.println(\"5 years of employment award\"); break;\n    case 10: System.out.println(\"10 years of employment award\"); break;\n    case 20: System.out.println(\"20 years of employment award\"); break;\n    case 30: System.out.println(\"30 years of employment award\"); break;\n    default: System.out.println(\"You are not eligible for a longevity award this year\");\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "switch",
+     "case",
+     "case",
+     "case",
+     "case",
+     "default"
+    ],
+    "text": [
+     "```\n",
+     0,
+     " (years) {\n    ",
+     0,
+     " 5: System.out.println(\"5 years of employment award\"); break;\n    ",
+     0,
+     " 10: System.out.println(\"10 years of employment award\"); break;\n    ",
+     0,
+     " 20: System.out.println(\"20 years of employment award\"); break;\n    ",
+     0,
+     " 30: System.out.println(\"30 years of employment award\"); break;\n    ",
+     0,
+     ": System.out.println(\"You are not eligible for a longevity award this year\");\n}\n```"
+    ]
+   }
+  }
  }
 ]
