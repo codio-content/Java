@@ -6,6 +6,8 @@ The if else statement checks to see if a condition is true, and then has specifi
 
 ![.guides/img/if-else-statement-syntax](.guides/img/if-else-statement-syntax.png)
 
+It is best practice to indent the lines of code within the curly braces to differentiate them but the indention does not effect how the program runs.
+
 ```java
 if (5 > 4) {
     System.out.println("The boolean expression is true");
@@ -14,8 +16,6 @@ else {
     System.out.println("The boolean expression is false");
 }
 ```
-
-It is best practice to indent the lines of code within the curly braces to differentiate them but the indention does not effect how the program runs.
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIfElseSyntax.java)
 

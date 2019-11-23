@@ -3209,5 +3209,147 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1569129353",
+  "source": {
+   "name": "Compound Conditionals",
+   "showName": true,
+   "instructions": "Why would you want to use a compound conditional? \n\n**Hint:** There is more than one right answer",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "f059fcbf-03a8-521a-8772-1af7cca8e8f5",
+     "correct": true,
+     "answer": "If two or more thing have to be true."
+    },
+    {
+     "_id": "bc74126b-ccbc-5abb-76f6-b88041e4f65c",
+     "correct": false,
+     "answer": "When you want your code to be faster."
+    },
+    {
+     "_id": "248f40fc-a57c-59ad-9096-936275f40aac",
+     "correct": false,
+     "answer": "You will get an error message if you don't use a compound conditional."
+    },
+    {
+     "_id": "b15a294d-d8a0-d167-704f-9cf7136f2ec3",
+     "correct": true,
+     "answer": "When you want your code to be more concise and easy to read."
+    }
+   ],
+   "guidance": "Compound conditionals allow you to test two or more things to be true, and they make your code more concise and easy to read.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/PlaygroundCompoundConditionals.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/PlaygroundCompoundConditionals.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3392232950",
+  "source": {
+   "name": "Nested If Else",
+   "showName": true,
+   "instructions": "Construct code that will print out messages based on the weather:\n * \"Bring an umbrella!\" if it is rainy but *not* windy\n * \"Wear a rain jacket.\" if it is rainy and windy\n * \"You might need a coat.\" if it is cold but *not* rainy\n * \"Enjoy your day!\" if it is *not* cold and *not* rainy\n\nAssume the following boolean variables have already been declared and initialized: `rainy`, `windy`, `cold`",
+   "initial": "if( rainy ) {\n    if( windy ) {\n        System.out.print(\"Wear a rain jacket.\"); }\n    else {\n        System.out.print(\"Bring an umbrella!\"); }\n} else {\n    if( cold ) {\n        System.out.print(\"You might need a coat.\"); }\n    else {\n        System.out.print(\"Enjoy your day!\"); }\n}\n    ",
+   "options": "{\n  \"sortableId\": \"sortable\"\n}",
+   "grader": "1",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3356521837",
+  "source": {
+   "name": "Switch Case Syntax",
+   "showName": true,
+   "instructions": "Which of the following code snippets has the **correct** switch case syntax?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "218a1bbd-83c5-7ec0-9ce4-7e83957f1383",
+     "correct": false,
+     "answer": "```\nString num = \"two\";\nint number;\nswitch (num) {\n    case \"one\" : number = 1;\n    case \"two\" : number = 2;\n    case \"three\" : number = 3;\n    default: number = -1;\n}\n```"
+    },
+    {
+     "_id": "a4a8ac81-2148-3861-2d6f-d14c18276a0d",
+     "correct": true,
+     "answer": "```\nString num = \"two\";\nint number;\nswitch (num) {\n    case \"one\" : number = 1; break;\n    case \"two\" : number = 2; break;\n    case \"three\" : number = 3; break;\n    default: number = -1;\n}\n```"
+    },
+    {
+     "_id": "1174c2b0-87c3-1d3e-92d6-f13be004c695",
+     "correct": false,
+     "answer": "```\nString num = \"two\";\nint number;\nswitch num:\n    case \"one\" : number = 1; break;\n    case \"two\" : number = 2; break;\n    case \"three\" : number = 3; break;\n    default: number = -1;\n```"
+    },
+    {
+     "_id": "4c030e41-bf51-5873-da1f-169e8bf16497",
+     "correct": false,
+     "answer": "```\nString num = \"two\";\nint number;\nswitch num :\n    case \"one\" : number = 1;\n    case \"two\" : number = 2;\n    case \"three\" : number = 3;\n    default: number = -1;\n```"
+    }
+   ],
+   "guidance": "`switch (num) { `\nThe `switch` keyword is followed by the variable in parentheses. \nThe case statements are surrounded by curly braces.\n\n`case \"one\" : number = 1; break;`\nEach case keyword is followed by a value and `:`\nAfter the code that should run if the variable == value, a `break;` ends the switch case.\n\n`default: number = -1;`\nIt is best practice to have the final case be `default`. Since it is the final case, it does not need a `break;` statement.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/PlaygroundSwitchSyntax.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/PlaygroundSwitchSyntax.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

@@ -1176,7 +1176,7 @@
   },
   {
    "id": "4b55ce00-fc5b-ad95-44ee-6bf2b82ec60a",
-   "title": "Learning Objectives",
+   "title": "Learning Objectives - If Statement",
    "files": [
     {
      "path": "#tabs",
@@ -1186,7 +1186,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives-4b55.md",
+   "content-file": ".guides/content/Learning-Objectives---If-Statement-4b55.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -1233,6 +1233,29 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/If-Statement-4c7e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "efbdb1c4-69c5-1f66-412b-e43d323f7724",
+   "title": "Compound Conditional Statements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/PlaygroundCompoundConditionals.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Compound-Conditional-Statements-efbd.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -1363,6 +1386,185 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-5bba.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6992b61c-4721-5679-2c90-0635cbb039f8",
+   "title": "Learning Objectives - Switch Case Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Switch-Case-Statement-6992.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d2a739b1-47ef-16a0-e0c8-c7ce4f60894c",
+   "title": "Switch Case Statement Syntax",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/PlaygroundSwitchSyntax.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Switch-Case-Statement-Syntax-d2a7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "eba17df1-ef6c-3739-df37-0dfda84e5db9",
+   "title": "Switch Case vs If Else",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Switch-Case-vs-If-Else-eba1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "15c6d26c-7d5d-6c0c-3c83-27671c689fac",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-15c6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "37c3022f-0b13-f5cb-897f-f2849a4e07de",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-37c3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "97a22272-bb3e-0796-dcce-6a039a45ce03",
+   "title": "Lab - If Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---If-Statement-97a2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "edf3d956-1b17-afc0-5499-241d61766408",
+   "title": "Lab - If Else Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---If-Else-Statement-edf3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5d70167f-19d2-cae4-551b-5c06e63ae33e",
+   "title": "Lab - Switch Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---Switch-Statement-5d70.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7b60fb5b-e934-6f9e-2905-8735b7b3f89e",
+   "title": "Lab Challenge - Month of the Year",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-Challenge---Month-of-the-Year-7b60.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dc2d80e5-4862-eb88-83a3-a83e8eaf0d6d",
+   "title": "Exercise 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-dc2d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e63784bc-0ed0-6c46-e809-311c0d817046",
+   "title": "Exercise 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-e637.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b3796dcc-8e54-895b-82da-7eabc698a5c1",
+   "title": "Exercise 3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-b379.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f6412217-1997-7cb8-cbe0-df0fb4a7a2b4",
+   "title": "Exercise 4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-f641.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1e102687-9233-4e3b-19ed-30cd8e71109a",
+   "title": "Exercise 5",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-1e10.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
