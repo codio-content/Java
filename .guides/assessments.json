@@ -1,6 +1,124 @@
 [
  {
   "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2074845473",
+  "source": {
+   "name": "If Else",
+   "showName": true,
+   "instructions": "Drag the appropriate code blocks into the box below. Your program should check to see if a number is even and print \"Even\". If the number is odd, then print \"Odd\". Assume the variable `x` represents the number to be tested.",
+   "initial": "if(x % 2 == 0)\n    {System.out.print(\"Even\");}\nelse\n    {System.out.print(\"Odd\");}\nif(x % 2 = 0) #distractor\nif(x / 2 == 0) #distractor\nSystem.out.print(Even); #distractor\nSystem.out.print(Odd); #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "Here is the correct answer:\n\n```java\nif(x % 2 == 0)\n    {System.out.print(\"Even\");}\nelse\n    {System.out.print(\"Odd\");}\n```\n\nHere is why the other options are incorrect:\n\n* `if x % 2 = 0` - The equality operator (`==`) is not used.\n* `if x / 2 == 0` - The `/` operator is division. To be even, there can be no remainder. The modulo operator (`%`) must be used instead.\n* `System.out.print(Even);` - The quotation marks are missing. Without them, Java will try to print the variable `Even`, which has not been declared. \n* `System.out.print(Odd);` - The quotation marks are missing. Without them, Java will try to print the variable `Odd`, which has not been declared. ",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Conditionals"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "If else statement"
+     }
+    ],
+    "files": [
+     "code/conditionals/Lab_IfElse.java",
+     "code/selection/lab_challenge.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Lab_IfElse.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT construct an if else statement"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3649559415",
+  "source": {
+   "name": "If Statements",
+   "showName": false,
+   "instructions": "Select all of the statements below that are true with regards to if statements. \n\n**Hint:** There is more than one correct answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "ae9339af-fb42-8d8e-417c-fb46b58232bf",
+     "correct": true,
+     "answer": "If statements only ask if a boolean expression is true."
+    },
+    {
+     "_id": "3acea470-c092-f47c-fa6f-d2e9cda607a7",
+     "correct": false,
+     "answer": "If statements will perform a set of actions if the boolean expression is false."
+    },
+    {
+     "_id": "2aefb536-6703-74bd-6e97-314c0d90dd7b",
+     "correct": false,
+     "answer": "If statements provide the most precision of all the conditional statements."
+    },
+    {
+     "_id": "279c31cc-b47f-1756-d5ef-c97da61a6514",
+     "correct": true,
+     "answer": "If statements are the simplest of all the conditionals."
+    }
+   ],
+   "guidance": "The correct answers are:\n\n```\nIf statements only ask if a boolean expression is true.\n\nIf statements are the simplest of all the conditionals.\n```\n\nIf statements can only ask if a boolean expression is true. An else statement takes into account a false boolean expression.\n\nIf statements are the simplest because they ignore when a boolean expression is false, and they do not ask subsequent boolean expressions.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Conditionals"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Pyh"
+     },
+     {
+      "name": "Category",
+      "value": "If statement"
+     }
+    ],
+    "files": [
+     "code/conditionals/Lab_IfStatement.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Lab_IfStatement.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand the characteristics of an if statement"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-2919609863",
   "source": {
    "name": "Make a Triangle",
@@ -3503,6 +3621,189 @@
      ": System.out.println(\"You are not eligible for a longevity award this year\");\n}\n```"
     ]
    }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-330785356",
+  "source": {
+   "name": "Using Switch",
+   "showName": true,
+   "instructions": "Complete the paragraph below using the drop downs.",
+   "text": "A switch statement uses a variable to make decisions. It checks if the variable is <<<equal>>> to the value listed after the key word <<<case>>>. After the `:` is code that runs if that case is true. The code ends with a <<<break>>> statement. The default case should be <<<last>>>.",
+   "guidance": "A switch statement uses a variable to make decisions. It checks if the variable is equal to the value listed after the key word case. After the `:` is code that runs if that case is true. The code ends with a break statement. The default case should be last.\n\nIn code, this looks like:\n```\nint dayOfWeek = 3;\nswitch(dayOfWeek) {\n\n    case 1: System.out.print(\"Sunday\"); \n                 break;\n    case 2: System.out.print(\"Monday\"); \n                 break;\n    case 3: System.out.print(\"Tuesday\"); \n                 break;\n    case 4: System.out.print(\"Wednesday\"); \n                 break;\n    case 5: System.out.print(\"Thursday\"); \n                 break;\n    case 6: System.out.print(\"Friday\"); \n                 break;\n    case 7: System.out.print(\"Saturday\"); \n                 break;\n    default : System.out.print(\"Invalid\");\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/conditionals/Lab_IfElse.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Lab_IfElse.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "equal",
+     "case",
+     "break",
+     "last"
+    ],
+    "text": [
+     "A switch statement uses a variable to make decisions. It checks if the variable is ",
+     0,
+     " to the value listed after the key word ",
+     0,
+     ". After the `:` is code that runs if that case is true. The code ends with a ",
+     0,
+     " statement. The default case should be ",
+     0,
+     "."
+    ]
+   }
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1176951521",
+  "source": {
+   "name": "Month of the Year",
+   "showName": true,
+   "instructions": "Once your code works, submit it using the button below.",
+   "command": "java -cp code/conditionals/ Lab_Challenge",
+   "preExecuteCommand": "javac code/conditionals/Lab_Challenge.java",
+   "guidance": "One way to complete this challenge is a switch statement:\n```\nString monthString;\n        switch (month) {\n            case 1:  monthString = \"January\";\n                     break;\n            case 2:  monthString = \"February\";\n                     break;\n            case 3:  monthString = \"March\";\n                     break;\n            case 4:  monthString = \"April\";\n                     break;\n            case 5:  monthString = \"May\";\n                     break;\n            case 6:  monthString = \"June\";\n                     break;\n            case 7:  monthString = \"July\";\n                     break;\n            case 8:  monthString = \"August\";\n                     break;\n            case 9:  monthString = \"September\";\n                     break;\n            case 10: monthString = \"October\";\n                     break;\n            case 11: monthString = \"November\";\n                     break;\n            case 12: monthString = \"December\";\n                     break;\n            default: monthString = \"Invalid month\";\n                     break;\n        }\n        System.out.println(monthString);\n```\n\nYou could have also used either if or if-else statements too!",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "1",
+     "input": "",
+     "output": "January",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "2",
+     "input": "",
+     "output": "February ",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "3",
+     "input": "",
+     "output": "March",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "4",
+     "input": "",
+     "output": "April",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "5",
+     "input": "",
+     "output": "May",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "6",
+     "input": "",
+     "output": "June",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "7",
+     "input": "",
+     "output": "July",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "8",
+     "input": "",
+     "output": "August",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "9",
+     "input": "",
+     "output": "September",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "10",
+     "input": "",
+     "output": "October ",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "11",
+     "input": "",
+     "output": "November",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "12",
+     "input": "",
+     "output": "December",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/conditionals/Lab_Challenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Lab_Challenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]

@@ -1470,7 +1470,13 @@
   {
    "id": "37c3022f-0b13-f5cb-897f-f2849a4e07de",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-37c3.md",
@@ -1482,7 +1488,18 @@
   {
    "id": "97a22272-bb3e-0796-dcce-6a039a45ce03",
    "title": "Lab - If Statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/Lab_IfStatement.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab---If-Statement-97a2.md",
@@ -1494,7 +1511,18 @@
   {
    "id": "edf3d956-1b17-afc0-5499-241d61766408",
    "title": "Lab - If Else Statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/Lab_IfElse.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab---If-Else-Statement-edf3.md",
@@ -1506,7 +1534,18 @@
   {
    "id": "5d70167f-19d2-cae4-551b-5c06e63ae33e",
    "title": "Lab - Switch Statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/Lab_Switch.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab---Switch-Statement-5d70.md",
@@ -1518,7 +1557,18 @@
   {
    "id": "7b60fb5b-e934-6f9e-2905-8735b7b3f89e",
    "title": "Lab Challenge - Month of the Year",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/Lab_Challenge.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-Challenge---Month-of-the-Year-7b60.md",
@@ -1582,6 +1632,18 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-1e10.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a8a53990-7105-c706-c4e6-5c211ae9e850",
+   "title": "Learning Objectives - For Loops",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---For-Loops-a8a5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

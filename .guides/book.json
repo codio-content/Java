@@ -651,7 +651,14 @@
      "title": "For Loops",
      "id": "0d9f3bf0-2731-e229-e6cb-f9149ab21c74",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "df5c3cdb-73f4-6be0-9a94-8eacd7f4be9b",
+       "title": "Learning Objectives - For Loops",
+       "pageId": "a8a53990-7105-c706-c4e6-5c211ae9e850",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessments - For Loops",
