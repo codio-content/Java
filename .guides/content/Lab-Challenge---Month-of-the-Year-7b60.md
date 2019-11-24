@@ -4,9 +4,11 @@ Write a program that determines the month of the year based on the value of a va
 
 [Code Visualizer](open_tutor code/conditionals/Lab_Challenge.java)
 
-Compile code after you make changes, before each test.
+### Compile code after you make changes
 
 {Compile Code}(javac code/conditionals/Lab_Challenge.java)
+
+### Test your code with a few different values
 
 {Test with 3}(java -cp code/conditionals/ Lab_Challenge 3)
 

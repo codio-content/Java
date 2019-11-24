@@ -3805,5 +3805,470 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-80440528",
+  "source": {
+   "name": "Conditionals Exercise 1",
+   "showName": true,
+   "instructions": "Once your code works, submit it using the button below.",
+   "command": "java -cp code/conditionals/ Exercise1",
+   "preExecuteCommand": "javac code/conditionals/Exercise1.java",
+   "guidance": "You can do this with a single if statement using a compound conditional.\n```\nif( (x >= 0 && x <=25) || (x >= 75 && x <=100) )\n{ System.out.println(String.valueOf(x) + \" is between 0 and 25 or 75 and 100\"); }\n```\nAlternatively, you could use other combinations such as two separate if statements.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "0",
+     "input": "",
+     "output": "0 is between 0 and 25 or 75 and 100",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "25",
+     "input": "",
+     "output": "25 is between 0 and 25 or 75 and 100",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "26",
+     "input": "",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "74",
+     "input": "",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "75",
+     "input": "",
+     "output": "75 is between 0 and 25 or 75 and 100",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "100",
+     "input": "",
+     "output": "100 is between 0 and 25 or 75 and 100",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "101",
+     "input": "",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/conditionals/Exercise1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Exercise1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-596935369",
+  "source": {
+   "name": "Conditionals Exercise 2",
+   "showName": true,
+   "instructions": "Once your code works, submit it using the button below.",
+   "command": "java -cp code/conditionals/ Exercise2",
+   "preExecuteCommand": "javac code/conditionals/Exercise2.java",
+   "guidance": "A single if else can be used to solve this exercise. The real trick is remembering that modulo `%` is the correct operator to check for \"is divisible by\".\n\n```\nif ( x % 5 == 0 )\n{ System.out.println(String.valueOf(x) + \" is divisible by 5\"); }\nelse\n{ System.out.println(String.valueOf(x) + \" is not divisible by 5\"); }\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "0",
+     "input": "",
+     "output": "0 is divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "5",
+     "input": "",
+     "output": "5 is divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "500",
+     "input": "",
+     "output": "500 is divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "2",
+     "input": "",
+     "output": "2 is not divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "11",
+     "input": "",
+     "output": "11 is not divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "13",
+     "input": "",
+     "output": "13 is not divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/conditionals/Exercise2.java",
+     "code/conditionals/Exercise1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Exercise2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2452434922",
+  "source": {
+   "name": "Conditionals Exercise 3",
+   "showName": true,
+   "instructions": "Once your code works, submit it using the button below.\n\n",
+   "command": "java -cp code/conditionals/ Exercise3",
+   "preExecuteCommand": "javac code/conditionals/Exercise3.java",
+   "guidance": "You can use a single `if else` with compound conditionals to complete this challenge:\n```\nif ( x % 5 == 0 && x % 2 == 0)\n{ System.out.println(String.valueOf(x) + \" is divisible by 5 and even\"); }\nelse\n{ System.out.println(String.valueOf(x) + \" is not divisible by 5 or it is odd\"); }\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "50",
+     "input": "",
+     "output": "50 is divisible by 5 and even",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "110",
+     "input": "",
+     "output": "110 is divisible by 5 and even",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "3",
+     "input": "",
+     "output": "3 is not divisible by 5 or it is odd",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "5",
+     "input": "",
+     "output": "5 is not divisible by 5 or it is odd",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "25",
+     "input": "",
+     "output": "25 is not divisible by 5 or it is odd",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "6",
+     "input": "",
+     "output": "6 is not divisible by 5 or it is odd",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/conditionals/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Exercise3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1582349154",
+  "source": {
+   "name": "Conditionals Exercise 4",
+   "showName": true,
+   "instructions": "Once your code works, submit it using the button below.\n\n",
+   "command": "java -cp code/conditionals/ Exercise4",
+   "preExecuteCommand": "javac code/conditionals/Exercise4.java",
+   "guidance": "There are a few ways to do this. One way is to use a `switch case`:\n```\nswitch (x) {\n    case \"yellow\": case \"red\": case \"blue\": System.out.println(x + \" is a primary color\"); break;\n    default: System.out.println(x + \" is not a primary color\"); break;\n}\n```\n\nOr you could use a compound conditional in an `if else`:\n```\nif( x.equals(\"yellow\") || x.equals(\"red\") || x.equals(\"blue\") )\n    {System.out.println(x + \" is a primary color\");}\nelse\n    {System.out.println(x + \" is not a primary color\");}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "red",
+     "input": "",
+     "output": "red is a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "yellow",
+     "input": "",
+     "output": "yellow is a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "blue",
+     "input": "",
+     "output": "blue is a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "purple",
+     "input": "",
+     "output": "purple is not a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "orange",
+     "input": "",
+     "output": "orange is not a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "teal",
+     "input": "",
+     "output": "teal is not a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "brown",
+     "input": "",
+     "output": "brown is not a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/conditionals/Exercise4.java",
+     "code/conditionals/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Exercise4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-334334839",
+  "source": {
+   "name": "Conditionals Exercise 5",
+   "showName": true,
+   "instructions": "Once your code works, submit it using the button below.\n\n",
+   "command": "java -cp code/conditionals/ Exercise5",
+   "preExecuteCommand": "javac code/conditionals/Exercise5.java",
+   "guidance": "You can either use a switch case or if else for this:\n\n```\nswitch (x) {\n    case \"a\": case \"e\": case \"i\": case \"o\": case \"u\": System.out.println(x + \" is a vowel\"); break;\n    default: System.out.println(x + \" is not a vowel\"); break;\n}\n```\n\n```\nif( x.equals(\"a\") || x.equals(\"e\") || x.equals(\"i\") || x.equals(\"o\") || x.equals(\"u\") )\n    {System.out.println(x + \" is a vowel\");}\nelse\n    {System.out.println(x + \" is not a vowel\");}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "a",
+     "input": "",
+     "output": "a is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "e",
+     "input": "",
+     "output": "e is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "i",
+     "input": "",
+     "output": "i is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "o",
+     "input": "",
+     "output": "o is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "u",
+     "input": "",
+     "output": "u is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "b",
+     "input": "",
+     "output": "b is not a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "x",
+     "input": "",
+     "output": "x is not a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "k",
+     "input": "",
+     "output": "k is not a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/conditionals/Exercise5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Exercise5.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

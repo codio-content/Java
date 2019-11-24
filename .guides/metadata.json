@@ -1580,7 +1580,18 @@
   {
    "id": "dc2d80e5-4862-eb88-83a3-a83e8eaf0d6d",
    "title": "Exercise 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/Exercise1.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-dc2d.md",
@@ -1592,7 +1603,18 @@
   {
    "id": "e63784bc-0ed0-6c46-e809-311c0d817046",
    "title": "Exercise 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/Exercise2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-e637.md",
@@ -1604,7 +1626,18 @@
   {
    "id": "b3796dcc-8e54-895b-82da-7eabc698a5c1",
    "title": "Exercise 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/Exercise3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-b379.md",
@@ -1616,7 +1649,18 @@
   {
    "id": "f6412217-1997-7cb8-cbe0-df0fb4a7a2b4",
    "title": "Exercise 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/Exercise4.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-4-f641.md",
@@ -1628,7 +1672,18 @@
   {
    "id": "1e102687-9233-4e3b-19ed-30cd8e71109a",
    "title": "Exercise 5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/Exercise5.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-1e10.md",

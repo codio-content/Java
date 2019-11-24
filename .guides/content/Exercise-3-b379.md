@@ -6,16 +6,23 @@
 Use the variable `x` as you write this program. `x` will represent a positive integer. Write a program that determines if `x` is divisible by 5 and even. If yes, print `_ is divisible by 5 and even`, where the blank is the value of `x`. If no, print `_ is not divisible by 5 or it is odd`, where the blank is the value of `x`.
 
 **Expected Output**
-* If `x` is `50`, then the output would be: `50 is divisible by 5 and even`.
-* If `x` is `37`, then the output would be: `37 is not divisible by 5 or it is odd`.
+* If `x` is `8`, then the output would be: `37 is not divisible by 5 or it is odd`.
+* If `x` is `80`, then the output would be: `50 is divisible by 5 and even`.
+* If `x` is `105`, then the output would be: `37 is not divisible by 5 or it is odd`.
 
 
-**Important**
-You will need to declare the variable `x` as you write and test your code. However, do not submit your code to be graded with the variable declaration. The auto-grader will declare the variable for you.
+### Compile code after you make changes
 
-<details><summary>**Type Casting**</summary>Use the `str(x)` command to type cast the variable `x` as a string.
+{Compile Code}(javac code/conditionals/Exercise3.java)
 
-[Code Visualizer](open_tutor code/selection/exercise3.py)
-{try it}(python3 code/selection/exercise3.py)
+### Test your code with a few different values
 
-{Check It!|assessment}(code-output-compare-662068084)
+{Test with 8}(java -cp code/conditionals/ Exercise3 8)
+
+{Test with 80}(java -cp code/conditionals/ Exercise3 80)
+
+{Test with 105}(java -cp code/conditionals/ Exercise3 105)
+
+[Code Visualizer](open_tutor code/conditionals/Exercise3.java)
+
+{Check It!|assessment}(code-output-compare-2452434922)

@@ -3,17 +3,24 @@
 ## Conditionals Exercise 4
 
 **Problem**
-Use the variable `x` as you write this program. `x` will represent a string. Write a program using the `elif` keyword that determines if `x` is a primary color (red, blue, or yellow). If yes, print `_ is primary color`, where the blank is the value of `x`. If no, print `_ is not a primary color`, where the blank is the value of `x`.
+Use the variable `x` as you write this program. `x` will represent a string. Write a program that determines if `x` is a primary color (red, blue, or yellow). If yes, print `_ is primary color`, where the blank is the value of `x`. If no, print `_ is not a primary color`, where the blank is the value of `x`.
 
 **Expected Output**
 * If `x` is `red`, then the output would be: `red is a primary color`.
 * If `x` is `teal`, then the output would be: `teal is not a primary color`.
 
+<details><summary><b>Comparing Strings</b></summary>If you choose to directly compare Strings, you may be tempted to write `x == "red"`. However, this won't behave as expected. Instead, use `.equals()`. For example, `x.equals("red")`.</details>
 
-**Important**
-You will need to declare the variable `x` as you write and test your code. However, do not submit your code to be graded with the variable declaration. The auto-grader will declare the variable for you.
+### Compile code after you make changes
 
-[Code Visualizer](open_tutor code/selection/exercise4.py)
-{try it}(python3 code/selection/exercise4.py)
+{Compile Code}(javac code/conditionals/Exercise4.java)
 
-{Check It!|assessment}(code-output-compare-3603717044)
+### Test your code with a few different values
+
+{Test with "red"}(java -cp code/conditionals/ Exercise4 red)
+
+{Test with "teal"}(java -cp code/conditionals/ Exercise4 teal)
+
+[Code Visualizer](open_tutor code/conditionals/Exercise4.java)
+
+{Check It!|assessment}(code-output-compare-1582349154)

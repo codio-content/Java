@@ -9,12 +9,17 @@ Use the variable `x` as you write this program. `x` will represent a string. Wri
 * If `x` is `a`, then the output would be: `a is a vowel`.
 * If `x` is `z`, then the output would be: `z is not a vowel`.
 
+<details><summary><b>Comparing Strings</b></summary>If you choose to directly compare Strings, you may be tempted to write `x == "a"`. However, this won't behave as expected. Instead, use `.equals()`. For example, `x.equals("a")`.</details>
 
-**Important**
-You will need to declare the variable `x` as you write and test your code. However, do not submit your code to be graded with the variable declaration. The auto-grader will declare the variable for you.
+### Compile code after you make changes
 
-[Code Visualizer](open_tutor code/selection/exercise5.py)
-{try it}(python3 code/selection/exercise5.py)
+{Compile Code}(javac code/conditionals/Exercise5.java)
 
-{Check It!|assessment}(code-output-compare-3156139445)
+### Test your code with a few different values
 
+{Test with "a"}(java -cp code/conditionals/ Exercise5 a)
+
+{Test with "z"}(java -cp code/conditionals/ Exercise5 z)
+
+
+{Check It!|assessment}(code-output-compare-334334839)
