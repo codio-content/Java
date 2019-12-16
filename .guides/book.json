@@ -657,6 +657,24 @@
        "title": "Learning Objectives - For Loops",
        "pageId": "a8a53990-7105-c706-c4e6-5c211ae9e850",
        "type": "page"
+      },
+      {
+       "id": "b749e4db-d1fa-03fe-e8d9-5032ae301a15",
+       "title": "For Loops",
+       "pageId": "16d8ba48-a034-9a64-99dc-b5b2cf747e85",
+       "type": "page"
+      },
+      {
+       "id": "f56da0b3-4f53-7dd5-ed8e-65ca44a4202e",
+       "title": "Turtle Graphics",
+       "pageId": "d39fb295-b45a-a1c8-2983-85625246ebe7",
+       "type": "page"
+      },
+      {
+       "id": "5abd357e-d5ae-1b75-aa99-234479f6fa1b",
+       "title": "Turtle Coding - For Loop",
+       "pageId": "6c3f8d07-1888-6de1-0f5d-4b65331113cb",
+       "type": "page"
       }
      ]
     },
@@ -664,49 +682,328 @@
      "title": "Formative Assessments - For Loops",
      "id": "df335619-fb59-a242-2857-5ff32dc4587a",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "7358a4db-ac64-2ee0-481e-13f7445741b4",
+       "title": "Formative Assessment 1",
+       "pageId": "66d28100-ad65-8c31-bbf3-d858e6851667",
+       "type": "page"
+      },
+      {
+       "id": "66f8e6c3-d2ff-28dc-3021-087de34b5c54",
+       "title": "Formative Assessment 2",
+       "pageId": "6eeaba31-bca7-fd16-9b2d-bd53dc10f50a",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "While Loops",
      "id": "10697a2a-cfdd-9d83-ccf7-c1fc0a77fc7d",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "37f65c14-243b-c6cb-76b2-fcc3696b0761",
+       "title": "Learning Objectives - While Loops",
+       "pageId": "ddc24976-5970-042d-ca5a-267e66dbb2bb",
+       "type": "page"
+      },
+      {
+       "id": "4962e9d7-a096-050e-9330-d9d76bc0f8fc",
+       "title": "While Loops",
+       "pageId": "0f444359-34de-90a0-d0c5-fc2b04743c3e",
+       "type": "page"
+      },
+      {
+       "id": "3018c2f9-2f7d-452f-a66d-d5aadcdf4392",
+       "title": "Turtle Coding - While Loop",
+       "pageId": "fb5c5a2b-4927-d4f8-c76a-5788f8937c65",
+       "type": "page"
+      },
+      {
+       "id": "ba5c36db-1fdf-8477-dd38-18d8bddc4bfe",
+       "title": "Break Statement",
+       "pageId": "d53ce9c4-11e7-0bd0-3fe8-681e3b3f13f9",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessments - While Loops",
      "id": "632b0963-bbb8-9ec4-2d4d-b08cdcd9bea0",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "de398d24-9983-20c5-4011-c2949380df03",
+       "title": "Formative Assessment 1",
+       "pageId": "76fc1c4e-c51a-29ab-31b3-9eff4fbc80e4",
+       "type": "page"
+      },
+      {
+       "id": "fb0e8635-a3d5-3975-e483-e6184c0df76f",
+       "title": "Formative Assessment 2",
+       "pageId": "e2750e66-fdab-e361-8c63-55564b93f260",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Nested Loops",
      "id": "caaccd19-55a6-be05-5d1d-8e41e686e9b7",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "33f91e11-946a-04d9-2fe4-f6f8aef45449",
+       "title": "Learning Objectives - Nested Loops",
+       "pageId": "9f01ff22-3134-5f3d-a6f5-27767440f174",
+       "type": "page"
+      },
+      {
+       "id": "6fd14ff6-19ba-7893-20d4-abe4876f14b7",
+       "title": "Nested Loops",
+       "pageId": "9dfeb150-3c55-2f07-b381-837a8676e57b",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessments - Nested Loops",
      "id": "6f3e36e8-7104-b3a8-4d03-423624044443",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "d74ff6c9-916d-7109-0cf5-7f13b221db5d",
+       "title": "Formative Assessment 1",
+       "pageId": "0493de91-11bf-60dd-2bd7-86fc1968bc51",
+       "type": "page"
+      },
+      {
+       "id": "19680b34-eaaa-0e7b-a6d5-b15dafa59da0",
+       "title": "Formative Assessment 2",
+       "pageId": "41951507-c7c4-a5f7-b71c-35edf4dbbea1",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Lab - Loops",
      "id": "4ad7f6c2-7a60-c8c5-08a1-f1cf00858064",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "ba8552b0-9947-a231-c2cf-e4d4ffa99b88",
+       "title": "Lab - For Loop",
+       "pageId": "f112b13b-6b49-93e0-f7b1-88a35067de59",
+       "type": "page"
+      },
+      {
+       "id": "1a7a63bb-f65e-9e17-ef92-17e826df504c",
+       "title": "Lab - While Loop",
+       "pageId": "bbbfcc7d-8698-5128-91ee-7eb4ab6397b8",
+       "type": "page"
+      },
+      {
+       "id": "0adfea1e-c0d3-8761-1649-918008810042",
+       "title": "Lab - Break Statement",
+       "pageId": "fe762180-9e09-9697-f91c-682f35b31f2d",
+       "type": "page"
+      },
+      {
+       "id": "9c58de14-57df-ce5a-b700-a4b8426d3f37",
+       "title": "Lab Challenge - Chessboard",
+       "pageId": "655b8a4d-0c0f-3629-98fb-4e7fce7f8772",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Coding Exercises - Loops",
      "id": "c72f8690-eb3b-6951-f214-e5513d0f457d",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "97816a75-e71a-6b13-94e8-bcd00e3e8380",
+       "title": "Exercise 1",
+       "pageId": "58fe2816-5ee4-074e-1204-85063187c83b",
+       "type": "page"
+      },
+      {
+       "id": "59dc22ca-b913-deb3-d8fd-908c0fc2fa85",
+       "title": "Exercise 2",
+       "pageId": "c0e5d016-0015-5524-1ecb-b9a57c84eb58",
+       "type": "page"
+      },
+      {
+       "id": "d7b323fb-ef2a-59ae-8fb8-0898226fec00",
+       "title": "Exercise 3",
+       "pageId": "9d56bc15-5118-7036-2f64-fddb794a8763",
+       "type": "page"
+      },
+      {
+       "id": "7d569984-d721-75c3-227d-5a700458ed50",
+       "title": "Exercise 4",
+       "pageId": "de4805b4-7954-6127-7ec1-59790bd68853",
+       "type": "page"
+      },
+      {
+       "id": "5f8acecc-fb56-11ee-280f-a5c0d5d9d717",
+       "title": "Exercise 5",
+       "pageId": "e93d808c-408c-c2f2-7f98-01a2cc429afd",
+       "type": "page"
+      }
+     ]
     }
    ]
   },
   {
    "title": "Arrays",
    "id": "2ef94a20-f714-107c-1c65-f64f6ed526cd",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Array Basics",
+     "id": "fd93cc72-4a25-f0bd-b55a-b8310191da32",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Formative Assessment - Array Basics",
+     "id": "dbcf08ff-0f29-c680-8710-51295cd5ba82",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "ArrayLists",
+     "id": "402221bc-c46e-8e6b-4026-0ef41805e15a",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Formative Assessment - ArrayLists",
+     "id": "7d5d781f-8ea9-ff27-77f4-945d977383bb",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "ArrayList Methods",
+     "id": "302e1c67-05ea-2444-9458-83232a5994dd",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Formative Assessment - ArrayList Methods",
+     "id": "b1af506c-feb7-b943-4294-8c5f2a67d1c4",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Array Iteration",
+     "id": "f25650df-99a0-527c-e233-6665ee5487b0",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Formative Assessment - Array Iteration",
+     "id": "231fa5a2-65ba-5506-fbf3-eeb3adad5783",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Lab - Arrays",
+     "id": "9e8b8e0d-16ee-45b9-ab90-18064463e3a2",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Coding Exercises - Arrays",
+     "id": "d7069207-3bb0-0385-f053-b979ff8571ec",
+     "type": "section",
+     "children": []
+    }
+   ]
+  },
+  {
+   "title": "Strings",
+   "id": "8fd2ae90-1c9d-4986-279b-e259db75550d",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "String Basics",
+     "id": "8ff27a12-2959-1787-8ae0-6d337a444199",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Formative Assessment - String Basics",
+     "id": "29064b5b-518a-2250-0263-34612c771296",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "String Methods",
+     "id": "dcfb5cf3-7f6f-8c5f-920c-65722390e26f",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Formative Assessment - String Methods",
+     "id": "0e2c3f68-35eb-1817-c138-e7d0d60cac20",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "String Iteration",
+     "id": "27f4a182-e750-a903-6fe6-ba24c7ef8f09",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Formative Assessment - String Iteration",
+     "id": "a752d9c1-a3eb-507f-bffe-37da8ce0cec5",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "String Comparison",
+     "id": "51be0a29-cfb2-0bce-3c4b-5ad391bf8ea4",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Formative Assessment - String Comparison",
+     "id": "40c57d53-4413-1173-607c-9b4fdde41ce3",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Lab - Strings",
+     "id": "bb75e3f7-3810-5d69-aa3a-1e14a3a91d7d",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Coding Exercises - Strings",
+     "id": "222a4ae3-8578-e4f2-6bd4-71f7e19be35b",
+     "type": "section",
+     "children": []
+    }
+   ]
+  },
+  {
+   "title": "Functions",
+   "id": "1c4913e4-848e-cf3c-4dfb-14d1b758c4ef",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Recursion",
+   "id": "72d8a87d-27da-51a9-6bc8-c8da8af6d8aa",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Files",
+   "id": "47b8e812-23f8-6c2b-e599-0747f911bd35",
    "type": "chapter",
    "children": []
   }

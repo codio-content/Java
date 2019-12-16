@@ -246,7 +246,18 @@
   {
    "id": "1256260a-b636-3d14-9914-b4b3600a5e64",
    "title": "Initializing, Assigning, and Accessing",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables7.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Initializing--Assigning--and-Accessing-1256.md",
@@ -1695,10 +1706,347 @@
   {
    "id": "a8a53990-7105-c706-c4e6-5c211ae9e850",
    "title": "Learning Objectives - For Loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives---For-Loops-a8a5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "16d8ba48-a034-9a64-99dc-b5b2cf747e85",
+   "title": "For Loops",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/ForLoops.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/For-Loops-16d8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d39fb295-b45a-a1c8-2983-85625246ebe7",
+   "title": "Turtle Graphics",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "code/loops/TurtleLoops.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Turtle-Graphics-d39f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6c3f8d07-1888-6de1-0f5d-4b65331113cb",
+   "title": "Turtle Coding - For Loop",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "code/loops/TurtleLoopImages.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Turtle-Coding---For-Loop-6c3f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "66d28100-ad65-8c31-bbf3-d858e6851667",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-66d2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6eeaba31-bca7-fd16-9b2d-bd53dc10f50a",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-6eea.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ddc24976-5970-042d-ca5a-267e66dbb2bb",
+   "title": "Learning Objectives - While Loops",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---While-Loops-ddc2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0f444359-34de-90a0-d0c5-fc2b04743c3e",
+   "title": "While Loops",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/While-Loops-0f44.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fb5c5a2b-4927-d4f8-c76a-5788f8937c65",
+   "title": "Turtle Coding - While Loop",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Turtle-Coding---While-Loop-fb5c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d53ce9c4-11e7-0bd0-3fe8-681e3b3f13f9",
+   "title": "Break Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Break-Statement-d53c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "76fc1c4e-c51a-29ab-31b3-9eff4fbc80e4",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-76fc.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e2750e66-fdab-e361-8c63-55564b93f260",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-e275.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9f01ff22-3134-5f3d-a6f5-27767440f174",
+   "title": "Learning Objectives - Nested Loops",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Nested-Loops-9f01.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9dfeb150-3c55-2f07-b381-837a8676e57b",
+   "title": "Nested Loops",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Nested-Loops-9dfe.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0493de91-11bf-60dd-2bd7-86fc1968bc51",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-0493.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "41951507-c7c4-a5f7-b71c-35edf4dbbea1",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-4195.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f112b13b-6b49-93e0-f7b1-88a35067de59",
+   "title": "Lab - For Loop",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---For-Loop-f112.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "bbbfcc7d-8698-5128-91ee-7eb4ab6397b8",
+   "title": "Lab - While Loop",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---While-Loop-bbbf.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fe762180-9e09-9697-f91c-682f35b31f2d",
+   "title": "Lab - Break Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab---Break-Statement-fe76.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "655b8a4d-0c0f-3629-98fb-4e7fce7f8772",
+   "title": "Lab Challenge - Chessboard",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-Challenge---Chessboard-655b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "58fe2816-5ee4-074e-1204-85063187c83b",
+   "title": "Exercise 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-58fe.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c0e5d016-0015-5524-1ecb-b9a57c84eb58",
+   "title": "Exercise 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-c0e5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9d56bc15-5118-7036-2f64-fddb794a8763",
+   "title": "Exercise 3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-9d56.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "de4805b4-7954-6127-7ec1-59790bd68853",
+   "title": "Exercise 4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-de48.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e93d808c-408c-c2f2-7f98-01a2cc429afd",
+   "title": "Exercise 5",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-e93d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
