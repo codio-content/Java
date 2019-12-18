@@ -4360,5 +4360,161 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-90216139",
+  "source": {
+   "name": "While Loop",
+   "showName": true,
+   "instructions": "Re-arrange the following lines of code so that the while loop will print \"Java\" 10 times.",
+   "initial": "int i = 0;\nwhile( i < 10 ) {\nSystem.out.println(\"Java\");\ni++;\n}",
+   "options": "{\n  \"sortableId\": \"sortable\"\n}",
+   "grader": "1",
+   "guidance": "The solution is:\n```java\nint i = 0;\nwhile( i < 10 ) {\n    System.out.println(\"Java\");\n    i++;\n}\n```\nNotice that the variable is declared **before** the while loop and is incremented **inside** the loop.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-4115991507",
+  "source": {
+   "name": "While loop with break",
+   "showName": true,
+   "instructions": "Fill in the blanks such that the while loop will stop once `total` is greater than 100.",
+   "text": "int <<<total>>> = 0;\nwhile ( <<<true>>> ) {\n    //increment total by some random number\n    if(<<<total>>> > 100)\n    { <<<break;>>> }\n}",
+   "guidance": "The correct solution looks like: \n```\nint total = 0;\nwhile ( true ) {\n    //increment total by some random number\n    if(total > 100)\n    { break; }\n}\n```\n\nYou can make the same loop work without the if statement and break...\n```\nint total = 0;\nwhile (total < 100) {\n    //increment total by some random number\n}\n```\n",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "total",
+     "true",
+     "total",
+     "break;"
+    ],
+    "text": [
+     "int ",
+     0,
+     " = 0;\nwhile ( ",
+     0,
+     " ) {\n    //increment total by some random number\n    if(",
+     0,
+     " > 100)\n    { ",
+     0,
+     " }\n}"
+    ]
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-945377963",
+  "source": {
+   "name": "Nested Loops",
+   "showName": true,
+   "instructions": "\"A cumulative song is a song with a simple verse structure modified by progressive addition so that each verse is longer than the verse before.\" - Wikipedia\n\nHelp create a cheat sheet for the cumulative song the 12 days of Christmas where you start with 1, add 2, etc.\n\nThe output should look like:\n```\n1\n1 2 \n1 2 3 \n1 2 3 4 \n....\n1 2 3 4 5 6 7 8 9 10 11 12 \n```\n",
+   "initial": "for(int line = 1; line <= 12; line++) {\nfor(int num = 1; num <= line; num++) {\nSystem.out.print(num + \" \");\n}\nSystem.out.println(\"\");\n}",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "The solution looks like:\n```\nfor(int line = 1; line <= 12; line++) {\n    for(int num = 1; num <= line; num++) {\n        System.out.print(num + \" \");\n    }\n    System.out.println(\"\");\n}\n```\nNotice that you have the loops starting at 1 (you could also simply add 1 when printing). Also notice that due to this shift, we are using `<=` instead of `<`.\n\nIn the inner loop, you see that the boolean expression uses the outer loop counter `num <= line` - this is common when the amount of times the inner loop is executed changes in a way that relates to the outer loop.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/loops/NestedLoops.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/NestedLoops.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-700172618",
+  "source": {
+   "name": "Identifying Patterns with Nested Loops",
+   "showName": true,
+   "instructions": "Fill in the blanks such that the nested loop would print out:\n\n```\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n```",
+   "text": "```\nfor(int i = 0; i < <<<4>>>; i++) {\n    System.out.println(\"<<<&&>>>\");\n    for(int j = 0; j < <<<3>>>; j++) {\n        System.out.println(\"<<<*>>>\");\n    }\n}\n```",
+   "guidance": "The tricky part is to identify the pattern. The first pattern is that `&& * * *` is repeated 4 times. The pattern within that is that you have a `&&` followed by 3 `*`. Once you are able to break this up - it is clear that the outer loop should repeat 4 times and the inner loop should repeat 3.\n\nThe next part is where to place the print statements. In this case, since the one-off `&&` is printed *before* the repeating `*` - the print statement in the outer loop needs to be placed *before* the inner loop.\n\n```\nfor(int i = 0; i < 4; i++) {\n    System.out.println(\"&&\");\n    for(int j = 0; j < 3; j++) {\n        System.out.println(\"*\");\n    }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "4",
+     "&&",
+     "3",
+     "*"
+    ],
+    "text": [
+     "```\nfor(int i = 0; i < ",
+     0,
+     "; i++) {\n    System.out.println(\"",
+     0,
+     "\");\n    for(int j = 0; j < ",
+     0,
+     "; j++) {\n        System.out.println(\"",
+     0,
+     "\");\n    }\n}\n```"
+    ]
+   }
+  }
  }
 ]

@@ -1949,7 +1949,13 @@
   {
    "id": "e2750e66-fdab-e361-8c63-55564b93f260",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-e275.md",
@@ -1961,7 +1967,13 @@
   {
    "id": "9f01ff22-3134-5f3d-a6f5-27767440f174",
    "title": "Learning Objectives - Nested Loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives---Nested-Loops-9f01.md",
@@ -1973,7 +1985,18 @@
   {
    "id": "9dfeb150-3c55-2f07-b381-837a8676e57b",
    "title": "Nested Loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/NestedLoops.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Nested-Loops-9dfe.md",
@@ -1985,7 +2008,13 @@
   {
    "id": "0493de91-11bf-60dd-2bd7-86fc1968bc51",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-0493.md",
