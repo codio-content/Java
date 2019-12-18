@@ -4270,5 +4270,95 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3742835214",
+  "source": {
+   "name": "For Loop - Summing",
+   "showName": true,
+   "instructions": "Rearrange the commands below to make a for loop that find the sum of the numbers between 0 and 100, and then prints the sum.\n\nHint: You will not need all the blocks.",
+   "initial": "int sum = 0;\nfor(int i = 1; i <= 100; i++)\n{\nsum += i;\n}\nSystem.out.println(sum);\nfor(int i = 0; i < 100; i++) #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}\n",
+   "grader": "1",
+   "guidance": "The correct answer requires you to both create a variable and print that variable **outside** of the loop.\n```java\nint sum = 0;\nfor(int i = 1; i <= 100; i++)\n{\n    sum += i;\n}\nSystem.out.println(sum);\n```\nAdditionally, since we are adding `i` to `sum`, `i` needs to start at 1 and actually reach 100. This means our loop header should be `for(int i = 1; i <= 100; i++)`",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/loops/TurtleLoopImages.java"
+    ],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://{{domain3000}}/"
+     },
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/TurtleLoopImages.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3472530842",
+  "source": {
+   "name": "For Loop Headers",
+   "showName": true,
+   "instructions": "Which of the following for loop headers will loop exactly 100 times? \nIgnore the value of the iterating variable - focus on number of times the loop body will be executed.\n\nNote: There could be more than one correct answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "ede0aacf-cc9d-ccba-e514-27acf5cf621c",
+     "correct": true,
+     "answer": "for(int i = 0 ; i < 100; i++)"
+    },
+    {
+     "_id": "a28b5a3e-79e4-83d6-fb27-c471fe30edb2",
+     "correct": false,
+     "answer": "for(int i = 0 ; i <= 100; i++)"
+    },
+    {
+     "_id": "fcb9631f-067b-dbc0-e6ef-5b5fe8709297",
+     "correct": true,
+     "answer": "for(int i = 1 ; i <= 100; i++)"
+    },
+    {
+     "_id": "d87cfb2e-2de6-089d-3968-6157f10045cd",
+     "correct": false,
+     "answer": "for(int i = 1 ; i < 100; i++)"
+    }
+   ],
+   "guidance": "There are two correct answers. One goes from 1 to 100:\n`for(int i = 1 ; i <= 100; i++)`\nwhile the other goes from 0 to 99:\n`for(int i = 0 ; i < 100; i++)`\n\nBut both will loop exactly 100 times.\n\n`for(int i = 0 ; i <= 100; i++)` loops from 0 to 100 which is 101 times.\n\n`for(int i = 1 ; i < 100; i++)` loops from 1 to 99 which is only 99 times.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
