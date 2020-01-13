@@ -6,7 +6,7 @@
 2) Enter the code below.
 
 ```java
-String my_variable = "I am learning" //step 1
+String my_variable = "I am learning"; //step 1
 System.out.print(my_variable); //step 2
 my_variable = " to program"; //step 3
 System.out.print(my_variable); //step 4

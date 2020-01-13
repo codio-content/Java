@@ -848,12 +848,12 @@
    "name": "Variables - Strings",
    "showName": true,
    "instructions": "Complete the line of code below so that variable declaration and assignment is correct.",
-   "text": "`<<<String>>> var = \"words and num63rs<<<\">>>;`",
-   "guidance": "Unlike the previous data types, `String` is capitalized and the value of a String is surrounded by double quotation marks.\n\n`String var = \"words and num63rs\";`",
+   "text": "`<<<String>>> var;`\n`var = \"a <<<string>>> is made up of words and num63rs<<<\">>>;`",
+   "guidance": "Unlike the previous data types, `String` is capitalized and the value of a String is surrounded by double quotation marks.\n\n```\nString var;\nvar = \"a string is made up of words and num63rs\";\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
+   "showValues": true,
    "metadata": {
     "tags": [
      {
@@ -877,12 +877,15 @@
    "tokens": {
     "blank": [
      "String",
+     "string",
      "\""
     ],
     "text": [
      "`",
      0,
-     " var = \"words and num63rs",
+     " var;`\n`var = \"a ",
+     0,
+     " is made up of words and num63rs",
      0,
      ";`"
     ]
@@ -4515,6 +4518,78 @@
      "\");\n    }\n}\n```"
     ]
    }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-673183289",
+  "source": {
+   "name": "Variables - Strings",
+   "showName": true,
+   "instructions": "Select the correct line of code to declare and assign the `var` variable.",
+   "initial": "String var = \"this is a string\";\nString var = 'this is a string'; #distractor\nstring var = \"this is a string\"; #distractor\n",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "`String var = \"this is a string\";`\nUnlike the other data types so far, `String` is uppercase. The string must be surrounded by double quotation marks `\"`.\n",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundVariables5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundVariables5.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-13854979",
+  "source": {
+   "name": "Exercise 5",
+   "showName": true,
+   "instructions": "Use **two** print statements to write the following String:\n`Okay, it is time to learn about operators.`",
+   "command": "bash .guides/secure/fundamentals/exercise5.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "It does not matter where you split up the string...but the first line needs to use `print` instead of `println`. You can also use `print` for both.\n\n```\nSystem.out.print(\"Okay, it is time to \");\nSystem.out.print(\"learn about operators.\");\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/Exercise5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/Exercise5.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]

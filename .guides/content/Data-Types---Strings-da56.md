@@ -22,5 +22,4 @@ System.out.print(words);
 
 Notice that when you print a string, the quotation marks are not printed.
 
-{Check It!|assessment}(fill-in-the-blanks-78767737)
-
+{Check It!|assessment}(parsons-puzzle-673183289)
