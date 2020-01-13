@@ -20,7 +20,7 @@ System.out.println(a / b);
 ```java
 double a = 25;
 double b = 4;
-double a /= b;
+a /= b;
 System.out.println(a);
 ```
 

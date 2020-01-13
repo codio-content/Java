@@ -20,7 +20,7 @@ elif [ "$OUTPUT1" != "false" ]; then
   exit 1
 fi
 
-python3 .guides/secure/operators/labchallenge.py
+python3 .guides/secure/operators/labChallenge.py
 if [ $? -ne 0 ]; then 
   echo "</br><hr/><h3>Something is not quite right...</h3>"
   echo "Your output is correct but see the comments above to ensure you are following the assignment"

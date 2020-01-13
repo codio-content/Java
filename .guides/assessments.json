@@ -1564,7 +1564,7 @@
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
+   "showValues": true,
    "metadata": {
     "tags": [
      {
@@ -1573,13 +1573,14 @@
      }
     ],
     "files": [
+     "code/operators/PlaygroundIncrement.java",
      "code/operators/PlaygroundAddition.java"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/operators/PlaygroundAddition.java"
+      "content": "code/operators/PlaygroundIncrement.java"
      }
     ]
    },
@@ -1607,10 +1608,10 @@
    "name": "Concatenation",
    "showName": true,
    "instructions": "Construct a program that will print:\n`I understand String concatenation!`\n",
-   "initial": "String a = \"I understand\";\nString b = a + \" String concatenation\";\nSystem.out.println(b);\nString b = a + \"String concatenation\"; #distractor\nString a = 'I understand '; #distractor\nSystem.out.println(a+b); #distractor",
+   "initial": "String a = \"I understand\";\nString b = a + \" String concatenation!\";\nSystem.out.println(b);\nString b = a + \"String concatenation!\"; #distractor\nString a = 'I understand '; #distractor\nSystem.out.println(a+b); #distractor",
    "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\":\"sortableTrash\"\n}",
    "grader": "1",
-   "guidance": "```\nString a = \"I understand\";\nString b = a + \" String concatenation\";\nSystem.out.println(b);\n```\nIn Java, Strings must use double quotes (\") - not single quotes ('). \n\nAdditionally, you need to either end or start with a space when concatenating two Strings to get normal spacing in your resulting String. \n\nString a needs to be declared and instantiated *before* you use it in the instantiation of String b.\n\nSince you are concatenating String a in the initialization of String b, you do not need to concatenate it *again* in the print statement.",
+   "guidance": "```\nString a = \"I understand\";\nString b = a + \" String concatenation!\";\nSystem.out.println(b);\n```\nIn Java, Strings must use double quotes (\") - not single quotes ('). \n\nAdditionally, you need to either end or start with a space when concatenating two Strings to get normal spacing in your resulting String. \n\nString a needs to be declared and instantiated *before* you use it in the instantiation of String b.\n\nSince you are concatenating String a in the initialization of String b, you do not need to concatenate it *again* in the print statement.",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -1622,13 +1623,14 @@
      }
     ],
     "files": [
+     "code/operators/PlaygroundConcatenation.java",
      "code/operators/PlaygroundIncrement.java"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/operators/PlaygroundIncrement.java"
+      "content": "code/operators/PlaygroundConcatenation.java"
      }
     ]
    },
@@ -1648,7 +1650,7 @@
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
+   "showValues": true,
    "metadata": {
     "tags": [
      {
@@ -1804,8 +1806,8 @@
   "source": {
    "name": "Multiplication",
    "showName": true,
-   "instructions": "Complete the code below with as few characters as possible so that the program prints the product of `a` and `b`.",
-   "text": "```\nint a = 5;\nint b = 9;\nSystem.out.println( a <<<*b>>>);\n```",
+   "instructions": "Complete the code below so that the program prints the product of `a` and `b`.",
+   "text": "```\nint a = 5;\nint b = 9;\nSystem.out.println( a <<<*>>> b);\n```",
    "guidance": "Use `*` for multiplication. You also need to add the variable b, multiplication requires two numbers.\n\n`System.out.println(a * b);`",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -1833,12 +1835,12 @@
    "learningObjectives": "",
    "tokens": {
     "blank": [
-     "*b"
+     "*"
     ],
     "text": [
      "```\nint a = 5;\nint b = 9;\nSystem.out.println( a ",
      0,
-     ");\n```"
+     " b);\n```"
     ]
    }
   }
@@ -2307,7 +2309,7 @@
    "name": "Short Circuiting",
    "showName": true,
    "instructions": "Use the dropdown menus to complete the text below.",
-   "text": "## Or Operator\nWhen using the `||` operator, Python checks to see if the first boolean expression is <<<true>>>. If it is <<<true>>>, Python returns <<<true>>> and ignores the second boolean expression.\n\n## And Operator\nWhen using the `&&` operator, Python checks to see if the first boolean expression is <<<false>>>. If it is <<<false>>>, Python returns <<<false>>> and ignores the second boolean expression.",
+   "text": "## Or Operator\nWhen using the `||` operator, Java checks to see if the first boolean expression is <<<true>>>. If it is <<<true>>>, Java returns <<<true>>> and ignores the second boolean expression.\n\n## And Operator\nWhen using the `&&` operator, Java checks to see if the first boolean expression is <<<false>>>. If it is <<<false>>>, Java returns <<<false>>> and ignores the second boolean expression.",
    "guidance": "If the first boolean expression for the `||` operator is true, then the entire thing is true. The second boolean expression is ignored.\n\nIf the first boolean expression for the `&&` operator is false, then the entire thing is false. The second boolean expression is ignored.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -2321,13 +2323,14 @@
      }
     ],
     "files": [
+     "code/operators/PlaygroundShortCircuiting.java",
      "code/operators/PlaygroundNot.java"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/operators/PlaygroundNot.java"
+      "content": "code/operators/PlaygroundShortCircuiting.java"
      }
     ]
    },
@@ -2343,17 +2346,17 @@
      "false"
     ],
     "text": [
-     "## Or Operator\nWhen using the `||` operator, Python checks to see if the first boolean expression is ",
+     "## Or Operator\nWhen using the `||` operator, Java checks to see if the first boolean expression is ",
      0,
      ". If it is ",
      0,
-     ", Python returns ",
+     ", Java returns ",
      0,
-     " and ignores the second boolean expression.\n\n## And Operator\nWhen using the `&&` operator, Python checks to see if the first boolean expression is ",
+     " and ignores the second boolean expression.\n\n## And Operator\nWhen using the `&&` operator, Java checks to see if the first boolean expression is ",
      0,
      ". If it is ",
      0,
-     ", Python returns ",
+     ", Java returns ",
      0,
      " and ignores the second boolean expression."
     ]
@@ -2467,7 +2470,7 @@
    "showName": true,
    "instructions": "",
    "text": "<<<*>>> is the operator for multiplication\n<<<%>>> is the operator for modulo\n<<</>>> is the operator for division\nThe <<</>>> operator might return a result different from a calculator if both numbers are `int`s",
-   "guidance": "* is the operator for multiplication\n% is the operator for modulo\n/ is the operator for division\nThe / operator might return a result different from a calculator if both numbers are `int`s",
+   "guidance": "\\* is the operator for multiplication\n% is the operator for modulo\n/ is the operator for division\nThe / operator might return a result different from a calculator if both numbers are `int`s",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -2480,13 +2483,14 @@
      }
     ],
     "files": [
+     "code/operators/LabArithmetic.java",
      "code/operators/PlaygroundNot.java"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/operators/PlaygroundNot.java"
+      "content": "code/operators/LabArithmetic.java"
      }
     ]
    },
@@ -2854,21 +2858,21 @@
     },
     {
      "_id": "f105b229-9ea1-8aca-d6f0-94c2750fb7e1",
-     "correct": false,
-     "answer": "```java\nwords = 3;\nSystem.out.println(Integer.parseInt(words) + number);\n```"
+     "correct": true,
+     "answer": "```java\nwords = \"3.7\";\nSystem.out.println(Integer.parseInt(words) + number);\n```"
     },
     {
      "_id": "670739aa-775e-2d81-c9bb-8b7e1044d967",
      "correct": false,
-     "answer": "```java\nwords = 3;\nSystem.out.println(Double.parseDouble(words) + decimal);\n```"
+     "answer": "```java\nwords = \"3.7\";\nSystem.out.println(Double.parseDouble(words) + decimal);\n```"
     },
     {
      "_id": "bf8b9c32-b228-62a3-bcca-7af5f8f255c0",
-     "correct": true,
+     "correct": false,
      "answer": "```java\nSystem.out.println(Boolean.parseBoolean(words));\n```"
     }
    ],
-   "guidance": "`System.out.println(Boolean.parseBoolean(words));` is invalid because `text` cannot be parsed into a boolean. The string must have a value of `true` or `false`. You can see in the other parse examples (`parseInt` and `parseDouble`) that words has to be re-assigned to a compatible String.",
+   "guidance": "```java\nwords = \"3.7\";\nSystem.out.println(Integer.parseInt(words) + number);\n```\nis invalid because `3.7` cannot be parsed into an int. The string must have an integer value. You can see in the other parse examples (`parseBoolean` and `parseDouble`) that words has to be re-assigned to a compatible String.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -2938,8 +2942,8 @@
    "name": "Concatenating Calculations",
    "showName": true,
    "instructions": "Once you have fixed the code, submit by pressing the button below.",
-   "command": "java -cp code/operators/ Exercise1",
-   "preExecuteCommand": "javac code/operators/Exercise1.java",
+   "command": "java -cp code/operators/ Exercise5",
+   "preExecuteCommand": "javac code/operators/Exercise5.java",
    "guidance": "Your friend is attempting to add Strings - but the `+` operate concatenates them! To solve this, you need to use `Integer.parseInt()` to transform the user input to `int`s. One example of a solution is:\n```\nint sum = Integer.parseInt(firstNum) + Integer.parseInt(secondNum);\nSystem.out.println(firstNum + \" + \" + secondNum + \" = \" + String.valueOf(sum));\n```\nYou might have noticed you do not need the `String.valueOf` since Java auto-converts some types - but being explicit is helpful to the readers of your code!",
    "showGuidanceAfterResponse": true,
    "points": 1,

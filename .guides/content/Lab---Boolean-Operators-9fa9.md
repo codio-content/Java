@@ -17,7 +17,7 @@ Boolean operators are those operators which will return either true or false.
 Use the text editor open in the left pane, and enter the following code:
 
 ```java
-System.out.println((5 > 7) && (false || 1 < 9) || 4 != 5 && ! 2 >= 3)
+System.out.println((5 > 7) && (false || 1 < 9) || 4 != 5 && ! (2 >= 3));
 ```
 
 {Try it}(sh .guides/bg.sh javac code/operators/LabBoolean.java java -cp code/operators/ LabBoolean )
@@ -25,10 +25,10 @@ System.out.println((5 > 7) && (false || 1 < 9) || 4 != 5 && ! 2 >= 3)
 Below are the steps that Java talks when evaluating the code above.
 
 ### Evaluate all arithmetic operators according to PEMDAS
-1) `(5 > 7) && (false || 1 < 9) || 4 != 5 && ! 2 >= 3`
-1) <code><b>false</b> && (false || 1 < 9) || 4 != 5 && ! 2 >= 3 </code>
-1) <code>false && (false || <b>true</b>) || 4 != 5 && ! 2 >= 3 </code>
-1) <code>false && (false || true) || <b>true</b> && ! 2 >= 3 </code>
+1) `(5 > 7) && (false || 1 < 9) || 4 != 5 && ! (2 >= 3)`
+1) <code><b>false</b> && (false || 1 < 9) || 4 != 5 && ! (2 >= 3) </code>
+1) <code>false && (false || <b>true</b>) || 4 != 5 && ! (2 >= 3) </code>
+1) <code>false && (false || true) || <b>true</b> && ! (2 >= 3) </code>
 5) <code>false && (false || true) || true && ! <b>false</b> </code>
   
 ### Evaluate all boolean operators (order: parenthesis, not, and, or)

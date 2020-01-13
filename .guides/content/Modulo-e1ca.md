@@ -8,7 +8,7 @@ Modulo is the mathematical operation that performs division but returns the rema
 
 ```java
 int modulo = 5 % 2;
-Sytem.out.println(modulo);
+System.out.println(modulo);
 ```
 
 {Try it}(sh .guides/bg.sh javac code/operators/PlaygroundModulo.java java -cp code/operators/ PlaygroundModulo 1 )

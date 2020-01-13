@@ -4,7 +4,7 @@ Boolean operators are operators that return a boolean value (true or false).
 
 ## Equal To
 
-Python uses the `==` operator to determine equality. Beginners often confuse the `=` and the `==` operators. Remember, `=` is the assignment operator.
+Java uses the `==` operator to determine equality. Beginners often confuse the `=` and the `==` operators. Remember, `=` is the assignment operator.
 
 ```java
 int a = 5;
@@ -17,8 +17,7 @@ System.out.println(a == b);
 |||challenge
 ## What happens if you:
 * Change `b` to `1`?
-* Change `a` to `boolean a = true;` and `b` to `1`?
-* Change `b` to `boolean b = false;`?
+* Change `a` to `boolean a = true;` and `b` to `boolean b = false;`?
 
 |||
 

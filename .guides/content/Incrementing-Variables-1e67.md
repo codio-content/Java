@@ -17,7 +17,7 @@ The variable `a` appears twice on the same line of code. But each instance of `a
 ![How to Read a = a + 1](.guides/img/increment.png)
 
 ## The `++` and `+=` Operators
-Incrementing is a common task for programmers. Many programming languages have developed a shorthand for `a = a + 1` because of this. `a ++` does the same thing as `a = a + 1`.
+Incrementing is a common task for programmers. Many programming languages have developed a shorthand for `a = a + 1` because of this, `a++` does the same thing as `a = a + 1`.
 
 ```java
 int a = 0;
@@ -34,22 +34,11 @@ In the cases you need to increment by a different number, you can specify it usi
 
 |||challenge
 ## What happens if you:
-* Change `b` such that `b += 2`?
-* Change `b` such that `b += -1`?
-* Change `b` such that `b -= 1`?
+* Change `b` such that `b+=2`?
+* Change `b` such that `b+=-1`?
+* Change `b` such that `b-=1`?
 
 |||
-
-Incrementing is a common task for programmers. Many programming languages have developed a shorthand for `a = a + 1` because of this. `a ++` does the same thing as `a = a + 1`.
-
-```java
-int a = 0;
-int b = 0;
-a = a + 1;
-b++;
-System.out.println(a);
-System.out.println(b);
-```
 
 {Try it}(sh .guides/bg.sh javac code/operators/PlaygroundIncrement.java java -cp code/operators/ PlaygroundIncrement 3 )
 

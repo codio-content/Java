@@ -5,7 +5,7 @@ Write a boolean expression that incorporates one of the equality operators, one 
 |Equality|Less Than|Greater Than|Logical|
 |:------:|:-------:|:----------:|:-----:|
 |`==`    |`<`      |`>`         |`&&`  |
-|`!=`    |`<=`     |`>=`        |`||`   |
+|`!=`    |`<=`     |`>=`        |<code> &#124;&#124;</code>   |
 |        |         |            |`!`  |
 
 {Try it}(sh .guides/bg.sh javac code/operators/LabChallenge.java java -cp code/operators/ LabChallenge )
