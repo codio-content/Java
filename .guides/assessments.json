@@ -5,7 +5,7 @@
   "source": {
    "name": "If Else",
    "showName": true,
-   "instructions": "Drag the appropriate code blocks into the box below. Your program should check to see if a number is even and print \"Even\". If the number is odd, then print \"Odd\". Assume the variable `x` represents the number to be tested.",
+   "instructions": "Drag the appropriate code blocks into the box below. Your program should check to see if a number is even and print \"Even\". If the number is odd, then print \"Odd\". Assume the variable `x` represents the number to be tested.\n\nRemember to indent your code!",
    "initial": "if(x % 2 == 0)\n    {System.out.print(\"Even\");}\nelse\n    {System.out.print(\"Odd\");}\nif(x % 2 = 0) #distractor\nif(x / 2 == 0) #distractor\nSystem.out.print(Even); #distractor\nSystem.out.print(Odd); #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "1",
@@ -3012,7 +3012,7 @@
   "source": {
    "name": "If Statement Syntax",
    "showName": true,
-   "instructions": "Rearrange the code blocks below to create an if statement. Not all of the code blocks will be used. Hint: do not forget about indenting.",
+   "instructions": "Rearrange the code blocks below to create an if statement. The resulting code should *always* print something. \n\nNot all of the code blocks will be used. Hint: do not forget about indenting.",
    "initial": "if( 7 != 4 ) {\n    System.out.println(\"Only print this if true\");\n}\nSystem.out.println(\"Always print me!\");\nif 7 != 4 { #distractor\nif( 7 != 4 ) #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "1",
@@ -3027,8 +3027,16 @@
       "value": "Parsons Puzzle"
      }
     ],
-    "files": [],
-    "opened": []
+    "files": [
+     "code/conditionals/PlaygroundIfSyntax.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/PlaygroundIfSyntax.java"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
@@ -3210,7 +3218,7 @@
     {
      "_id": "973c96f5-bcd6-cb79-fe3b-bd84b945b50d",
      "correct": true,
-     "answer": "You use curly braces `{}` after both the `if` condition and the `else` keyword"
+     "answer": "You should use curly braces `{}` after both the `if` condition and the `else` keyword to group code that is conditionally executed"
     },
     {
      "_id": "dac65968-086b-e561-367d-a13da0472f27",
@@ -3402,8 +3410,8 @@
    "initial": "if( rainy ) {\n    if( windy ) {\n        System.out.print(\"Wear a rain jacket.\"); }\n    else {\n        System.out.print(\"Bring an umbrella!\"); }\n} else {\n    if( cold ) {\n        System.out.print(\"You might need a coat.\"); }\n    else {\n        System.out.print(\"Enjoy your day!\"); }\n}\n    ",
    "options": "{\n  \"sortableId\": \"sortable\"\n}",
    "grader": "1",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "```\nif( rainy ) {\n    if( windy ) {\n        System.out.print(\"Wear a rain jacket.\"); }\n    else {\n        System.out.print(\"Bring an umbrella!\"); }\n} else {\n    if( cold ) {\n        System.out.print(\"You might need a coat.\"); }\n    else {\n        System.out.print(\"Enjoy your day!\"); }\n}\n```\n\nBy nesting if-else statements, you can create 4 unique cases: rainy and windy, rainy but not windy, not rainy and cold, and not rainy or cold.",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
    "metadata": {
@@ -3585,7 +3593,7 @@
    "name": "Switch key words",
    "showName": true,
    "instructions": "Select the correct key word to make the code below a valid switch statement.",
-   "text": "```\n<<<switch>>> (years) {\n    <<<case>>> 5: System.out.println(\"5 years of employment award\"); break;\n    <<<case>>> 10: System.out.println(\"10 years of employment award\"); break;\n    <<<case>>> 20: System.out.println(\"20 years of employment award\"); break;\n    <<<case>>> 30: System.out.println(\"30 years of employment award\"); break;\n    <<<default>>>: System.out.println(\"You are not eligible for a longevity award this year\");\n}\n```",
+   "text": "```\n<<<switch>>> (years) {\n    <<<case>>> 5: System.out.println(\"5 year award\"); <<<break>>>;\n    <<<case>>> 10: System.out.println(\"10 year award\"); <<<break>>>;\n    <<<case>>> 20: System.out.println(\"20 year award\"); <<<break>>>;\n    <<<case>>> 30: System.out.println(\"30 year award\"); <<<break>>>;\n    default: System.out.println(\"You are not eligible for a longevity award this year\");\n}\n```",
    "guidance": "```\nswitch (years) {\n    case 5: System.out.println(\"5 years of employment award\"); break;\n    case 10: System.out.println(\"10 years of employment award\"); break;\n    case 20: System.out.println(\"20 years of employment award\"); break;\n    case 30: System.out.println(\"30 years of employment award\"); break;\n    default: System.out.println(\"You are not eligible for a longevity award this year\");\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -3607,25 +3615,34 @@
     "blank": [
      "switch",
      "case",
+     "break",
      "case",
+     "break",
      "case",
+     "break",
      "case",
-     "default"
+     "break"
     ],
     "text": [
      "```\n",
      0,
      " (years) {\n    ",
      0,
-     " 5: System.out.println(\"5 years of employment award\"); break;\n    ",
+     " 5: System.out.println(\"5 year award\"); ",
      0,
-     " 10: System.out.println(\"10 years of employment award\"); break;\n    ",
+     ";\n    ",
      0,
-     " 20: System.out.println(\"20 years of employment award\"); break;\n    ",
+     " 10: System.out.println(\"10 year award\"); ",
      0,
-     " 30: System.out.println(\"30 years of employment award\"); break;\n    ",
+     ";\n    ",
      0,
-     ": System.out.println(\"You are not eligible for a longevity award this year\");\n}\n```"
+     " 20: System.out.println(\"20 year award\"); ",
+     0,
+     ";\n    ",
+     0,
+     " 30: System.out.println(\"30 year award\"); ",
+     0,
+     ";\n    default: System.out.println(\"You are not eligible for a longevity award this year\");\n}\n```"
     ]
    }
   }
@@ -3638,7 +3655,7 @@
    "showName": true,
    "instructions": "Complete the paragraph below using the drop downs.",
    "text": "A switch statement uses a variable to make decisions. It checks if the variable is <<<equal>>> to the value listed after the key word <<<case>>>. After the `:` is code that runs if that case is true. The code ends with a <<<break>>> statement. The default case should be <<<last>>>.",
-   "guidance": "A switch statement uses a variable to make decisions. It checks if the variable is equal to the value listed after the key word case. After the `:` is code that runs if that case is true. The code ends with a break statement. The default case should be last.\n\nIn code, this looks like:\n```\nint dayOfWeek = 3;\nswitch(dayOfWeek) {\n\n    case 1: System.out.print(\"Sunday\"); \n                 break;\n    case 2: System.out.print(\"Monday\"); \n                 break;\n    case 3: System.out.print(\"Tuesday\"); \n                 break;\n    case 4: System.out.print(\"Wednesday\"); \n                 break;\n    case 5: System.out.print(\"Thursday\"); \n                 break;\n    case 6: System.out.print(\"Friday\"); \n                 break;\n    case 7: System.out.print(\"Saturday\"); \n                 break;\n    default : System.out.print(\"Invalid\");\n}\n```",
+   "guidance": "A switch statement uses a variable to make decisions. It checks if the variable is equal to the value listed after the key word case. After the `:` is code that runs if that case is true. The code ends with a break statement. The default case should be last.\n\nIn code, this looks like:\n```\nint dayOfWeek = 3;\nswitch(dayOfWeek) {\n\n    case 1: System.out.print(\"Sunday\"); break;\n    case 2: System.out.print(\"Monday\"); break;\n    case 3: System.out.print(\"Tuesday\"); break;\n    case 4: System.out.print(\"Wednesday\"); break;\n    case 5: System.out.print(\"Thursday\"); break;\n    case 6: System.out.print(\"Friday\"); break;\n    case 7: System.out.print(\"Saturday\"); break;\n    default : System.out.print(\"Invalid\");\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -3651,13 +3668,14 @@
      }
     ],
     "files": [
+     "code/conditionals/Lab_Switch.java",
      "code/conditionals/Lab_IfElse.java"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/conditionals/Lab_IfElse.java"
+      "content": "code/conditionals/Lab_Switch.java"
      }
     ]
    },
@@ -3693,7 +3711,7 @@
    "instructions": "Once your code works, submit it using the button below.",
    "command": "java -cp code/conditionals/ Lab_Challenge",
    "preExecuteCommand": "javac code/conditionals/Lab_Challenge.java",
-   "guidance": "One way to complete this challenge is a switch statement:\n```\nString monthString;\n        switch (month) {\n            case 1:  monthString = \"January\";\n                     break;\n            case 2:  monthString = \"February\";\n                     break;\n            case 3:  monthString = \"March\";\n                     break;\n            case 4:  monthString = \"April\";\n                     break;\n            case 5:  monthString = \"May\";\n                     break;\n            case 6:  monthString = \"June\";\n                     break;\n            case 7:  monthString = \"July\";\n                     break;\n            case 8:  monthString = \"August\";\n                     break;\n            case 9:  monthString = \"September\";\n                     break;\n            case 10: monthString = \"October\";\n                     break;\n            case 11: monthString = \"November\";\n                     break;\n            case 12: monthString = \"December\";\n                     break;\n            default: monthString = \"Invalid month\";\n                     break;\n        }\n        System.out.println(monthString);\n```\n\nYou could have also used either if or if-else statements too!",
+   "guidance": "One way to complete this challenge is a switch statement:\n```\nString monthString;\n        switch (month) {\n            case 1:  monthString = \"January\"; break;\n            case 2:  monthString = \"February\"; break;\n            case 3:  monthString = \"March\"; break;\n            case 4:  monthString = \"April\"; break;\n            case 5:  monthString = \"May\"; break;\n            case 6:  monthString = \"June\"; break;\n            case 7:  monthString = \"July\"; break;\n            case 8:  monthString = \"August\"; break;\n            case 9:  monthString = \"September\"; break;\n            case 10: monthString = \"October\"; break;\n            case 11: monthString = \"November\"; break;\n            case 12: monthString = \"December\"; break;\n            default: monthString = \"Invalid month\"; break;\n        }\n        System.out.println(monthString);\n```\n\nYou could have also used either if or if-else statements too!",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -3822,7 +3840,7 @@
    "instructions": "Once your code works, submit it using the button below.",
    "command": "java -cp code/conditionals/ Exercise1",
    "preExecuteCommand": "javac code/conditionals/Exercise1.java",
-   "guidance": "You can do this with a single if statement using a compound conditional.\n```\nif( (x >= 0 && x <=25) || (x >= 75 && x <=100) )\n{ System.out.println(String.valueOf(x) + \" is between 0 and 25 or 75 and 100\"); }\n```\nAlternatively, you could use other combinations such as two separate if statements.",
+   "guidance": "You can do this with a single if statement using a compound conditional.\n```\nif( (x >= 0 && x <=25) || (x >= 75 && x <=100) )\n    { System.out.println(String.valueOf(x) + \" is between 0 and 25 or 75 and 100\"); }\n```\nAlternatively, you could use other combinations such as two separate if statements.",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -3916,7 +3934,7 @@
    "instructions": "Once your code works, submit it using the button below.",
    "command": "java -cp code/conditionals/ Exercise2",
    "preExecuteCommand": "javac code/conditionals/Exercise2.java",
-   "guidance": "A single if else can be used to solve this exercise. The real trick is remembering that modulo `%` is the correct operator to check for \"is divisible by\".\n\n```\nif ( x % 5 == 0 )\n{ System.out.println(String.valueOf(x) + \" is divisible by 5\"); }\nelse\n{ System.out.println(String.valueOf(x) + \" is not divisible by 5\"); }\n```",
+   "guidance": "A single if else can be used to solve this exercise. The real trick is remembering that modulo `%` is the correct operator to check for \"is divisible by\".\n\n```\nif ( x % 5 == 0 )\n    { System.out.println(String.valueOf(x) + \" is divisible by 5\"); }\nelse\n    { System.out.println(String.valueOf(x) + \" is not divisible by 5\"); }\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -4004,7 +4022,7 @@
    "instructions": "Once your code works, submit it using the button below.\n\n",
    "command": "java -cp code/conditionals/ Exercise3",
    "preExecuteCommand": "javac code/conditionals/Exercise3.java",
-   "guidance": "You can use a single `if else` with compound conditionals to complete this challenge:\n```\nif ( x % 5 == 0 && x % 2 == 0)\n{ System.out.println(String.valueOf(x) + \" is divisible by 5 and even\"); }\nelse\n{ System.out.println(String.valueOf(x) + \" is not divisible by 5 or it is odd\"); }\n```",
+   "guidance": "You can use a single `if else` with compound conditionals to complete this challenge:\n```\nif ( x % 5 == 0 && x % 2 == 0)\n    { System.out.println(String.valueOf(x) + \" is divisible by 5 and even\"); }\nelse\n    { System.out.println(String.valueOf(x) + \" is not divisible by 5 or it is odd\"); }\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,

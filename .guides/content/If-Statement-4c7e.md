@@ -19,9 +19,9 @@ System.out.println("This is not related to the if statement");
 |||challenge
 ## What happens if you:
 * Change `!=` to `==`?
-* Change `7 == 10` to `True`?
-* Change `True` to `False`?
-* Remove the curly braces `{}` with the condition set to `False`?
+* Change `7 == 10` to `true`?
+* Change `true` to `false`?
+* Remove the curly braces `{}` with the condition set to `false`?
 
 |||
 

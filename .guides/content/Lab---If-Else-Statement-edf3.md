@@ -22,7 +22,7 @@ The if part of the if else statement is written as before. The `else` keyword is
 Be careful when expressing your boolean expression in terms of "less than or greater than". This does not take into account when the values being compared are equal. Consider the code from above, but with `x` having the value of `50`.
 
 ```java
-int x = 50
+int x = 50;
 
 if(x > 50) {
     System.out.println(String.valueOf(x) + " is greater than 50"); }

@@ -2,8 +2,6 @@
 
 Write a program that determines the month of the year based on the value of a variable called `month`. The variable will be a number from 1 to 12 (`1` is January, `2` is February, etc.). Use a `println` statement to write the month to the screen.
 
-[Code Visualizer](open_tutor code/conditionals/Lab_Challenge.java)
-
 ### Compile code after you make changes
 
 {Compile Code}(javac code/conditionals/Lab_Challenge.java)

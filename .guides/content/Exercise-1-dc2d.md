@@ -28,6 +28,4 @@ Note: These are *inclusive* ranges - 0, 25, 75 and 100 should print out the mess
 Note: This should output nothing. You should see Codio's default output of `Command was successfully executed`
 {Test with 50}(java -cp code/conditionals/ Exercise1 50)
 
-[Code Visualizer](open_tutor code/conditionals/Exercise1.java)
-
 {Check It!|assessment}(code-output-compare-80440528)

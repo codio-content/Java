@@ -21,5 +21,4 @@ Use the variable `x` as you write this program. `x` will represent a string. Wri
 
 {Test with "z"}(java -cp code/conditionals/ Exercise5 z)
 
-
 {Check It!|assessment}(code-output-compare-334334839)

@@ -29,9 +29,9 @@ switch(letterGrade) {
 }
 ```
 
-[Code Visualizer](open_tutor code/conditionals/PlaygroundSwitchSyntax.java)
+[Code Visualizer](open_tutor code/conditionals/PlaygroundSwitch.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundSwitchSyntax.java java -cp code/conditionals/ PlaygroundSwitchSyntax )
+{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundSwitch.java java -cp code/conditionals/ PlaygroundSwitch )
 
 
 ### #2: If Else is used for handling multiple variables
@@ -43,9 +43,9 @@ To check multiple conditions, an `if else` is needed.
 An example would be a multiple choice grader:
 ```
 int studentAnswer = 3;
-String feedback 1 = "This answer is wrong because....";
-String feedback 2 = "This answer is correct! You know this because...";
-String feedback 3 = "This answer is wrong. While the first part is correct...";
+String feedback1 = "This answer is wrong because....";
+String feedback2 = "This answer is correct! You know this because...";
+String feedback3 = "This answer is wrong. While the first part is correct...";
 String feedback;
 
 int correctAnswer = 2;
@@ -71,9 +71,9 @@ System.out.println(feedback);
 |||
 
 
-[Code Visualizer](open_tutor code/conditionals/PlaygroundSwitchSyntax.java)
+[Code Visualizer](open_tutor code/conditionals/PlaygroundSwitch.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundSwitchSyntax.java java -cp code/conditionals/ PlaygroundSwitchSyntax 2)
+{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundSwitch.java java -cp code/conditionals/ PlaygroundSwitch 2)
 
 {Check It!|assessment}(multiple-choice-2751211238)
 

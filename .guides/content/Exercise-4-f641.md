@@ -21,6 +21,4 @@ Use the variable `x` as you write this program. `x` will represent a string. Wri
 
 {Test with "teal"}(java -cp code/conditionals/ Exercise4 teal)
 
-[Code Visualizer](open_tutor code/conditionals/Exercise4.java)
-
 {Check It!|assessment}(code-output-compare-1582349154)

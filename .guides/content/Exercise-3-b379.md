@@ -23,6 +23,4 @@ Use the variable `x` as you write this program. `x` will represent a positive in
 
 {Test with 105}(java -cp code/conditionals/ Exercise3 105)
 
-[Code Visualizer](open_tutor code/conditionals/Exercise3.java)
-
 {Check It!|assessment}(code-output-compare-2452434922)

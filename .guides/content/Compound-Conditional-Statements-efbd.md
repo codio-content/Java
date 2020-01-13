@@ -7,7 +7,7 @@ Conditional statements (if statements) are used to match an action with a condit
 ```java
 int num = 16;
 
-if (num % 2 == 0 and num > 10) {
+if (num % 2 == 0 && num > 10) {
     System.out.println("Even and greater than 10");
 }
 ```
