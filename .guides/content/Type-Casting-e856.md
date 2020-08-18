@@ -17,7 +17,7 @@ System.out.println( (double) numerator / denominator);
 |||challenge
 ## What happens if you:
 * Cast only `denominator` to a double?
-* Cast both `numertor` and `denominator` to a double?
+* Cast both `numerator` and `denominator` to a double?
 * Cast the result to a double (i.e. `(double)(numerator / denominator)`)?
 
 |||
@@ -58,4 +58,3 @@ Data read from the keyboard or a file is always stored as a string. If you want 
 |||
 
 {Check It!|assessment}(multiple-choice-2976548927)
-

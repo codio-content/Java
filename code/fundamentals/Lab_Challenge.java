@@ -9,7 +9,8 @@ public class Lab_Challenge {
     
     //add code below this line
     
-
+    System.out.println(greeting + " Today is " + dayOfWeek + ", " + month + " " + day + ".");
+    System.out.println("The current wait time is " + currentWaitMinutes + " minutes.");
     
     //add code above this line
   }

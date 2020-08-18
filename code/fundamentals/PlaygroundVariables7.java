@@ -3,9 +3,9 @@ public class PlaygroundVariables7 {
     //add code below this line
     
     String my_variable = "Hello world";
-System.out.println(my_variable);
-my_variable = "Goodbye world";
-System.out.println(my_variable);
+    System.out.println(my_variable);
+    my_variable = "Goodbye world";
+    System.out.println(my_variable);
     
     //add code above this line
   }

@@ -1770,7 +1770,7 @@
     {
      "_id": "582039a5-37e3-9388-8c53-a0973032e295",
      "correct": true,
-     "answer": "Returns the remainder after division if performed"
+     "answer": "Returns the remainder after division is performed"
     }
    ],
    "guidance": "Modulo is the remainder after division is performed. So division is a part of modulo, but modulo is not division. Modulo can be used to determine if a number is even or odd, but modulo can do more than that. Finally, the `%` is used with modulo, but modulo does not deal with percentages.",
@@ -1857,7 +1857,7 @@
     {
      "_id": "bae16272-bd40-019b-1894-2535626dd0df",
      "correct": false,
-     "answer": "Parantheses"
+     "answer": "Parentheses"
     },
     {
      "_id": "6d3054a3-b8b7-0bfd-3598-4f5e8bbaa08b",
@@ -2075,7 +2075,7 @@
      "answer": "If `a` is greater than `b`"
     }
    ],
-   "guidance": "There are two conditions that would case `a <= b` to be true. One is if `a` is less than `b` and the other is `a` is equal to `b`. \n\nAs long as one of those conditions is true, then `a <= b` will be true.",
+   "guidance": "There are two conditions that would cause `a <= b` to be true. One is if `a` is less than `b` and the other is `a` is equal to `b`. \n\nAs long as one of those conditions is true, then `a <= b` will be true.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,

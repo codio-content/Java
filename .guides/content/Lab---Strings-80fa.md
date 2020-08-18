@@ -4,7 +4,7 @@ You can use the `+` and `*` operators with strings, even though the result is no
 
 Use the text editor open in the left pane, and enter the following code:
 
-```python
+```java
 String string_1 = "hip ";
 String string_2 = string_1 + string_1;
 String string_3 = "hoo";

@@ -1,7 +1,7 @@
 ----------
 
 * ### Recognize the symbols for arithmetic operators
-* ### Understand that strings can use the `+` and `*` operators even though math isn't involved
+* ### Understand that strings can be concatenated
 * ### Know how to increment or decrement a variable
 * ### Understand the order of operations
 

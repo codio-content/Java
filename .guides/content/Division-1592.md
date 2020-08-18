@@ -2,7 +2,7 @@
 
 ## Division
 
-Division in Python is done with the `/` operator
+Division in Java is done with the `/` operator
 
 ```java
 double a = 25;
@@ -45,4 +45,3 @@ System.out.println(a / b);
 {Try it}(sh .guides/bg.sh javac code/operators/PlaygroundDivision.java java -cp code/operators/ PlaygroundDivision 3 )
 
 {Check It!|assessment}(multiple-choice-3182685241)
-

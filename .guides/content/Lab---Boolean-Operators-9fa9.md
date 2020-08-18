@@ -22,7 +22,7 @@ System.out.println((5 > 7) && (false || 1 < 9) || 4 != 5 && ! (2 >= 3));
 
 {Try it}(sh .guides/bg.sh javac code/operators/LabBoolean.java java -cp code/operators/ LabBoolean )
 
-Below are the steps that Java talks when evaluating the code above.
+Below are the steps that Java takes when evaluating the code above.
 
 ### Evaluate all arithmetic operators according to PEMDAS
 1) `(5 > 7) && (false || 1 < 9) || 4 != 5 && ! (2 >= 3)`

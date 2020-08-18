@@ -3,7 +3,7 @@ public class PlaygroundPrinting1 {
     
     //add code below this line
     
-    
+    System.out.print("Hello world");
     
     //add code above this line
   }
