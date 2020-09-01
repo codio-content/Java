@@ -583,31 +583,42 @@
   "taskId": "fill-in-the-blanks-700172618",
   "points": 0,
   "state": {
-   "active": [
-    "3",
-    "&&",
-    "4",
-    "*"
-   ]
+   "active": []
   },
-  "results": [
-   {
-    "guidance": "The tricky part is to identify the pattern. The first pattern is that `&& * * *` is repeated 4 times. The pattern within that is that you have a `&&` followed by 3 `*`. Once you are able to break this up - it is clear that the outer loop should repeat 4 times and the inner loop should repeat 3.\n\nThe next part is where to place the print statements. In this case, since the one-off `&&` is printed *before* the repeating `*` - the print statement in the outer loop needs to be placed *before* the inner loop.\n\n```\nfor(int i = 0; i < 4; i++) {\n    System.out.println(\"&&\");\n    for(int j = 0; j < 3; j++) {\n        System.out.println(\"*\");\n    }\n}\n```",
-    "current": [
-     "3",
-     "&&",
-     "4",
-     "*"
-    ],
-    "right": [
-     "4",
-     "&&",
-     "3",
-     "*"
-    ],
-    "timestamp": 1597176661651,
-    "state": "fail"
-   }
-  ]
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-4115991507",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3084493133",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-554878332",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3684672137",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
  }
 ]

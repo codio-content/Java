@@ -4613,5 +4613,155 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3084493133",
+  "source": {
+   "name": "For Loop Syntax",
+   "showName": true,
+   "instructions": "Select **all** of code snippets below that will print `Loops are awesome!` exactly **10** times.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "6af1ba2f-46dc-c111-0d5c-31088beee339",
+     "correct": false,
+     "answer": "```java\nfor (int i = 0; i < 9; i++) {\n  System.out.println(\"Loops are awesome!\");\n}\n```"
+    },
+    {
+     "_id": "11e519c5-be7f-d9ca-38b7-856bae0189eb",
+     "correct": true,
+     "answer": "```java\nfor (int i = 0; i <= 9; i++) {\n  System.out.println(\"Loops are awesome!\");\n}\n```"
+    },
+    {
+     "_id": "2aa111ef-2a8b-1e91-3bde-b3a111f714f7",
+     "correct": true,
+     "answer": "```java\nfor (int i = 0; i < 10; i++) {\n  System.out.println(\"Loops are awesome!\");\n}\n```"
+    },
+    {
+     "_id": "797a7b0f-8222-52fc-1c0f-21ee21a84d67",
+     "correct": false,
+     "answer": "```java\nfor (int i = 0; i <= 10; i++) {\n  System.out.println(\"Loops are awesome!\");\n}\n```"
+    }
+   ],
+   "guidance": "Since all of the loop iterators start at 0, you have to count 0 as the first iteration. You want a total of 10 iterations which is why only choices #2 and #3 are correct. Remember that the operator `<` does not include the end value but the `<=` operator does.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/ForLoops.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/ForLoops.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-554878332",
+  "source": {
+   "name": "Conditional For Loop",
+   "showName": true,
+   "instructions": "Rearrange the code blocks below to create a program that outputs the following:\n```java\nEven Odd Even\nOdd Even Odd\nEven Odd Even\nOdd Even Odd\nEven Odd Even\n```\n**Remember to indent** where appropriate by dragging the code blocks slightly to the right! You will only have **ONE ATTEMPT** at this problem.",
+   "initial": "for (int x = 0; x < 5; x++) {\n  if (x % 2 == 0) {\n    System.out.println(\"Even Odd Even\");\n  }\n  else {\n    System.out.println(\"Odd Even Odd\");\n  }\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+   "grader": "1",
+   "guidance": "In order to produce the provided output, the code blocks **with indentations** should look like:\n```java\nfor (int x = 0; x < 5; x++) {\n  if (x % 2 == 0) {\n    System.out.println(\"Even Odd Even\");\n  }\n  else {\n    System.out.println(\"Odd Even Odd\");\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/loops/LabForLoop.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/LabForLoop.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3684672137",
+  "source": {
+   "name": "Infinite While Loop",
+   "showName": true,
+   "instructions": "Which of the following code snippets will result in an **infinite** `while` loop?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "adfe5db3-e185-a3b3-8028-fa1b8260d3b1",
+     "correct": false,
+     "answer": "```java\nint lives = 0;\nwhile (lives > 10) {\n  System.out.println(\"You are still in the game.\");\n}\nSystem.out.println(\"Game over.\");\n```"
+    },
+    {
+     "_id": "219e5ce5-e5d7-55f6-07ef-3899ded9b9b6",
+     "correct": false,
+     "answer": "```java\nint lives = 10;\nwhile (lives > 0) {\n  System.out.println(\"You are still in the game.\");\n  lives = lives - 1;\n}\nSystem.out.println(\"Game over.\");\n```"
+    },
+    {
+     "_id": "0887e2c7-461c-79b5-03db-bec2abe25aa2",
+     "correct": true,
+     "answer": "```java\nint lives = 10;\nwhile (lives > 0) {\n  System.out.println(\"You are still in the game.\");\n  lives = lives + 1;\n}\nSystem.out.println(\"Game over.\");\n```"
+    },
+    {
+     "_id": "a2e1d09e-ca46-a2f7-ce9b-2a0853430ca4",
+     "correct": false,
+     "answer": "```java\nint lives = 10;\nwhile (lives < 0) {\n  System.out.println(\"You are still in the game.\");\n  lives = lives + 1;\n}\nSystem.out.println(\"Game over.\");\n```"
+    }
+   ],
+   "guidance": "Only choice #3 will result in an infinite `while` loop because `lives` will never reach `0` or less to terminate the loop. \n\nThe `while` loops in choices #1 and #4 are not executed because the boolean expression in the loop header never evaluates to true. \n\nThe `while` loop in choice #2 executes but is ended once `lives` reaches `0` due to `lives` being decremented after each iteration.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/LabWhileLoop.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/LabWhileLoop.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

@@ -5,9 +5,6 @@ public class BreakStatement {
   static Random random = new Random();
   
   public static void main(String args[]){
-     
-    
-    
     
     while(true){
         System.out.println("This is an infinite loop");
@@ -20,9 +17,6 @@ public class BreakStatement {
 
      }//end while
 
-    
-    
-    
   }
-  
+
 }

@@ -1891,7 +1891,7 @@
      "action": "open"
     },
     {
-     "path": "code/loops/TurtleLoopImages.java",
+     "path": "code/loops/WhileLoopImages.java",
      "panel": 0,
      "action": "open"
     }
@@ -2038,7 +2038,18 @@
   {
    "id": "f112b13b-6b49-93e0-f7b1-88a35067de59",
    "title": "Lab - For Loop",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/LabForLoop.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab---For-Loop-f112.md",
@@ -2050,7 +2061,18 @@
   {
    "id": "bbbfcc7d-8698-5128-91ee-7eb4ab6397b8",
    "title": "Lab - While Loop",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/LabWhileLoop.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab---While-Loop-bbbf.md",
@@ -2062,7 +2084,18 @@
   {
    "id": "fe762180-9e09-9697-f91c-682f35b31f2d",
    "title": "Lab - Break Statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/LabBreak.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab---Break-Statement-fe76.md",
@@ -2074,7 +2107,18 @@
   {
    "id": "655b8a4d-0c0f-3629-98fb-4e7fce7f8772",
    "title": "Lab Challenge - Chessboard",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/LabChallenge.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-Challenge---Chessboard-655b.md",
@@ -2086,7 +2130,18 @@
   {
    "id": "58fe2816-5ee4-074e-1204-85063187c83b",
    "title": "Exercise 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/Exercise1.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-58fe.md",
@@ -2098,7 +2153,18 @@
   {
    "id": "c0e5d016-0015-5524-1ecb-b9a57c84eb58",
    "title": "Exercise 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/Exercise2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-c0e5.md",
@@ -2110,7 +2176,18 @@
   {
    "id": "9d56bc15-5118-7036-2f64-fddb794a8763",
    "title": "Exercise 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/Exercise3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-9d56.md",
@@ -2122,7 +2199,18 @@
   {
    "id": "de4805b4-7954-6127-7ec1-59790bd68853",
    "title": "Exercise 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/Exercise4.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-4-de48.md",
@@ -2134,7 +2222,18 @@
   {
    "id": "e93d808c-408c-c2f2-7f98-01a2cc429afd",
    "title": "Exercise 5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/Exercise5.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-e93d.md",

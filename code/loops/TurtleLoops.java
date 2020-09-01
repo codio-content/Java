@@ -1,13 +1,10 @@
-public class TurtleLoops
-{
-    public static void main(String[] args) 
-    {
+public class TurtleLoops {
+  public static void main(String args[]) {
+    
+    //add code below this line
+    
 
-Turtle tina = new Turtle();
-tina.speed(10);
-for (int i = 0; i < 360; i++) {
-  tina.forward(5);
-  tina.right(1);
-}
-    }
+    
+    //add code above this line
+  }
 }
