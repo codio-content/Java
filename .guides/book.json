@@ -864,7 +864,14 @@
      "title": "Array Basics",
      "id": "fd93cc72-4a25-f0bd-b55a-b8310191da32",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "e31a2bc0-0ab9-f96d-f0c2-ddbfd982342a",
+       "title": "New Page",
+       "pageId": "2fdbf520-d16e-13d6-2147-4703d758b85b",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment - Array Basics",
