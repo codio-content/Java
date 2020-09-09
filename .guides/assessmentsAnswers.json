@@ -599,7 +599,7 @@
   "taskId": "multiple-choice-3084493133",
   "points": 0,
   "state": {
-   "active": []
+   "active": null
   },
   "results": []
  },
@@ -619,6 +619,175 @@
   "state": {
    "active": null
   },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-1942677726",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "test-2973701964",
+  "points": 0,
+  "results": [
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>for</code>, <code>System.out.print()</code>, and <code>System.out.println()</code> to print the requested pattern.",
+    "timestamp": 1599581586696,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1599581557308,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "You did not use for loops correctly. Check your code and try again.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1599581552737,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "You did not use for loops correctly. Check your code and try again.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1599581532427,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1599581443517,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two for loops!\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1599581416924,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>for</code>, <code>System.out.print()</code>, and <code>System.out.println()</code> to print the requested pattern.",
+    "timestamp": 1599581293946,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct pattern. It is outputting:\nXOXOXOXOX\nOX\nOX\nXOXOXOXOX\nOX\nOX\nXOXOXOXOX\nOX\nOX",
+    "timestamp": 1599581282269,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value. It is outputting:\nXOXOXOXOX\nOX\nOX\nXOXOXOXOX\nOX\nOX\nXOXOXOXOX\nOX\nOX",
+    "timestamp": 1599581235048,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1599581226851,
+    "state": "pass"
+   }
+  ]
+ },
+ {
+  "taskId": "test-2204813483",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-124790676",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-230614594",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-2160672239",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3787725782",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1183891837",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-966946164",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-6741937",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-247291117",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-2362887149",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-945377963",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "test-4111672069",
+  "points": 0,
   "results": []
  }
 ]

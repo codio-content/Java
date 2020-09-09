@@ -4300,13 +4300,13 @@
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-3742835214",
   "source": {
-   "name": "For Loop - Summing",
+   "name": "Summation Using a For Loop",
    "showName": true,
-   "instructions": "Rearrange the commands below to make a for loop that find the sum of the numbers between 0 and 100, and then prints the sum.\n\nHint: You will not need all the blocks.",
-   "initial": "int sum = 0;\nfor(int i = 1; i <= 100; i++)\n{\nsum += i;\n}\nSystem.out.println(sum);\nfor(int i = 0; i < 100; i++) #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}\n",
+   "instructions": "Construct a program using the code blocks below that incorporates a `for` loop to find the sum of all numbers between 1 and 100, and then prints that cumulative sum. The program should **include both 1 and 100** in the sum.\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the system to repeat by dragging it slightly to the right.",
+   "initial": "int sum = 0;\nfor (int i = 1; i <= 100; i++) {\n  sum += 1;\n}\nSystem.out.println(sum);\nfor (int i = 0; i < 100; i++) {  #distractor\nfor (int i = 1; i < 100; i++) {  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "The correct answer requires you to both create a variable and print that variable **outside** of the loop.\n```java\nint sum = 0;\nfor(int i = 1; i <= 100; i++)\n{\n    sum += i;\n}\nSystem.out.println(sum);\n```\nAdditionally, since we are adding `i` to `sum`, `i` needs to start at 1 and actually reach 100. This means our loop header should be `for(int i = 1; i <= 100; i++)`",
+   "guidance": "Did you remember to:\n* indent?\n* include both 1 and 100 in the loop header?",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -4320,18 +4320,7 @@
     "files": [
      "code/loops/TurtleLoopImages.java"
     ],
-    "opened": [
-     {
-      "type": "preview",
-      "panelNumber": 0,
-      "content": "https://{{domain3000}}/"
-     },
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/loops/TurtleLoopImages.java"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
@@ -4343,31 +4332,31 @@
   "source": {
    "name": "For Loop Headers",
    "showName": true,
-   "instructions": "Which of the following for loop headers will loop exactly 100 times? \nIgnore the value of the iterating variable - focus on number of times the loop body will be executed.\n\nNote: There could be more than one correct answer.",
+   "instructions": "Which of the following `for` loop headers will loop **exactly** 100 times? Ignore the value of the iterating variable and focus on the **number of times** the loop body will be executed.\n\n**Note:** There may be more than one correct answer.",
    "multipleResponse": true,
    "answers": [
     {
      "_id": "ede0aacf-cc9d-ccba-e514-27acf5cf621c",
      "correct": true,
-     "answer": "for(int i = 0 ; i < 100; i++)"
+     "answer": "for (int i = 0; i < 100; i++)"
     },
     {
      "_id": "a28b5a3e-79e4-83d6-fb27-c471fe30edb2",
      "correct": false,
-     "answer": "for(int i = 0 ; i <= 100; i++)"
+     "answer": "for (int i = 0; i <= 100; i++)"
     },
     {
      "_id": "fcb9631f-067b-dbc0-e6ef-5b5fe8709297",
-     "correct": true,
-     "answer": "for(int i = 1 ; i <= 100; i++)"
+     "correct": false,
+     "answer": "for (int i = 1; i < 100; i++)"
     },
     {
      "_id": "d87cfb2e-2de6-089d-3968-6157f10045cd",
-     "correct": false,
-     "answer": "for(int i = 1 ; i < 100; i++)"
+     "correct": true,
+     "answer": "for (int i = 1; i <= 100; i++)"
     }
    ],
-   "guidance": "There are two correct answers. One goes from 1 to 100:\n`for(int i = 1 ; i <= 100; i++)`\nwhile the other goes from 0 to 99:\n`for(int i = 0 ; i < 100; i++)`\n\nBut both will loop exactly 100 times.\n\n`for(int i = 0 ; i <= 100; i++)` loops from 0 to 100 which is 101 times.\n\n`for(int i = 1 ; i < 100; i++)` loops from 1 to 99 which is only 99 times.",
+   "guidance": "Only choices #1 and #4 are correct because they are both executed **exactly** 100 times. `for (int i = 0; i < 100; i++)` goes from 0 to 99 and `for (int i = 1; i <= 100; i++)` goes from 1 to 100. Both of those ranges include 100 iterations.\n\n`for (int i = 0; i <= 100; i++)` goes from 0 to 100 which is a total of 101 iterations.\n\n`for (int i = 1; i < 100; i++)` goes from 1 to 99 which is only 99 iterations.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -4464,13 +4453,13 @@
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-945377963",
   "source": {
-   "name": "Nested Loops",
+   "name": "Cumulative Song with a Nested Loop",
    "showName": true,
-   "instructions": "\"A cumulative song is a song with a simple verse structure modified by progressive addition so that each verse is longer than the verse before.\" - Wikipedia\n\nHelp create a cheat sheet for the cumulative song the 12 days of Christmas where you start with 1, add 2, etc.\n\nThe output should look like:\n```\n1\n1 2 \n1 2 3 \n1 2 3 4 \n....\n1 2 3 4 5 6 7 8 9 10 11 12 \n```\n",
-   "initial": "for(int line = 1; line <= 12; line++) {\nfor(int num = 1; num <= line; num++) {\nSystem.out.print(num + \" \");\n}\nSystem.out.println(\"\");\n}",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "instructions": "\"A cumulative song is a song with a simple verse structure modified by progressive addition so that each verse is longer than the verse before.\" - Wikipedia\n\nRearrange the code blocks below to create a cheat sheet for the cumulative song *The 12 Days of Christmas* where you start with 1, add 2, etc. **Remember to indent** where appropriate!\n\nThe output should look like:\n```\n1\n1 2 \n1 2 3 \n1 2 3 4 \n....\n1 2 3 4 5 6 7 8 9 10 11 12 \n```\n",
+   "initial": "for (int line = 1; line <= 12; line++) {\n  for (int num = 1; num <= line; num++) {\n    System.out.print(num + \" \");\n  }\n  System.out.println(\"\");\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
    "grader": "1",
-   "guidance": "The solution looks like:\n```\nfor(int line = 1; line <= 12; line++) {\n    for(int num = 1; num <= line; num++) {\n        System.out.print(num + \" \");\n    }\n    System.out.println(\"\");\n}\n```\nNotice that you have the loops starting at 1 (you could also simply add 1 when printing). Also notice that due to this shift, we are using `<=` instead of `<`.\n\nIn the inner loop, you see that the boolean expression uses the outer loop counter `num <= line` - this is common when the amount of times the inner loop is executed changes in a way that relates to the outer loop.",
+   "guidance": "Did you:\n* remember to indent?\n* nest the appropriate loops inside of each other?",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -4484,13 +4473,7 @@
     "files": [
      "code/loops/NestedLoops.java"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/loops/NestedLoops.java"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
@@ -4502,8 +4485,8 @@
   "source": {
    "name": "Identifying Patterns with Nested Loops",
    "showName": true,
-   "instructions": "Fill in the blanks such that the nested loop would print out:\n\n```\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n```",
-   "text": "```\nfor(int i = 0; i < <<<4>>>; i++) {\n    System.out.println(\"<<<&&>>>\");\n    for(int j = 0; j < <<<3>>>; j++) {\n        System.out.println(\"<<<*>>>\");\n    }\n}\n```",
+   "instructions": "Fill in the blanks such that the nested loop will print out:\n\n```\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n```",
+   "text": "```java\nfor(int i = 0; i < <<<4>>>; i++) {\n    System.out.println(\"<<<&&>>>\");\n    for(int j = 0; j < <<<3>>>; j++) {\n        System.out.println(\"<<<*>>>\");\n    }\n}\n```",
    "guidance": "The tricky part is to identify the pattern. The first pattern is that `&& * * *` is repeated 4 times. The pattern within that is that you have a `&&` followed by 3 `*`. Once you are able to break this up - it is clear that the outer loop should repeat 4 times and the inner loop should repeat 3.\n\nThe next part is where to place the print statements. In this case, since the one-off `&&` is printed *before* the repeating `*` - the print statement in the outer loop needs to be placed *before* the inner loop.\n\n```\nfor(int i = 0; i < 4; i++) {\n    System.out.println(\"&&\");\n    for(int j = 0; j < 3; j++) {\n        System.out.println(\"*\");\n    }\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -4529,7 +4512,7 @@
      "*"
     ],
     "text": [
-     "```\nfor(int i = 0; i < ",
+     "```java\nfor(int i = 0; i < ",
      0,
      "; i++) {\n    System.out.println(\"",
      0,
@@ -4538,7 +4521,8 @@
      "; j++) {\n        System.out.println(\"",
      0,
      "\");\n    }\n}\n```"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -4757,6 +4741,754 @@
       "type": "file",
       "panelNumber": 0,
       "content": "code/loops/LabWhileLoop.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1942677726",
+  "source": {
+   "name": "Infinite Loop Solution",
+   "showName": true,
+   "instructions": "The following program results in an infinite loop:\n```java\nString s;\nScanner sc = new Scanner(System.in);\n\nwhile (true) {\n  System.out.println(\"Enter a lowercase vowel.\");\n  s = sc.nextLine();\n  if (s.equals(\"a\") || \n  s.equals(\"e\") || \n  s.equals(\"i\") || \n  s.equals(\"o\") || \n  s.equals(\"u\")) {\n    System.out.println(\"You successfully entered a lowercase vowel.\");\n  }\n  else {\n    System.out.println(\"You did not enter a lowercase vowel.\");\n  }\n}\n```\n\nSelect **all** of the solutions below that will enable the program to resolve this infinite loop.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "4ca9b8d3-85a3-c654-3f6d-9e6a266da414",
+     "correct": true,
+     "answer": "Insert a `break;` statement on the line after `System.out.println(\"You successfully entered a lowercase vowel.\");`."
+    },
+    {
+     "_id": "407af2de-6864-5c81-f1cf-932144cb2a82",
+     "correct": true,
+     "answer": "Insert a `break;` statement on the line after `System.out.println(\"You did not enter a lowercase vowel.\");`."
+    },
+    {
+     "_id": "2bd1e9e0-1a33-48b2-7124-c67acf93513e",
+     "correct": false,
+     "answer": "Replace `while (true)` with `for (true)`."
+    },
+    {
+     "_id": "3aba40ee-46d3-382f-8529-83d5f5a842fd",
+     "correct": false,
+     "answer": "Remove `s = sc.nextLine();`"
+    }
+   ],
+   "guidance": "By definition, an **infinite loop** occurs when a program has no test conditions to cause a loop to stop. The program above will indefinitely ask the user for input and store that input regardless of what the user enters.\n\nChoices #1 and #2 are correct because they will offer a condition for the loop to stop depending on what the user enters.\n\nChoice #3 will result in errors because the `for` loop syntax is incorrect. The program can still run, but the infinite loop is not resolved.\n\nChoice #4 will result in an error because the String `s` needs to be initialized.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/LabBreak.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/LabBreak.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2973701964",
+  "source": {
+   "name": "Nested For Loop Challenge",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to check your work. **Remember** to include **at least two `for` loops** in your code in order to receive credit!",
+   "command": "bash .guides/secure/loops/labChallenge.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/loops/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/LabChallenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2204813483",
+  "source": {
+   "name": "Loops: Exercise 2",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/loops/exercise2.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Here are some sample solutions:\n```java\nfor (int i = 0; i < 10; i++) {\n  System.out.println(x);\n}\n```\n```java\nint i = 0;\nwhile (i < 10) {\n  System.out.println(x);\n  i++;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/loops/Exercise2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/Exercise2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-124790676",
+  "source": {
+   "name": "Loops: Exercise 3",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/loops/ Exercise3",
+   "preExecuteCommand": "javac code/loops/Exercise3.java",
+   "guidance": "You can use either the `for` or `while` loop to complete this assignment. If using a `for` loop, the iterating variable should start at `a` and get incremented by 1 until it reaches `b`. Below is a sample solution involving the `for` loop.\n```java\nint sum = 0;\n  \nfor (int iter = a; iter <= b; iter++) {\n  sum += iter;\n}\n  \nif (a == b) {\n  sum = a;\n}\n  \nSystem.out.println(sum);\n```\n\nAlternatively, you can use the `while` loop by setting the iterating variable to `a` and incrementing it by 1 after each time it gets added to the sum. Here is a solution that uses the `while` loop:\n```java\nint sum = 0;\nint iter = a;\n  \nwhile (iter <= b) {\n  sum += iter;\n  iter++;\n}\n  \nif (a == b) {\n  sum = a;\n}\n  \nSystem.out.println(sum);\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "-7 -7",
+     "input": "",
+     "output": "-7",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "0 -12",
+     "input": "",
+     "output": "-78",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "0 12",
+     "input": "",
+     "output": "78",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "12 -12",
+     "input": "",
+     "output": "0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "0 100",
+     "input": "",
+     "output": "5050",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/loops/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/Exercise3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-230614594",
+  "source": {
+   "name": "Loops: Exercise 4",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/loops/exercise4.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The only places where you can add a `break;` statement to successfully print `Print me!` and solve the infinite loops are **1)** after `System.out.println(\"Print me!\");` and **2)** after the first closing curly brace `}` that was initially on line 7 in the original code. See solution below:\n```java\nfor (int i = 100; i <= 100; i--) {\n  while (true) {\n    System.out.println(\"Print me!\");\n    break;\n  }\n  break;\n}\n```\n\nBoth the `for` and `while` loops in the code cause the program to run indefinitely. The first `break;` statement in the solution will allow the program to exit the `while` loop and the second `break;` statement in the solution will allow the program to exit the `for` loop. In order for `Print me!` to be printed, the `break;` statement must go *after* the print statement.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/loops/Exercise4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/Exercise4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2160672239",
+  "source": {
+   "name": "Loops: Exercise 5",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/loops/exercise5.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The first step is to recognize the two patterns that exist. Notice how the numerical values are printed in ascending order starting at `1` and ending at `5`. Thus, you should implement a loop that starts and ends according to the line number (e.g. `for (int i = 1; i < 6; i++)`). In addition, each iteration should print the existing line number followed by a newline character (e.g. `System.out.println(i);`).\n\nSecond, the `.` start at 4 and then decreases by 1 after every iteration until it reaches zero. An example loop header could be `for (int j = <number of periods>; j > 0; j--)`.\n\nNow all that's left to do is to combine the two loops in a manner that associates **BOTH** loops. Notice how the line number can also represent how many `.` are replaced. So the second loop can be rewritten as `for (int j = 5 - i; j > 0; j--)`. Another important detail is to not include `ln` when printing `.` because it will cause the `.` to be on different lines (e.g. `System.out.print(\".\");`). Below is a sample solution using a nested `for` loop but any two combinations of `for` and `while` loops will work.\n```java\nfor (int i = 1; i < 6; i++) {\n  for (int j = 5 - i; j > 0; j--) {\n    System.out.print(\".\");\n  }\n  System.out.println(i);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/loops/Exercise5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/Exercise5.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3787725782",
+  "source": {
+   "name": "Recognizing For Loop Pattern",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```java\ntina.forward(100);\ntina.right(90);\ntina.forward(100);\ntina.right(90);\ntina.forward(100);\ntina.right(90);\ntina.forward(100);\ntina.right(90);\n```\nSelect **all** of the following that will produce the same output as the code above using a `for` loop?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "172c9559-8cef-bf19-3664-4038f3f31798",
+     "correct": true,
+     "answer": "```java\nfor (int i = 0; i < 4; i++) {\n  tina.forward(100);\n  tina.right(90);\n}\n```"
+    },
+    {
+     "_id": "e4cb8a0a-2369-de7a-75bb-b6aa6931c3d5",
+     "correct": false,
+     "answer": "```java\nfor (int i = 1; i < 4; i++) {\n  tina.forward(100);\n  tina.right(90);\n}\n```"
+    },
+    {
+     "_id": "5c90ef56-be3d-5230-7e7a-c145b3dcb4ee",
+     "correct": true,
+     "answer": "```java\nfor (int i = 1; i < 5; i++) {\n  tina.forward(100);\n  tina.right(90);\n}\n```"
+    },
+    {
+     "_id": "10d487e8-1a95-5ddc-4819-6ba95f35bafc",
+     "correct": true,
+     "answer": "```java\nfor (int i = 20; i < 24; i++) {\n  tina.forward(100);\n  tina.right(90);\n}\n```"
+    }
+   ],
+   "guidance": "All of the choices above are correct **except** choice #2. It's important to recognize that the `tina.forward(100);` and `tina.right(90);` commands occur exactly **four** times. Thus, a loop that iterates those commands four times is needed. While all of the choices have a loop header that runs four times, choice #2 has a header that only runs **three** times and is therefore incorrect.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/TurtleLoops.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/TurtleLoops.java"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1183891837",
+  "source": {
+   "name": "For Loop Iterator Variable",
+   "showName": true,
+   "instructions": "Here is the output to a sample program:\n\n```java\n2\n4\n6\n8\n10\n```\nFill in the blanks below so that the loop outputs what's shown above.",
+   "text": "```java\nfor (int n=<<<2>>>; n<<<<=>>>10; n+=<<<2>>>) {\n System.out.println(<<<n>>>);\n}\n```",
+   "guidance": "First, it is important to determine the pattern of the output. `2` is printed first and `10` is printed last. In addition, the numbers from `2` through `10` are printed in increments of `2`s. Noticing this pattern enables us to fill out the loop header like so: \n`for (int n=2; n<=10; n+=2)`\n\nFinally, we need to print the output. Remember that the loop iterator variable `n` is an integer itself so it can be printed like so:\n`System.out.println(n);`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/loops/TurtleLoopImages.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/TurtleLoopImages.java"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "2",
+     "<=",
+     "2",
+     "n"
+    ],
+    "text": [
+     "```java\nfor (int n=",
+     0,
+     "; n",
+     0,
+     "10; n+=",
+     0,
+     ") {\n System.out.println(",
+     0,
+     ");\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-966946164",
+  "source": {
+   "name": "While vs. For Loops",
+   "showName": true,
+   "instructions": "Fill in the blanks below with either `while` or `for`.",
+   "text": "A <<<while>>> loop usually contains a boolean expression(s) in its header and nothing else.\nA <<<for>>> loop contains a header that specifies where an iterator variable starts, where it ends, and how it is changed per iteration.\nA <<<for>>> loop is better if a command needs to be executed a certain number of times.\nA counting variable needs to be declared and initialized before a <<<while>>> loop can be executed properly.",
+   "guidance": "One big difference between a `while` loop and a `for` loop is that a `while` loop only contains a boolean expression(s) within its header. That means a counting variable must be declared and initialized before a `while` loop can be used properly. On the other hand, the header of a `for` loop contains an iterator variable which helps to determine how many times the `for` loop will run.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/loops/WhileLoops.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/WhileLoops.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "while",
+     "for",
+     "for",
+     "while"
+    ],
+    "text": [
+     "A ",
+     0,
+     " loop usually contains a boolean expression(s) in its header and nothing else.\nA ",
+     0,
+     " loop contains a header that specifies where an iterator variable starts, where it ends, and how it is changed per iteration.\nA ",
+     0,
+     " loop is better if a command needs to be executed a certain number of times.\nA counting variable needs to be declared and initialized before a ",
+     0,
+     " loop can be executed properly."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-6741937",
+  "source": {
+   "name": "For Loop to While Loop",
+   "showName": true,
+   "instructions": "Here is a sample code that makes use of a `for` loop:\n```java\nfor (int i = 10; i <= 100; i+=10) {\n  System.out.println(i);\n}\n```\n\nRearrange the code blocks below to produce the same output as above using a `while` loop instead. **Remember to indent** any commands that are iterated!",
+   "initial": "int i = 10;\nwhile (i <= 100) {\n  System.out.println(i);\n  i+=10;\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+   "grader": "1",
+   "guidance": "Did you remember to:\n* indent any iterating commands?\n* initialize and increment the counting variable in the correct places?",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/loops/WhileLoopImages.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/WhileLoopImages.java"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-247291117",
+  "source": {
+   "name": "Break Statement Purpose",
+   "showName": true,
+   "instructions": "What purpose does the `break` statement serve?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "90eedc33-eb83-824e-7b87-b3c5acec3507",
+     "correct": false,
+     "answer": "The `break` statement is used to pause a program so that it can run at a later time."
+    },
+    {
+     "_id": "96a19e66-6557-926c-dc04-75c24f42538d",
+     "correct": false,
+     "answer": "The `break` statement is required in every `while` loop to separate sections of code."
+    },
+    {
+     "_id": "110c6812-dc09-caef-a9a1-9a0a4238698a",
+     "correct": false,
+     "answer": "The `break` statement is used to end a program."
+    },
+    {
+     "_id": "05f3b4c2-9e93-8f66-b418-620e87595748",
+     "correct": true,
+     "answer": "The `break` statement is used to stop and exit a loop."
+    }
+   ],
+   "guidance": "The `break` statement is used to stop and exit a loop **not** a program. `break` statements are often used to prevent situations where an infinite loop might be involved; however, `break` statements are not always required.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/BreakStatement.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/BreakStatement.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2362887149",
+  "source": {
+   "name": "While Loop Syntax",
+   "showName": true,
+   "instructions": "Fill in the blanks below so that the `while` loop prints `Java` **10** times.",
+   "text": "```java\nint <<<count>>> = 0;\nwhile (count <<<<>>> 10) {\n  System.out.println(\"Java\");\n  count = count <<<+>>> 1;\n}\n```",
+   "guidance": "The counting variable that is being used in the code is called `count`. If `count` is initialized to `0`, then **ten iterations** will cause it to stop at `9`. Thus, `count < 10` is the correct loop header. `count = count + 1` does the same  thing as `count++` and will increment the counting variable by `1` after during each iterations.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "count",
+     "<",
+     "+"
+    ],
+    "text": [
+     "```java\nint ",
+     0,
+     " = 0;\nwhile (count ",
+     0,
+     " 10) {\n  System.out.println(\"Java\");\n  count = count ",
+     0,
+     " 1;\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1301128057",
+  "source": {
+   "name": "Break Statement Syntax",
+   "showName": true,
+   "instructions": "Fill in the blanks such that the loop will **stop and exit** after it has run **100** times.",
+   "text": "```java\nint total = 0;\nwhile (true) {\n  total = <<<total>>> + 1;\n  if (total > <<<99>>>) {\n    <<<break>>>;\n  }\n}\n```",
+   "guidance": "`total` is the counting variable that is used in the code above. To increment `total` so that it iterates **100 times**, `total = total + 1` is needed. Since `total` starts at `0` and we want it to iterate 100 times before stopping, we will insert a `break` statement to stop the loop once `total > 99` becomes true. The range from `0` through `99` is a total of exactly 100 iterations.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "total",
+     "99",
+     "break"
+    ],
+    "text": [
+     "```java\nint total = 0;\nwhile (true) {\n  total = ",
+     0,
+     " + 1;\n  if (total > ",
+     0,
+     ") {\n    ",
+     0,
+     ";\n  }\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1201450033",
+  "source": {
+   "name": "Nested Loops",
+   "showName": true,
+   "instructions": "Which definition best describes a nested loop?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "eef02f6d-3654-70b1-4d1c-255a340a26fd",
+     "correct": false,
+     "answer": "A nested loop is when you have two loops that run one after the other."
+    },
+    {
+     "_id": "6eb6a882-af54-a91b-abfa-6547e7e1cedf",
+     "correct": false,
+     "answer": "A nested loop is when you have a `while` loop and a `for` loop in the same program."
+    },
+    {
+     "_id": "ad64050e-7a3a-e1cb-dcc0-95b058efe301",
+     "correct": true,
+     "answer": "A nested loop is when a loop exists inside another loop."
+    },
+    {
+     "_id": "1fa4f2aa-22cd-1558-84c1-c2305985fac9",
+     "correct": false,
+     "answer": "A nested loop is when you have more than one loop in your program."
+    }
+   ],
+   "guidance": "By definition, a **nested loop** is when one loop exists inside another loop. There are are restrictions on the type of loop that can be nested nor the number of nested loops that can be used (though it is rare to implement more than two nested loops). Thus, a `for` loop can be nested in another `for` loop and a `while` loop can be nested inside another `while` loop. In addition, a `for` loop can be nested inside a `while` loop and vice versa. ",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/NestedLoops.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/NestedLoops.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4111672069",
+  "source": {
+   "name": "Loops: Exercise 1",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading. **Reminder:** Make sure you fulfill **all** of the requirements above before submitting your work.",
+   "command": "bash .guides/secure/loops/exercise1.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The first step is to figure out the pattern that `tina` moves. First `tina` moves forward by 100 pixels. Then `tina` turns left 120 degrees. Thus `tina`'s commands are `tina.forward(100)` and then `tina.left(120)`. This pattern happens exactly three times.\n\nNext is setting the loop so that `tina`'s commands are iterated three times. Per requirements, your loop header should include `int i = 0` and `i++`. Here are some possible solutions:\n```java\nfor(int i = 0; i < 3; i++) {\n  tina.forward(100);\n  tina.left(120);\n}\n```\n```java\nfor(int i = 0; i <= 2; i++) {\n  tina.forward(100);\n  tina.left(120);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/loops/Exercise1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/Exercise1.java"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
      }
     ]
    },

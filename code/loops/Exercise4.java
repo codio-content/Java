@@ -1,10 +1,10 @@
 public class Exercise4 {
   public static void main(String args[]) {
     
-    //add code below this line
-    
-
-    
-    //add code above this line
+    for (int i = 100; i <= 100; i--) {
+      while (true) {
+        System.out.println("Print me!");
+      }
+    }
   }
 }

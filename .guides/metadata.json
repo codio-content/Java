@@ -1753,17 +1753,17 @@
      "action": "close"
     },
     {
-     "path": "#preview: https://{{domain3000}}/",
+     "path": "code/loops/TurtleLoops.java",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "code/loops/TurtleLoops.java",
-     "panel": 0,
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 1,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Turtle-Graphics-d39f.md",
@@ -1781,17 +1781,17 @@
      "action": "close"
     },
     {
-     "path": "#preview: https://{{domain3000}}/",
+     "path": "code/loops/TurtleLoopImages.java",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "code/loops/TurtleLoopImages.java",
-     "panel": 0,
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 1,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Turtle-Coding---For-Loop-6c3f.md",
@@ -1886,17 +1886,17 @@
      "action": "close"
     },
     {
-     "path": "#preview: https://{{domain3000}}/",
+     "path": "code/loops/WhileLoopImages.java",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "code/loops/WhileLoopImages.java",
-     "panel": 0,
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 1,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Turtle-Coding---While-Loop-fb5c.md",
@@ -2093,9 +2093,14 @@
      "path": "code/loops/LabBreak.java",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab---Break-Statement-fe76.md",
@@ -2139,9 +2144,14 @@
      "path": "code/loops/Exercise1.java",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-58fe.md",
