@@ -12,7 +12,7 @@ For this assignment, you will use a nested loop to produce the unique output bel
 5
 ```
 
-<details><summary>Hint</summary>As you move down the output, the numerical value increases, but the number of `.` decreases. Think about the relationship between the number of `.` printed and the numerical value printed on each line.</details>
+<details><summary>Hint</summary>As you move down the output, the numerical value increases, but the number of <code>.</code> decreases. Think about the relationship between the number of <code>.</code> printed and the numerical value printed on each line.</details><br>
 
 {Try it}(sh .guides/bg.sh javac code/loops/Exercise5.java java -cp code/loops/ Exercise5 1)
 

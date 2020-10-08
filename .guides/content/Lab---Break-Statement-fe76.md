@@ -3,9 +3,9 @@
 ## Tutorial Lab 3: Breaking from the While Loop
 Copy the code below into the text editor in the upper left panel. Then click on the `TRY IT` button to run the resulting program in the Terminal in the lower left panel.
 
-<details><summary>What does `Scanner sc = new Scanner(System.in);` do?</summary>The `Scanner sc = new Scanner(System.in);` command records what a user enters on the screen and stores that information in the scanner object `sc` as an **input stream**.</details>
+<details><summary>What does <code>Scanner sc = new Scanner(System.in);</code> do?</summary>The <code>Scanner sc = new Scanner(System.in);</code> command records what a user enters on the screen and stores that information in the scanner object <code>sc</code> as an <b>input stream</b>.</details>
 
-<details><summary>What do `try` and `catch` do?</summary>`try` checks to see if `sc`, the input stream, entered by the user can be converted to a double using `Double.parseDouble(sc.next())`. If `sc` can be converted to a double, the system will do so and store that double into the variable `input`. Then it will add `input` to the running sum, `result`. On the other hand, if `sc` cannot be converted to a double, `catch` will ignore the error message and then print the current sum.</details>
+<details><summary>What do <code>try</code> and <code>catch</code> do?</summary><code>try</code> checks to see if <code>sc</code>, the input stream, entered by the user can be converted to a double using <code>Double.parseDouble(sc.next())</code>. If <code>sc</code> can be converted to a double, the system will do so and store that double into the variable <code>input</code>. Then it will add <code>input</code> to the running sum, <code>result</code>. On the other hand, if <code>sc</code> cannot be converted to a double, <code>catch</code> will ignore the error message and then print the current sum.</details>
 
 ```java
 double result = 0;

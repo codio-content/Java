@@ -49,6 +49,6 @@ The loop ran five times, but the variable `i` did not start with 1. Instead it s
 [Code Visualizer](open_tutor code/loops/ForLoops.java)
 {Try it}(sh .guides/bg.sh javac code/loops/ForLoops.java java -cp code/loops/ ForLoops 3)
 
-<details><summary>**Infinite Loops**</summary>If you aren't careful, you can wind up with an **infinite loop**. This means that you have a never ending loop. In the example above, if you change `i++` to `i--` then `i` will decrease, never reaching the value needed to make the boolean expression false.</details>
+<details><summary><b>Infinite Loops</b></summary>If you aren't careful, you can wind up with an <b>infinite loop</b>. This means that you have a never ending loop. In the example above, if you change <code>i++</code> to <code>i--</code> then <code>i</code> will decrease, never reaching the value needed to make the boolean expression false.</details>
 
 {Check It!|assessment}(multiple-choice-3084493133)

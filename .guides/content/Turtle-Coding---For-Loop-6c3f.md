@@ -16,19 +16,19 @@ Now that you know how to customize `tina`, try to recreate the images you see be
 ![.guides/img/TurtleChallenge1](.guides/img/TurtleChallenge1.gif)
 {Try it|terminal}(bash .guides/turtle.sh javac TurtleLoopImages.java java TurtleLoopImages)
 
-<details><summary>**Hint**</summary>There are multiple ways to accomplish this task but the trick lies within finding the **pattern** and then repeating it a **specific number of times**. One pattern in particular is to: <ol><li>Go forward (creating a long line).</li><li>Make a right turn.</li><li>Go forward (creating a small line).</li><li>Make a right turn.</li><li>Go forward (creating another small line).</li><li>Make a right turn.</li><li>Go forward (creating a final small line).</li><li>Repeat steps #1 through #7 three more times for a total of **four** iterations.</li></ol>The pattern should look something like this: <img src=".guides/img/TurtleChallenge1Pattern.png"/></details>
+<details><summary><b>Hint</b></summary>There are multiple ways to accomplish this task but the trick lies within finding the <b>pattern</b> and then repeating it a <b>specific number of times</b>. One pattern in particular is to: <ol><li>Go forward (creating a long line).</li><li>Make a right turn.</li><li>Go forward (creating a small line).</li><li>Make a right turn.</li><li>Go forward (creating another small line).</li><li>Make a right turn.</li><li>Go forward (creating a final small line).</li><li>Repeat steps #1 through #7 three more times for a total of <b>four</b> iterations.</li></ol>The pattern should look something like this: <img src=".guides/img/TurtleChallenge1Pattern.png"/></details>
 
 ### Challenge 2
 ![.guides/img/TurtleChallenge2](.guides/img/TurtleChallenge2.gif)
 {Try it|terminal}(bash .guides/turtle.sh javac TurtleLoopImages.java java TurtleLoopImages)
 
-<details><summary>**Hint**</summary>Since a circle has 360 degrees, you will need a loop that repeats 360 times. Be careful about how far the turtle moves forward and turns. The circle can get very big, very quickly.</details>
+<details><summary><b>Hint</b></summary>Since a circle has 360 degrees, you will need a loop that repeats 360 times. Be careful about how far the turtle moves forward and turns. The circle can get very big, very quickly.</details>
 
 ### Challenge 3
 ![.guides/img/TurtleChallenge3](.guides/img/TurtleChallenge3.gif)
 {Try it|terminal}(bash .guides/turtle.sh javac TurtleLoopImages.java java TurtleLoopImages)
 
-<details><summary>**Hint**</summary>The pattern here is to move forward and make a right turn. <img src=".guides/img/TurtleChallenge3Pattern.png"/> 
+<details><summary><b>Hint</b></summary>The pattern here is to move forward and make a right turn. <img src=".guides/img/TurtleChallenge3Pattern.png"/> 
 The trick lies within the fact that the distance the turtle moves has to get larger as the loop advances. Think of some operators that you can use to make the loop iterator variable get bigger during each iteration.</details>
 
 <table><tbody ><tr><td><details><summary>

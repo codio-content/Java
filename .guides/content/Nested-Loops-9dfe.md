@@ -43,7 +43,7 @@ Using nested loops, write some code that outputs the following:
 [Code Visualizer](open_tutor code/loops/NestedLoops.java)
 {Try it}(sh .guides/bg.sh javac code/loops/NestedLoops.java java -cp code/loops/ NestedLoops 3)
 
-<details><summary>**Hint**</summary>The output is the same character (`#`). Make sure that your nested loops have the right numbers in the boolean expressions to get the appropriate number of rows and columns.</details>
+<details><summary><b>Hint</b></summary>The output is the same character (<code>#</code>). Make sure that your nested loops have the right numbers in the boolean expressions to get the appropriate number of rows and columns.</details>
 
 ### Nested Loop Coding Challenge 2
 Using nested loops, write some code that outputs the following:
@@ -59,7 +59,7 @@ Using nested loops, write some code that outputs the following:
 [Code Visualizer](open_tutor code/loops/NestedLoops.java)
 {Try it}(sh .guides/bg.sh javac code/loops/NestedLoops.java java -cp code/loops/ NestedLoops 4)
 
-<details><summary>**Hint**</summary>The output is a `<` when the outer loop variable is even (0, 2, 4) and a `>` when the outer loop variable is odd (1, 3).</details>
+<details><summary><b>Hint</b></summary>The output is a <code>&lt;</code> when the outer loop variable is even (0, 2, 4) and a <code>&gt;</code> when the outer loop variable is odd (1, 3).</details>
 
 ### Nested Loop Coding Challenge 3
 Using nested loops, write some code that outputs the following:
@@ -75,7 +75,7 @@ Using nested loops, write some code that outputs the following:
 [Code Visualizer](open_tutor code/loops/NestedLoops.java)
 {Try it}(sh .guides/bg.sh javac code/loops/NestedLoops.java java -cp code/loops/ NestedLoops 5)
   
-<details><summary>**Hint**</summary>Note how the pattern goes from `1` to `5` starting on line 1 (through line 5) and prints the line number equal to the amount of times as that numbered line. First, the outer loop should start at `1`. Second, the inner loop should run the same amount of times as the row number up to the row number's limit.</details>
+<details><summary><b>Hint</b></summary>Note how the pattern goes from <code>1</code> to <code>5</code> starting on line 1 (through line 5) and prints the line number equal to the amount of times as that numbered line. First, the outer loop should start at <code>1</code>. Second, the inner loop should run the same amount of times as the row number up to the row number's limit.</details>
   
 <table><tbody ><tr><td><details><summary>
 	<b>Sample Solutions</b>

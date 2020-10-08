@@ -9,7 +9,7 @@ You are trying to produce a program that takes in two **integer** arguments from
 * Use **any** loop to find the **consective sum** between the integer variables `a` and `b`.
 * If `a` and `b` are the same integers, then print *either* `a` *or* `b` as the sum.
 
-<details><summary>What does the `if (a > b)` conditional in the code do?</summary>The `if` conditional enables the program to sort the arguments from the user from smaller to larger. For example, if the user types `8` and `5`, the conditional will rearrange the arguments so that `a` takes on the smaller argument of `5` and `b` takes on the larger argument of `8`.</details>
+<details><summary>What does the <code>if (a > b)</code> conditional in the code do?</summary>The <code>if</code> conditional enables the program to sort the arguments from the user from smaller to larger. For example, if the user types <code>8</code> and <code>5</code>, the conditional will rearrange the arguments so that <code>a</code> takes on the smaller argument of <code>5</code> and <code>b</code> takes on the larger argument of <code>8</code>.</details>
 
 ### Click to compile your code
 {Compile Code}(javac code/loops/Exercise3.java)

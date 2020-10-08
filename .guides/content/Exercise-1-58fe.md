@@ -6,7 +6,7 @@ Imagine that you have a Turtle object called `tina`. You want `tina` to move aro
 
 ![.guides/img/TurtleExercise1](.guides/img/TurtleExercise1.gif)
 
-<details><summary>*Turtle Graphics Review*</summary><ul><li>`tina.forward(n)` - Where `n` represents the number of pixels.</li><li>`tina.backward(n)` - Where `n` represents the number of pixels.</li><li>`tina.right(d)` - Where `d` represents the number of degrees.</li><li>`tina.left(d)` - Where `d` represents the number of degrees.</li><li>`tina.penColor("COLOR")` - Where `COLOR` represents the track or line color you want tina to leave behind.</li><li>`tina.shape("SHAPE")` - Where `SHAPE` represents the shape tina takes.</li><li>`tina.speed(s)` - Where `s` represents how many milliseconds tina takes to perform an action.</li></ul></details>
+<details><summary><i>Turtle Graphics Review</i></summary><ul><li><code>tina.forward(n)</code> - Where <code>n</code> represents the number of pixels.</li><li><code>tina.backward(n)</code> - Where <code>n</code> represents the number of pixels.</li><li><code>tina.right(d)</code> - Where <code>d</code> represents the number of degrees.</li><li><code>tina.left(d)</code> - Where <code>d</code> represents the number of degrees.</li><li><code>tina.penColor("COLOR")</code> - Where <code>COLOR</code> represents the track or line color you want tina to leave behind.</li><li><code>tina.shape("SHAPE")</code> - Where <code>SHAPE</code> represents the shape tina takes.</li><li><code>tina.speed(s)</code> - Where <code>s</code> represents how many milliseconds tina takes to perform an action.</li></ul></details>
 
 {Try it|terminal}(bash .guides/turtle.sh javac Exercise1.java java Exercise1)
 
