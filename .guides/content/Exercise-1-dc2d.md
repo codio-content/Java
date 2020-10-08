@@ -7,7 +7,7 @@ Use the variable `x` as you write this program. `x` will represent a positive in
 
 Note: These are *inclusive* ranges - 0, 25, 75 and 100 should print out the message.
 
-<details><summary>**Type Casting**</summary>Use the `String.valueOf(x)` command to type cast the variable `x` as a string.
+<details><summary><b>Type Casting</b></summary>Use the <code>String.valueOf(x)</code> command to type cast the variable <code>x</code> as a string.</details><br>
 
 **Expected Output**
 * If `x` is `8`, then the output would be: `8 is between 0 and 25 or 75 and 100`.

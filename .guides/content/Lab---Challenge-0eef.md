@@ -8,7 +8,7 @@ Hello! Today is Wednesday, May 4.
 The current wait time is 4 minutes.
 ```
 
-<details><summary><b>Hint from upcoming section</b></summary>In the `operators` unit you will learn about String concatination. For now, all you need to know is you can connect or merge Strings using the `+`. For example, `System.out.println("Hello, " + name + "!");` where name is a variable.</details>
+<details><summary><b>Hint from upcoming section</b></summary>In the <code>operators</code> unit you will learn about String concatenation. For now, all you need to know is you can connect or merge Strings using the <code>+</code>. For example, <code>System.out.println("Hello, " + name + "!");</code> where name is a variable.</details><br>
 
 The pattern is as follows. The `*` indicates variables:
 ```java

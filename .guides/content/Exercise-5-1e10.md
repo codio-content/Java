@@ -9,7 +9,7 @@ Use the variable `x` as you write this program. `x` will represent a string. Wri
 * If `x` is `a`, then the output would be: `a is a vowel`.
 * If `x` is `z`, then the output would be: `z is not a vowel`.
 
-<details><summary><b>Comparing Strings</b></summary>If you choose to directly compare Strings, you may be tempted to write `x == "a"`. However, this won't behave as expected. Instead, use `.equals()`. For example, `x.equals("a")`.</details>
+<details><summary><b>Comparing Strings</b></summary>If you choose to directly compare Strings, you may be tempted to write <code>x == "a"</code>. However, this won't behave as expected. Instead, use <code>.equals()</code>. For example, <code>x.equals("a")</code>.</details>
 
 ### Compile code after you make changes
 

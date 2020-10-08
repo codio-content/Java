@@ -9,7 +9,7 @@ Switch case can only check for equality (i.e. `num == 5`) so if you need to chec
 
 ![.guides/img/Switch-Case-vs-If-Else](.guides/img/Switch-Case-vs-If-Else.png)
 
-<details><summary> <b>What is <code>case 10: case 9:</code>?</b></summary> Sometimes, the code for multiple cases is the same. Instead of repeating code, you can list multiple cases before the code. Here is another example: ![.guides/img/Multiple_Case-Labels](.guides/img/Multiple_Case-Labels.png) </details>
+<details><summary> <b>What is <code>case 10: case 9:</code>?</b></summary> Sometimes, the code for multiple cases is the same. Instead of repeating code, you can list multiple cases before the code. Here is another example: <img src=".guides/img/Multiple_Case-Labels.png"/></details><br>
 
 In some cases, as shown above, you can exploit patterns to force ranges into a switch case, but frequently that is not possible and it also makes the code less readable. For example, above, the user has to realize that `letterGrade` is using integer division to retrieve the ten's place of the original grade.
 

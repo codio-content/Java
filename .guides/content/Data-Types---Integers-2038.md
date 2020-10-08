@@ -12,7 +12,7 @@ System.out.print(number);
 
 {Try it}(sh .guides/bg.sh javac code/fundamentals/PlaygroundVariables2.java java -cp code/fundamentals/ PlaygroundVariables2 1 )
 
-<details><summary><b>5 vs. "5"</b></summary>`5` is not the same thing as `"5"`. The first one is an integer, the second is a string. You will see in a later lesson the different operations you can perform on strings and numbers. Treating a string as a number can cause errors.</details>
+<details><summary><b>5 vs. "5"</b></summary><code>5</code> is not the same thing as <code>"5"</code>. The first one is an integer, the second is a string. You will see in a later lesson the different operations you can perform on strings and numbers. Treating a string as a number can cause errors.</details>
   
 |||challenge
 ## What happens if you:

@@ -11,7 +11,7 @@ boolean c = false;
 System.out.println(a && b);
 ```
 
-<details><summary><b>How do I type `&&`?</b></summary> It is towards the top of the keyboard, above the number `7`. This means you must hold shift and press the `7` key to type `&`. </details>
+<details><summary><b>How do I type <code>&&</code>?</b></summary> It is towards the top of the keyboard, above the number <code>7</code>. This means you must hold shift and press the <code>7</code> key to type <code>&</code>.</details>
 
 {Try it}(sh .guides/bg.sh javac code/operators/PlaygroundAnd.java java -cp code/operators/ PlaygroundAnd 1)
 

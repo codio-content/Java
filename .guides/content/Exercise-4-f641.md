@@ -9,7 +9,7 @@ Use the variable `x` as you write this program. `x` will represent a string. Wri
 * If `x` is `red`, then the output would be: `red is a primary color`.
 * If `x` is `teal`, then the output would be: `teal is not a primary color`.
 
-<details><summary><b>Comparing Strings</b></summary>If you choose to directly compare Strings, you may be tempted to write `x == "red"`. However, this won't behave as expected. Instead, use `.equals()`. For example, `x.equals("red")`.</details>
+<details><summary><b>Comparing Strings</b></summary>If you choose to directly compare Strings, you may be tempted to write <code>x == "red"</code>. However, this won't behave as expected. Instead, use <code>.equals()</code>. For example, <code>x.equals("red")</code>.</details>
 
 ### Compile code after you make changes
 

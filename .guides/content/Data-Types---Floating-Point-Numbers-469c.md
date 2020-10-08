@@ -8,7 +8,7 @@ double fraction = 0.5;
 System.out.print(fraction);
 ```
 
-<details><summary><b>Why is float called double?</b></summary>In Java, there is a data type called <b>float</b> but as it only uses 4 bytes it is insufficient for most math. Instead, we use <b>double</b> which uses 8 bytes or double the space of a float</details>
+<details><summary><b>Why is float called double?</b></summary>In Java, there is a data type called <b>float</b> but as it only uses 4 bytes it is insufficient for most math. Instead, we use <b>double</b> which uses 8 bytes or double the space of a float.</details>
 
 {Try it}(sh .guides/bg.sh javac code/fundamentals/PlaygroundVariables3.java java -cp code/fundamentals/ PlaygroundVariables3 1 )
   

@@ -24,7 +24,7 @@ System.out.println( (double) numerator / denominator);
 
 {Try it}(sh .guides/bg.sh javac code/operators/PlaygroundCasting.java java -cp code/operators/ PlaygroundCasting 2 )
 
-<details><summary><b>More Info</b></summary>If either or both numbers in Java division are a `double`, then `double` division will occur. In the last example, numerator and denominator are both `int` when the division takes place - then the integer division result is converted to a double. </details>
+<details><summary><b>More Info</b></summary>If either or both numbers in Java division are a <code>double</code>, then <code>double</code> division will occur. In the last example, numerator and denominator are both <code>int</code> when the division takes place - then the integer division result is converted to a double. </details>
 
 ## Parsing Strings
 Do you know why the code below will not work?

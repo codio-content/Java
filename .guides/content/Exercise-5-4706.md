@@ -6,8 +6,8 @@ You can test it out using the terminal in the bottom left hand pane. It will ask
 
 Your first challenge is to figure out what is broken. Your second challenge is to fix it.
 
-<details><summary>Hint to identify problem</summary>Try entering 1 and 1. You expect the output to be 2 but you get 11. Similarly, if you enter 3 and 4, you expect the output to be 7 but you get 34. Remember, **string concatenation** is another use for the `+`.</details>
+<details><summary>Hint to identify problem</summary>Try entering 1 and 1. You expect the output to be 2 but you get 11. Similarly, if you enter 3 and 4, you expect the output to be 7 but you get 34. Remember, <b>string concatenation</b> is another use for the <code>+</code>.</details>
 
-<details><summary>Hint to identify the solution</summary>The `+` operator decides what to do by the type of data on either side of it. What data types will cause it to add? What data type is there now? How do you translate from one data type to the other? Check out the **type casting** page for ideas. </details>
+<details><summary>Hint to identify the solution</summary>The <code>+</code> operator decides what to do by the type of data on either side of it. What data types will cause it to add? What data type is there now? How do you translate from one data type to the other? Check out the <b>type casting</b> page for ideas. </details>
 
 {Check It!|assessment}(code-output-compare-3620880377)
