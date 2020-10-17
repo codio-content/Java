@@ -75,7 +75,7 @@ Using nested loops, write some code that outputs the following:
 [Code Visualizer](open_tutor code/loops/NestedLoops.java)
 {Try it}(sh .guides/bg.sh javac code/loops/NestedLoops.java java -cp code/loops/ NestedLoops 5)
   
-<details><summary><b>Hint</b></summary>Note how the pattern goes from <code>1</code> to <code>5</code> starting on line 1 (through line 5) and prints the line number equal to the amount of times as that numbered line. First, the outer loop should start at <code>1</code>. Second, the inner loop should run the same amount of times as the row number up to the row number's limit.</details>
+<details><summary><b>Hint</b></summary>Note how the pattern goes from <code>1</code> to <code>5</code> starting on line 1 (through line 5) and prints the line number equal to the amount of times as that numbered line. First, the outer loop should start at <code>1</code>. Second, the inner loop should run the same amount of times as the row number up to the row number's limit.</details><br>
   
 <table><tbody ><tr><td><details><summary>
 	<b>Sample Solutions</b>

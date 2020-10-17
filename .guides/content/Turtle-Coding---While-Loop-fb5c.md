@@ -21,7 +21,7 @@ Instead of a `for` loop, recreate the images below using a `while` loop.
 {Try it|terminal}(bash .guides/turtle.sh javac WhileLoopImages.java java WhileLoopImages)
 
 <details><summary><b>Hint</b></summary>The pattern here is to move forward and make a right turn. <img src=".guides/img/TurtleChallenge3Pattern.png"/> 
-The trick lies within the fact that the distance the turtle moves has to get larger as the loop advances. Think of some operators that you can use to make the loop iterator variable get bigger during each iteration.</details>
+The trick lies within the fact that the distance the turtle moves has to get larger as the loop advances. Think of some operators that you can use to make the loop iterator variable get bigger during each iteration.</details><br>
 
 <table><tbody ><tr><td><details><summary>
 	<b>Sample Solutions</b>

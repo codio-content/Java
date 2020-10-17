@@ -29,7 +29,7 @@ Now that you know how to customize `tina`, try to recreate the images you see be
 {Try it|terminal}(bash .guides/turtle.sh javac TurtleLoopImages.java java TurtleLoopImages)
 
 <details><summary><b>Hint</b></summary>The pattern here is to move forward and make a right turn. <img src=".guides/img/TurtleChallenge3Pattern.png"/> 
-The trick lies within the fact that the distance the turtle moves has to get larger as the loop advances. Think of some operators that you can use to make the loop iterator variable get bigger during each iteration.</details>
+The trick lies within the fact that the distance the turtle moves has to get larger as the loop advances. Think of some operators that you can use to make the loop iterator variable get bigger during each iteration.</details><br>
 
 <table><tbody ><tr><td><details><summary>
 	<b>Still having trouble with creating the outputs above?</b>

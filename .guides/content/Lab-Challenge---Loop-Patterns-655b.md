@@ -61,7 +61,6 @@ for (int x = 0; x < 12; x++) {
     System.out.print("M");
   }
 }
-System.out.println();
 ```
 
 </div>
@@ -89,7 +88,7 @@ OXO
 ```
 
 # Requirement:
-Your program **must** include **at least two** `for` loops, one nested within another, in order to receive credit.
+Your program **must** include **at least two** `for` loops, one nested within another, in order to receive credit. In addition, you are only allowed to use, **at most**, **two** `System.out.print()` or `System.out.println()` statements.
 
 {Try it}(sh .guides/bg.sh javac code/loops/LabChallenge.java java -cp code/loops/ LabChallenge 3)
 

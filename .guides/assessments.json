@@ -4302,14 +4302,14 @@
   "source": {
    "name": "Summation Using a For Loop",
    "showName": true,
-   "instructions": "Construct a program using the code blocks below that incorporates a `for` loop to find the sum of all numbers between 1 and 100, and then prints that cumulative sum. The program should **include both 1 and 100** in the sum.\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the system to repeat by dragging it slightly to the right.",
-   "initial": "int sum = 0;\nfor (int i = 1; i <= 100; i++) {\n  sum += 1;\n}\nSystem.out.println(sum);\nfor (int i = 0; i < 100; i++) {  #distractor\nfor (int i = 1; i < 100; i++) {  #distractor",
+   "instructions": "Construct a program using the code blocks below that incorporates a `for` loop to find the sum of all numbers between 1 and 100, and then prints that cumulative sum. The program should **include both 1 and 100** in the sum.\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the system to repeat by dragging it slightly to the right. You only have **ONE ATTEMPT** at this problem!",
+   "initial": "int sum = 0;\nfor (int i = 1; i <= 100; i++) {\n  sum += i;\n}\nSystem.out.println(sum);\nfor (int i = 0; i < 100; i++) {    #distractor\nfor (int i = 1; i < 100; i++) {    #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "Did you remember to:\n* indent?\n* include both 1 and 100 in the loop header?",
+   "guidance": "Since we want to include the numbers from `1` through `100` in our sum, which starts at `0`, the appropriate loop header to use will be `for (int i = 1; i <= 100; i++)`. Remember that `<` is not inclusive, but `<=` is. The loop iterator variable `i` is then added to the `sum` during each iteration. Finally, the `sum` is printed. Thus, the correct solution is:\n```java\nint sum = 0;\nfor (int i = 1; i <= 100; i++) {\n  sum += i;\n}\nSystem.out.println(sum);\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "metadata": {
     "tags": [
      {
@@ -4455,14 +4455,14 @@
   "source": {
    "name": "Cumulative Song with a Nested Loop",
    "showName": true,
-   "instructions": "\"A cumulative song is a song with a simple verse structure modified by progressive addition so that each verse is longer than the verse before.\" - Wikipedia\n\nRearrange the code blocks below to create a cheat sheet for the cumulative song *The 12 Days of Christmas* where you start with 1, add 2, etc. **Remember to indent** where appropriate!\n\nThe output should look like:\n```\n1\n1 2 \n1 2 3 \n1 2 3 4 \n....\n1 2 3 4 5 6 7 8 9 10 11 12 \n```\n",
+   "instructions": "\"A cumulative song is a song with a simple verse structure modified by progressive addition so that each verse is longer than the verse before.\" - Wikipedia\n\nRearrange the code blocks below to create a cheat sheet for the cumulative song *The 12 Days of Christmas* where you start with 1, add 2, etc. **Remember to indent** where appropriate! You only have **ONE ATTEMPT** at this problem!\n\nThe output should look like:\n```\n1\n1 2 \n1 2 3 \n1 2 3 4 \n....\n1 2 3 4 5 6 7 8 9 10 11 12 \n```\n",
    "initial": "for (int line = 1; line <= 12; line++) {\n  for (int num = 1; num <= line; num++) {\n    System.out.print(num + \" \");\n  }\n  System.out.println(\"\");\n}",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
    "grader": "1",
-   "guidance": "Did you:\n* remember to indent?\n* nest the appropriate loops inside of each other?",
+   "guidance": "You may have noticed that the line number corresponds with how many digits are printed on each line. For example, **line #1** prints just the number **1** and **line #5** prints numbers **1 through 5**. This means that the outer loop iterator variable `line` should start at 1 and go through 12. The inner loop iterator variable `num` depends on the outer loop variable `line` which is why `num <= line` is included in the loop header. This means `num` will only go up to `line` but never over. Additionally, the output produced by the inner loop **do not** include a newline character, which enables the numbers to be printed side by side. Only the outer loop will include the newline character to help separate the lines from each other.\n\n**Solution:**\n```java\nfor (int line = 1; line <= 12; line++) {\n  for (int num = 1; num <= line; num++) {\n    System.out.print(num + \" \");\n  }\n  System.out.println(\"\");\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "metadata": {
     "tags": [
      {
@@ -4754,7 +4754,7 @@
   "source": {
    "name": "Infinite Loop Solution",
    "showName": true,
-   "instructions": "The following program results in an infinite loop:\n```java\nString s;\nScanner sc = new Scanner(System.in);\n\nwhile (true) {\n  System.out.println(\"Enter a lowercase vowel.\");\n  s = sc.nextLine();\n  if (s.equals(\"a\") || \n  s.equals(\"e\") || \n  s.equals(\"i\") || \n  s.equals(\"o\") || \n  s.equals(\"u\")) {\n    System.out.println(\"You successfully entered a lowercase vowel.\");\n  }\n  else {\n    System.out.println(\"You did not enter a lowercase vowel.\");\n  }\n}\n```\n\nSelect **all** of the solutions below that will enable the program to resolve this infinite loop.",
+   "instructions": "The following program results in an infinite loop:\n```java\nString s;\nScanner sc = new Scanner(System.in);\n\nwhile (true) {\n  System.out.println(\"Enter a lowercase vowel.\");\n  s = sc.nextLine();\n  if (s.equals(\"a\") || \n  s.equals(\"e\") || \n  s.equals(\"i\") || \n  s.equals(\"o\") || \n  s.equals(\"u\")) {\n    System.out.println(\"You successfully entered a lowercase vowel.\");\n  }\n  else {\n    System.out.println(\"You did not enter a lowercase vowel.\");\n  }\n}\n\nsc.close();\n```\n\nSelect **all** of the solutions below that will enable the program to resolve this infinite loop.",
    "multipleResponse": true,
    "answers": [
     {
@@ -4816,14 +4816,14 @@
   "source": {
    "name": "Nested For Loop Challenge",
    "showName": true,
-   "instructions": "When your code is ready, click the button below to check your work. **Remember** to include **at least two `for` loops** in your code in order to receive credit!",
+   "instructions": "When your code is ready, click the button below to check your work. **Remember** to include **at least two `for` loops** and, **at most**, **two** `System.out.print()` or `System.out.println()` statements in your code in order to receive credit!",
    "command": "bash .guides/secure/loops/labChallenge.sh",
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "The pattern can be identified as follow. There is one line of `XOXOXOXOX` following by two lines of `OXO`. Thus, we will need an outer `for` loop like `for (int x = 0; x < 1; x++)`. The outer loop will only run **once**. On the other hand, the inner loop needs to run **twice**, thus something like `for (int y = 0; y < 2; y++)` is needed. The outer loop should print `XOXOXOXOX` whereas the inner loop should print `OXO`. However, these two nested loops will only produce the output:\n```java\nXOXOXOXOX\nOXO\nOXO\n```\nTo iterate or repeat the pattern **three times**, we will have to modify the outer loop to run three times instead of once. Thus, all we have to do is change the outer loop header from `x < 1` to `x < 3`. Here is one possible solution:\n```java\nfor (int x = 0; x < 3; x++) {\n  System.out.println(\"XOXOXOXOX\");\n  for (int y = 0; y < 2; y++) {\n    System.out.println(\"OXO\");\n  }\n}\n```\nAlternatively, if you don't want to modify the existing nested loops, you can nest them inside another loop that runs **three times**. Here is another potential solution:\n```java\nfor (int z = 0; z < 3; z++) {\n  for (int x = 0; x < 1; x++) {\n    System.out.println(\"XOXOXOXOX\");\n    for (int y = 0; y < 2; y++) {\n      System.out.println(\"OXO\");\n    }\n  }\n}\n```\nNote that the outermost loop `for (int z = 0; z < 3; z++)` doesn't actually produce any output, it just runs three times, causing the identified pattern to print three times as well.",
+   "showGuidanceAfterResponse": true,
    "points": 1,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "metadata": {
     "tags": [
      {
@@ -5218,14 +5218,14 @@
   "source": {
    "name": "For Loop to While Loop",
    "showName": true,
-   "instructions": "Here is a sample code that makes use of a `for` loop:\n```java\nfor (int i = 10; i <= 100; i+=10) {\n  System.out.println(i);\n}\n```\n\nRearrange the code blocks below to produce the same output as above using a `while` loop instead. **Remember to indent** any commands that are iterated!",
+   "instructions": "Here is a sample code that makes use of a `for` loop:\n```java\nfor (int i = 10; i <= 100; i+=10) {\n  System.out.println(i);\n}\n```\n\nRearrange the code blocks below to produce the same output as above using a `while` loop instead. **Remember to indent** any commands that are iterated! You only have **ONE ATTEMPT** at this problem!",
    "initial": "int i = 10;\nwhile (i <= 100) {\n  System.out.println(i);\n  i+=10;\n}",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
    "grader": "1",
-   "guidance": "Did you remember to:\n* indent any iterating commands?\n* initialize and increment the counting variable in the correct places?",
+   "guidance": "A `while` loop requires the following:\n1. An iterator or counting variable *before* the keyword `while`.\n2. A boolean expression in `()` or header *following* the keyword `while`.\n3. A change in the iterator or counting variable *inside* the body of the `while` loop.\n\nThus, the solution is:\n```java\nint i = 10;\nwhile (i <= 100) {\n  System.out.println(i);\n  i+=10;\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "metadata": {
     "tags": [
      {
