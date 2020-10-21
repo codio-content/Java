@@ -2267,7 +2267,18 @@
   {
    "id": "08305281-2b60-fd20-fca1-3da3de3fc9a5",
    "title": "Creating an Array",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayCreate.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-an-Array-0830.md",
