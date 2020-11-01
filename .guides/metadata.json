@@ -2255,7 +2255,13 @@
   {
    "id": "807c96a2-3aa9-cb9c-00b5-85c9352c49db",
    "title": "Learning Objectives: Array Basics",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Array-Basics-807c.md",
@@ -2290,7 +2296,18 @@
   {
    "id": "b5ad5e15-9973-726f-10a7-a58b579bbb0c",
    "title": "Accessing an Array",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayAccess.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Accessing-an-Array-b5ad.md",
@@ -2302,10 +2319,126 @@
   {
    "id": "86d16b42-9c8e-add0-23c0-0ba3879e552c",
    "title": "Modifying an Array",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayModify.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Modifying-an-Array-86d1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "07cb9b24-4e80-4199-4e50-c0f437f6531b",
+   "title": "Iterating an Array",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayIterate.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Iterating-an-Array-07cb.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2663b4ab-bf26-8367-c778-1d74c882001d",
+   "title": "Enhanced For-Loop",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayEnhancedFor.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Enhanced-For-Loop-2663.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2a635445-1ff3-9c02-a1f1-83b8e91ca64e",
+   "title": "Helpful Array Algorithms",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayAlgorithms.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Helpful-Array-Algorithms-2a63.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "118e32e1-ef63-52f1-ee88-0be025f7e81c",
+   "title": "Formative Assessment 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-118e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c83646d5-b840-dcd7-6086-3be8971f0e8b",
+   "title": "Formative Assessment 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-c836.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -2336,12 +2469,72 @@
    "learningObjectives": ""
   },
   {
+   "id": "985d0579-7e89-e68f-19ac-8b27382d77eb",
+   "title": "Accessing and Modifying an ArrayList",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Accessing-and-Modifying-an-ArrayList-985d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f7af2039-1662-a913-16c2-e15c38827ac8",
+   "title": "Iterating an ArrayList",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Iterating-an-ArrayList-f7af.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "e24e9c01-d980-f4a1-5f79-2a7429201df8",
    "title": "Array vs. ArrayList",
    "files": [],
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Array-vs--ArrayList-e24e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0c1ee3c3-7b9e-f408-3cc6-06d320eb53c8",
+   "title": "Helpful ArrayList Algorithms",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Helpful-ArrayList-Algorithms-0c1e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3bd5235f-8a7d-d686-4a4e-43923d3dcd3e",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-3bd5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "83819422-316a-8d48-8e86-c716c5f37ef9",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-8381.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -2396,6 +2589,30 @@
    "learningObjectives": ""
   },
   {
+   "id": "a57e46fc-c2b8-82e9-9853-ca2f1da61974",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-a57e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1c98c535-a50c-84d6-edb7-0eff6a4f5baa",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-1c98.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "c190e7d2-6bea-c754-480a-8d008afd06f1",
    "title": "Learning Objectives: 2D Arrays",
    "files": [],
@@ -2408,36 +2625,24 @@
    "learningObjectives": ""
   },
   {
-   "id": "9a18da47-cc01-fb75-2a85-be23f4cfee0c",
-   "title": "Learning Objectives: Array Iteration",
+   "id": "268c20ff-0bfc-76f3-0266-218befedbb98",
+   "title": "Creating a 2D Array",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives--Array-Iteration-9a18.md",
+   "content-file": ".guides/content/Creating-a-2D-Array-268c.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "07cb9b24-4e80-4199-4e50-c0f437f6531b",
-   "title": "Iterating an Array",
+   "id": "08f3d645-34c1-b76a-cbf1-0202a8b99440",
+   "title": "Accessing and Modifying a 2D Array",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Iterating-an-Array-07cb.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "f7af2039-1662-a913-16c2-e15c38827ac8",
-   "title": "Iterating an ArrayList",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Iterating-an-ArrayList-f7af.md",
+   "content-file": ".guides/content/Accessing-and-Modifying-a-2D-Array-08f3.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -2450,6 +2655,30 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Iterating-a-2D-Array-9afc.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "4ff831fd-afc3-fb6f-cad7-029337ee0727",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-4ff8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f228b88d-777b-2cf2-7320-b309d9365214",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-f228.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

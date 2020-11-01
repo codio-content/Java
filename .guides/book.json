@@ -888,6 +888,24 @@
        "id": "ef709463-f6a3-005a-584b-c0b975089df1",
        "type": "page",
        "pageId": "86d16b42-9c8e-add0-23c0-0ba3879e552c"
+      },
+      {
+       "title": "Iterating an Array",
+       "id": "51e5a3d6-3487-63dd-11fc-d68f0a813712",
+       "type": "page",
+       "pageId": "07cb9b24-4e80-4199-4e50-c0f437f6531b"
+      },
+      {
+       "id": "9be65bf5-ada5-4522-207b-0bf221f8bbcd",
+       "title": "Enhanced For-Loop",
+       "pageId": "2663b4ab-bf26-8367-c778-1d74c882001d",
+       "type": "page"
+      },
+      {
+       "id": "3f221656-2830-4080-1453-5c92e9c39fdd",
+       "title": "Helpful Array Algorithms",
+       "pageId": "2a635445-1ff3-9c02-a1f1-83b8e91ca64e",
+       "type": "page"
       }
      ]
     },
@@ -895,7 +913,20 @@
      "title": "Formative Assessment: Array Basics",
      "id": "dbcf08ff-0f29-c680-8710-51295cd5ba82",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "6e9a24ed-5f4a-5eb7-1746-0b1bbaaf8754",
+       "title": "Formative Assessment 1",
+       "pageId": "118e32e1-ef63-52f1-ee88-0be025f7e81c",
+       "type": "page"
+      },
+      {
+       "id": "e73bfc67-e20b-5d35-d854-a0331227210b",
+       "title": "Formative Assessment 2",
+       "pageId": "c83646d5-b840-dcd7-6086-3be8971f0e8b",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "ArrayLists",
@@ -915,10 +946,28 @@
        "pageId": "ce742886-9f21-8dda-e791-439eec0a902c"
       },
       {
+       "id": "b8aeaef1-4378-a288-3fe8-693adbc65b3d",
+       "title": "Accessing and Modifying an ArrayList",
+       "pageId": "985d0579-7e89-e68f-19ac-8b27382d77eb",
+       "type": "page"
+      },
+      {
+       "title": "Iterating an ArrayList",
+       "id": "33966feb-04e4-de76-0676-dc2b4f2bfb13",
+       "type": "page",
+       "pageId": "f7af2039-1662-a913-16c2-e15c38827ac8"
+      },
+      {
        "title": "Array vs. ArrayList",
        "id": "73e736f7-4b9e-96f4-0473-7f686d9afbfc",
        "type": "page",
        "pageId": "e24e9c01-d980-f4a1-5f79-2a7429201df8"
+      },
+      {
+       "id": "37cc1da9-95b6-fcb3-0f1a-19d9b7e1a5a7",
+       "title": "Helpful ArrayList Algorithms",
+       "pageId": "0c1ee3c3-7b9e-f408-3cc6-06d320eb53c8",
+       "type": "page"
       }
      ]
     },
@@ -926,7 +975,20 @@
      "title": "Formative Assessment: ArrayLists",
      "id": "7d5d781f-8ea9-ff27-77f4-945d977383bb",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "852ee618-b515-d282-0070-148281f18774",
+       "title": "Formative Assessment 1",
+       "pageId": "3bd5235f-8a7d-d686-4a4e-43923d3dcd3e",
+       "type": "page"
+      },
+      {
+       "id": "9af21b8e-df56-7c7a-3fbe-dca24091e6af",
+       "title": "Formative Assessment 2",
+       "pageId": "83819422-316a-8d48-8e86-c716c5f37ef9",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "ArrayList Methods",
@@ -963,7 +1025,20 @@
      "title": "Formative Assessment: ArrayList Methods",
      "id": "b1af506c-feb7-b943-4294-8c5f2a67d1c4",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "1d9e186a-31b8-dc41-903a-fd864f5c2287",
+       "title": "Formative Assessment 1",
+       "pageId": "a57e46fc-c2b8-82e9-9853-ca2f1da61974",
+       "type": "page"
+      },
+      {
+       "id": "90c380c5-5494-d73b-af83-00ea7804260e",
+       "title": "Formative Assessment 2",
+       "pageId": "1c98c535-a50c-84d6-edb7-0eff6a4f5baa",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "2D Arrays",
@@ -975,37 +1050,18 @@
        "id": "319f78ae-635d-ba34-1f05-4287ad315f46",
        "type": "page",
        "pageId": "c190e7d2-6bea-c754-480a-8d008afd06f1"
-      }
-     ]
-    },
-    {
-     "title": "Formative Assessment: 2D Arrays",
-     "id": "520a8d5f-45a1-3cb0-6084-4c7217088627",
-     "type": "section",
-     "children": []
-    },
-    {
-     "title": "Array Iteration",
-     "id": "f25650df-99a0-527c-e233-6665ee5487b0",
-     "type": "section",
-     "children": [
-      {
-       "title": "Learning Objectives: Array Iteration",
-       "id": "a032a7a3-1a07-e666-be82-f302eb5bac84",
-       "type": "page",
-       "pageId": "9a18da47-cc01-fb75-2a85-be23f4cfee0c"
       },
       {
-       "title": "Iterating an Array",
-       "id": "51e5a3d6-3487-63dd-11fc-d68f0a813712",
-       "type": "page",
-       "pageId": "07cb9b24-4e80-4199-4e50-c0f437f6531b"
+       "id": "cba39bd3-dc9b-9e9b-6c10-d8a7ac030d4f",
+       "title": "Creating a 2D Array",
+       "pageId": "268c20ff-0bfc-76f3-0266-218befedbb98",
+       "type": "page"
       },
       {
-       "title": "Iterating an ArrayList",
-       "id": "33966feb-04e4-de76-0676-dc2b4f2bfb13",
-       "type": "page",
-       "pageId": "f7af2039-1662-a913-16c2-e15c38827ac8"
+       "id": "4e81da2e-c116-a42a-6d54-d8848b1ac117",
+       "title": "Accessing and Modifying a 2D Array",
+       "pageId": "08f3d645-34c1-b76a-cbf1-0202a8b99440",
+       "type": "page"
       },
       {
        "title": "Iterating a 2D Array",
@@ -1016,10 +1072,23 @@
      ]
     },
     {
-     "title": "Formative Assessment: Array Iteration",
-     "id": "231fa5a2-65ba-5506-fbf3-eeb3adad5783",
+     "title": "Formative Assessment: 2D Arrays",
+     "id": "520a8d5f-45a1-3cb0-6084-4c7217088627",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "387dfa5e-b91d-8755-f57c-452b6682b2d9",
+       "title": "Formative Assessment 1",
+       "pageId": "4ff831fd-afc3-fb6f-cad7-029337ee0727",
+       "type": "page"
+      },
+      {
+       "id": "89ff5a02-0dda-6dd3-247e-891560db71d3",
+       "title": "Formative Assessment 2",
+       "pageId": "f228b88d-777b-2cf2-7320-b309d9365214",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Lab - Arrays",

@@ -5495,5 +5495,450 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1357018041",
+  "source": {
+   "name": "Array Syntax",
+   "showName": true,
+   "instructions": "Which of the following correctly contains the syntax for creating an **integer** array called `numbers` that stores elements from **1 through 5**?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "c07a8f55-5d98-547e-bb1b-13eee2f7c6ff",
+     "correct": false,
+     "answer": "String[] numbers = {1, 2, 3, 4, 5};"
+    },
+    {
+     "_id": "cb424813-9e7e-e6f7-8b59-250a560b2766",
+     "correct": false,
+     "answer": "String[] numbers = new String[5];"
+    },
+    {
+     "_id": "71246471-5425-f126-f3c5-7409d51c2594",
+     "correct": true,
+     "answer": "int[] numbers = {1, 2, 3, 4, 5};"
+    },
+    {
+     "_id": "b7985b98-aeac-2ec6-1106-8d022b41a71e",
+     "correct": false,
+     "answer": "int[] numbers = new int[5];"
+    }
+   ],
+   "guidance": "In order to store integers into an array, `int[]` must be used. Also, we know we want elements in the array to be initialized to numbers 1 through 5 which means we cannot use `new`. Thus, the correct answer is `int[] numbers = {1, 2, 3, 4, 5};`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayCreate.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayCreate.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3807028898",
+  "source": {
+   "name": "Array Indices",
+   "showName": true,
+   "instructions": "Given the following code:\n```java\ndouble[] tenths = {1.2, 2.3, 3.4, 4.5};\n```\n\nDetermine what will be printed for each of the following print statements.",
+   "showValues": true,
+   "text": "1. System.out.println(tenths[0]) will print <<<1.2>>>.\n2. System.out.println(tenths[2]) will print <<<3.4>>>.\n3. System.out.println(tenths[4]) will print <<<ArrayIndexOutOfBoundsException>>>.",
+   "distractors": "2.3\n4.5\n",
+   "guidance": "Remember that array indices always start at `0`. Thus, `tenths[0]` refers to the first element, `tenths[2] refers to the third element, and `tenths[4]` refers to the fifth element. The first element is `1.2`, the third element is `3.4`, and the fifth element does not exist. Therefore, an `ArrayIndexOutOfBoundsException` error message will be returned.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayAccess.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayAccess.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "1.2",
+     "3.4",
+     "ArrayIndexOutOfBoundsException"
+    ],
+    "text": [
+     "1. System.out.println(tenths[0]) will print ",
+     0,
+     ".\n2. System.out.println(tenths[2]) will print ",
+     0,
+     ".\n3. System.out.println(tenths[4]) will print ",
+     0,
+     "."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2251455786",
+  "source": {
+   "name": "Modifying Test Scores",
+   "showName": true,
+   "instructions": "Given the following output:\n```java\nFirst test: 84\nSecond test: 76\nThird test: 97\n```",
+   "showValues": false,
+   "text": "Fill in the blanks below with code to produce the output mentioned above.\n\n```java\n<<<String>>>[] test = {\"<<<First>>> test: \", \"Second test: \", \"Third test: \"};\nint[] scores = <<<new>>> int[<<<3>>>];\n\nscores[<<<0>>>] = 84;\n<<<scores>>>[1] = 76;\nscores[2] = <<<97>>>;\n\nSystem.out.println(<<<test>>>[0] + scores[<<<0>>>]);\nSystem.out.println(test[<<<1>>>] + scores[<<<1>>>]);\nSystem.out.println(test[<<<2>>>] + <<<scores>>>[2]);\n```",
+   "distractors": "",
+   "guidance": "The first array uses the **initializer list** method to populate Strings into the array. Thus, `String[]` is needed. While initializing the String array, the first element should be initialized to \"`First` test: \". \n\nThe second array uses the **new** method to populate ints into the array. Thus, `new` is needed followed by int[`3`] in order to store 3 elements.\n\nDue to the **new** method, the int array will be populated with the default `0`. To change the elements, you must specify the indices at which they are located and assign them the appropriate values. For example, `scores[0] = 84;` will replace the first element in the array with `84`.\n\nThe print statements should refer to the elements' indices starting from `0` and going through `2`. You need to use both arrays in your print statements. For example, `System.out.println(test[0] + scores[0]);`\n\n**Solution:**\n```java\nString[] test = {\"First test: \", \"Second test: \", \"Third test: \"};\nint[] scores = new int[3];\n\nscores[0] = 84;\nscores[1] = 76;\nscores[2] = 97;\n\nSystem.out.println(test[0] + scores[0]);\nSystem.out.println(test[1] + scores[1]);\nSystem.out.println(test[2] + scores[2]);\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayModify.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "String",
+     "First",
+     "new",
+     "3",
+     "0",
+     "scores",
+     "97",
+     "test",
+     "0",
+     "1",
+     "1",
+     "2",
+     "scores"
+    ],
+    "text": [
+     "Fill in the blanks below with code to produce the output mentioned above.\n\n```java\n",
+     0,
+     "[] test = {\"",
+     0,
+     " test: \", \"Second test: \", \"Third test: \"};\nint[] scores = ",
+     0,
+     " int[",
+     0,
+     "];\n\nscores[",
+     0,
+     "] = 84;\n",
+     0,
+     "[1] = 76;\nscores[2] = ",
+     0,
+     ";\n\nSystem.out.println(",
+     0,
+     "[0] + scores[",
+     0,
+     "]);\nSystem.out.println(test[",
+     0,
+     "] + scores[",
+     0,
+     "]);\nSystem.out.println(test[",
+     0,
+     "] + ",
+     0,
+     "[2]);\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2702771590",
+  "source": {
+   "name": "Modifying Array Elements",
+   "showName": true,
+   "instructions": "After outputting your code, you noticed that `Friday` is printed twice. Your code is shown below:\n```java\nString[] weekdays = {\"Monday\", \"Tuesday\", \"Wednesday\", \n                     \"Friday\", \"Friday\"};\n```\n\nWhich of the following code snippets correctly modifies the array so that `Thursday` is printed **after** `Wednesday` but **before** the second `Friday`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "30018346-4ee9-1f01-3f01-2288826b3678",
+     "correct": false,
+     "answer": "weekdays = \"Thursday\";"
+    },
+    {
+     "_id": "61a99cd1-955a-c758-74d5-47634e3c707f",
+     "correct": true,
+     "answer": "weekdays[3] = \"Thursday\";"
+    },
+    {
+     "_id": "7e70a1b4-af06-28d1-8d2b-8027bc00c20d",
+     "correct": false,
+     "answer": "weekdays[4] = \"Thursday\";"
+    },
+    {
+     "_id": "4d4799b0-c2ab-5b25-a508-3a408425a224",
+     "correct": false,
+     "answer": "weekdays[5] = \"Thursday\";"
+    }
+   ],
+   "guidance": "In order to modify an array element, you must specify the index at which that element is located within brackets `[]`. Also, remember that array indices start at `0` for the first element, then `1` for the second element, etc. Since we want to replace the first `Friday` with `Thursday`, which is the fourth element in the array, we need to access index number `3`. Thus, the correct answer is choice **#2**: `weekdays[3] = \"Thursday\";`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayModify.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayModify.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3987656755",
+  "source": {
+   "name": "Iterating Array Elements",
+   "showName": true,
+   "instructions": "Construct a program using the code blocks below that iterates through the array and prints every element inside.\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the program to repeat by dragging it slightly to the right. You only have **ONE ATTEMPT** at this problem!",
+   "initial": "double[] debt = {23.67, 82.96, 34.51};\nfor (int i = 0; i < debt.length; i++) {\n  System.out.println(debt[i]);\n}\ndouble[] debt = {\"23.67\", \"82.96\", \"34.51\"};    #distractor\nfor (int i = 0; i <= 3; i++) {    #distractor\nSystem.out.println(debt);    #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The first step is to initialize all of the elements inside the array. The array type is **double**, therefore you cannot initialize the elements as Strings (i.e `\"23.67\"`, etc.). Next, the `for` loop needs to run exactly **three** times to iterate through the three elements that we have. You cannot use `for (int i = 0; i <= 3; i++) {` because that will cause the loop to run **four** times. We do not have a fourth element so the system will encounter an `ArrayIndexOutOfBoundsException` error. Use `for (int i = 0; i < debt.length; i++) {` instead because `debt.length` will always keep track of how many elements are in our array. Lastly, we need to print `debt[i]`, not `debt`. Remember, `debt` is the array itself, not the array elements. Printing `debt` will only print its memory address.\n\n**Solution:**\n```java\ndouble[] debt = {23.67, 82.96, 34.51};\nfor (int i = 0; i < debt.length; i++) {\n  System.out.println(debt[i]);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayIterate.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayIterate.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2708756625",
+  "source": {
+   "name": "Enhanced For-Loop",
+   "showName": true,
+   "instructions": "Which of the following situations can an enhanced `for` loop be used for?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "b3a1305a-175b-2613-0926-d9874ef13f5e",
+     "correct": false,
+     "answer": "To refer to an array index or position within the array."
+    },
+    {
+     "_id": "f287b009-53fb-6c58-7eb3-24810209a198",
+     "correct": false,
+     "answer": "To modify an element inside the array."
+    },
+    {
+     "_id": "76eb1fa4-f417-dfd8-6e8b-1cd5c02f6b73",
+     "correct": true,
+     "answer": "To print all of the elements within an array."
+    },
+    {
+     "_id": "817e04cb-8e5e-5d30-927a-416daed85e0d",
+     "correct": false,
+     "answer": "To print only specific elements of the array."
+    }
+   ],
+   "guidance": "The biggest advantage of an enhanced `for` loop is that it cuts down on the amount of code needed to **print all of the elements** inside an array. Unfortunately, it cannot access array indices, modify array elements, nor print specific elements within an array.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayEnhancedFor.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayEnhancedFor.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1047073280",
+  "source": {
+   "name": "Arrays, Loops, and Conditionals",
+   "showName": true,
+   "instructions": "Complete the program below with code so that the program will print `Even` if the array element is an even number and `Odd` if it is odd.",
+   "showValues": false,
+   "text": "```java\nint[] numbers = {15, 48, 22, 93, 75};\n\n<<<for>>> (<<<int>>> i : numbers) {\n  <<<if>>> (i % 2 == <<<0>>>) {\n    System.out.println(\"Even\");\n  }\n  else {\n    System.out.println(\"<<<Odd>>>\");\n  }\n}\n```",
+   "distractors": "",
+   "guidance": "The code implements an enhanced `for` loop, thus you need to specify the type for `i` which is `int`. A conditional `if` is needed to direct the program to print `Even` if the element has no remainder when dividing by 2, `if (i % 2 == 0)`. Otherwise, the element is an odd number and the program will print `Odd`.\n\n**Solution:**\n```java\nint[] numbers = {15, 48, 22, 93, 75};\n\nfor (int i : numbers) {\n  if (i % 2 == 0) {\n    System.out.println(\"Even\");\n  }\n  else {\n    System.out.println(\"Odd\");\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayAlgorithms.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayAlgorithms.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "for",
+     "int",
+     "if",
+     "0",
+     "Odd"
+    ],
+    "text": [
+     "```java\nint[] numbers = {15, 48, 22, 93, 75};\n\n",
+     0,
+     " (",
+     0,
+     " i : numbers) {\n  ",
+     0,
+     " (i % 2 == ",
+     0,
+     ") {\n    System.out.println(\"Even\");\n  }\n  else {\n    System.out.println(\"",
+     0,
+     "\");\n  }\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1223430986",
+  "source": {
+   "name": "Conditional Array Output",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```java\nint[] ages = {18, 21, 15, 2, 68};\n\nfor (int i : ages) {\n  if (i >= 18) {\n    System.out.println(\"Eligible\");\n  }\n  else {\n    System.out.println(\"Ineligible\");\n  }\n}\n```\n\nDetermine the output that will be produced by the program above.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "b146ffa9-3af1-1f86-ff0a-21bcbc1dff6c",
+     "correct": true,
+     "answer": "```java\nEligible\nEligible\nIneligible\nIneligible\nEligible\n```"
+    },
+    {
+     "_id": "df9231ee-b47f-87a4-350b-de310dedfe89",
+     "correct": false,
+     "answer": "```java\nIneligible\nIneligible\nEligible\nEligible\nIneligible\n```"
+    },
+    {
+     "_id": "40b71e5a-c523-cc52-dc05-7c6f84cb8979",
+     "correct": false,
+     "answer": "```java\n18\n21\n15\n2\n68\n```"
+    },
+    {
+     "_id": "380ba21f-d0d3-fad1-02bf-74695f2bf1cb",
+     "correct": false,
+     "answer": "```java\n68\n2\n15\n21\n18\n```"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
