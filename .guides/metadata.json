@@ -2447,7 +2447,13 @@
   {
    "id": "75f25e41-e99a-0ae1-8aa0-c718b70bc592",
    "title": "Learning Objectives: ArrayLists",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--ArrayLists-75f2.md",
@@ -2459,7 +2465,18 @@
   {
    "id": "ce742886-9f21-8dda-e791-439eec0a902c",
    "title": "Creating an ArrayList",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayListCreate.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-an-ArrayList-ce74.md",
@@ -2469,93 +2486,20 @@
    "learningObjectives": ""
   },
   {
-   "id": "985d0579-7e89-e68f-19ac-8b27382d77eb",
-   "title": "Accessing and Modifying an ArrayList",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Accessing-and-Modifying-an-ArrayList-985d.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "f7af2039-1662-a913-16c2-e15c38827ac8",
-   "title": "Iterating an ArrayList",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Iterating-an-ArrayList-f7af.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "e24e9c01-d980-f4a1-5f79-2a7429201df8",
-   "title": "Array vs. ArrayList",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Array-vs--ArrayList-e24e.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "0c1ee3c3-7b9e-f408-3cc6-06d320eb53c8",
-   "title": "Helpful ArrayList Algorithms",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Helpful-ArrayList-Algorithms-0c1e.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "3bd5235f-8a7d-d686-4a4e-43923d3dcd3e",
-   "title": "Formative Assessment 1",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-3bd5.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "83819422-316a-8d48-8e86-c716c5f37ef9",
-   "title": "Formative Assessment 2",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-8381.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "da8d4d04-f401-e0b4-3cc9-418a8b569dee",
-   "title": "Learning Objectives: ArrayList Methods",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives--ArrayList-Methods-da8d.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
    "id": "379c9e6f-f03f-2edc-1158-bd269c631b8b",
    "title": "Adding and Removing Elements",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayListAddRemove.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Adding-and-Removing-Elements-379c.md",
@@ -2567,7 +2511,18 @@
   {
    "id": "97883cc8-bf8e-b5e9-250f-54e18edd1ab2",
    "title": "Getting and Setting Elements",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayListGetSet.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Getting-and-Setting-Elements-9788.md",
@@ -2577,36 +2532,105 @@
    "learningObjectives": ""
   },
   {
-   "id": "e7cc58e3-ae62-970c-d86a-a83c06514865",
-   "title": "Determining ArrayList Size",
-   "files": [],
+   "id": "f7af2039-1662-a913-16c2-e15c38827ac8",
+   "title": "Iterating an ArrayList",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayListIterate.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Determining-ArrayList-Size-e7cc.md",
+   "content-file": ".guides/content/Iterating-an-ArrayList-f7af.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "a57e46fc-c2b8-82e9-9853-ca2f1da61974",
+   "id": "e24e9c01-d980-f4a1-5f79-2a7429201df8",
+   "title": "ArrayList vs. Array",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayListArray.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/ArrayList-vs--Array-e24e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0c1ee3c3-7b9e-f408-3cc6-06d320eb53c8",
+   "title": "Helpful ArrayList Algorithms",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/arrays/ArrayListAlgorithms.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Helpful-ArrayList-Algorithms-0c1e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3bd5235f-8a7d-d686-4a4e-43923d3dcd3e",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-a57e.md",
+   "content-file": ".guides/content/Formative-Assessment-1-3bd5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "1c98c535-a50c-84d6-edb7-0eff6a4f5baa",
+   "id": "83819422-316a-8d48-8e86-c716c5f37ef9",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-1c98.md",
+   "content-file": ".guides/content/Formative-Assessment-2-8381.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -2615,7 +2639,13 @@
   {
    "id": "c190e7d2-6bea-c754-480a-8d008afd06f1",
    "title": "Learning Objectives: 2D Arrays",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--2D-Arrays-c190.md",
@@ -2627,7 +2657,13 @@
   {
    "id": "268c20ff-0bfc-76f3-0266-218befedbb98",
    "title": "Creating a 2D Array",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-a-2D-Array-268c.md",
@@ -2639,7 +2675,13 @@
   {
    "id": "08f3d645-34c1-b76a-cbf1-0202a8b99440",
    "title": "Accessing and Modifying a 2D Array",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Accessing-and-Modifying-a-2D-Array-08f3.md",
@@ -2651,7 +2693,13 @@
   {
    "id": "9afc8cbd-932c-134a-23d9-c80d4ea0fc65",
    "title": "Iterating a 2D Array",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Iterating-a-2D-Array-9afc.md",
@@ -2663,7 +2711,13 @@
   {
    "id": "4ff831fd-afc3-fb6f-cad7-029337ee0727",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-4ff8.md",
@@ -2675,10 +2729,178 @@
   {
    "id": "f228b88d-777b-2cf2-7320-b309d9365214",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-f228.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "90581df3-2b6c-90af-f944-05c054bf8d61",
+   "title": "Lab: Arrays",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab--Arrays-9058.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "4847ec95-3f26-1ceb-1992-947fedace644",
+   "title": "Lab: ArrayLists",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab--ArrayLists-4847.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5202408a-3273-f0c6-26c5-846cb235a13e",
+   "title": "Lab: 2D Arrays",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab--2D-Arrays-5202.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5785d5f2-f4ba-eb63-0a6f-3a6a58d43cbd",
+   "title": "Lab Challenge: Array Conversion",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-Challenge--Array-Conversion-5785.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3313a4d9-e0dc-9fb3-dd5a-a8ed5bf2c642",
+   "title": "Exercise 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-3313.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5a712eda-0287-a886-7f99-5362ee70e183",
+   "title": "Exercise 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-5a71.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b69b2546-2962-0403-5c35-273beb6e3f6b",
+   "title": "Exercise 3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-b69b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1e872a29-a5b5-8ba2-089d-a6012f43b591",
+   "title": "Exercise 4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-1e87.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "34e7ced2-8706-6bea-c24e-afe518d041ce",
+   "title": "Exercise 5",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-34e7.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

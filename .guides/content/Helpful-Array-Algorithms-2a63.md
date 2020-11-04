@@ -1,7 +1,7 @@
 ---
 
 ## Array Algorithms
-In addition to being used with loops, arrays can also be used with conditionals to help with tasks such as searching for a particular element, finding a minimum or maximum element, or reversing the order of elements.
+In addition to being used with loops, arrays can also be used with conditionals to help with tasks such as searching for a particular element, finding a minimum or maximum element, or printing elements in reverse order.
 
 ### Searching for a Particular Element
 ```java
@@ -34,7 +34,7 @@ System.out.println(Camry); //print whether Camry exists or not
 
 <table><tbody ><tr><td><details><summary>
 	<b>Sample Solution</b>
-</summary><br>
+</summary>
   
 ```java
 String[] cars = {"Corolla", "Camry", "Prius", "RAV4", "Highlander"};
@@ -84,7 +84,7 @@ System.out.println("The lowest grade is " + min); //print lowest element
 
 <table><tbody ><tr><td><details><summary>
 	<b>Sample Solution</b>
-</summary><br>
+</summary>
   
 ```java
 int[] grades = {72, 84, 63, 55, 98};
@@ -102,7 +102,7 @@ System.out.println("The highest grade is " + max);
 </details></td></tr></tbody>
 </table>
 
-### Reversing the Order of Elements
+### Printing Elements in Reverse Order
 ```java
 String[] letters = {"A", "B", "C", "D", "E"};
 

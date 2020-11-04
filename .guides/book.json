@@ -896,16 +896,16 @@
        "pageId": "07cb9b24-4e80-4199-4e50-c0f437f6531b"
       },
       {
-       "id": "9be65bf5-ada5-4522-207b-0bf221f8bbcd",
        "title": "Enhanced For-Loop",
-       "pageId": "2663b4ab-bf26-8367-c778-1d74c882001d",
-       "type": "page"
+       "id": "9be65bf5-ada5-4522-207b-0bf221f8bbcd",
+       "type": "page",
+       "pageId": "2663b4ab-bf26-8367-c778-1d74c882001d"
       },
       {
-       "id": "3f221656-2830-4080-1453-5c92e9c39fdd",
        "title": "Helpful Array Algorithms",
-       "pageId": "2a635445-1ff3-9c02-a1f1-83b8e91ca64e",
-       "type": "page"
+       "id": "3f221656-2830-4080-1453-5c92e9c39fdd",
+       "type": "page",
+       "pageId": "2a635445-1ff3-9c02-a1f1-83b8e91ca64e"
       }
      ]
     },
@@ -915,16 +915,16 @@
      "type": "section",
      "children": [
       {
-       "id": "6e9a24ed-5f4a-5eb7-1746-0b1bbaaf8754",
        "title": "Formative Assessment 1",
-       "pageId": "118e32e1-ef63-52f1-ee88-0be025f7e81c",
-       "type": "page"
+       "id": "6e9a24ed-5f4a-5eb7-1746-0b1bbaaf8754",
+       "type": "page",
+       "pageId": "118e32e1-ef63-52f1-ee88-0be025f7e81c"
       },
       {
-       "id": "e73bfc67-e20b-5d35-d854-a0331227210b",
        "title": "Formative Assessment 2",
-       "pageId": "c83646d5-b840-dcd7-6086-3be8971f0e8b",
-       "type": "page"
+       "id": "e73bfc67-e20b-5d35-d854-a0331227210b",
+       "type": "page",
+       "pageId": "c83646d5-b840-dcd7-6086-3be8971f0e8b"
       }
      ]
     },
@@ -946,62 +946,6 @@
        "pageId": "ce742886-9f21-8dda-e791-439eec0a902c"
       },
       {
-       "id": "b8aeaef1-4378-a288-3fe8-693adbc65b3d",
-       "title": "Accessing and Modifying an ArrayList",
-       "pageId": "985d0579-7e89-e68f-19ac-8b27382d77eb",
-       "type": "page"
-      },
-      {
-       "title": "Iterating an ArrayList",
-       "id": "33966feb-04e4-de76-0676-dc2b4f2bfb13",
-       "type": "page",
-       "pageId": "f7af2039-1662-a913-16c2-e15c38827ac8"
-      },
-      {
-       "title": "Array vs. ArrayList",
-       "id": "73e736f7-4b9e-96f4-0473-7f686d9afbfc",
-       "type": "page",
-       "pageId": "e24e9c01-d980-f4a1-5f79-2a7429201df8"
-      },
-      {
-       "id": "37cc1da9-95b6-fcb3-0f1a-19d9b7e1a5a7",
-       "title": "Helpful ArrayList Algorithms",
-       "pageId": "0c1ee3c3-7b9e-f408-3cc6-06d320eb53c8",
-       "type": "page"
-      }
-     ]
-    },
-    {
-     "title": "Formative Assessment: ArrayLists",
-     "id": "7d5d781f-8ea9-ff27-77f4-945d977383bb",
-     "type": "section",
-     "children": [
-      {
-       "id": "852ee618-b515-d282-0070-148281f18774",
-       "title": "Formative Assessment 1",
-       "pageId": "3bd5235f-8a7d-d686-4a4e-43923d3dcd3e",
-       "type": "page"
-      },
-      {
-       "id": "9af21b8e-df56-7c7a-3fbe-dca24091e6af",
-       "title": "Formative Assessment 2",
-       "pageId": "83819422-316a-8d48-8e86-c716c5f37ef9",
-       "type": "page"
-      }
-     ]
-    },
-    {
-     "title": "ArrayList Methods",
-     "id": "302e1c67-05ea-2444-9458-83232a5994dd",
-     "type": "section",
-     "children": [
-      {
-       "title": "Learning Objectives: ArrayList Methods",
-       "id": "c266807d-dca1-5056-dd03-226499f1e2d5",
-       "type": "page",
-       "pageId": "da8d4d04-f401-e0b4-3cc9-418a8b569dee"
-      },
-      {
        "title": "Adding and Removing Elements",
        "id": "6f3d9084-5797-9318-4933-d6bdc86e31e7",
        "type": "page",
@@ -1014,29 +958,41 @@
        "pageId": "97883cc8-bf8e-b5e9-250f-54e18edd1ab2"
       },
       {
-       "title": "Determining ArrayList Size",
-       "id": "d4f139f3-28ac-a855-0766-71c5226e56c5",
+       "title": "Iterating an ArrayList",
+       "id": "33966feb-04e4-de76-0676-dc2b4f2bfb13",
        "type": "page",
-       "pageId": "e7cc58e3-ae62-970c-d86a-a83c06514865"
+       "pageId": "f7af2039-1662-a913-16c2-e15c38827ac8"
+      },
+      {
+       "title": "ArrayList vs. Array",
+       "id": "73e736f7-4b9e-96f4-0473-7f686d9afbfc",
+       "type": "page",
+       "pageId": "e24e9c01-d980-f4a1-5f79-2a7429201df8"
+      },
+      {
+       "title": "Helpful ArrayList Algorithms",
+       "id": "37cc1da9-95b6-fcb3-0f1a-19d9b7e1a5a7",
+       "type": "page",
+       "pageId": "0c1ee3c3-7b9e-f408-3cc6-06d320eb53c8"
       }
      ]
     },
     {
-     "title": "Formative Assessment: ArrayList Methods",
-     "id": "b1af506c-feb7-b943-4294-8c5f2a67d1c4",
+     "title": "Formative Assessment: ArrayLists",
+     "id": "7d5d781f-8ea9-ff27-77f4-945d977383bb",
      "type": "section",
      "children": [
       {
-       "id": "1d9e186a-31b8-dc41-903a-fd864f5c2287",
        "title": "Formative Assessment 1",
-       "pageId": "a57e46fc-c2b8-82e9-9853-ca2f1da61974",
-       "type": "page"
+       "id": "852ee618-b515-d282-0070-148281f18774",
+       "type": "page",
+       "pageId": "3bd5235f-8a7d-d686-4a4e-43923d3dcd3e"
       },
       {
-       "id": "90c380c5-5494-d73b-af83-00ea7804260e",
        "title": "Formative Assessment 2",
-       "pageId": "1c98c535-a50c-84d6-edb7-0eff6a4f5baa",
-       "type": "page"
+       "id": "9af21b8e-df56-7c7a-3fbe-dca24091e6af",
+       "type": "page",
+       "pageId": "83819422-316a-8d48-8e86-c716c5f37ef9"
       }
      ]
     },
@@ -1052,16 +1008,16 @@
        "pageId": "c190e7d2-6bea-c754-480a-8d008afd06f1"
       },
       {
-       "id": "cba39bd3-dc9b-9e9b-6c10-d8a7ac030d4f",
        "title": "Creating a 2D Array",
-       "pageId": "268c20ff-0bfc-76f3-0266-218befedbb98",
-       "type": "page"
+       "id": "cba39bd3-dc9b-9e9b-6c10-d8a7ac030d4f",
+       "type": "page",
+       "pageId": "268c20ff-0bfc-76f3-0266-218befedbb98"
       },
       {
-       "id": "4e81da2e-c116-a42a-6d54-d8848b1ac117",
        "title": "Accessing and Modifying a 2D Array",
-       "pageId": "08f3d645-34c1-b76a-cbf1-0202a8b99440",
-       "type": "page"
+       "id": "4e81da2e-c116-a42a-6d54-d8848b1ac117",
+       "type": "page",
+       "pageId": "08f3d645-34c1-b76a-cbf1-0202a8b99440"
       },
       {
        "title": "Iterating a 2D Array",
@@ -1077,16 +1033,16 @@
      "type": "section",
      "children": [
       {
-       "id": "387dfa5e-b91d-8755-f57c-452b6682b2d9",
        "title": "Formative Assessment 1",
-       "pageId": "4ff831fd-afc3-fb6f-cad7-029337ee0727",
-       "type": "page"
+       "id": "387dfa5e-b91d-8755-f57c-452b6682b2d9",
+       "type": "page",
+       "pageId": "4ff831fd-afc3-fb6f-cad7-029337ee0727"
       },
       {
-       "id": "89ff5a02-0dda-6dd3-247e-891560db71d3",
        "title": "Formative Assessment 2",
-       "pageId": "f228b88d-777b-2cf2-7320-b309d9365214",
-       "type": "page"
+       "id": "89ff5a02-0dda-6dd3-247e-891560db71d3",
+       "type": "page",
+       "pageId": "f228b88d-777b-2cf2-7320-b309d9365214"
       }
      ]
     },
@@ -1094,13 +1050,69 @@
      "title": "Lab - Arrays",
      "id": "9e8b8e0d-16ee-45b9-ab90-18064463e3a2",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "1c574265-6cd0-d1b7-d9f5-2d6c1d9e61b0",
+       "title": "Lab: Arrays",
+       "pageId": "90581df3-2b6c-90af-f944-05c054bf8d61",
+       "type": "page"
+      },
+      {
+       "id": "02fba3a9-7f7b-5166-420b-de32cd314d2b",
+       "title": "Lab: ArrayLists",
+       "pageId": "4847ec95-3f26-1ceb-1992-947fedace644",
+       "type": "page"
+      },
+      {
+       "id": "3bbc87f9-2ab6-8e48-cd98-1830a6c96675",
+       "title": "Lab: 2D Arrays",
+       "pageId": "5202408a-3273-f0c6-26c5-846cb235a13e",
+       "type": "page"
+      },
+      {
+       "id": "09cc693f-38d0-ca22-7591-0077e578b072",
+       "title": "Lab Challenge: Array Conversion",
+       "pageId": "5785d5f2-f4ba-eb63-0a6f-3a6a58d43cbd",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Coding Exercises - Arrays",
      "id": "d7069207-3bb0-0385-f053-b979ff8571ec",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "a08d4143-7ad8-0f61-174c-40f37f770428",
+       "title": "Exercise 1",
+       "pageId": "3313a4d9-e0dc-9fb3-dd5a-a8ed5bf2c642",
+       "type": "page"
+      },
+      {
+       "id": "e65415f6-1e63-69b9-9657-d8abcc0b3ba2",
+       "title": "Exercise 2",
+       "pageId": "5a712eda-0287-a886-7f99-5362ee70e183",
+       "type": "page"
+      },
+      {
+       "id": "fa3f5956-277a-01b8-a0e3-72521051b089",
+       "title": "Exercise 3",
+       "pageId": "b69b2546-2962-0403-5c35-273beb6e3f6b",
+       "type": "page"
+      },
+      {
+       "id": "fadc1a3c-d389-cea3-981c-d773fe78cc38",
+       "title": "Exercise 4",
+       "pageId": "1e872a29-a5b5-8ba2-089d-a6012f43b591",
+       "type": "page"
+      },
+      {
+       "id": "ea226da1-5b08-2acb-7cd2-37dea2b9c5a5",
+       "title": "Exercise 5",
+       "pageId": "34e7ced2-8706-6bea-c24e-afe518d041ce",
+       "type": "page"
+      }
+     ]
     }
    ]
   },

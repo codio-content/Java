@@ -2,7 +2,7 @@
 
 * ### Create an array using both the *initializer list* and *new* methods
 * ### Access and modify array elements
-* ### Iterate through arrays using both a regular *for* and an *enhanced for loop*
+* ### Iterate through arrays using both a regular `for` loop and an *enhanced* `for` loop
 
 |||guidance
 ## Assumptions

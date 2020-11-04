@@ -81,6 +81,6 @@ for (int i = 0; i < friends.length; i++) {
 
 [Code Visualizer](open_tutor code/arrays/ArrayIterate.java)
 
-Notice how `.length` continues to keep track of how many elements are in our array even though we've made several changes.
+Notice how `friends.length` continues to keep track of how many elements are in our array even though we've made several changes.
 
 {Check It!|assessment}(parsons-puzzle-3987656755)

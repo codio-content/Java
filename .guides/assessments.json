@@ -5508,22 +5508,22 @@
     {
      "_id": "c07a8f55-5d98-547e-bb1b-13eee2f7c6ff",
      "correct": false,
-     "answer": "String[] numbers = {1, 2, 3, 4, 5};"
+     "answer": "`String[] numbers = {1, 2, 3, 4, 5};`"
     },
     {
      "_id": "cb424813-9e7e-e6f7-8b59-250a560b2766",
      "correct": false,
-     "answer": "String[] numbers = new String[5];"
+     "answer": "`String[] numbers = new String[5];`"
     },
     {
      "_id": "71246471-5425-f126-f3c5-7409d51c2594",
      "correct": true,
-     "answer": "int[] numbers = {1, 2, 3, 4, 5};"
+     "answer": "`int[] numbers = {1, 2, 3, 4, 5};`"
     },
     {
      "_id": "b7985b98-aeac-2ec6-1106-8d022b41a71e",
      "correct": false,
-     "answer": "int[] numbers = new int[5];"
+     "answer": "`int[] numbers = new int[5];`"
     }
    ],
    "guidance": "In order to store integers into an array, `int[]` must be used. Also, we know we want elements in the array to be initialized to numbers 1 through 5 which means we cannot use `new`. Thus, the correct answer is `int[] numbers = {1, 2, 3, 4, 5};`.",
@@ -5561,7 +5561,7 @@
    "showName": true,
    "instructions": "Given the following code:\n```java\ndouble[] tenths = {1.2, 2.3, 3.4, 4.5};\n```\n\nDetermine what will be printed for each of the following print statements.",
    "showValues": true,
-   "text": "1. System.out.println(tenths[0]) will print <<<1.2>>>.\n2. System.out.println(tenths[2]) will print <<<3.4>>>.\n3. System.out.println(tenths[4]) will print <<<ArrayIndexOutOfBoundsException>>>.",
+   "text": "1. `System.out.println(tenths[0])` will print <<<1.2>>>.\n2. `System.out.println(tenths[2])` will print <<<3.4>>>.\n3. `System.out.println(tenths[4])` will print <<<ArrayIndexOutOfBoundsException>>>.",
    "distractors": "2.3\n4.5\n",
    "guidance": "Remember that array indices always start at `0`. Thus, `tenths[0]` refers to the first element, `tenths[2] refers to the third element, and `tenths[4]` refers to the fifth element. The first element is `1.2`, the third element is `3.4`, and the fifth element does not exist. Therefore, an `ArrayIndexOutOfBoundsException` error message will be returned.",
    "showGuidanceAfterResponse": true,
@@ -5594,11 +5594,11 @@
      "ArrayIndexOutOfBoundsException"
     ],
     "text": [
-     "1. System.out.println(tenths[0]) will print ",
+     "1. `System.out.println(tenths[0])` will print ",
      0,
-     ".\n2. System.out.println(tenths[2]) will print ",
+     ".\n2. `System.out.println(tenths[2])` will print ",
      0,
-     ".\n3. System.out.println(tenths[4]) will print ",
+     ".\n3. `System.out.println(tenths[4])` will print ",
      0,
      "."
     ],
@@ -5612,9 +5612,9 @@
   "source": {
    "name": "Modifying Test Scores",
    "showName": true,
-   "instructions": "Given the following output:\n```java\nFirst test: 84\nSecond test: 76\nThird test: 97\n```",
+   "instructions": "Given the following output:\n```java\nFirst test: 84\nSecond test: 76\nThird test: 97\n```\n\nFill in the blanks below with code to produce the output mentioned above.",
    "showValues": false,
-   "text": "Fill in the blanks below with code to produce the output mentioned above.\n\n```java\n<<<String>>>[] test = {\"<<<First>>> test: \", \"Second test: \", \"Third test: \"};\nint[] scores = <<<new>>> int[<<<3>>>];\n\nscores[<<<0>>>] = 84;\n<<<scores>>>[1] = 76;\nscores[2] = <<<97>>>;\n\nSystem.out.println(<<<test>>>[0] + scores[<<<0>>>]);\nSystem.out.println(test[<<<1>>>] + scores[<<<1>>>]);\nSystem.out.println(test[<<<2>>>] + <<<scores>>>[2]);\n```",
+   "text": "```java\n<<<String>>>[] test = {\"<<<First>>> test: \", \"Second test: \", \"Third test: \"};\nint[] scores = <<<new>>> int[<<<3>>>];\n\nscores[<<<0>>>] = 84;\n<<<scores>>>[1] = 76;\nscores[2] = <<<97>>>;\n\nSystem.out.println(<<<test>>>[0] + scores[<<<0>>>]);\nSystem.out.println(test[<<<1>>>] + scores[<<<1>>>]);\nSystem.out.println(test[<<<2>>>] + <<<scores>>>[2]);\n```",
    "distractors": "",
    "guidance": "The first array uses the **initializer list** method to populate Strings into the array. Thus, `String[]` is needed. While initializing the String array, the first element should be initialized to \"`First` test: \". \n\nThe second array uses the **new** method to populate ints into the array. Thus, `new` is needed followed by int[`3`] in order to store 3 elements.\n\nDue to the **new** method, the int array will be populated with the default `0`. To change the elements, you must specify the indices at which they are located and assign them the appropriate values. For example, `scores[0] = 84;` will replace the first element in the array with `84`.\n\nThe print statements should refer to the elements' indices starting from `0` and going through `2`. You need to use both arrays in your print statements. For example, `System.out.println(test[0] + scores[0]);`\n\n**Solution:**\n```java\nString[] test = {\"First test: \", \"Second test: \", \"Third test: \"};\nint[] scores = new int[3];\n\nscores[0] = 84;\nscores[1] = 76;\nscores[2] = 97;\n\nSystem.out.println(test[0] + scores[0]);\nSystem.out.println(test[1] + scores[1]);\nSystem.out.println(test[2] + scores[2]);\n```",
    "showGuidanceAfterResponse": true,
@@ -5628,9 +5628,16 @@
      }
     ],
     "files": [
+     "code/arrays/ArrayListIterate.java",
      "code/arrays/ArrayModify.java"
     ],
-    "opened": []
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayListIterate.java"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": "",
@@ -5651,7 +5658,7 @@
      "scores"
     ],
     "text": [
-     "Fill in the blanks below with code to produce the output mentioned above.\n\n```java\n",
+     "```java\n",
      0,
      "[] test = {\"",
      0,
@@ -5695,22 +5702,22 @@
     {
      "_id": "30018346-4ee9-1f01-3f01-2288826b3678",
      "correct": false,
-     "answer": "weekdays = \"Thursday\";"
+     "answer": "`weekdays = \"Thursday\";`"
     },
     {
      "_id": "61a99cd1-955a-c758-74d5-47634e3c707f",
      "correct": true,
-     "answer": "weekdays[3] = \"Thursday\";"
+     "answer": "`weekdays[3] = \"Thursday\";`"
     },
     {
      "_id": "7e70a1b4-af06-28d1-8d2b-8027bc00c20d",
      "correct": false,
-     "answer": "weekdays[4] = \"Thursday\";"
+     "answer": "`weekdays[4] = \"Thursday\";`"
     },
     {
      "_id": "4d4799b0-c2ab-5b25-a508-3a408425a224",
      "correct": false,
-     "answer": "weekdays[5] = \"Thursday\";"
+     "answer": "`weekdays[5] = \"Thursday\";`"
     }
    ],
    "guidance": "In order to modify an array element, you must specify the index at which that element is located within brackets `[]`. Also, remember that array indices start at `0` for the first element, then `1` for the second element, etc. Since we want to replace the first `Friday` with `Thursday`, which is the fourth element in the array, we need to access index number `3`. Thus, the correct answer is choice **#2**: `weekdays[3] = \"Thursday\";`.",
@@ -5939,6 +5946,360 @@
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-594360288",
+  "source": {
+   "name": "ArrayList Syntax",
+   "showName": true,
+   "instructions": "Which of the following ArrayList syntax is **incorrect**?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "d57cd3cf-5547-516a-14d8-1515dfaceff8",
+     "correct": false,
+     "answer": "`ArrayList<String> list = new ArrayList<String>();`"
+    },
+    {
+     "_id": "efbd97b7-0a5a-ee49-63fd-7a4d3ee3dadf",
+     "correct": true,
+     "answer": "`ArrayList<int> list = new ArrayList<int>();`"
+    },
+    {
+     "_id": "b1b1e647-da9e-2776-d75d-eb1d0ad3501e",
+     "correct": false,
+     "answer": "`ArrayList<Double> list = new ArrayList<Double>();`"
+    },
+    {
+     "_id": "b977568d-04b1-da53-614b-e6a23f8c7c77",
+     "correct": false,
+     "answer": "`ArrayList<Boolean> list = new ArrayList<Boolean>();`"
+    }
+   ],
+   "guidance": "There are *unique* labels for data types in ArrayLists. Instead of `int`, `double`, and `boolean`, ArrayLists use `Integer`, `Double`, and `Boolean`. Only `String`s is similarly used between ArrayLists and arrays. Thus, it should be `ArrayList<Integer> list = new ArrayList<Integer>();` rather than `ArrayList<int> list = new ArrayList<int>();`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayListCreate.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayListCreate.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-225623719",
+  "source": {
+   "name": "Adding and Removing ArrayList Elements",
+   "showName": true,
+   "instructions": "Given the follow code snippet:\n```java\nArrayList<String> words = new ArrayList<String>();\n\nwords.add(\"I\");\nwords.add(\"love\");\nwords.remove(1);\nwords.add(\"hate\");\nwords.add(1, \"really\");\nwords.add(3, \"bean sprouts\");\n\nSystem.out.println(words);\n```\n\nDetermine the output that is produced.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "8fdfcbdb-ba2d-452b-e0a3-5bd74c51b3d4",
+     "correct": false,
+     "answer": "`IndexOutOfBoundsException` error"
+    },
+    {
+     "_id": "d82bce28-c3e8-1724-b0eb-ece7c9111441",
+     "correct": false,
+     "answer": "`[I, really, love, bean sprouts]`"
+    },
+    {
+     "_id": "ce842c54-828a-9f5d-8934-a8bc9ef9d62e",
+     "correct": false,
+     "answer": "`[I, hate, really, bean sprouts]`"
+    },
+    {
+     "_id": "a6b2f21e-33ae-97e0-5a9d-34202d9142cc",
+     "correct": true,
+     "answer": "`[I, really, hate, bean sprouts]`"
+    }
+   ],
+   "guidance": "By following the syntax for adding and removing ArrayList elements, you should end up with the output `[I, really, hate, bean sprouts]`.\n\n**Code Flow:**\n`words.add(\"I\");` ---> `[I]`\n`words.add(\"love\");` ---> `[I, love]`\n`words.remove(1);` ---> `[I]`\n`words.add(\"hate\");` ---> `[I, hate]`\n`words.add(1, \"really\");` ---> `[I, really, hate]`\n`words.add(3, \"bean sprouts\");` ---> `[I, really, hate, bean sprouts]`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayListAddRemove.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayListAddRemove.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1250261069",
+  "source": {
+   "name": "Get and Set ArrayList Elements",
+   "showName": true,
+   "instructions": "Construct a program using the code blocks below so that the following will be printed:\n```java\nParker\n```\n\nYou only have **ONE ATTEMPT** at this problem!",
+   "initial": "ArrayList&lt;String&gt; name = new ArrayList&lt;String&gt;();\nname.add(\"Peter\");\nname.set(0, \"Parker\");\nSystem.out.println(name.get(0));",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Before any ArrayList methods can be used, an ArrayList must be created first, `ArrayList<String> name = new ArrayList<String>();`. After the ArrayList is created, it is empty by default so neither the `get()` nor `set()` methods will work. You must add an element to the ArrayList, thus, `name.add(\"Peter\");` comes next. Since the output is `Parker`, you want the print statement to come after `name.set(0, \"Parker\");`. Otherwise, `Peter` will be printed instead.\n\n**Solution:**\n```java\nArrayList<String> name = new ArrayList<String>();\nname.add(\"Peter\");\nname.set(0, \"Parker\");\nSystem.out.println(name.get(0));\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayListGetSet.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayListGetSet.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1411510745",
+  "source": {
+   "name": "Iterating ArrayList Elements",
+   "showName": true,
+   "instructions": "Fill in the program below with code so that all elements of the ArrayList `BMI` is printed.\n\n**Hint:** Some code might be used more than once while others are not used at all.",
+   "showValues": true,
+   "text": "```java\n<<<ArrayList>>>&lt;Double&gt; BMI = <<<new>>> ArrayList&lt;<<<Double>>>&gt;();\nBMI.<<<add>>>(18.5);\nBMI.<<<add>>>(25.0);\nBMI.<<<add>>>(30.0);\n\nfor (<<<Double>>> d : <<<BMI>>>) {\n  System.out.println(<<<d>>>);\n}\n```",
+   "distractors": "get\nset",
+   "guidance": "The correct syntax for creating an empty Double ArrayList is `ArrayList<Double> BMI = new ArrayList<Double>();`. The `get()` and `set()` methods cannot be used on an empty ArrayList. Only `add()` can be used to add elements to the empty ArrayList. Since the ArrayList is of type Double, `Double` must be used to type the iterating variable `d`. On the other side of the colon `:` is the reference of the ArrayList name `BMI`. Then the final step is to print `d` which has taken on all elements of the ArrayList in order.\n\n**Solution:**\n```java\nArrayList<Double> BMI = new ArrayList<Double>();\nBMI.add(18.5);\nBMI.add(25.0);\nBMI.add(30.0);\n\nfor (Double d : BMI) {\n  System.out.println(d);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayListIterate.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayListIterate.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "ArrayList",
+     "new",
+     "Double",
+     "add",
+     "add",
+     "add",
+     "Double",
+     "BMI",
+     "d"
+    ],
+    "text": [
+     "```java\n",
+     0,
+     "&lt;Double&gt; BMI = ",
+     0,
+     " ArrayList&lt;",
+     0,
+     "&gt;();\nBMI.",
+     0,
+     "(18.5);\nBMI.",
+     0,
+     "(25.0);\nBMI.",
+     0,
+     "(30.0);\n\nfor (",
+     0,
+     " d : ",
+     0,
+     ") {\n  System.out.println(",
+     0,
+     ");\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-298729376",
+  "source": {
+   "name": "ArrayList or Array?",
+   "showName": true,
+   "instructions": "Fill out the following statements with either `ArrayList` or `Array` depending on whether each statement is true to one or the other.",
+   "showValues": true,
+   "text": "1. Can be initialized by adding elements into curly braces `{}`: <<<Array>>>\n2. Can add or remove elements after being created: <<<ArrayList>>>\n3. Can change the order of elements without modifying existing elements: <<<ArrayList>>>\n4. Can use `length` to determine the number of elements: <<<Array>>>\n",
+   "distractors": "",
+   "guidance": "Although it is possible to initialize elements at the start, arrays are **static** so adding or removing elements *after* initialization is not possible. On the other hand, ArrayLists are **dynamic** so it is possible to add, remove, and reorder elements. Arrays use `length` while ArrayLists use `size()` to determine the number of existing elements.\n\n**Solution:**\n1. Array\n2. ArrayList\n3. ArrayList\n4. Array",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayListArray.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayListArray.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "Array",
+     "ArrayList",
+     "ArrayList",
+     "Array"
+    ],
+    "text": [
+     "1. Can be initialized by adding elements into curly braces `{}`: ",
+     0,
+     "\n2. Can add or remove elements after being created: ",
+     0,
+     "\n3. Can change the order of elements without modifying existing elements: ",
+     0,
+     "\n4. Can use `length` to determine the number of elements: ",
+     0,
+     "\n"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3501560183",
+  "source": {
+   "name": "ArrayLists, Loops, and Conditionals",
+   "showName": true,
+   "instructions": "On a student's first four tests, they received scores in the following order: `68`, `92`, `100`, and `88`.\n\nFill in the blanks below with code so that the program will print `You got a perfect score!` if the student scored as least one `100` and will print `Keep up the hard work!` if they did not.",
+   "showValues": false,
+   "text": "```java\nArrayList<Integer> scores = new ArrayList&lt;Integer&gt;();\nscores.<<<add>>>(68);\nscores.<<<add>>>(92);\nscores.<<<add>>>(100);\nscores.<<<add>>>(88);\n    \n<<<String>>> feedback = \"\";\n\n<<<for>>> (Integer i : <<<scores>>>) {\n  if (i == <<<100>>>) {\n    <<<feedback>>> = \"You got a perfect score!\";\n    break;\n  }\n  <<<else>>> {\n    feedback = \"Keep up the hard work!\";\n  }\n}\n    \nSystem.out.println(<<<feedback>>>);\n```",
+   "distractors": "",
+   "guidance": "**Guide:**\n* All of the test scores need to be added to `scores` using `add()`.\n* `feedback` is of type `String`.\n* Enhanced `for` loop is needed due to the given syntax `(Integer i : scores)`.\n* If the iterating variable equals `100`, then `You got a perfect score!` will be assigned to `feedback`.\n* `else`, `Keep up the hard work!` will be assigned.\n* Lastly, the program should print the resulting `feedback`.\n\n**Solution:**\n```java\nArrayList<Integer> scores = new ArrayList<Integer>();\nscores.add(68);\nscores.add(92);\nscores.add(100);\nscores.add(88);\n    \nString feedback = \"\";\n\nfor (Integer i : scores) {\n  if (i == 100) {\n    feedback = \"You got a perfect score!\";\n    break;\n  }\n  else {\n    feedback = \"Keep up the hard work!\";\n  }\n}\n    \nSystem.out.println(feedback);\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/arrays/ArrayListAlgorithms.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/ArrayListAlgorithms.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "add",
+     "add",
+     "add",
+     "add",
+     "String",
+     "for",
+     "scores",
+     "100",
+     "feedback",
+     "else",
+     "feedback"
+    ],
+    "text": [
+     "```java\nArrayList<Integer> scores = new ArrayList&lt;Integer&gt;();\nscores.",
+     0,
+     "(68);\nscores.",
+     0,
+     "(92);\nscores.",
+     0,
+     "(100);\nscores.",
+     0,
+     "(88);\n    \n",
+     0,
+     " feedback = \"\";\n\n",
+     0,
+     " (Integer i : ",
+     0,
+     ") {\n  if (i == ",
+     0,
+     ") {\n    ",
+     0,
+     " = \"You got a perfect score!\";\n    break;\n  }\n  ",
+     0,
+     " {\n    feedback = \"Keep up the hard work!\";\n  }\n}\n    \nSystem.out.println(",
+     0,
+     ");\n```"
+    ],
+    "regexPositions": []
+   }
   }
  }
 ]
