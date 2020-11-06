@@ -2661,6 +2661,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/TwoDArrayCreate.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2679,6 +2684,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/TwoDArrayAccessMod.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2697,6 +2707,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/TwoDArrayIterate.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2751,6 +2766,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/LabArray.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2769,6 +2789,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/LabArrayList.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2787,6 +2812,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/LabTwoDArray.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2805,6 +2835,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/LabChallenge.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2823,6 +2858,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/Exercise1.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2841,6 +2881,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/Exercise2.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2859,6 +2904,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/Exercise3.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2877,6 +2927,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/Exercise4.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -2895,6 +2950,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/arrays/Exercise5.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",

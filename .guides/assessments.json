@@ -6301,5 +6301,458 @@
     "regexPositions": []
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-241323723",
+  "source": {
+   "name": "Modifying a Shopping List",
+   "showName": true,
+   "instructions": "Your shopping list is stored in an ArrayList and when printed gives you the following output:\n```java\nApple\nBanana\nBanana\nDumpling\n```\nYou notice that you accidentally added `Banana` twice and you had meant to add `Carrot` after the *first* `Banana`. Assuming that your ArrayList is called `list`, which of the following commands will modify `list` so that printing it will produce:\n```java\nApple\nBanana\nCarrot\nDumpling\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "e20da985-8138-c148-fdfe-d8cfef52f43f",
+     "correct": false,
+     "answer": "`list.add(\"Carrot\");`"
+    },
+    {
+     "_id": "f8221175-1a9d-c7ec-8a42-c3223af02eb5",
+     "correct": false,
+     "answer": "`list.remove(2);`"
+    },
+    {
+     "_id": "5adcce38-d962-3fb9-e74e-b3b9d4a2feb8",
+     "correct": false,
+     "answer": "`list.get(1);`"
+    },
+    {
+     "_id": "262c66bc-2618-78bd-a661-81328784b5ce",
+     "correct": true,
+     "answer": "`list.set(2, \"Carrot\");`"
+    }
+   ],
+   "guidance": "Only choice **#4** will modify the `list` so that `Carrot` will replace `Banana` at index 2. Choice **#1** will only add `Carrot` to the end of the `list`. Choice **#2** will only remove the second `Banana` stored at index 2. And finally, choice **#3** will just access index 1 without modifying any elements.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3810632630",
+  "source": {
+   "name": "Decoding the Message",
+   "showName": true,
+   "instructions": "Given the following program:\n```java\nArrayList<String> message = new ArrayList<String>();\nmessage.add(\"a\");\nmessage.add(\"bad\");\nmessage.add(0, \"today\");\nmessage.set(1, \"is\");\nmessage.remove(2);\nmessage.add(\"good\");\nmessage.add(2, \"a\");\nmessage.add(\"day\");\n\nfor (String s : message) {\n  System.out.print(s);\n}\n```\n\nDetermine the `message` that is outputted.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "5e719328-bd18-d10d-a1e8-3b530aeea733",
+     "correct": true,
+     "answer": "`todayisagoodday`"
+    },
+    {
+     "_id": "7754aa6b-fefc-f357-bd83-507c6a91cd69",
+     "correct": false,
+     "answer": "`today is a bad day`"
+    },
+    {
+     "_id": "7011bcc2-66e1-8b4a-36a9-c2726f30b778",
+     "correct": false,
+     "answer": "`a bad today is good a today`"
+    },
+    {
+     "_id": "4a2d9e94-1e93-3886-46b1-e9bf8629d650",
+     "correct": false,
+     "answer": "`abaddayisagoodday`"
+    }
+   ],
+   "guidance": "To decode the message, follow each commands below:\n* message.add(\"a\"); ---> [a]\n* message.add(\"bad\"); ---> [a, bad]\n* message.add(0, \"today\"); ---> [today, a, bad]\n* message.set(1, \"is\"); ---> [today, is, bad]\n* message.remove(2); ---> [today, is]\n* message.add(\"good\"); ---> [today, is, good]\n* message.add(2, \"a\"); ---> [today, is, a, good]\n* message.add(\"day\"); ---> [today, is, a, good, day]\n* System.out.print(s); ---> `todayisagoodday`\n\n**Note** that the enhanced for loop will iterate through the elements and print them **without** any newlines nor spaces.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-579717952",
+  "source": {
+   "name": "2D Array Creation",
+   "showName": true,
+   "instructions": "If you want to create a 2D array with `2` rows and `4` columns that stores **integer** elements, which of the following syntax should you use?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "a3761fa8-70c0-0810-09c1-20e828e33bb5",
+     "correct": false,
+     "answer": "`Integer[][] elements = new Integer[1][3];`"
+    },
+    {
+     "_id": "779d20c2-c7b9-fc1d-a9ab-8a97febfc8bc",
+     "correct": false,
+     "answer": "`Integer[][] elements = new Integer[2][4];`"
+    },
+    {
+     "_id": "22ec3e7c-7242-b7b9-437a-3b8bb41bdbca",
+     "correct": false,
+     "answer": "`int[][] elements = new int[1][3];`"
+    },
+    {
+     "_id": "6fc8564d-11eb-5f85-304a-8bad46fc7a64",
+     "correct": true,
+     "answer": "`int[][] elements = new int[2][4];`"
+    }
+   ],
+   "guidance": "`Integer` is used for ArrayLists, not arrays. Remember, a 2D array is just an array inside another array. Therefore, the correct type is `int`. When creating a 2D array, the numbers that go into the brackets represent how many rows and columns will be created, not the row and column indices.\n\n**Solution:**\n`int[][] elements = new int[2][4];`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/arrays/TwoDArrayCreate.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/TwoDArrayCreate.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3279998998",
+  "source": {
+   "name": "2D Array Modification",
+   "showName": true,
+   "instructions": "Given the following 2D array:\n```java\ndouble[][] sqroots = { {1.00, 1.41, 1.73},\n                       {2.00, 2.2, 2.45} };\n```\n\nWhich of the following code snippets will enable you to change `2.2` within the 2D array to `2.24`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "1d0bea6a-1015-dfff-99f2-be886a58d09e",
+     "correct": false,
+     "answer": "`sqroots[2][2] = 2.24;`"
+    },
+    {
+     "_id": "2c215a34-a18e-15a5-e829-d955148d65e0",
+     "correct": true,
+     "answer": "`sqroots[1][1] = 2.24;`"
+    },
+    {
+     "_id": "992cba1b-cc11-3225-0ec0-dc095efe6fea",
+     "correct": false,
+     "answer": "`sqroots[2, 2] = 2.24;`"
+    },
+    {
+     "_id": "74c2f0c1-bd4b-213d-ebbf-5f68dc7e3dca",
+     "correct": false,
+     "answer": "`sqroots[1, 1] = 2.24;`"
+    }
+   ],
+   "guidance": "Remember that array indices start at `0`, **not** at `1`. Thus, `2.2` is located at row index 1 and column index 1. To access an element inside a 2D array, the row and column indices must go into brackets `[][]`.\n\n**Solution:**\n`sqroots[1][1] = 2.24;`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/arrays/TwoDArrayAccessMod.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/TwoDArrayAccessMod.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2789344707",
+  "source": {
+   "name": "Iterating 2D Array Elements",
+   "showName": true,
+   "instructions": "Fill in the blanks below with code so that the program will iterate through a 2D array called `family` and print the following output:\n```java\nGrandpa Grandma\nDad Mom\nBrother Sister\n```",
+   "showValues": false,
+   "text": "```java\n<<<String>>>[][] family = { {\"Grandpa\", \"Grandma\"},\n                      {\"Dad\", \"Mom\"},\n                      {\"Brother\", \"Sister\"} };\n\nfor (int i = 0; i < family.<<<length>>>; i++) {\n  <<<for>>> (int j = 0; j < family<<<[>>>0<<<]>>>.length; j++) {\n    <<<if>>> (j == <<<family>>>[0].length - 1) {\n      System.out.<<<println>>>(family[i][j]);\n    }\n    else {\n      System.out.<<<print>>>(family[i][j] + \" \");\n    }\n  }\n}\n```",
+   "distractors": "",
+   "guidance": "**Guide:**\n* The 2D array is of type `String`.\n* The `for` loops include the iterating variable `i` that ends before `family.length` and the iterating variable `j` that ends before `family[0].length`.\n* `if` `j` gets to the end of the column index, `family[0].length - 1`, print the element with `println`, else, print the element with `print` and an empty space.\n\n**Solution:**\n```java\nString[][] family = { {\"Grandpa\", \"Grandma\"},\n                      {\"Dad\", \"Mom\"},\n                      {\"Brother\", \"Sister\"} };\n\nfor (int i = 0; i < family.length; i++) {\n  for (int j = 0; j < family[0].length; j++) {\n    if (j == family[0].length - 1) {\n      System.out.println(family[i][j]);\n    }\n    else {\n      System.out.print(family[i][j] + \" \");\n    }\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/arrays/TwoDArrayIterate.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/TwoDArrayIterate.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "String",
+     "length",
+     "for",
+     "[",
+     "]",
+     "if",
+     "family",
+     "println",
+     "print"
+    ],
+    "text": [
+     "```java\n",
+     0,
+     "[][] family = { {\"Grandpa\", \"Grandma\"},\n                      {\"Dad\", \"Mom\"},\n                      {\"Brother\", \"Sister\"} };\n\nfor (int i = 0; i < family.",
+     0,
+     "; i++) {\n  ",
+     0,
+     " (int j = 0; j < family",
+     0,
+     "0",
+     0,
+     ".length; j++) {\n    ",
+     0,
+     " (j == ",
+     0,
+     "[0].length - 1) {\n      System.out.",
+     0,
+     "(family[i][j]);\n    }\n    else {\n      System.out.",
+     0,
+     "(family[i][j] + \" \");\n    }\n  }\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2639237839",
+  "source": {
+   "name": "Printing a Squares 2D Array",
+   "showName": true,
+   "instructions": "Construct a program using the code blocks below that iterates through the 2D array and prints the following output:\n```java\n1 2\n9 16\n```\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the program to repeat or any nested loops by dragging them slightly to the right. You only have **ONE ATTEMPT** at this problem!",
+   "initial": "int[][] squares = {{1, 4},{9, 16}};\nfor (int[] i : squares) {\n  for (int j : i) {\n    if (j == 4 | j == 16) {\n      System.out.println(j);\n    }\n    else {\n      System.out.print(j + \" \");\n    }\n  }\n}\nInteger[][] squares = {{1, 4},{9, 16}};    #distractor\nfor (int i : squares) {    #distractor\nif (j == squares[0].length - 1) {    #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "**Guide:**\n* 2D arrays of integer is typed as `int`, not `Integer`.\n* To use an enhanced `for` loop, the first iterating variable must be `int[]` rather than `int`.\n* The iterating variables in an enhanced `for` loop cannot manipulate element indices, only element values, thus `if (j == 4 | j == 16)` is needed rather than `if (j == squares[0].length - 1)`.\n* Print using `println` for when `j` is `4` or `16`.\n* Print using `print` for when `j` is anything else with a space.\n\n**Solution:**\n```java\nint[][] squares = {{1, 4},{9, 16}};\nfor (int[] i : squares) {\n  for (int j : i) {\n    if (j == 4 | j == 16) {\n      System.out.println(j);\n    }\n    else {\n      System.out.print(j + \" \");\n    }\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-375825005",
+  "source": {
+   "name": "2D Array Table",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```java\nString[][] names = new String[3][2];\nnames[0][1] = \"First name\";\nnames[0][0] = \"Last name\";\nnames[2][0] = \"Man\";\nnames[1][1] = \"Peter\";\nnames[1][0] = \"Parker\";\nnames[2][1] = \"Spider\";\n\nfor (int i = 0; i < names.length; i++) {\n  for (int j = 0; j < names[0].length; j++) {\n    if (j == names[0].length - 1) {\n      System.out.println(names[i][j]);\n    }\n    else {\n      System.out.print(names[i][j] + \" \");\n    }\n  }\n}\n```\n\nDetermine the output that is produced by the program.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "8c9b0d80-9d77-7c1a-11ea-d62818c2d72d",
+     "correct": false,
+     "answer": "```java\nFirstnameLastnameManPeterParkerSpider\n```"
+    },
+    {
+     "_id": "49bea188-98ce-974b-7454-4fb6239fe64b",
+     "correct": false,
+     "answer": "```java\nFirst name Last name\nPeter Parker\nSpider Man\n```"
+    },
+    {
+     "_id": "bf65c7d1-04e6-4b22-509b-98c2b0cf7000",
+     "correct": true,
+     "answer": "```java\nLast name First name\nParker Peter\nMan Spider\n```"
+    },
+    {
+     "_id": "d61d72c8-e37a-8274-af18-f10e74c73570",
+     "correct": false,
+     "answer": "```java\nLast name\nFirst name\nParker\nPeter\nMan\nSpider\n```"
+    }
+   ],
+   "guidance": "The program creates a 2D array and populates each index with Strings. Then some elements are printed with a newline while others are printed with a space. The solution guide below shows the sequence in which the elements are populated. Note that the `x`'s represent placeholders.\n\n**Solution Guide:**\n* Empty 2D array:\n```java\nx x\nx x\nx x\n```\n* `names[0][1] = \"First name\";`\n```java\nx First name\nx x\nx x\n```\n* `names[0][0] = \"Last name\";`\n```java\nLast name First name\nx x\nx x\n```\n* `names[2][0] = \"Man\";`\n```java\nLast name First name\nx x\nMan x\n```\n* `names[1][1] = \"Peter\";`\n```java\nLast name First name\nx Peter\nMan x\n```\n* `names[1][0] = \"Parker\";`\n```java\nLast name First name\nParker Peter\nMan x\n```\n* `names[2][1] = \"Spider\";`\n```java\nLast name First name\nParker Peter\nMan Spider\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3239956842",
+  "source": {
+   "name": "Even or Odd Index?",
+   "showName": true,
+   "instructions": "Rearrange the code blocks below to produce a program that:\n1. Creates a boolean array of 5 elements. \n1. Iterates through the empty array and modifies it so that elements at even indices are initialized to `true` and elements at odd indices are initialized to `false`.\n\nIf you were to print all of the elements in the array, it would look like this:\n```java\ntrue false true false true\n```\n\n**Remember to indent** where appropriate or you will not get credit for your work! You only have **ONE ATTEMPT** at this problem!",
+   "initial": "boolean[] bools = new boolean[5];\nfor (int i = 0; i < bools.length; i++) {\n  if (i % 2 == 0) {\n    bools[i] = true;\n  }\n  else {\n    bools[i] = false;\n  }\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+   "grader": "1",
+   "guidance": "**Guide:**\n* First, create a new array with 5 elements, `boolean[] bools = new boolean[5]`.\n* Create a `for` loop that iterates through the length of the array and increments by 1 after every iteration, `for (int i = 0; i < bools.length; i++)`\n* If the index is even, assign the element to `true`, `if (i % 2 == 0) { bools[i] = true }`.\n* Otherwise, assign the element to `false`, `else { bools[i] = false }`.\n\n**Solution:**\n```java\nboolean[] bools = new boolean[5];\nfor (int i = 0; i < bools.length; i++) {\n  if (i % 2 == 0) {\n    bools[i] = true;\n  }\n  else {\n    bools[i] = false;\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/arrays/LabArray.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/LabArray.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2271749750",
+  "source": {
+   "name": "ArrayList Size",
+   "showName": true,
+   "instructions": "Select **all** of the following methods that will affect an ArrayList's size. In other words, the number of elements is changed by the method(s).",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "3feaefc6-3495-2356-b011-ad93b1e551a4",
+     "correct": true,
+     "answer": "`add()`"
+    },
+    {
+     "_id": "35b70755-b539-ff49-a913-b66ad8cf1974",
+     "correct": true,
+     "answer": "`remove()`"
+    },
+    {
+     "_id": "1d0c982f-8dea-e968-7508-945587679962",
+     "correct": false,
+     "answer": "`get`"
+    },
+    {
+     "_id": "b968842b-ece4-1b1b-457e-3ca147af7d3a",
+     "correct": false,
+     "answer": "`set`"
+    }
+   ],
+   "guidance": "Both the `add()` and `remove()` methods will affect the size of the ArrayList. The size of the ArrayList will increase by one after `add()` is used ",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/arrays/LabArrayList.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/LabArrayList.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
