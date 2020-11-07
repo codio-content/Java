@@ -1047,7 +1047,7 @@
      ]
     },
     {
-     "title": "Lab - Arrays",
+     "title": "Lab: Arrays",
      "id": "9e8b8e0d-16ee-45b9-ab90-18064463e3a2",
      "type": "section",
      "children": [
@@ -1071,14 +1071,14 @@
       },
       {
        "id": "09cc693f-38d0-ca22-7591-0077e578b072",
-       "title": "Lab Challenge: Array Conversion",
+       "title": "Lab Challenge: 2D Chessboard ",
        "pageId": "5785d5f2-f4ba-eb63-0a6f-3a6a58d43cbd",
        "type": "page"
       }
      ]
     },
     {
-     "title": "Coding Exercises - Arrays",
+     "title": "Coding Exercises: Arrays",
      "id": "d7069207-3bb0-0385-f053-b979ff8571ec",
      "type": "section",
      "children": [

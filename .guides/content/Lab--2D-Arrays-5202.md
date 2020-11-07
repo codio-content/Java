@@ -1,7 +1,7 @@
 ---
 
 ## Tutorial Lab 1: Using a 2D Array
-An array is a data structure that groups elements together into a collection of data. Each element has its own **index** or position within the array. These elements can be initialized, accessed, modified, and printed. Copy the code below into the text editor on the left. Then click on the `TRY IT` button to see the resulting output and ++Code Visualizer++ link underneath to see how the program runs line by line.
+A 2D array is an array inside another array. This data structure can be visually compared to a table where there are rows and columns and each element exists inside each "cell." To access or modify elements, both the row index and column index are needed. Like arrays, 2D arrays are **static** so elements cannot be added or removed after initialization.
 
 ```java
 int[][] coordinates = { {-4, 3},
@@ -11,12 +11,12 @@ int[][] coordinates = { {-4, 3},
                         {-5, -7} };
                         
 for (int i = 0; i < coordinates.length; i++) {
-  for (int j = 0; j < coordinates[0].length; i++) {
+  for (int j = 0; j < coordinates[0].length; j++) {
     if (j == 1) {
       System.out.println(coordinates[i][j]);
     }
     else {
-      System.out.print(coordinates[i][i] + " ");
+      System.out.print(coordinates[i][j] + " ");
     }
   }
 }
@@ -26,3 +26,4 @@ for (int i = 0; i < coordinates.length; i++) {
 
 [Code Visualizer](open_tutor code/arrays/LabTwoDArray.java)
 
+{Check It!|assessment}(multiple-choice-1121497759)

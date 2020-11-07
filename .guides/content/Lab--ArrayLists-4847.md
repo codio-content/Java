@@ -1,7 +1,7 @@
 ---
 
 ## Tutorial Lab 2: Using an ArrayList
-An ArrayList is another data structure that has many of the same functionalities as an array. Though ArrayLists cannot be initialized at the same time as they are created, they are flexible in the methods that they are able to use. These methods include adding and removing elements within the ArrayList, meaning ArrayLists can dynamically change their size, something arrays cannot do. Copy the code below into the text editor on the left. Then click on the `TRY IT` button to see the resulting output and ++Code Visualizer++ link underneath to see how the program runs line by line.
+An ArrayList is another data structure that has many of the same functionalities as an array. Though ArrayLists cannot be initialized at the same time as they are created, they are flexible in the methods that they are able to use. These methods include adding and removing elements within the ArrayList, meaning ArrayLists can **dynamically** change their size, something arrays cannot do. Copy the code below into the text editor on the left. Then click on the `TRY IT` button to see the resulting output and ++Code Visualizer++ link underneath to see how the program runs line by line.
 
 ```java
 ArrayList<String> veggies = new ArrayList<String>();

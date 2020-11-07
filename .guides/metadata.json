@@ -2830,7 +2830,7 @@
   },
   {
    "id": "5785d5f2-f4ba-eb63-0a6f-3a6a58d43cbd",
-   "title": "Lab Challenge: Array Conversion",
+   "title": "Lab Challenge: 2D Chessboard ",
    "files": [
     {
      "path": "#tabs",
@@ -2845,7 +2845,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-Challenge--Array-Conversion-5785.md",
+   "content-file": ".guides/content/Lab-Challenge--2D-Chessboard--5785.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

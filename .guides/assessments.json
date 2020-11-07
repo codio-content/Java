@@ -6728,7 +6728,7 @@
      "answer": "`set`"
     }
    ],
-   "guidance": "Both the `add()` and `remove()` methods will affect the size of the ArrayList. The size of the ArrayList will increase by one after `add()` is used ",
+   "guidance": "Both the `add()` and `remove()` methods will affect the size of the ArrayList. The size of the ArrayList will increase by one after `add()` is used and will decrease by 1 after `removed()` is used. `get()` and `set()` will access and modify an element respectively, but they do not change the size of the ArrayList.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -6748,6 +6748,99 @@
       "type": "file",
       "panelNumber": 0,
       "content": "code/arrays/LabArrayList.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1121497759",
+  "source": {
+   "name": "Wrong Number",
+   "showName": true,
+   "instructions": "Given the 2D array output:\n```java\n1 2 3\n4 5 0\n7 8 9\n```\n\nIf this 2D array was initialized as `int[][] keypad = new int[3][3];`, which of the following statements will modify the 2D array so that `6` is printed as an element instead of `0`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "ae837ad1-6944-2dd2-e30c-0a1e06f4c18d",
+     "correct": false,
+     "answer": "`keypad[2][3] = \"6\";`"
+    },
+    {
+     "_id": "7f8f2910-5910-254f-771c-171e17ddf2a9",
+     "correct": false,
+     "answer": "`keypad[2][3] = 6;`"
+    },
+    {
+     "_id": "60c18cc9-bb24-b097-a372-4a75b70b17dc",
+     "correct": false,
+     "answer": "`keypad[1][2] = \"6\";`"
+    },
+    {
+     "_id": "373d9b34-00ba-ae41-beba-5fd3df7a14e2",
+     "correct": true,
+     "answer": "`keypad[1][2] = 6;`"
+    }
+   ],
+   "guidance": "The 2D array is of type `int`, therefore the element has to be an integer `6` rather than a String `\"6\"`. 2D array indices start at 0, not 1; therefore, `0` is located at row index 1 and column index 2. To change `0` to `6`, the correct command is `keypad[1][2] = 6;`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/arrays/LabTwoDArray.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/LabTwoDArray.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2213811040",
+  "source": {
+   "name": "2D Chessboard Challenge",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading. **Remember** that you should not have modified the original code, otherwise, you will not receive credit for the challenge!",
+   "command": "bash .guides/secure/arrays/labChallenge.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/arrays/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/LabChallenge.java"
      }
     ]
    },
