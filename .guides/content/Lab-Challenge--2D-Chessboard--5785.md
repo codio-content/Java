@@ -62,8 +62,6 @@ Your program **cannot make any changes** to the existing code in the program. If
 
 {Try it}(sh .guides/bg.sh javac code/arrays/LabChallenge.java java -cp code/arrays/ LabChallenge 1)
 
-[Code Visualizer](open_tutor code/arrays/LabChallenge.java)
-
 |||
 
 {Check It!|assessment}(test-2213811040)

@@ -2955,9 +2955,14 @@
      "path": "code/arrays/Exercise5.java",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-34e7.md",

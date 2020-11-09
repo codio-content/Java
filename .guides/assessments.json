@@ -5536,6 +5536,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Creating Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
      }
     ],
     "files": [
@@ -5549,8 +5561,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Create an array using both the initializer list and new methods"
   }
  },
  {
@@ -5572,6 +5584,18 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Accessing Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
      }
     ],
     "files": [
@@ -5585,8 +5609,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Access and modify array elements",
    "tokens": {
     "blank": [
      "1.2",
@@ -5625,22 +5649,28 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Modifying Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
      }
     ],
     "files": [
      "code/arrays/ArrayListIterate.java",
      "code/arrays/ArrayModify.java"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/arrays/ArrayListIterate.java"
-     }
-    ]
+    "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Access and modify array elements",
    "tokens": {
     "blank": [
      "String",
@@ -5730,6 +5760,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Modifying Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
      }
     ],
     "files": [
@@ -5743,8 +5785,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Access and modify array elements"
   }
  },
  {
@@ -5766,6 +5808,18 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Iterating Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
      }
     ],
     "files": [
@@ -5779,8 +5833,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Iterate through arrays using a for loop"
   }
  },
  {
@@ -5823,6 +5877,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Array Enhanced For Loop"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
      }
     ],
     "files": [
@@ -5836,8 +5902,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT Iterate through arrays using an enhanced for loop"
   }
  },
  {
@@ -5859,6 +5925,18 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Array Algorithms"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
      }
     ],
     "files": [
@@ -5872,8 +5950,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Determine array output",
    "tokens": {
     "blank": [
      "for",
@@ -5939,13 +6017,25 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Array Output"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Determine array output"
   }
  },
  {
@@ -5988,6 +6078,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Creating ArrayLists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
      }
     ],
     "files": [
@@ -6001,8 +6103,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT Create an empty ArrayList"
   }
  },
  {
@@ -6045,6 +6147,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Adding and Removing ArrayList Elements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
      }
     ],
     "files": [
@@ -6058,8 +6172,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Add and remove ArrayList elements"
   }
  },
  {
@@ -6081,6 +6195,18 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Getting and Setting ArrayLists Elements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
      }
     ],
     "files": [
@@ -6094,8 +6220,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Get and set ArrayList elements"
   }
  },
  {
@@ -6117,6 +6243,18 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Iterating ArrayLists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
      }
     ],
     "files": [
@@ -6130,8 +6268,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Iterate through ArrayLists using an enhanced for loop",
    "tokens": {
     "blank": [
      "ArrayList",
@@ -6188,6 +6326,18 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "ArrayLists vs. Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
      }
     ],
     "files": [
@@ -6201,8 +6351,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT Determine key differences between ArrayLists and arrays",
    "tokens": {
     "blank": [
      "Array",
@@ -6244,6 +6394,18 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "ArrayLists Algorithms"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
      }
     ],
     "files": [
@@ -6257,8 +6419,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Determine ArrayList output",
    "tokens": {
     "blank": [
      "add",
@@ -6342,13 +6504,25 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Modifying ArrayLists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Modify ArrayList elements"
   }
  },
  {
@@ -6391,13 +6565,25 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "ArrayList Output"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Determine ArrayList output"
   }
  },
  {
@@ -6440,6 +6626,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Creating 2D Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "2D Arrays"
      }
     ],
     "files": [
@@ -6453,8 +6651,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Create a 2D array using the initializer list method"
   }
  },
  {
@@ -6497,6 +6695,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Accessing and Modifying 2D Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "2D Arrays"
      }
     ],
     "files": [
@@ -6510,8 +6720,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Access and modify 2D array elements"
   }
  },
  {
@@ -6533,6 +6743,18 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Iterating 2D Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "2D Arrays"
      }
     ],
     "files": [
@@ -6546,8 +6768,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Iterate through 2D arrays using both a for loop",
    "tokens": {
     "blank": [
      "String",
@@ -6604,13 +6826,25 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "2D Array Syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "2D Arrays"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Determine 2D array output"
   }
  },
  {
@@ -6653,13 +6887,25 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "2D Array Output"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "2D Arrays"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Determine 2D array output"
   }
  },
  {
@@ -6681,6 +6927,18 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Array Syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
      }
     ],
     "files": [
@@ -6694,8 +6952,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine correct array syntax"
   }
  },
  {
@@ -6720,12 +6978,12 @@
     {
      "_id": "1d0c982f-8dea-e968-7508-945587679962",
      "correct": false,
-     "answer": "`get`"
+     "answer": "`get()`"
     },
     {
      "_id": "b968842b-ece4-1b1b-457e-3ca147af7d3a",
      "correct": false,
-     "answer": "`set`"
+     "answer": "`set()`"
     }
    ],
    "guidance": "Both the `add()` and `remove()` methods will affect the size of the ArrayList. The size of the ArrayList will increase by one after `add()` is used and will decrease by 1 after `removed()` is used. `get()` and `set()` will access and modify an element respectively, but they do not change the size of the ArrayList.",
@@ -6738,6 +6996,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "ArrayList Size"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
      }
     ],
     "files": [
@@ -6751,8 +7021,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT Understand ArrayList methods"
   }
  },
  {
@@ -6795,6 +7065,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Modifying 2D Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "2D Arrays"
      }
     ],
     "files": [
@@ -6808,8 +7090,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Determine correct 2D array syntax"
   }
  },
  {
@@ -6822,7 +7104,7 @@
    "command": "bash .guides/secure/arrays/labChallenge.sh",
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
-   "guidance": "",
+   "guidance": "If you used a nested `for` loop in your code, you would need to identify the pattern that exists within the chessboard. One noticeable pattern is shown below:\n```java\nOX\nXO\n```\n* **Even** row index and **even** column index = `O`\n* **Odd** row index and **odd** column index = `O`\n* **Even** row index and **odd** column index = `X`\n* **Odd** row index and **even** column index = `X`\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < chessboard.length; i++) {\n  for (int j = 0; j < chessboard[0].length; j++) {\n    if ((i % 2 == 0) && (j % 2 == 0)) {\n      chessboard[i][j] = \"O\";\n    }\n    else if ((i % 2 == 1) && (j % 2 == 1)) {\n      chessboard[i][j] = \"O\";\n    }\n    else if ((i % 2 == 0) && (j % 2 == 1)) {\n      chessboard[i][j] = \"X\";\n    }\n    else if ((i % 2 == 1) && (j % 2 == 0)) {\n      chessboard[i][j] = \"X\";\n    }\n  }\n}\n```\n\nIf you tried to access each row/column index, then you would need to have 64 lines of code in your program to assigned each row/column pair of indices either `O` or `X`.\n```java\nchessboard[0][0] = \"O\";\nchessboard[0][1] = \"X\";\nchessboard[1][0] = \"X\";\nchessboard[1][1] = \"O\";\n...\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -6831,6 +7113,18 @@
      {
       "name": "Assessment Type",
       "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "2D Array Syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "2D Arrays"
      }
     ],
     "files": [
@@ -6844,8 +7138,395 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT Apply correct 2D array syntax"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2762730864",
+  "source": {
+   "name": "Arrays: Exercise 1",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading. **Remember** that you should not have modified the original code, otherwise, you will not receive credit for the exercise!",
+   "command": "bash .guides/secure/arrays/exercise1.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "You can use several ways to print the elements inside `oceans`. You can either print each element by referring to its **index** number:\n```java\nSystem.out.println(oceans[0]);\nSystem.out.println(oceans[1]);\nSystem.out.println(oceans[2]);\nSystem.out.println(oceans[3]);\nSystem.out.println(oceans[4]);\n```\n\nOr you can use an **enhanced** `for` loop:\n```java\nfor (String s : oceans) {\n  System.out.println(s);\n}\n```\n\nLastly, you can use a regular `for` loop:\n```java\nfor (int i = 0; i < oceans.length; i++) {\n  System.out.println(oceans[i]);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Array Syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Arrays"
+     }
+    ],
+    "files": [
+     "code/arrays/Exercise1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/Exercise1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT Apply correct array syntax"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-264923223",
+  "source": {
+   "name": "Arrays: Exercise 2",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading. **Remember** that you should not have modified the original code, otherwise, you will not receive credit for the exercise!",
+   "command": "bash .guides/secure/arrays/exercise2.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "There are multiple ways to print the desired result. One way is to add all of the specified elements into the ArrayList first. Then add a *Place Holder* element, set that *Place Holder* element to anything such as *Delete*, and finally, remove that *Delete* element.\n\n**Sample Solution:**\n```java\noceans.add(\"Pacific\");\noceans.add(\"Atlantic\");\noceans.add(\"Indian\");\noceans.add(\"Arctic\");\noceans.add(\"Southern\");\noceans.add(\"Place Holder\");\noceans.set(5, \"Delete\");\noceans.remove(5);\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "ArrayList Syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
+     }
+    ],
+    "files": [
+     "code/arrays/Exercise2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/Exercise2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT Apply correct ArrayList syntax"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2597383171",
+  "source": {
+   "name": "Arrays: Exercise 3",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/arrays/ Exercise3",
+   "preExecuteCommand": "javac code/arrays/Exercise3.java",
+   "guidance": "There are so many different ways to approach this problem. One solution is to add the arguments in reverse order into the ArrayList. This will cause the ArrayList to hold six elements where the last three elements is the reverse of the first three. Then, all that's left to do is to remove the first three elements. Now you have a reversed ArrayList.\n\n**Sample Solution:**\n```java\nreverse.add(args[2]);\nreverse.add(args[1]);\nreverse.add(args[0]);\nreverse.remove(0);\nreverse.remove(0);\nreverse.remove(0);\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "[3, 2, 1]",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "today is great",
+     "input": "",
+     "output": "[great, is, today]",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "do re mi",
+     "input": "",
+     "output": "[mi, re, do]",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "12.3 23.4 34.5",
+     "input": "",
+     "output": "[34.5, 23.4, 12.3]",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "live laugh love",
+     "input": "",
+     "output": "[love, laugh, live]",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "aba aba aba",
+     "input": "",
+     "output": "[aba, aba, aba]",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "ArrayList Syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
+     }
+    ],
+    "files": [
+     "code/arrays/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/Exercise3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT Apply correct ArrayList syntax"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1856445250",
+  "source": {
+   "name": "Arrays: Exercise 4",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/arrays/ Exercise4",
+   "preExecuteCommand": "javac code/arrays/Exercise4.java",
+   "guidance": "The first step is to store the coordinate points in the 2D array. One way to accomplish this task is to access each row/column index and assign the specified argument variable to it. Here is an example:\n```java\npoints[0][0] = x1;\npoints[0][1] = y1;\npoints[1][0] = x2;\npoints[1][1] = y2;\npoints[2][0] = x3;\npoints[2][1] = y3;\n```\n\nThen, the next step is to print the points in correct coordinate-point format. To do this, you can use a nested `for` loop to iterate through both the row and column indices. If the column index reaches the length of the column, print the `y` coordinate with a closing parenthesis `)` and newline. Otherwise, print the opening parenthesis `(` followed by the `x` coordinate followed by a comma `,` and space.\n```java\nfor (int row = 0; row < points.length; row++) {\n  for (int col = 0; col < points[0].length; col++) {\n    if (col == 1) {\n      System.out.println(points[row][col] + \")\");\n    }\n    else {\n      System.out.print(\"(\" + points[row][col] + \", \");\n    }\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "1 2 3 4 5 6",
+     "input": "",
+     "output": "(1, 2)\n(3, 4)\n(5, 6)",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "-2 4 6 -12 -24 -42",
+     "input": "",
+     "output": "(-2, 4)\n(6, -12)\n(-24, -42)",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "0 10 20 40 80 160",
+     "input": "",
+     "output": "(0, 10)\n(20, 40)\n(80, 160)",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "0 0 0 0 0 0",
+     "input": "",
+     "output": "(0, 0)\n(0, 0)\n(0, 0)",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "-1 -2 -3 -4 -5 -6",
+     "input": "",
+     "output": "(-1, -2)\n(-3, -4)\n(-5, -6)",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "2D Array Syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "2D Arrays"
+     }
+    ],
+    "files": [
+     "code/arrays/Exercise4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/Exercise4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT Apply correct 2D array syntax"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1353242294",
+  "source": {
+   "name": "Arrays: Exercise 5",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/arrays/ Exercise5",
+   "preExecuteCommand": "javac code/arrays/Exercise5.java",
+   "guidance": "To add input into the ArrayList `numList`, you can use `add()`. Since this method is inside of the `while` loop, the system will keep adding integers into `numList` until a non-integer is entered.\n```java\nnumList.add(input);\n```\n\nTo iterate through `numList`, add all elements to `total`, and calculate the average `avg`, you can use an enhanced `for` loop or a regular `for` loop.\n```java\nfor (Integer i : numList) {\n  total += i;\n  avg = total / numList.size();\n}\n```\n```java\nfor (int i = 0; i < numList.size(); i++) {\n  total += numList.get(i);\n  avg = total / numList.size();\n}\n```\n\n",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "1\n2\n3\nx",
+     "output": "Enter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\n2.0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "I am entering a non-integer",
+     "output": "Enter integer to add to total, else find total average:\n0.0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "-14\n14\n-14\n-14\n14.0",
+     "output": "Enter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\n-7.0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "0\n0\n0*0\n",
+     "output": "Enter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\n0.0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "19\n-4\n0\ntrue",
+     "output": "Enter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\nEnter integer to add to total, else find total average:\n5.0",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "ArrayList Syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "ArrayLists"
+     }
+    ],
+    "files": [
+     "code/arrays/Exercise5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/arrays/Exercise5.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT Apply correct ArrayList syntax"
   }
  }
 ]

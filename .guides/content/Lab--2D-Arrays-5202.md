@@ -1,6 +1,6 @@
 ---
 
-## Tutorial Lab 1: Using a 2D Array
+## Tutorial Lab 3: Using a 2D Array
 A 2D array is an array inside another array. This data structure can be visually compared to a table where there are rows and columns and each element exists inside each "cell." To access or modify elements, both the row index and column index are needed. Like arrays, 2D arrays are **static** so elements cannot be added or removed after initialization.
 
 ```java

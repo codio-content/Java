@@ -797,8 +797,8 @@
   "taskId": "parsons-puzzle-1250261069",
   "points": 0,
   "state": {
-   "trashHash": null,
-   "solutionHash": null,
+   "trashHash": "2_0-3_0-1_0-0_0",
+   "solutionHash": "-",
    "toggleStates": "{}"
   },
   "results": []
@@ -898,6 +898,39 @@
  {
   "taskId": "test-2213811040",
   "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-2762730864",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-264923223",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-2597383171",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-1856445250",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-1353242294",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-1121497759",
+  "points": 0,
+  "state": {
+   "active": null
+  },
   "results": []
  }
 ]

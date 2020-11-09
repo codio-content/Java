@@ -25,8 +25,6 @@ System.out.println(Camry); //print whether Camry exists or not
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAlgorithms.java java -cp code/arrays/ ArrayListAlgorithms 1)
 
-[Code Visualizer](open_tutor code/arrays/ArrayListAlgorithms.java)
-
 |||challenge
 ## What happens if you:
 * add `cars.remove(1);` to the line directly below `cars.add("Highlander");`?
@@ -35,8 +33,6 @@ System.out.println(Camry); //print whether Camry exists or not
 |||
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAlgorithms.java java -cp code/arrays/ ArrayListAlgorithms 2)
-
-[Code Visualizer](open_tutor code/arrays/ArrayListAlgorithms.java)
 
 <table><tbody ><tr><td><details><summary>
 	<b>Sample Solution</b>
@@ -87,8 +83,6 @@ System.out.println("The lowest grade is " + min); //print lowest element
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAlgorithms.java java -cp code/arrays/ ArrayListAlgorithms 3)
 
-[Code Visualizer](open_tutor code/arrays/ArrayListAlgorithms.java)
-
 |||challenge
 ## What happens if you:
 * add `grades.set(0, 42);` to the line directly below `grades.add(98);`?
@@ -97,8 +91,6 @@ System.out.println("The lowest grade is " + min); //print lowest element
 |||
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAlgorithms.java java -cp code/arrays/ ArrayListAlgorithms 4)
-
-[Code Visualizer](open_tutor code/arrays/ArrayListAlgorithms.java)
 
 <table><tbody ><tr><td><details><summary>
 	<b>Sample Solution</b>
@@ -151,8 +143,6 @@ System.out.println(letters); //print new ArrayList
 ```
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAlgorithms.java java -cp code/arrays/ ArrayListAlgorithms 5)
-
-[Code Visualizer](open_tutor code/arrays/ArrayListAlgorithms.java)
 
 |||important
 ## IMPORTANT

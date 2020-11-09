@@ -12,8 +12,6 @@ System.out.println(numbers);
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAddRemove.java java -cp code/arrays/ ArrayListAddRemove 1)
 
-[Code Visualizer](open_tutor code/arrays/ArrayListAddRemove.java)
-
 |||challenge
 ## What happens if you:
 * add `numbers.add(100);` directly below `numbers.add(50);`?
@@ -22,8 +20,6 @@ System.out.println(numbers);
 |||
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAddRemove.java java -cp code/arrays/ ArrayListAddRemove 2)
-
-[Code Visualizer](open_tutor code/arrays/ArrayListAddRemove.java)
 
 |||important
 ## IMPORTANT
@@ -44,8 +40,6 @@ System.out.println(numbers);
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAddRemove.java java -cp code/arrays/ ArrayListAddRemove 3)
 
-[Code Visualizer](open_tutor code/arrays/ArrayListAddRemove.java)
-
 |||challenge
 ## What happens if you:
 * add `numbers.add(2, 75);` directly below `numbers.add(0, 12);`?
@@ -55,8 +49,6 @@ System.out.println(numbers);
 |||
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAddRemove.java java -cp code/arrays/ ArrayListAddRemove 4)
-
-[Code Visualizer](open_tutor code/arrays/ArrayListAddRemove.java)
 
 |||important
 ## IMPORTANT
@@ -80,8 +72,6 @@ System.out.println(numbers);
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAddRemove.java java -cp code/arrays/ ArrayListAddRemove 5)
 
-[Code Visualizer](open_tutor code/arrays/ArrayListAddRemove.java)
-
 |||challenge
 ## What happens if you:
 * add another `numbers.remove(2);` directly below `numbers.remove(2);`?
@@ -90,7 +80,5 @@ System.out.println(numbers);
 |||
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListAddRemove.java java -cp code/arrays/ ArrayListAddRemove 6)
-
-[Code Visualizer](open_tutor code/arrays/ArrayListAddRemove.java)
 
 {Check It!|assessment}(multiple-choice-225623719)

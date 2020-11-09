@@ -14,8 +14,6 @@ for (int i = 0; i < grades.length; i++) {
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListIterate.java java -cp code/arrays/ ArrayListIterate 1)
 
-[Code Visualizer](open_tutor code/arrays/ArrayListIterate.java)
-
 ```java
 //iterating through an ArrayList
 ArrayList<Integer> grades = new ArrayList<Integer>();
@@ -31,8 +29,6 @@ for (int i = 0; i < grades.size(); i++) {
 ```
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListIterate.java java -cp code/arrays/ ArrayListIterate 2)
-
-[Code Visualizer](open_tutor code/arrays/ArrayListIterate.java)
 
 ## Enhanced For Loop in ArrayList
 We can also use an **enhanced for loop** to iterate through an ArrayList.
@@ -52,8 +48,6 @@ for (Integer i : grades) { //Integer is required instead of int!
 ```
 
 {Try it}(sh .guides/bg.sh javac code/arrays/ArrayListIterate.java java -cp code/arrays/ ArrayListIterate 3)
-
-[Code Visualizer](open_tutor code/arrays/ArrayListIterate.java)
 
 |||important
 ## IMPORTANT
