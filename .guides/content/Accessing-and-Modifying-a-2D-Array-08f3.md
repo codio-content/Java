@@ -59,7 +59,7 @@ System.out.println(names[1][2]);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/arrays/TwoDArrayAccessMod.java java -cp code/arrays/ TwoDArrayAccessMod 2)
+{Try it}(sh .guides/bg.sh javac code/arrays/TwoDArrayAccessMod.java java -cp code/arrays/ TwoDArrayAccessMod 4)
 
 [Code Visualizer](open_tutor code/arrays/TwoDArrayAccessMod.java)
 
