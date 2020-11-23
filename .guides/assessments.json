@@ -5575,7 +5575,7 @@
    "showValues": true,
    "text": "1. `System.out.println(tenths[0])` will print <<<1.2>>>.\n2. `System.out.println(tenths[2])` will print <<<3.4>>>.\n3. `System.out.println(tenths[4])` will print <<<ArrayIndexOutOfBoundsException>>>.",
    "distractors": "2.3\n4.5\n",
-   "guidance": "Remember that array indices always start at `0`. Thus, `tenths[0]` refers to the first element, `tenths[2] refers to the third element, and `tenths[4]` refers to the fifth element. The first element is `1.2`, the third element is `3.4`, and the fifth element does not exist. Therefore, an `ArrayIndexOutOfBoundsException` error message will be returned.",
+   "guidance": "Remember that array indices always start at `0`. Thus, `tenths[0]` refers to the first element, `tenths[2]` refers to the third element, and `tenths[4]` refers to the fifth element. The first element is `1.2`, the third element is `3.4`, and the fifth element does not exist. Therefore, an `ArrayIndexOutOfBoundsException` error message will be returned.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -6007,7 +6007,7 @@
      "answer": "```java\n68\n2\n15\n21\n18\n```"
     }
    ],
-   "guidance": "",
+   "guidance": "**Guide:**\n* The elements `18`, `21`, `15`, `2`, and `68` are added to the array called `ages`.\n* An enhanced `for` loop is used which causes `i` to take on the value of each element.\n* If `i` is greater than or equal to `18`, then the system prints `Eligible`.\n* Otherwise, the system will print `Ineligible`.\n* `18`, `21`, and `68` will result in `Eligible` since they are greater than or equal to `18`.\n* `15` and `2` are less than `18` so they will result in `Ineligible`.\n\n**Solution:**\n```java\nEligible\nEligible\nIneligible\nIneligible\nEligible\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -6813,8 +6813,8 @@
   "source": {
    "name": "Printing a Squares 2D Array",
    "showName": true,
-   "instructions": "Construct a program using the code blocks below that iterates through the 2D array and prints the following output:\n```java\n1 2\n9 16\n```\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the program to repeat or any nested loops by dragging them slightly to the right. You only have **ONE ATTEMPT** at this problem!",
-   "initial": "int[][] squares = {{1, 4},{9, 16}};\nfor (int[] i : squares) {\n  for (int j : i) {\n    if (j == 4 | j == 16) {\n      System.out.println(j);\n    }\n    else {\n      System.out.print(j + \" \");\n    }\n  }\n}\nInteger[][] squares = {{1, 4},{9, 16}};    #distractor\nfor (int i : squares) {    #distractor\nif (j == squares[0].length - 1) {    #distractor",
+   "instructions": "Construct a program using the code blocks below that iterates through the 2D array and prints the following output:\n```java\n1 4\n9 16\n```\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the program to repeat or any nested loops by dragging them slightly to the right. You only have **ONE ATTEMPT** at this problem!",
+   "initial": "int[][] squares = {{1, 4},{9, 16}};\nfor (int[] i : squares) {\n  for (int j : i) {\n    if (j == 4 | j == 16) {\n      System.out.println(j);\n    }\n    else {\n      System.out.print(j + \" \");\n    }\n  }\n}\nInteger[][] squares = {{1, 4},{9, 16}};     #distractor\nfor (int i : squares) {     #distractor\nif (j == squares[0].length - 1) {     #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "**Guide:**\n* 2D arrays of integer is typed as `int`, not `Integer`.\n* To use an enhanced `for` loop, the first iterating variable must be `int[]` rather than `int`.\n* The iterating variables in an enhanced `for` loop cannot manipulate element indices, only element values, thus `if (j == 4 | j == 16)` is needed rather than `if (j == squares[0].length - 1)`.\n* Print using `println` for when `j` is `4` or `16`.\n* Print using `print` for when `j` is anything else with a space.\n\n**Solution:**\n```java\nint[][] squares = {{1, 4},{9, 16}};\nfor (int[] i : squares) {\n  for (int j : i) {\n    if (j == 4 | j == 16) {\n      System.out.println(j);\n    }\n    else {\n      System.out.print(j + \" \");\n    }\n  }\n}\n```",
@@ -6914,11 +6914,11 @@
   "source": {
    "name": "Even or Odd Index?",
    "showName": true,
-   "instructions": "Rearrange the code blocks below to produce a program that:\n1. Creates a boolean array of 5 elements. \n1. Iterates through the empty array and modifies it so that elements at even indices are initialized to `true` and elements at odd indices are initialized to `false`.\n\nIf you were to print all of the elements in the array, it would look like this:\n```java\ntrue false true false true\n```\n\n**Remember to indent** where appropriate or you will not get credit for your work! You only have **ONE ATTEMPT** at this problem!",
-   "initial": "boolean[] bools = new boolean[5];\nfor (int i = 0; i < bools.length; i++) {\n  if (i % 2 == 0) {\n    bools[i] = true;\n  }\n  else {\n    bools[i] = false;\n  }\n}",
+   "instructions": "Rearrange the code blocks below to produce a program that:\n1. Creates a `new` boolean array of 5 elements. \n1. Iterates through the array and modifies it so that elements at even indices are changed to `true` and elements at odd indices remain `false`.\n\nIf you were to print all of the elements in the array, it would look like this:\n```java\ntrue false true false true\n```\n\n**Remember to indent** where appropriate or you will not get credit for your work! You only have **ONE ATTEMPT** at this problem!",
+   "initial": "boolean[] bools = new boolean[5];\nfor (int i = 0; i < bools.length; i++) {\n  if (i % 2 == 0) {\n    bools[i] = true;\n  }\n}",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
    "grader": "1",
-   "guidance": "**Guide:**\n* First, create a new array with 5 elements, `boolean[] bools = new boolean[5]`.\n* Create a `for` loop that iterates through the length of the array and increments by 1 after every iteration, `for (int i = 0; i < bools.length; i++)`\n* If the index is even, assign the element to `true`, `if (i % 2 == 0) { bools[i] = true }`.\n* Otherwise, assign the element to `false`, `else { bools[i] = false }`.\n\n**Solution:**\n```java\nboolean[] bools = new boolean[5];\nfor (int i = 0; i < bools.length; i++) {\n  if (i % 2 == 0) {\n    bools[i] = true;\n  }\n  else {\n    bools[i] = false;\n  }\n}\n```",
+   "guidance": "**Guide:**\n* First, create a new array with 5 elements, `boolean[] bools = new boolean[5]`.\n* Create a `for` loop that iterates through the length of the array and increments by 1 after every iteration, `for (int i = 0; i < bools.length; i++)`\n* If the index is even, modify the element and change it to `true`, `if (i % 2 == 0) { bools[i] = true }`.\n* Since the `new` method automatically initializes all elements to `false` by default, there is no need to include an `else` statement.\n\n**Solution:**\n```java\nboolean[] bools = new boolean[5];\nfor (int i = 0; i < bools.length; i++) {\n  if (i % 2 == 0) {\n    bools[i] = true;\n  }\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -7347,7 +7347,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/arrays/ Exercise4",
    "preExecuteCommand": "javac code/arrays/Exercise4.java",
-   "guidance": "The first step is to store the coordinate points in the 2D array. One way to accomplish this task is to access each row/column index and assign the specified argument variable to it. Here is an example:\n```java\npoints[0][0] = x1;\npoints[0][1] = y1;\npoints[1][0] = x2;\npoints[1][1] = y2;\npoints[2][0] = x3;\npoints[2][1] = y3;\n```\n\nThen, the next step is to print the points in correct coordinate-point format. To do this, you can use a nested `for` loop to iterate through both the row and column indices. If the column index reaches the length of the column, print the `y` coordinate with a closing parenthesis `)` and newline. Otherwise, print the opening parenthesis `(` followed by the `x` coordinate followed by a comma `,` and space.\n```java\nfor (int row = 0; row < points.length; row++) {\n  for (int col = 0; col < points[0].length; col++) {\n    if (col == 1) {\n      System.out.println(points[row][col] + \")\");\n    }\n    else {\n      System.out.print(\"(\" + points[row][col] + \", \");\n    }\n  }\n}\n```",
+   "guidance": "First, you would need to modify the 2D array (`nums`) so that `a`, `b`, `c`, and `d` are placed at the correct row and column indices. Next, you'd need to calculate the correct row, column, and total sums while also placing them in the appropriate row and column indices. The code below showcases how each set of row and column indices pair is accessed and modified. **Note** that the total sum is just the arguments added together and then multiplied by 2.\n\n```java\nnums[0][0] = a;\nnums[0][1] = b;\nnums[0][2] = a + b;\nnums[1][0] = c;\nnums[1][1] = d;\nnums[1][2] = c + d;\nnums[2][0] = a +c;\nnums[2][1] = b + d;\nnums[2][2] = 2 * (a + b + c + d);\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -7362,37 +7362,37 @@
    "arePartialPointsAllowed": false,
    "sequence": [
     {
-     "arguments": "1 2 3 4 5 6",
+     "arguments": "1 2 3 4",
      "input": "",
-     "output": "(1, 2)\n(3, 4)\n(5, 6)",
+     "output": "1 2 3\n3 4 7\n4 6 20",
      "showFeedback": false,
      "feedback": ""
     },
     {
-     "arguments": "-2 4 6 -12 -24 -42",
+     "arguments": "9 8 7 6",
      "input": "",
-     "output": "(-2, 4)\n(6, -12)\n(-24, -42)",
+     "output": "9 8 17\n7 6 13\n16 14 60",
      "showFeedback": false,
      "feedback": ""
     },
     {
-     "arguments": "0 10 20 40 80 160",
+     "arguments": "-2 4 6 -12",
      "input": "",
-     "output": "(0, 10)\n(20, 40)\n(80, 160)",
+     "output": "-2 4 2\n6 -12 -6\n4 -8 -8",
      "showFeedback": false,
      "feedback": ""
     },
     {
-     "arguments": "0 0 0 0 0 0",
+     "arguments": "0 0 0 0",
      "input": "",
-     "output": "(0, 0)\n(0, 0)\n(0, 0)",
+     "output": "0 0 0\n0 0 0\n0 0 0",
      "showFeedback": false,
      "feedback": ""
     },
     {
-     "arguments": "-1 -2 -3 -4 -5 -6",
+     "arguments": "-1 -2 -3 -4",
      "input": "",
-     "output": "(-1, -2)\n(-3, -4)\n(-5, -6)",
+     "output": "-1 -2 -3\n-3 -4 -7\n-4 -6 -20",
      "showFeedback": false,
      "feedback": ""
     }

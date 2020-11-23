@@ -20,13 +20,15 @@ public class Exercise5 {
       
       
       // your code goes above
+      
     }
+    
     // iterate through ArrayList, add elements to total, then calculate average
     
     
     
     // your code goes above
-    }
+    
     System.out.println(avg);
   }
 }

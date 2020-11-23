@@ -107,7 +107,7 @@ System.out.println("The highest grade is " + max);
 String[] letters = {"A", "B", "C", "D", "E"};
 
 //start at index 4, then decrement by 1 until i < 0, then stop
-for (int i = letters[letters.length] - 1; i >= 0; i--) {
+for (int i = letters.length - 1; i >= 0; i--) {
   System.out.println(letters[i]);
 }
 

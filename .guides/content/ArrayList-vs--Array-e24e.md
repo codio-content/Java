@@ -10,7 +10,7 @@ Here is a table showing the differences between ArrayLists and arrays. Note that
 | Method/Types              | ArrayList                 | Array                     |
 | ------------------------- | ------------------------- | ------------------------- |
 | Create | ArrayList&lt;`Type`&gt; `var` = new ArrayList&lt;`Type`&gt;() | `type`[] `var` = new `type`[`num`] or `type`[] `var` = {`element`, `element`...} |
-| Find number of elements   | size()                    | length                    |
+| Find number of elements   | `var`.size()                    | `var`.length                    |
 | Access an element         | `var`.get(`index`)        | `var`[`index`] |
 | Modify and element        | `var`.set(`index`, `element`) | `var`[`index`] = `element` |
 | Add an element            | `var`.add(`element`) or `var`.add(`index`, `element`) | n/a |
