@@ -24,7 +24,7 @@ public class Exercise4 {
           System.out.println(nums[row][col]);
         }
         else {
-          System.out.print(nums[row][col]);
+          System.out.print(nums[row][col] + " ");
         }
       }
     }
