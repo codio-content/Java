@@ -7347,7 +7347,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/arrays/ Exercise4",
    "preExecuteCommand": "javac code/arrays/Exercise4.java",
-   "guidance": "First, you would need to modify the 2D array (`nums`) so that `a`, `b`, `c`, and `d` are placed at the correct row and column indices. Next, you'd need to calculate the correct row, column, and total sums while also placing them in the appropriate row and column indices. The code below showcases how each set of row and column indices pair is accessed and modified. **Note** that the total sum is just the arguments added together and then multiplied by 2.\n\n```java\nnums[0][0] = a;\nnums[0][1] = b;\nnums[0][2] = a + b;\nnums[1][0] = c;\nnums[1][1] = d;\nnums[1][2] = c + d;\nnums[2][0] = a +c;\nnums[2][1] = b + d;\nnums[2][2] = 2 * (a + b + c + d);\n```",
+   "guidance": "First, you would need to modify the 2D array (`nums`) so that `a`, `b`, `c`, and `d` are placed at the correct row and column indices. Next, you'd need to calculate the correct row, column, and total sums while also placing them in the appropriate row and column indices. The code below showcases how each set of row and column indices pair is accessed and modified. **Note** that the total sum is just the arguments added together and then multiplied by 2.\n\n```java\nnums[0][0] = a;\nnums[0][1] = b;\nnums[0][2] = a + b;\nnums[1][0] = c;\nnums[1][1] = d;\nnums[1][2] = c + d;\nnums[2][0] = a + c;\nnums[2][1] = b + d;\nnums[2][2] = ((a+b) + (c+d) + (a+c) + (b+d));\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,

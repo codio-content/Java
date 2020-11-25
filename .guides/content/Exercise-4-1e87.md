@@ -32,11 +32,30 @@ public class Exercise4 {
 }
 ```
 
-Complete the program so that it takes in 4 integers (`a`, `b`, `c`, and `d`) as arguments, stores them in the 2D array `nums`, and then prints their row, column, and total sums . For example, arguments `1`, `2`, `3`, and `4` will produce the output:
+Complete the program so that it takes in 4 integers (`a`, `b`, `c`, and `d`) as arguments, stores them in the 2D array `nums`, and then prints their row, column, and total sums. The program should print the integers according to this formula:
+```java
+(a)   (b)   (a+b)
+(c)   (d)   (c+d)
+(a+c) (b+d) ((a+b)+(c+d)+(a+c)+(b+d))
+
+// (a+b) is the first row's sum
+// (c+d) is the second row's sum
+// (a+c) is the first column's sum
+// (b+d) is the second column's sum.
+// ((a+b)+(c+d)+(a+c)+(b+d)) is the total sum of all rows and columns
+```
+
+For example, arguments `1`, `2`, `3`, and `4` will produce the output:
 ```java
 1 2 3
 3 4 7
 4 6 20
+
+// 1 + 2 = 3 (first row's sum)
+// 3 + 4 = 7 (second row's sum)
+// 1 + 3 = 4 (first column's sum)
+// 2 + 4 = 6 (second column's sum)
+// ((1+2) + (3+4) + (1+3) + (2+4)) = 20 (total sum)
 ```
 where `3` and `7` are row sums, `4` and `6` are column sums, and `20` is the total sum.
 
@@ -44,7 +63,13 @@ Arguments `9`, `8`, `7`, and `6` will produce the output:
 ```java
 9 8 17
 7 6 13
-16 14 60  
+16 14 60
+
+// 9 + 8 = 17 (first row's sum)
+// 7 + 6 = 13 (second row's sum)
+// 9 + 7 = 16 (first column's sum)
+// 8 + 6 = 14 (second column's sum)
+// ((9+8) + (7+6) + (9+7) + (8+6)) = 60 (total sum)
 ```
 where `17` and `13` are row sums, `16` and `14` are column sums, and `60` is the total sum.
 
