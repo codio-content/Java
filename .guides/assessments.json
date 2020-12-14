@@ -7528,5 +7528,75 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT Apply correct ArrayList syntax"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1495458135",
+  "source": {
+   "name": "writing to a file reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat method is used to write to a file?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "fa8477e9-9ab4-9977-570e-b975cdc593a3",
+     "correct": true,
+     "answer": "write"
+    },
+    {
+     "_id": "5159b3db-395c-8367-02df-a888b7ff5a43",
+     "correct": false,
+     "answer": "println"
+    },
+    {
+     "_id": "9df21a80-728a-c577-42d4-370f5e1d01f8",
+     "correct": false,
+     "answer": "writeln"
+    },
+    {
+     "_id": "1b51eb12-d36f-a9ef-3f8e-f304f376253f",
+     "correct": false,
+     "answer": "writelines"
+    }
+   ],
+   "guidance": "The `write` method is used to write text to a file in Java.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Writing to a file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [
+     "code/files/Writing.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Writing.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT identify the method used to write strings to a text file"
+  }
  }
 ]
