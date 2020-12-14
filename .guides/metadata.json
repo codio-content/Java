@@ -3529,6 +3529,29 @@
    "learningObjectives": ""
   },
   {
+   "id": "62cb8da6-c51f-473d-d955-e7f6cd868a1f",
+   "title": "More Writing to Files",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/MoreWriting.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/More-Writing-to-Files-62cb.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "ebdd6cb5-43b9-0ec5-4a49-e845c8f143e1",
    "title": "Exercise 1",
    "files": [],

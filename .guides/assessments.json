@@ -7598,5 +7598,75 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT identify the method used to write strings to a text file"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1881541547",
+  "source": {
+   "name": "more writing to files reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nYou want to write the following text to a file:\n\n```\nOne upon a time\nIn a land far, far away\nLived a king and queen\n```\n\nAssume that `writer` is a `FileWriter` object. Select all of the valid ways you can do this. **Hint**, there is more than one right answer.",
+   "multipleResponse": true,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "568fcd22-3929-d29c-7b8b-19f77827fe6e",
+     "correct": true,
+     "answer": "```java\nString text1 = \"Once upon a time\\n\";\nString text2 = \"In a land far, far away\\n\";\nString text3 = \"Lived a king and queen\\n\";\nwriter.write(text1);\nwriter.write(text2);\nwriter.write(text3);\n```"
+    },
+    {
+     "_id": "0acae752-8fd4-b82e-574a-765ad2ceb88f",
+     "correct": false,
+     "answer": "```java\nString text1 = \"Once upon a time\";\nString text2 = \"In a land far, far away\";\nString text3 = \"Lived a king and queen\";\nwriter.write(text1);\nwriter.write(text2);\nwriter.write(text3);\n```"
+    },
+    {
+     "_id": "81337b74-a574-4c9f-cebe-f417190cfe49",
+     "correct": true,
+     "answer": "```java\nString text = \"Once upon a time\\nIn a land far, far away\\nLived a king and queen\";\nwriter.write(text);\n```"
+    },
+    {
+     "_id": "445bb91b-dcc2-6eb2-2eff-c4893b7cf674",
+     "correct": false,
+     "answer": "```java\nString text1 = \"Once upon a time\\n\";\nString text2 = \"In a land far, far away\\n\";\nString text3 = \"Lived a king and queen\\n\";\nwriter.write(text1, text2, text3);\n```"
+    }
+   ],
+   "guidance": "The correct answers are:\n\n```java\ntext1 = \"Once upon a time\\n\";\ntext2 = \"In a land far, far away\\n\";\ntext3 = \"Lived a king and queen\\n\";\nwriter.write(text1);\nwriter.write(text2);\nwriter.write(text3);\n```\n\nand\n\n```java\ntext = \"Once upon a time\\nIn a land far, far away\\nLived a king and queen\";\nwriter.write(text);\n```\n\nThe following code snippet is **not correct** because there are no newline characters. All three strings would be on the same line.\n\n```java\nString text1 = \"Once upon a time\";\nString text2 = \"In a land far, far away\";\nString text3 = \"Lived a king and queen\";\nwriter.write(text1);\nwriter.write(text2);\nwriter.write(text3);\n```\n\nThe following code snippet is **not correct** because the `write` method takes just a string or a string and two integers. In the code below, three strings are passed to the `writer` method.\n\n```java\nString text1 = \"Once upon a time\\n\";\nString text2 = \"In a land far, far away\\n\";\nString text3 = \"Lived a king and queen\\n\";\nwriter.write(text1, text2, text3);\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Writing to a file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [
+     "code/files/MoreWriting.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/MoreWriting.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT write properly formatted text to a file"
+  }
  }
 ]

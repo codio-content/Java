@@ -83,8 +83,8 @@ public class Writing {
 |||challenge
 ## Try these variations:
 Be sure to open the `practice1.txt` file after each change.
-* Change the string `text` to `"Goodbye"`?
-* Change the string `text` to `""`?
+* Change the string `text` to `"Goodbye"`
+* Change the string `text` to `""`
 * Open `studentFolder` in the sidebar on the left. Open the `text` folder and right-click on `practice1.txt`. Select "Delete..." and run the program again.
 
 <details>
