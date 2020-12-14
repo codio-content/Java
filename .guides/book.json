@@ -1490,6 +1490,12 @@
        "title": "More Writing to Files",
        "pageId": "62cb8da6-c51f-473d-d955-e7f6cd868a1f",
        "type": "page"
+      },
+      {
+       "id": "dee71285-0148-d04e-5d82-50395adf08ae",
+       "title": "Appending to a File",
+       "pageId": "286916ae-2014-1da9-c403-99f2cd18bf35",
+       "type": "page"
       }
      ]
     },

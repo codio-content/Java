@@ -3552,6 +3552,29 @@
    "learningObjectives": ""
   },
   {
+   "id": "286916ae-2014-1da9-c403-99f2cd18bf35",
+   "title": "Appending to a File",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Append.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Appending-to-a-File-2869.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "ebdd6cb5-43b9-0ec5-4a49-e845c8f143e1",
    "title": "Exercise 1",
    "files": [],
