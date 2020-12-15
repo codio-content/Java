@@ -7628,9 +7628,14 @@
      "_id": "445bb91b-dcc2-6eb2-2eff-c4893b7cf674",
      "correct": false,
      "answer": "```java\nString text1 = \"Once upon a time\\n\";\nString text2 = \"In a land far, far away\\n\";\nString text3 = \"Lived a king and queen\\n\";\nwriter.write(text1, text2, text3);\n```"
+    },
+    {
+     "_id": "0a898994-c4a5-60c7-bbca-0044e32bbe38",
+     "correct": true,
+     "answer": "```java\nString text1 = \"Once upon a time\";\nString text2 = \"In a land far, far away\";\nString text3 = \"Lived a king and queen\";\nwriter.write(text1);\nwriter.newLine();\nwriter.write(text2);\nwriter.newLine();\nwriter.write(text3);\n```"
     }
    ],
-   "guidance": "The correct answers are:\n\n```java\ntext1 = \"Once upon a time\\n\";\ntext2 = \"In a land far, far away\\n\";\ntext3 = \"Lived a king and queen\\n\";\nwriter.write(text1);\nwriter.write(text2);\nwriter.write(text3);\n```\n\nand\n\n```java\ntext = \"Once upon a time\\nIn a land far, far away\\nLived a king and queen\";\nwriter.write(text);\n```\n\nThe following code snippet is **not correct** because there are no newline characters. All three strings would be on the same line.\n\n```java\nString text1 = \"Once upon a time\";\nString text2 = \"In a land far, far away\";\nString text3 = \"Lived a king and queen\";\nwriter.write(text1);\nwriter.write(text2);\nwriter.write(text3);\n```\n\nThe following code snippet is **not correct** because the `write` method takes just a string or a string and two integers. In the code below, three strings are passed to the `writer` method.\n\n```java\nString text1 = \"Once upon a time\\n\";\nString text2 = \"In a land far, far away\\n\";\nString text3 = \"Lived a king and queen\\n\";\nwriter.write(text1, text2, text3);\n```",
+   "guidance": "## Correct Answers\nThe correct answers are:\n\n```java\ntext1 = \"Once upon a time\\n\";\ntext2 = \"In a land far, far away\\n\";\ntext3 = \"Lived a king and queen\\n\";\nwriter.write(text1);\nwriter.write(text2);\nwriter.write(text3);\n```\nEach string has a newline character at the end.\n\n```java\ntext = \"Once upon a time\\nIn a land far, far away\\nLived a king and queen\";\nwriter.write(text);\n```\nThe string uses two newline characters to write the text over three lines.\n\n```java\nString text1 = \"Once upon a time\";\nString text2 = \"In a land far, far away\";\nString text3 = \"Lived a king and queen\";\nwriter.write(text1);\nwriter.newLine();\nwriter.write(text2);\nwriter.newLine();\nwriter.write(text3);\n```\nThe above code uses the `newLine` method to write a newline separator in the file.\n\n## Incorrect Answers\nThe following code snippet is **not correct** because there are no newline characters. All three strings would be on the same line.\n\n```java\nString text1 = \"Once upon a time\";\nString text2 = \"In a land far, far away\";\nString text3 = \"Lived a king and queen\";\nwriter.write(text1);\nwriter.write(text2);\nwriter.write(text3);\n```\n\nThe following code snippet is **not correct** because the `write` method takes just a string or a string and two integers. In the code below, three strings are passed to the `writer` method.\n\n```java\nString text1 = \"Once upon a time\\n\";\nString text2 = \"In a land far, far away\\n\";\nString text3 = \"Lived a king and queen\\n\";\nwriter.write(text1, text2, text3);\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 20,
@@ -7655,13 +7660,14 @@
      }
     ],
     "files": [
+     "code/files/Multiline.java",
      "code/files/MoreWriting.java"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/files/MoreWriting.java"
+      "content": "code/files/Multiline.java"
      }
     ]
    },

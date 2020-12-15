@@ -3553,14 +3553,14 @@
   },
   {
    "id": "62cb8da6-c51f-473d-d955-e7f6cd868a1f",
-   "title": "More Writing to Files",
+   "title": "Multiline Strings",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "code/files/MoreWriting.java",
+     "path": "code/files/Multiline.java",
      "panel": 0,
      "action": "open"
     }
@@ -3568,7 +3568,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/More-Writing-to-Files-62cb.md",
+   "content-file": ".guides/content/Multiline-Strings-62cb.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
