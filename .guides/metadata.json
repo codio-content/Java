@@ -3506,6 +3506,29 @@
    "learningObjectives": ""
   },
   {
+   "id": "963ad627-85f0-7340-7e93-b960f85afb1f",
+   "title": "File Basics",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/FileBasics.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/File-Basics-963a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "968024a9-5de8-2212-5185-de5a63ccd1dc",
    "title": "Writing to a File",
    "files": [

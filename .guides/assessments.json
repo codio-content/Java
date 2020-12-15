@@ -7668,5 +7668,75 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT write properly formatted text to a file"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3027494163",
+  "source": {
+   "name": "file basics reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhy is it preferable to use `BufferedWriter` as opposed to just `FileWriter`?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "7da6d2b2-56d3-09d7-eec8-f3e0829e3ab3",
+     "correct": true,
+     "answer": "`BufferedWriter` writes to memory, which is faster than writing directly to disk."
+    },
+    {
+     "_id": "bb07ad6b-c61e-eabf-dd89-9c3dc08fff41",
+     "correct": false,
+     "answer": "`FileWriter` is no longer supported by Java."
+    },
+    {
+     "_id": "32eac220-65cb-12d6-c3da-5b0ca2b91b11",
+     "correct": false,
+     "answer": "`BufferedWriter` writes directly to disk, which is faster than writing to memory."
+    },
+    {
+     "_id": "48d65a9d-5ea0-c5cc-0b87-aa3e358d4bca",
+     "correct": false,
+     "answer": "There is no class called `FileWriter` in Java."
+    }
+   ],
+   "guidance": "Remember, reading and writing to memory is much faster than reading or writing to disk. So using `BufferedWriter` will be faster than `FileWriter` because `BufferedWriter` writes to memory while `FileWriter` writes to disk.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Buffers"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [
+     "code/files/FileBasics.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/FileBasics.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT explain why buffers are useful"
+  }
  }
 ]

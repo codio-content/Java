@@ -1474,28 +1474,34 @@
      "type": "section",
      "children": [
       {
-       "id": "34953f35-5bc8-8d13-d070-a418831a225f",
        "title": "Learning Objectives - Writing",
-       "pageId": "ea557549-34f8-300f-0cfb-1a38383d696b",
-       "type": "page"
+       "id": "34953f35-5bc8-8d13-d070-a418831a225f",
+       "type": "page",
+       "pageId": "ea557549-34f8-300f-0cfb-1a38383d696b"
       },
       {
-       "id": "edb9aac2-115d-6228-7dee-714277aea499",
+       "title": "File Basics",
+       "id": "317ad0b8-2d21-0b45-c205-d1df31e6bdd3",
+       "type": "page",
+       "pageId": "963ad627-85f0-7340-7e93-b960f85afb1f"
+      },
+      {
        "title": "Writing to a File",
-       "pageId": "968024a9-5de8-2212-5185-de5a63ccd1dc",
-       "type": "page"
+       "id": "edb9aac2-115d-6228-7dee-714277aea499",
+       "type": "page",
+       "pageId": "968024a9-5de8-2212-5185-de5a63ccd1dc"
       },
       {
-       "id": "646b0d03-b54d-59c5-bb08-650a79a30019",
        "title": "More Writing to Files",
-       "pageId": "62cb8da6-c51f-473d-d955-e7f6cd868a1f",
-       "type": "page"
+       "id": "646b0d03-b54d-59c5-bb08-650a79a30019",
+       "type": "page",
+       "pageId": "62cb8da6-c51f-473d-d955-e7f6cd868a1f"
       },
       {
-       "id": "dee71285-0148-d04e-5d82-50395adf08ae",
        "title": "Appending to a File",
-       "pageId": "286916ae-2014-1da9-c403-99f2cd18bf35",
-       "type": "page"
+       "id": "dee71285-0148-d04e-5d82-50395adf08ae",
+       "type": "page",
+       "pageId": "286916ae-2014-1da9-c403-99f2cd18bf35"
       }
      ]
     },
@@ -1541,34 +1547,34 @@
      "type": "section",
      "children": [
       {
-       "id": "9319a6ff-fe08-c3df-ad0c-322563870bd7",
        "title": "Exercise 1",
-       "pageId": "ebdd6cb5-43b9-0ec5-4a49-e845c8f143e1",
-       "type": "page"
+       "id": "9319a6ff-fe08-c3df-ad0c-322563870bd7",
+       "type": "page",
+       "pageId": "ebdd6cb5-43b9-0ec5-4a49-e845c8f143e1"
       },
       {
-       "id": "e5ee2f84-0825-f7a9-4e5c-a344e981184c",
        "title": "Exercise 2",
-       "pageId": "44502dc0-1273-e3e8-f57f-8bfa471f8367",
-       "type": "page"
+       "id": "e5ee2f84-0825-f7a9-4e5c-a344e981184c",
+       "type": "page",
+       "pageId": "44502dc0-1273-e3e8-f57f-8bfa471f8367"
       },
       {
-       "id": "90a6e9b2-de6e-7ecf-35d9-ddf46412ad58",
        "title": "Exercise 3",
-       "pageId": "f2b14444-6b02-a917-72d4-eea125352d66",
-       "type": "page"
+       "id": "90a6e9b2-de6e-7ecf-35d9-ddf46412ad58",
+       "type": "page",
+       "pageId": "f2b14444-6b02-a917-72d4-eea125352d66"
       },
       {
-       "id": "7a453b53-8c8b-35dc-e92d-c86ffeff333e",
        "title": "Exercise 4",
-       "pageId": "774b8d0e-6221-6f21-baf5-da460aceab75",
-       "type": "page"
+       "id": "7a453b53-8c8b-35dc-e92d-c86ffeff333e",
+       "type": "page",
+       "pageId": "774b8d0e-6221-6f21-baf5-da460aceab75"
       },
       {
-       "id": "79ade8be-3ef3-60df-372c-82748d3401f6",
        "title": "Exercise 5",
-       "pageId": "e1ff0d45-48f8-aa45-b322-0d42aac39469",
-       "type": "page"
+       "id": "79ade8be-3ef3-60df-372c-82748d3401f6",
+       "type": "page",
+       "pageId": "e1ff0d45-48f8-aa45-b322-0d42aac39469"
       }
      ]
     }
