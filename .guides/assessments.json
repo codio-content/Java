@@ -7744,5 +7744,67 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT explain why buffers are useful"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3874763106",
+  "source": {
+   "name": "appending to a file reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nFill in the blanks below with words from the dropdown menu.",
+   "showValues": true,
+   "text": "<<<Writing>>> to a file will erase its contents before adding the string.\n<<<Appending>>> to a file will keep its contents and add the string at the end.",
+   "distractors": "Adding\n",
+   "guidance": "**Writing** to a file will overwrite it. That means all existing content will be replaced with the new content.\n**Appending** to a file keeps the existing content and adds the new content at the end of the file.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Appending to a File"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [
+     "code/files/Append.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Append.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between writing and appending to a file",
+   "tokens": {
+    "blank": [
+     "Writing",
+     "Appending"
+    ],
+    "text": [
+     0,
+     " to a file will erase its contents before adding the string.\n",
+     0,
+     " to a file will keep its contents and add the string at the end."
+    ],
+    "regexPositions": []
+   }
+  }
  }
 ]
