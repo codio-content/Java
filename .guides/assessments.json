@@ -7886,5 +7886,145 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT append a string to a file"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1392982459",
+  "source": {
+   "name": "reading question skip method",
+   "showName": false,
+   "instructions": "## Reading Question\n\nAssume that `reader` is a `BufferedReader` object and that the first line of a text file has 22 characters.",
+   "multipleResponse": true,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "b74f68d8-7c7c-7c15-60b4-0daae9910980",
+     "correct": true,
+     "answer": "```java\nreader.skip(20);\nSystem.out.println(reader.readLine());\n```"
+    },
+    {
+     "_id": "b5d2cd71-1248-0da7-38d1-f6b643b0b90b",
+     "correct": false,
+     "answer": "```java\nreader.skip(23);\nSystem.out.println(reader.readLine());\n```"
+    },
+    {
+     "_id": "87134a16-199a-62bf-9360-de69b2423d0e",
+     "correct": true,
+     "answer": "```java\nreader.skip(17);\nSystem.out.println(reader.readLine());\n````"
+    },
+    {
+     "_id": "d84e3997-dc8d-2c6e-e964-388411bd0a42",
+     "correct": false,
+     "answer": "```java\nreader.skip(-1);\nSystem.out.println(reader.readLine());\n```"
+    }
+   ],
+   "guidance": "The correct answers are those where the `skip` method has an argument that is positive and less than 22 (the number of characters in the line). When the argument is greater than 22, Java will return text from the second line of the file. Java will return an error if the argument is negative.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Skip method"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Reading a File"
+     }
+    ],
+    "files": [
+     "code/files/Skip.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Skip.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT use the skip method to ignore a set of characters when reading a file"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1012654483",
+  "source": {
+   "name": "reading question reading a file",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect the true statement about reading files in Java.",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "0f712637-137a-e2d7-213a-fcfa75365fe2",
+     "correct": true,
+     "answer": "The `readLine` method reads from the file until it encounters a newline character."
+    },
+    {
+     "_id": "967b4cff-b064-0c8e-3c62-2b03703a2c89",
+     "correct": false,
+     "answer": "The `readLine` method reads the entire file at once."
+    },
+    {
+     "_id": "eb41b960-7bea-96c5-7922-35698985f8d7",
+     "correct": false,
+     "answer": "The `read` method reads from the file until it encounters a newline character."
+    },
+    {
+     "_id": "4a7ae184-36b8-90f1-16b7-ef87e89c7425",
+     "correct": false,
+     "answer": "The `read` method reads the entire file at once."
+    }
+   ],
+   "guidance": "The `readLine` method reads from the file until it comes across a newline character. The `read` method reads only one character at a time.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Reading a file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [
+     "code/files/Read.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Read.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define what the readLine method does"
+  }
  }
 ]

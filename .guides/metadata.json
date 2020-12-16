@@ -3669,6 +3669,30 @@
    "learningObjectives": ""
   },
   {
+   "id": "62817790-8996-3fa9-fe84-96bc81e82f66",
+   "title": "File Iteration",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/File-Iteration-6281.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9180a8f1-f4f5-d3c8-968e-f3e6a3690a0e",
+   "title": "Tokens",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Tokens-9180.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "e4127028-f015-a4f0-0f45-7413e9c65a39",
    "title": "Skip Method",
    "files": [
