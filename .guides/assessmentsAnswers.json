@@ -956,5 +956,15 @@
    "active": []
   },
   "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-3435269715",
+  "points": 0,
+  "state": {
+   "trashHash": "8_0-5_0-1_0-3_0-0_0-4_0-7_0-6_0-2_0",
+   "solutionHash": "9_0",
+   "toggleStates": "{}"
+  },
+  "results": []
  }
 ]

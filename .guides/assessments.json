@@ -7806,5 +7806,85 @@
     "regexPositions": []
    }
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-4064983796",
+  "source": {
+   "name": "writing a file formative assessment 1",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create a program that writes the following information to the file `tongueTwister.txt`.\n\n```\nPeter Piper picked a peck of pickled peppers\nA peck of pickled peppers Peter Piper picked\nIf Peter Piper picked a peck of pickled peppers\nWhere’s the peck of pickled peppers Peter Piper picked?\n```",
+   "initial": "String path = \"tongueTwister.txt\";\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {\n  writer.write(\"Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"A peck of pickled peppers Peter Piper picked\\n\");\n  writer.write(\"If Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"Where’s the peck of pickled peppers Peter Piper picked?\");\n} catch (IOException e) {\n  System.out.println(e);\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+   "grader": "1",
+   "guidance": "Here is the correct answer:\n\n```java\nString path = \"tongueTwister.txt\";\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {\n  writer.write(\"Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"A peck of pickled peppers Peter Piper picked\\n\");\n  writer.write(\"If Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"Where’s the peck of pickled peppers Peter Piper picked?\");\n} catch (IOException e) {\n  System.out.println(e);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Write to a file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT demonstrate writing to a file"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3435269715",
+  "source": {
+   "name": "writing to a file formative assessment 2",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume that you have the text file `quotes.txt`. Rearrange the code blocks below to create a program that will add the following text to the file. Your program should not alter any information already in the text file. This quote should be on its own line in the file. \n\n```text\n\"The time is always right to do what is right.\"\n```\n\n**Note**, not all of the code blocks will be used.",
+   "initial": "String path = \"quotes.txt\";\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path, true))) {\n  String text = \"The time is always right to do what is right.\";\n  writer.newLine();\n  writer.write(text);\n  writer.close();\n} catch (IOException e) {\n  System.out.println(e);\n}\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Here is the solution:\n\n```java\nString path = \"quotes.txt\";\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path, true))) {\n  String text = \"The time is always right to do what is right.\";\n  writer.newLine();\n  writer.write(text);\n  writer.close();\n} catch (IOException e) {\n  System.out.println(e);\n}\n```\n\nThere are two important ideas to keep in mind. One, you do not want to overwrite the file, so you need to append to the file. Be sure to select the `try` statement that has the Boolean `true`. Two, you want the quote to appear on its own line, so you need to call the `newLine` method before the `write` method.",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Appending to a file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT append a string to a file"
+  }
  }
 ]

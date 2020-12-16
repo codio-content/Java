@@ -3598,6 +3598,42 @@
    "learningObjectives": ""
   },
   {
+   "id": "017889c8-00c7-1677-682b-6d8fb257effa",
+   "title": "Formative Assessment 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-0178.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6d4467cb-7c94-777e-de29-f81eb17cde36",
+   "title": "Formative Assessment 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-6d44.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "ebdd6cb5-43b9-0ec5-4a49-e845c8f143e1",
    "title": "Exercise 1",
    "files": [],

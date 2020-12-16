@@ -1509,7 +1509,20 @@
      "title": "Formative Assessment - Writing",
      "id": "68f02bbd-f5c1-54b6-1b91-05cc445c4213",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "572583f0-f764-c5cf-8713-4d295cdcfc01",
+       "title": "Formative Assessment 1",
+       "pageId": "017889c8-00c7-1677-682b-6d8fb257effa",
+       "type": "page"
+      },
+      {
+       "id": "b1c5563d-142e-9798-18a3-92e00812b726",
+       "title": "Formative Assessment 2",
+       "pageId": "6d4467cb-7c94-777e-de29-f81eb17cde36",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Reading a File",
