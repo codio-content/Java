@@ -3671,7 +3671,18 @@
   {
    "id": "62817790-8996-3fa9-fe84-96bc81e82f66",
    "title": "File Iteration",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/FileIteration.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/File-Iteration-6281.md",
