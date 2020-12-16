@@ -1,3 +1,5 @@
+----------
+
 ## File Basics
 
 This module is all about working with files on a computer. The first step is to locate the desired file. That means being able to navigate the file system. The file we are going to use is called `practice1.txt`. It is located in the `text` folder, which is inside the folder called `studentFolder`.  So the path to the file is: `studentFolder/text/practice1.txt`.

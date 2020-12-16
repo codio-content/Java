@@ -1511,16 +1511,16 @@
      "type": "section",
      "children": [
       {
-       "id": "572583f0-f764-c5cf-8713-4d295cdcfc01",
        "title": "Formative Assessment 1",
-       "pageId": "017889c8-00c7-1677-682b-6d8fb257effa",
-       "type": "page"
+       "id": "572583f0-f764-c5cf-8713-4d295cdcfc01",
+       "type": "page",
+       "pageId": "017889c8-00c7-1677-682b-6d8fb257effa"
       },
       {
-       "id": "b1c5563d-142e-9798-18a3-92e00812b726",
        "title": "Formative Assessment 2",
-       "pageId": "6d4467cb-7c94-777e-de29-f81eb17cde36",
-       "type": "page"
+       "id": "b1c5563d-142e-9798-18a3-92e00812b726",
+       "type": "page",
+       "pageId": "6d4467cb-7c94-777e-de29-f81eb17cde36"
       }
      ]
     },
@@ -1528,7 +1528,32 @@
      "title": "Reading a File",
      "id": "45c732f5-6b2f-a304-899f-9fc445ff66b1",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "title": "Learning Objectives - Reading",
+       "id": "36b8fb0e-ab73-be40-8f8d-5c5074dc6253",
+       "type": "page",
+       "pageId": "a6bcddf1-68d5-d54e-8a13-4cd3cda6eddc"
+      },
+      {
+       "id": "08bdd56a-414f-3b3e-5e52-1f8e26781e46",
+       "title": "Reading a File",
+       "pageId": "c58b4514-5292-e283-d1bc-899e8d03b44b",
+       "type": "page"
+      },
+      {
+       "id": "7d84cc08-a69b-0cf1-3101-bbde0db38d5b",
+       "title": "Skip Method",
+       "pageId": "e4127028-f015-a4f0-0f45-7413e9c65a39",
+       "type": "page"
+      },
+      {
+       "id": "084d9dbc-0526-01db-0080-0641bd709a74",
+       "title": "Read and Write - Two Files",
+       "pageId": "21343a86-20ee-1a9f-4211-d5aff82a9eb0",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment - Reading",

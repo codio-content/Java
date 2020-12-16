@@ -1,3 +1,5 @@
+----------
+
 ## Appending to a File
 
 You may have noticed that the `write` method completely writes over a file with the new string. If you want to add to an existing file, you need to tell Java that you want to append to a file rather than overwrite it. Start by writing a string to the file `practice3.txt`. 

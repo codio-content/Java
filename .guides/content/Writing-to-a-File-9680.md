@@ -1,3 +1,5 @@
+----------
+
 ## Writing to a File
 
 Continuing from the previous page, your program should import the `java.io` package, have the file path stored as a string, use a `BufferWriter` object, and catch any input/output exceptions.

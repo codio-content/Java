@@ -1,3 +1,5 @@
+----------
+
 ## Multiline Strings
 
 Let's take the Java code from the previous page and make a few changes. This program will write to the file `practice2.txt`, and there will be two strings to write. The first string, `text1`, has the same value as before. The string `text2` has the value `my friend`. Write both of these strings to the file; then click on the link.
