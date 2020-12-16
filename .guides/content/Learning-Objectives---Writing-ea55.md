@@ -1,15 +1,13 @@
 * ### Navigate the file system to the appropriate folder
-* ### Demonstrate how to open a file in write mode
+* ### Explain why using a buffer is preferable to interacting directly with the disk
 * ### Explain what happens when you write a file that does not exist
-* ### Demonstrate how to use the `writelines` method
-* ### Explain what happens when you write to a file that already exists
+* ### Demonstrate how to write multiline strings to a file
 * ### Differentiate between write and append modes
-* ### Differentiate between `open` and `with open`
 
 |||guidance
 ## Assumptions
-Students have completed the units on lists and strings.
+Students have completed the module on strings. Students are familiar with `try... catch... finally` blocks.
 
 ## Limitations
-These problems will be working with text files. Students need to know how to open files in the file directory. All text files will be located in the home directory for the Codio project.
+These problems will be working with text files. Students will only use the `BufferedWriter` class, and they will not use the `append` method when appending a file. The will continue to use the `write` method.
 |||
