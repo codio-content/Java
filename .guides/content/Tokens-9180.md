@@ -20,6 +20,7 @@ public class Tokens {
       for (String t: tokens) {
         System.out.println(t);
       }
+      reader.close();
     } catch (IOException e) {
       System.out.println(e);
     } finally {
@@ -38,8 +39,8 @@ public class Tokens {
 * Change the delimiter to the string `";"`
 
 <details>
-  <summary><strong>Explaining the Results</strong></summary>
-  Notice that when the delimiter is <code>a</code> that the letter "a" no longer appears in the tokens. When the delimiter does not appear in the line of text, then no tokens are made.
+  <summary><strong>Explaining the Output</strong></summary>
+  Notice that when the delimiter is <code>"a"</code> that the letter "a" no longer appears in the tokens. When the delimiter does not appear in the line of text, then one token (the original line of text) is made.
 </details>
 
 |||
@@ -65,6 +66,7 @@ public class Tokens {
       while (tokens.hasMoreTokens()) {
         System.out.println(tokens.nextToken());
       }
+      reader.close();
     } catch (IOException e) {
       System.out.println(e);
     } finally {
@@ -77,4 +79,52 @@ public class Tokens {
 
 {Try it}(sh .guides/bg.sh javac code/files/Tokens.java java -cp code/files/ Tokens 3)
 
-To convert the entire file to tokens, you will use two nested loops. The first iterates over each line in the file while the second transforms the string into tokens. 
+To convert the entire file to tokens, you will use two nested loops. The first iterates over each line in the file. Use a while loop and the `ready` method from the previous page to read the file. The second loop transforms the string into tokens using another while loop and the `hasMoreTokens` method.
+
+```java
+import java.io.*;
+import java.util.*;
+
+public class Tokens {
+  public static void main(String args[]) {
+    
+    //add code below this line
+    String path = "studentFolder/text/readPractice.txt";
+    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+      while (reader.ready()) {
+        String line = reader.readLine();
+        StringTokenizer tokens = new StringTokenizer(line, " ");
+        while (tokens.hasMoreTokens()) {
+          System.out.println(tokens.nextToken());
+        }
+      }
+      reader.close();
+    } catch (IOException e) {
+      System.out.println(e);
+    } finally {
+      System.out.println("Finished reading a file.");
+    }
+    //add code above this line 
+  }
+}
+```
+
+{Try it}(sh .guides/bg.sh javac code/files/Tokens.java java -cp code/files/ Tokens 4)
+
+|||challenge
+## Try this variation:
+* Change the delimiter to `a` and add `true` as a parameter:
+```java
+new StringTokenizer(line, "a", true);
+```
+
+<details>
+  <summary><strong>Explaining the Output</strong></summary>
+  The Boolean `true` means that delimiter will be included with the tokens. The delimiters will be their own token. Delimiters are always excluded from the tokens when using `split`.
+</details>
+
+|||
+
+{Try it}(sh .guides/bg.sh javac code/files/Tokens.java java -cp code/files/ Tokens 5)
+
+{Check It!|assessment}(parsons-puzzle-2176276099)

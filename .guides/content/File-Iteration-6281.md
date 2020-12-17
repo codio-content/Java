@@ -20,6 +20,7 @@ public class FileIteration {
         System.out.println(currentLine);
         currentLine = reader.readLine();
       }
+      reader.close();
     } catch (IOException e) {
       System.out.println(e);
     } finally {
@@ -81,6 +82,7 @@ public class FileIteration {
       while(reader.ready()) {
         System.out.println(reader.readLine());
       }
+      reader.close();
     } catch (IOException e) {
       System.out.println(e);
     } finally {

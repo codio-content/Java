@@ -8091,5 +8091,53 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT explain why a while loop is preferable to a for loop when iterating over a file"
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2176276099",
+  "source": {
+   "name": "reading question tokens",
+   "showName": false,
+   "instructions": "## Reading Question\n\nAssume the following code:\n\n```java\nimport java.io.*;\nimport java.util.*;\n\npublic class Tokens {\n  public static void main(String args[]) {\n    String path = \"myFile.txt\";\n\n      //your code goes here\n   \n  }\n}\n```\n\nArrange the blocks below to read a file and create tokens for each word. **Hint**, not all of the blocks will be used.",
+   "initial": "try(BufferedReader reader = new BufferedReader(new FileReader(path))) {\n  String line = reader.readLine();\n  StringTokenizer tokens = new StringTokenizer(line, &quot; &quot;);\n  while (tokens.hasMoreTokens()) {\n    System.out.println(tokens.nextToken());\n  }\n} catch (IOException e) {\n  System.out.println(e);\n}\nStringTokenizer tokens = new StringTokenizer(line, &quot;\\n&quot;); #distractor\nwhile (tokens.nextToken()) { #distractor\nSystem.out.println(tokens.hasMoreTokens()); #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The correct answer is:\n\n```java\ntry(BufferedReader reader = new BufferedReader(new FileReader(path))) {\n  String line = reader.readLine();\n  StringTokenizer tokens = new StringTokenizer(line, \" \");\n  while (tokens.hasMoreTokens()) {\n    System.out.println(tokens.nextToken());\n  }\n} catch (IOException e) {\n  System.out.println(e);\n}\n```\n\nThe method `hasMoreTokens` returns a Boolean value; so it should be used in the while loop. The `nextToken` method returns a string; so it should be used in the print statement.",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Tokens"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Reading a file"
+     }
+    ],
+    "files": [
+     "code/files/Tokens.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Tokens.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT create tokens from a string read from a file"
+  }
  }
 ]
