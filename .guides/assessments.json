@@ -8208,5 +8208,106 @@
     "regexPositions": []
    }
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3262692339",
+  "source": {
+   "name": "reading a file formative assessment 1",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume the following code:\n\n```java\nimport java.io.*;\n\npublic class ReadProblem {\n  public static void main(String args[]) {\n    String path = \"myFile.txt\";\n    try {\n      \n      //your code goes here\n\n    } catch (IOException e) {\n      System.out.println(e);\n    }\n  }\n}\n```\n\nRearrange the code blocks below so that the program will print the text file as you would expect it to appear. **Note**, not all of the code blocks will be used.",
+   "initial": "BufferedReader reader = new BufferedReader(new FileReader(path));\nwhile(reader.ready()) {\n  System.out.println(reader.readLine());\n}\nreader.close();\nBufferedWriter reader = new BufferedWriter(new FileWriter(path)); #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The correct answer is:\n\n```java\nBufferedReader reader = new BufferedReader(new FileReader(path));\nwhile(reader.ready()) {\n  System.out.println(reader.readLine());\n}\nreader.close();\n```\n\nYou do not use the `BufferedWriter` class when reading a document.",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Reading a file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT print each line of a text file"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1173360768",
+  "source": {
+   "name": "formative assessment 2 reading a file",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume the following code:\n\n```java\nimport java.io.*;\n\npublic class ReadProblem {\n  public static void main(String args[]) {\n    String path = \"myFile.txt\";\n    try {\n      \n      //your code goes here\n\n    } catch (IOException e) {\n      System.out.println(e);\n    }\n  }\n}\n```\n\nFill in the blanks below so the code reads the file and prints each line of the text file.",
+   "showValues": true,
+   "text": "```java\nBufferedReader reader = new BufferedReader(new FileReader(path));\nString <<<currentLine>>> = reader.readLine();\nwhile(currentLine <<<!=>>> null) {\n    System.out.println(<<<currentLine>>>);\n    currentLine = reader.<<<readLine()>>>;\n}\nreader.close();\n```",
+   "distractors": "==\nread()\nline",
+   "guidance": "The correct answer is:\n\n```java\nBufferedReader reader = new BufferedReader(new FileReader(path));\nString currentLine = reader.readLine();\nwhile(currentLine != null) {\n    System.out.println(currentLine);\n    currentLine = reader.readLine();\n}\nreader.close();\n```\n\n* You do not use `==` because `null` means you have reached the end of the file. You should keep reading as long as you have not reached the end of the file. Use `!=` instead.\n* You do not use `read()` because this only reads one character at a time. It would not output the text as you would expect.\n* You do not use `line` because this variable name is not used in the given code.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Reading a file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "SWBAT iterate through a text file without the ready method",
+   "tokens": {
+    "blank": [
+     "currentLine",
+     "!=",
+     "currentLine",
+     "readLine()"
+    ],
+    "text": [
+     "```java\nBufferedReader reader = new BufferedReader(new FileReader(path));\nString ",
+     0,
+     " = reader.readLine();\nwhile(currentLine ",
+     0,
+     " null) {\n    System.out.println(",
+     0,
+     ");\n    currentLine = reader.",
+     0,
+     ";\n}\nreader.close();\n```"
+    ],
+    "regexPositions": []
+   }
+  }
  }
 ]
