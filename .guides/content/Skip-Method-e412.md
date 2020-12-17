@@ -12,8 +12,10 @@ public class Skip {
     
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
-    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
       System.out.println(reader.readLine());
+      reader.close();
     } catch (IOException e) {
       System.out.println(e);
     } finally {
@@ -36,9 +38,11 @@ public class Skip {
     
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
-    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
       reader.skip(30);
       System.out.println(reader.readLine());
+      reader.close();
     } catch (IOException e) {
       System.out.println(e);
     } finally {

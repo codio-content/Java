@@ -14,7 +14,8 @@ public class Tokens {
     
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
-    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
       String line = reader.readLine();
       String [] tokens = line.split(" ");
       for (String t: tokens) {
@@ -60,7 +61,8 @@ public class Tokens {
     
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
-    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
       String line = reader.readLine();
       StringTokenizer tokens = new StringTokenizer(line, " ");
       while (tokens.hasMoreTokens()) {
@@ -90,7 +92,8 @@ public class Tokens {
     
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
-    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
       while (reader.ready()) {
         String line = reader.readLine();
         StringTokenizer tokens = new StringTokenizer(line, " ");

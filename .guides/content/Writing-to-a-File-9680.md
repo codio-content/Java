@@ -12,8 +12,8 @@ public class Writing {
     
     //add code below this line
     String path = "studentFolder/text/practice1.txt";
-    try(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
-      
+    try {
+      BufferedWriter writer = new BufferedWriter(new FileWriter(path));
     } catch (IOException e) {
       System.out.println(e);
     }
@@ -32,7 +32,8 @@ public class Writing {
     
     //add code below this line
     String path = "studentFolder/text/practice1.txt";
-    try(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
+    try {
+      BufferedWriter writer = new BufferedWriter(new FileWriter(path));
       String text = "Hello there";
       writer.write(text);
       writer.close();

@@ -14,7 +14,8 @@ public class FileIteration {
     
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
-    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
       String currentLine = reader.readLine();
       while(currentLine != null) {
         System.out.println(currentLine);
@@ -78,7 +79,8 @@ public class FileIteration {
     
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
-    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
       while(reader.ready()) {
         System.out.println(reader.readLine());
       }

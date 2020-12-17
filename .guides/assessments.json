@@ -7814,10 +7814,10 @@
    "name": "writing a file formative assessment 1",
    "showName": false,
    "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create a program that writes the following information to the file `tongueTwister.txt`.\n\n```\nPeter Piper picked a peck of pickled peppers\nA peck of pickled peppers Peter Piper picked\nIf Peter Piper picked a peck of pickled peppers\nWhere’s the peck of pickled peppers Peter Piper picked?\n```",
-   "initial": "String path = \"tongueTwister.txt\";\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {\n  writer.write(\"Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"A peck of pickled peppers Peter Piper picked\\n\");\n  writer.write(\"If Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"Where’s the peck of pickled peppers Peter Piper picked?\");\n} catch (IOException e) {\n  System.out.println(e);\n}",
+   "initial": "String path = &quot;tongueTwister.txt&quot;;\ntry {\n  BufferedWriter writer = new BufferedWriter(new FileWriter(path));\n  writer.write(&quot;Peter Piper picked a peck of pickled peppers\\n&quot;);\n  writer.write(&quot;A peck of pickled peppers Peter Piper picked\\n&quot;);\n  writer.write(&quot;If Peter Piper picked a peck of pickled peppers\\n&quot;);\n  writer.write(&quot;Where’s the peck of pickled peppers Peter Piper picked?&quot;);\n  writer.close();\n} catch (IOException e) {\n  System.out.println(e);\n}",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
    "grader": "1",
-   "guidance": "Here is the correct answer:\n\n```java\nString path = \"tongueTwister.txt\";\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {\n  writer.write(\"Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"A peck of pickled peppers Peter Piper picked\\n\");\n  writer.write(\"If Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"Where’s the peck of pickled peppers Peter Piper picked?\");\n} catch (IOException e) {\n  System.out.println(e);\n}\n```",
+   "guidance": "Here is the correct answer:\n\n```java\nString path = \"tongueTwister.txt\";\ntry {\n  BufferedWriter writer = new BufferedWriter(new FileWriter(path));\n  writer.write(\"Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"A peck of pickled peppers Peter Piper picked\\n\");\n  writer.write(\"If Peter Piper picked a peck of pickled peppers\\n\");\n  writer.write(\"Where’s the peck of pickled peppers Peter Piper picked?\");\n  writer.close();\n} catch (IOException e) {\n  System.out.println(e);\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 20,
    "oneTimeTest": true,
@@ -7854,10 +7854,10 @@
    "name": "writing to a file formative assessment 2",
    "showName": false,
    "instructions": "## Formative Assessment\n\nAssume that you have the text file `quotes.txt`. Rearrange the code blocks below to create a program that will add the following text to the file. Your program should not alter any information already in the text file. This quote should be on its own line in the file. \n\n```text\n\"The time is always right to do what is right.\"\n```\n\n**Note**, not all of the code blocks will be used.",
-   "initial": "String path = \"quotes.txt\";\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path, true))) {\n  String text = \"The time is always right to do what is right.\";\n  writer.newLine();\n  writer.write(text);\n  writer.close();\n} catch (IOException e) {\n  System.out.println(e);\n}\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {  #distractor",
+   "initial": "String path = &quot;quotes.txt&quot;;\ntry {\n  BufferedWriter writer = new BufferedWriter(new FileWriter(path, true));\n  String text = &quot;The time is always right to do what is right.&quot;;\n  writer.newLine();\n  writer.write(text);\n  writer.close();\n} catch (IOException e) {\n  System.out.println(e);\n}\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {   #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "Here is the solution:\n\n```java\nString path = \"quotes.txt\";\ntry(BufferedWriter writer = new BufferedWriter(new FileWriter(path, true))) {\n  String text = \"The time is always right to do what is right.\";\n  writer.newLine();\n  writer.write(text);\n  writer.close();\n} catch (IOException e) {\n  System.out.println(e);\n}\n```\n\nThere are two important ideas to keep in mind. One, you do not want to overwrite the file, so you need to append to the file. Be sure to select the `try` statement that has the Boolean `true`. Two, you want the quote to appear on its own line, so you need to call the `newLine` method before the `write` method.",
+   "guidance": "Here is the solution:\n\n```java\nString path = \"quotes.txt\";\ntry {\n  BufferedWriter writer = new BufferedWriter(new FileWriter(path, true));\n  String text = \"The time is always right to do what is right.\";\n  writer.newLine();\n  writer.write(text);\n  writer.close();\n} catch (IOException e) {\n  System.out.println(e);\n}\n```\n\nThere are two important ideas to keep in mind. One, you do not want to overwrite the file, so you need to append to the file. Be sure to select the `try` statement that has the Boolean `true`. Two, you want the quote to appear on its own line, so you need to call the `newLine` method before the `write` method.",
    "showGuidanceAfterResponse": true,
    "points": 20,
    "oneTimeTest": true,
@@ -8099,10 +8099,10 @@
    "name": "reading question tokens",
    "showName": false,
    "instructions": "## Reading Question\n\nAssume the following code:\n\n```java\nimport java.io.*;\nimport java.util.*;\n\npublic class Tokens {\n  public static void main(String args[]) {\n    String path = \"myFile.txt\";\n\n      //your code goes here\n   \n  }\n}\n```\n\nArrange the blocks below to read a file and create tokens for each word. **Hint**, not all of the blocks will be used.",
-   "initial": "try(BufferedReader reader = new BufferedReader(new FileReader(path))) {\n  String line = reader.readLine();\n  StringTokenizer tokens = new StringTokenizer(line, &quot; &quot;);\n  while (tokens.hasMoreTokens()) {\n    System.out.println(tokens.nextToken());\n  }\n} catch (IOException e) {\n  System.out.println(e);\n}\nStringTokenizer tokens = new StringTokenizer(line, &quot;\\n&quot;); #distractor\nwhile (tokens.nextToken()) { #distractor\nSystem.out.println(tokens.hasMoreTokens()); #distractor",
+   "initial": "try {\n  BufferedReader reader = new BufferedReader(new FileReader(path));\n  String line = reader.readLine();\n  StringTokenizer tokens = new StringTokenizer(line, &quot; &quot;);\n  while (tokens.hasMoreTokens()) {\n    System.out.println(tokens.nextToken());\n  }\n} catch (IOException e) {\n  System.out.println(e);\n}\nStringTokenizer tokens = new StringTokenizer(line, &quot;\\n&quot;);  #distractor\nwhile (tokens.nextToken()) {  #distractor\nSystem.out.println(tokens.hasMoreTokens());  #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "The correct answer is:\n\n```java\ntry(BufferedReader reader = new BufferedReader(new FileReader(path))) {\n  String line = reader.readLine();\n  StringTokenizer tokens = new StringTokenizer(line, \" \");\n  while (tokens.hasMoreTokens()) {\n    System.out.println(tokens.nextToken());\n  }\n} catch (IOException e) {\n  System.out.println(e);\n}\n```\n\nThe method `hasMoreTokens` returns a Boolean value; so it should be used in the while loop. The `nextToken` method returns a string; so it should be used in the print statement.",
+   "guidance": "The correct answer is:\n\n```java\ntry {\n  BufferedReader reader = new BufferedReader(new FileReader(path));\n  String line = reader.readLine();\n  StringTokenizer tokens = new StringTokenizer(line, \" \");\n  while (tokens.hasMoreTokens()) {\n    System.out.println(tokens.nextToken());\n  }\n} catch (IOException e) {\n  System.out.println(e);\n}\n```\n\nThe method `hasMoreTokens` returns a Boolean value; so it should be used in the while loop. The `nextToken` method returns a string; so it should be used in the print statement.",
    "showGuidanceAfterResponse": true,
    "points": 20,
    "oneTimeTest": true,
@@ -8138,6 +8138,75 @@
    },
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT create tokens from a string read from a file"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-4088463411",
+  "source": {
+   "name": "read and write reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nLook at the two code examples carefully. Fill in the blanks below based on these code examples.\n\n## Code Example 1\n```java\nString readPath = \"myFile1.txt\";\nString writePath = \"myFile2.txt\";\nBufferedReader reader = new BufferedReader(new FileReader(readPath));\nBufferedWriter writer = new BufferedWriter(new FileWriter(writePath));\n```\n\n## Code Example 2\n```java\nString readPath = \"myFile4.txt\";\nString writePath = \"myFile3.txt\";\nBufferedReader reader = new BufferedReader(new FileReader(readPath));\nBufferedWriter writer = new BufferedWriter(new FileWriter(writePath));\n```",
+   "showValues": true,
+   "text": "In **Code Example 1**, Java reads from the file stored in the variable <<<myFile1.txt>>> and writes to file stored in variable <<<myFile2.txt>>>.\n\nIn **Code Example 2**, Java reads from the file stored in the variable <<<myFile4.txt>>> and writes to file stored in variable <<<myFile3.txt>>>.",
+   "distractors": "",
+   "guidance": "In the first example, Java is reading from `myFile1.txt` and writing to `myFile2.txt`.\nIn the second example, Java is reading from `myFile4.txt` and writing to `myFile3.txt`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Read a file, write to a file"
+     }
+    ],
+    "files": [
+     "code/files/ReadWrite.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/ReadWrite.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine which file is being read and which file is being written to",
+   "tokens": {
+    "blank": [
+     "myFile1.txt",
+     "myFile2.txt",
+     "myFile4.txt",
+     "myFile3.txt"
+    ],
+    "text": [
+     "In **Code Example 1**, Java reads from the file stored in the variable ",
+     0,
+     " and writes to file stored in variable ",
+     0,
+     ".\n\nIn **Code Example 2**, Java reads from the file stored in the variable ",
+     0,
+     " and writes to file stored in variable ",
+     0,
+     "."
+    ],
+    "regexPositions": []
+   }
   }
  }
 ]

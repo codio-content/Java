@@ -14,7 +14,8 @@ public class Read {
     
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
-    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
       System.out.println(reader.readLine());
       reader.close();
     } catch (IOException e) {

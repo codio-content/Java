@@ -12,7 +12,8 @@ public class Multiline {
     
     //add code below this line
     String path = "studentFolder/text/practice2.txt";
-    try(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
+    try {
+      BufferedWriter writer = new BufferedWriter(new FileWriter(path));
       String text1 = "Hello there";
       String text2 = "my friend";
       writer.write(text1);

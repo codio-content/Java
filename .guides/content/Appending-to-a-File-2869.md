@@ -12,7 +12,8 @@ public class Append {
     
     //add code below this line
     String path = "studentFolder/text/practice3.txt";
-    try(BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
+    try {
+      BufferedWriter writer = new BufferedWriter(new FileWriter(path));
       String text = "Nothing left to do";
       writer.write(text);
       writer.close();
@@ -39,7 +40,8 @@ public class Append {
     
     //add code below this line
     String path = "studentFolder/text/practice3.txt";
-    try(BufferedWriter writer = new BufferedWriter(new FileWriter(path, true))) {
+    try {
+      BufferedWriter writer = new BufferedWriter(new FileWriter(path, true));
       String text = "but smile, smile, smile";
       writer.newLine();
       writer.write(text);
