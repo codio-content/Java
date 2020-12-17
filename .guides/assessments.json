@@ -7528,5 +7528,1046 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT Apply correct ArrayList syntax"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2834384865",
+  "source": {
+   "name": "String Characters",
+   "showName": true,
+   "instructions": "Answer the following questions about strings by filling in the blanks.",
+   "showValues": true,
+   "text": "Strings are composed of a sequence of <<<characters>>>.\nThe number of characters can be determined by using <<<length()>>>.\nIndividual characters can be referenced by using the <<<index>>>.",
+   "distractors": "",
+   "guidance": "Here are the three properties of strings:\n1) All strings are a sequence of characters.\n2) All strings have a length (the total number of characters).\n3) Characters in a string are referenced with an index.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "string properties"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StringProperties.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/StringProperties.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the three properties of a string",
+   "tokens": {
+    "blank": [
+     "characters",
+     "length()",
+     "index"
+    ],
+    "text": [
+     "Strings are composed of a sequence of ",
+     0,
+     ".\nThe number of characters can be determined by using ",
+     0,
+     ".\nIndividual characters can be referenced by using the ",
+     0,
+     "."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2985524921",
+  "source": {
+   "name": "String Immutability",
+   "showName": true,
+   "instructions": "What does it mean for a string to be **immutable**?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "16878325-1ec1-0374-71ae-26cc2ba943c5",
+     "correct": false,
+     "answer": "You cannot assign a variable a new string value"
+    },
+    {
+     "_id": "06fd2725-40a2-11fe-5e17-9ab61d6678d4",
+     "correct": true,
+     "answer": "You cannot modify characters in a string"
+    },
+    {
+     "_id": "b2c35965-ebb3-658a-c0d5-10d551912f9b",
+     "correct": false,
+     "answer": "You can change the individual characters in a string"
+    },
+    {
+     "_id": "c22f0333-87eb-53be-2bfc-78093e690816",
+     "correct": false,
+     "answer": "You can assign a variable a new string value"
+    }
+   ],
+   "guidance": "A string is immutable because you cannot alter individual characters. For example, `my_string.charAt(0) = \"A\"` is trying to change the first character of a string to `A`. However, this is not possible due to string immutability.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string immutability"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Immutability.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Immutability.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define string immutability"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-449420830",
+  "source": {
+   "name": "The contains() Method",
+   "showName": true,
+   "instructions": "Select **all** of the statements that are true about the `contains()` method and strings.",
+   "multipleResponse": true,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "b8d9f440-9a82-a91e-5c30-f207fe92887c",
+     "correct": true,
+     "answer": "`contains()` returns a boolean value"
+    },
+    {
+     "_id": "64c0eef1-ffa2-a4b8-216f-69ba4339f836",
+     "correct": false,
+     "answer": "`contains()` returns an index when a word is present in a string"
+    },
+    {
+     "_id": "5fb66562-b147-bc5a-1472-889bdb9a3e63",
+     "correct": true,
+     "answer": "`contains()` will return `false` if a word is found but in a different case (uppercase vs. lowercase)"
+    },
+    {
+     "_id": "9a6a431b-c748-422f-2c70-f4428f90759c",
+     "correct": false,
+     "answer": "`contains()` will return `true` if a word is found in a string even if one is lowercase and the other is uppercase"
+    }
+   ],
+   "guidance": "The `contains()` method will return a boolean value (`true` or `false`). The `contains()` method is also case sensitive. That means the characters and case must match. If one is uppercase and the other is lowercase, `contains()` will return `true`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "contains() method"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StringContains.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/StringContains.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT summarize how the contains() method works with strings"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2182641556",
+  "source": {
+   "name": "The substring() method",
+   "showName": true,
+   "instructions": "Use the code below to help you answer the following question:\n\n```java\nString my_string = \"Calvin and Hobbes\";\nString my_slice = my_string.substring(3, 8);\n```\n\nWhat is the value of `my_slice`?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "41a890d8-beb7-a5a3-953e-b2fe1de7f792",
+     "correct": false,
+     "answer": "`vin an`"
+    },
+    {
+     "_id": "59694582-3114-0276-fc63-e5068f9ef096",
+     "correct": true,
+     "answer": "`vin a`"
+    },
+    {
+     "_id": "897122fa-2822-4991-8854-a8b5f295611f",
+     "correct": false,
+     "answer": "`lvin `"
+    },
+    {
+     "_id": "8a743921-ad63-16e7-6bad-f827b88eff68",
+     "correct": false,
+     "answer": "`lvin a`"
+    }
+   ],
+   "guidance": "The `contains()` method has start and stop index values. The start index value is inclusive, meaning this value is a part of the substring. The stop index value is exclusive, meaning that this value will not be part of the substring. Since the code reads `String my_slice = my_string.substring(3, 8);`, the substring will include all characters from indices 3 to 7, which is `\"vin a\"`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "substring() method"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Substring.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Substring.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT identify the result of a substring() method"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-951427295",
+  "source": {
+   "name": "Escape Characters",
+   "showName": true,
+   "instructions": "Select **all** of the ways to correctly print the contraction (`It's`) inside a string declaration.",
+   "multipleResponse": true,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "e9c45e6d-00bc-df91-f13c-7ef8ef43ac4f",
+     "correct": true,
+     "answer": "`String my_string = \"It's my birthday today!\";`"
+    },
+    {
+     "_id": "eb9bd82c-8b7f-7411-0409-4af9ba375b31",
+     "correct": false,
+     "answer": "`String my_string = 'It's my birthday today!';`"
+    },
+    {
+     "_id": "de3036f5-ad72-7b48-7c04-3e810a4ece97",
+     "correct": false,
+     "answer": "`String my_string = \"It/'s my birthday today!\";`"
+    },
+    {
+     "_id": "e71acf7a-1a07-08a0-b2ca-14f940963232",
+     "correct": true,
+     "answer": "`String my_string = \"It\\'s my birthday today!\";`"
+    }
+   ],
+   "guidance": "There are two possible ways to make a contraction such as `It's` inside a string.\n1) Use double quotation marks for the string declaration and a single quote `'` for the contraction. `String my_string = \"It's my birthday today!\";`\n2) Use double quotation marks for the string declaration and the escape character `\\'` for the contraction. `my_string = \"It\\'s my birthday today!\"`\n\n**Note** that you cannot use single quotes `'` to declare strings. Single quotes can only be used for characters typed as `char`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "escape characters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StringEscape.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/StringEscape.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT use quotes inside quotes"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-773544051",
+  "source": {
+   "name": "Comparing String Lengths",
+   "showName": true,
+   "instructions": "Use the code blocks below to help construct a program that checks if `string1` is longer than `string2`. Then prints the message `string1 is longer` if true. **Remember to indent** any command(s) that is associated with the conditional statement or you will not receive credit for your work!\n\n**Hint:** not all of the code blocks will be used.",
+   "initial": "if (string1.length() > string2.length()) {\n  System.out.println(\"string1 is longer\");\n}\nif (string1.length > string2.length) {    #distractor\nif (length(string1) > length(string2)) {     #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "`length(string1)` is not valid Java syntax and `string1.length` will only work for arrays since `length` by itself is an instance variable, not a method. `length()`, on the other hand, is a method used to determine string length.\n\n**Solution:**\n```java\nif (string1.length() > string2.length()) {\n  System.out.println(\"string1 is longer\");\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "length() method"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StringEscape.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT implement the length() method"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2950194932",
+  "source": {
+   "name": "Printing Escape Characters",
+   "showName": true,
+   "instructions": "Select **all** of the print statements below that will produce the following output:\n```java\nI am the first line,\nI am the second,\nand I am the third line!\n```",
+   "multipleResponse": true,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "5b13d25c-9166-4eb1-999c-36a44cc632e9",
+     "correct": true,
+     "answer": "```java\nSystem.out.print(\"I am the first line,\\nI am the second,\\nand I am the third line!\");\n```"
+    },
+    {
+     "_id": "1779d537-45e4-7a40-6ace-11dc8dcdc51b",
+     "correct": false,
+     "answer": "```java\nSystem.out.print(\"I am the first line,\nI am the second,\nand I am the third line!\");\n```"
+    },
+    {
+     "_id": "eee1609e-a609-6d65-9194-2ae254335915",
+     "correct": true,
+     "answer": "```java\nSystem.out.println(\"I am the first line,\");\nSystem.out.println(\"I am the second,\");\nSystem.out.print(\"and I am the third line!\");\n```"
+    },
+    {
+     "_id": "902119cf-7ec5-83c9-48d9-1b0e7ea7da53",
+     "correct": false,
+     "answer": "```java\nSystem.out.print(\"I am the first line,\\tI am the second,\\tand I am the third line!\");\n```"
+    }
+   ],
+   "guidance": "Simply using the `return` or `enter` keys will not produce a newline in Java. You can either use `System.out.println()` or the escape character `\\n` to create the newline character. \n\n**Note** that `\\t` creates white spaces similar to when the `tab` key is pressed. It is not the same as a newline character.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "newline character & multiline strings"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT recognize different ways to print output on several different lines"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1128520187",
+  "source": {
+   "name": "The replace() Method",
+   "showName": true,
+   "instructions": "Assume you have the code `String my_string = \"The cat in the hat\";`. Which of the following code snippets below **will not** make any changes to `my_string`?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "710486f0-d43f-bd4b-047c-065cd4ab1422",
+     "correct": false,
+     "answer": "`my_string.replace(\"cat\", \"rat\")`"
+    },
+    {
+     "_id": "4d451918-7b2d-2bc2-1bc4-8d6baed54547",
+     "correct": true,
+     "answer": "`my_string.replace(\"Hat\", \"Bat\")`"
+    },
+    {
+     "_id": "f5d0fa38-7a23-8c05-39c2-634419f6e471",
+     "correct": false,
+     "answer": "`my_string.replace(\"The\", \"A\")`"
+    },
+    {
+     "_id": "ca311c2d-a91a-0bf8-fecb-db6247d43817",
+     "correct": false,
+     "answer": "`my_string.replace(\" \", \"\")`"
+    }
+   ],
+   "guidance": "In order for the `replace()` method to return a **changed** string, you need to specify a string parameter that actually exists in the original string. `The`, `cat`, and white space (`\" \"`) all exist in the original string. The only parameter that **does not** exist is `Hat`, therefore, the system will not return a string that is different.\n\n**Solution:**\n`my_string.replace(\"Hat\", \"Bat\")`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "replace() method"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/TrimRemove.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/TrimRemove.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT use the replace() method to return changed strings"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2517337307",
+  "source": {
+   "name": "The startsWith() Method",
+   "showName": true,
+   "instructions": "Fill in the blanks below with the appropriate responses.",
+   "showValues": true,
+   "text": "The `startsWith()` method can contain up to <<<2>>> parameters.\nThe first parameter is <<<mandatory>>>.\nThe second parameter is <<<optional>>>.",
+   "distractors": "",
+   "guidance": "The `startsWith()` method has two parameters. The first parameter is required to tell the system what string to look for. The second parameter is optional, which tells the system what **index** to start at. If there is no second parameter, the system will start at index `0` by default.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "startsWith() method & parameters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StartsWith.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/StartsWith.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT distinguish between required and optional parameters",
+   "tokens": {
+    "blank": [
+     "2",
+     "mandatory",
+     "optional"
+    ],
+    "text": [
+     "The `startsWith()` method can contain up to ",
+     0,
+     " parameters.\nThe first parameter is ",
+     0,
+     ".\nThe second parameter is ",
+     0,
+     "."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2534949745",
+  "source": {
+   "name": "The indexOf() Method",
+   "showName": true,
+   "instructions": "Assume that you have two strings, `original_string` and `search_term`. Rearrange the code blocks below to test if `search_term` is found in `original_string`. If true, print the message `\"I found it!\"`. **Remember to indent** any command(s) that is associated with a conditional statement or you will not receive credit for your work!\n\n**Hint:** not all of the code blocks will be used.",
+   "initial": "if ((original_string.indexOf(search_term)) != -1) {\n  System.out.println(\"I found it!\");\n}\nif ((search_term.indexOf(original_string)) != -1) {   #distractor\nif ((original_string.indexOf(search_term)) == -1) {    #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Here are the steps to constructing the correct conditional statement:\n1) Start with a conditional.\n```java\nif\n```\n2) Add the string that is being searched in parentheses.\n```java\nif (original_string)\n```\n3) Attach the `indexOf()` method.\n```java\nif (original_string.indexOf())\n```\n4) Use `search_term` as the parameter for `indexOf()`.\n```java\nif (original_string.indexOf(search_term))\n```\n5) If `search_term` is not found, it will return `-1`. So any number that is not `-1` means that `search_term` has been found.\n```java\nif ((original_string.indexOf(search_term)) != -1) {\n```\n6) Finally, add the `print` statement.\n```java\nif ((original_string.indexOf(search_term)) != -1) {\n  System.out.println(\"I found it!\");\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "indexOf() method"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/IndexOf.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/IndexOf.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT use the indexOf() method in a conditional"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3480569100",
+  "source": {
+   "name": "toUpperCase() & toLowerCase()",
+   "showName": true,
+   "instructions": "If strings are **immutable**, then why are methods such as `toUpperCase()` and `toLowerCase()` able to return strings that look different from the original?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "c7219925-63f9-6e4e-203c-2141050046ab",
+     "correct": false,
+     "answer": "Some methods such as `toUpperCase()` and `toLowerCase()` are exceptions to the rule and can directly modify strings."
+    },
+    {
+     "_id": "84d9805d-8c12-33e2-041d-5d9851a4bf98",
+     "correct": false,
+     "answer": "`toUpperCase()` and `toLowerCase()` delete the original string and replaces it with a modified string."
+    },
+    {
+     "_id": "63e8ddcc-d4c6-9b05-c912-7ea8ed12415c",
+     "correct": false,
+     "answer": "If the strings have the exact same characters, then `toUpperCase()` and `toLowerCase()` are able to modify the strings."
+    },
+    {
+     "_id": "7af6f13f-deeb-65b3-39d6-e2d4316db30a",
+     "correct": true,
+     "answer": "`toUpperCase()` and `toLowerCase()` do not actually modify the strings directly; they create a copy of the original string and returns that copied string modified."
+    }
+   ],
+   "guidance": "`toUpperCase()` and `toLowerCase()` are not exceptions to the rule that strings are **immutable**. The methods only create a copy of the original string and all of the modifications happen to the copied version, not the original.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string immutability"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/UpperLowerCase.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/UpperLowerCase.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand how methods do not violate the immutability of strings"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1424760878",
+  "source": {
+   "name": "String Methods",
+   "showName": true,
+   "instructions": "Look at the before and after code samples below:\n* **Before:** `the brown dog jumps over the lazy fox`\n* **After:** `THE BROWN CAT JUMPS OVER THE LAZY FOX`\n\nWhich two string methods would you use to change the text from **Before** to **After**?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "ffac13b4-06c0-b1b7-c90a-c58b2fc78d9b",
+     "correct": false,
+     "answer": "`toUpperCase()` and `toLowerCase()`"
+    },
+    {
+     "_id": "3812f3f8-ce3b-9e19-1028-3762b7a353e2",
+     "correct": true,
+     "answer": "`replace()` and `toUpperCase()`"
+    },
+    {
+     "_id": "9bc54457-fb3f-f4bd-1db2-5ac1d4e571d7",
+     "correct": false,
+     "answer": "`replace()` and `trim()`"
+    },
+    {
+     "_id": "6c1bf125-6197-2bc7-7d4e-2556c0459f9d",
+     "correct": false,
+     "answer": "`trim()` and `toLowerCase()`"
+    }
+   ],
+   "guidance": "`trim()` only removes leading and trailing white spaces and `toLowerCase()` only converts the characters to their lowercase version. Both of these methods are not helpful in modifying the string in the way that we are looking for. Only `replace()` and `toUpperCase()` will work because `replace()` can modify `dog` to `cat` (note that case is irrelevant in this situation) and `toUpperCase()` will capitalize all of the characters, which is exactly what we want.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT recognize which string methods are needed to produce a given output"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1949499545",
+  "source": {
+   "name": "String Methods & Conditionals",
+   "showName": true,
+   "instructions": "Imagine you have a string variable `sentence`. Drag and drop the code blocks below to create a program that checks if `sentence` starts with a blank space(s). If yes, print `sentence` without any of those **previous** spaces. **Remember to indent** any command(s) that is associated with a conditional statement or you will not receive any credit for your work.\n\n**Hint:** You will not need to use all of the code blocks.",
+   "initial": "if (sentence.startsWith(\" \")) {\n  System.out.println(sentence.trim());\n}\nif (sentence.beginsWith(\" \")) {    #distractor\nif (sentence.indexOf()) {     #distractor\nSystem.out.println(sentence.replace(\" \", \"\"));    #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Immediately, you can eliminate `if (sentence.beginsWith(\" \")) {` and `if (sentence.indexOf()) {` because the former is not a valid Java method and the latter requires a mandatory parameter. That leaves only `if (sentence.startsWith(\" \")) {` as our correct conditional statement. `System.out.println(sentence.replace(\" \", \"\"));` will remove **all** white spaces, which is no what we want. `System.out.println(sentence.trim());` will enable us to remove the leading white spaces and is therefore the correct answer.\n\n**Solution:**\n```java\nif (sentence.startsWith(\" \")) {\n  System.out.println(sentence.trim());\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT utilize a combination of string methods"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3929791507",
+  "source": {
+   "name": "Iterating Strings with For Loop",
+   "showName": true,
+   "instructions": "Assume you have a string variable `String mystery_string = \"mystery\";`. Fill in the blanks below so that the program prints each character of `mystery_string` like so:\n```java\nm\ny\ns\nt\ne\nr\ny\n```",
+   "showValues": false,
+   "text": "```java\nfor (int i = 0; i < mystery_string.<<<length>>>(); i++) {\n  System.out.<<<println>>>(mystery_string.<<<charAt>>>(<<<i>>>));\n}\n```",
+   "distractors": "",
+   "guidance": "In order for the iterating variable `i` to go through the whole string, we need to specify the loop to continue until it reaches `mystery_string.length()`. To print `mystery_string` vertically, use `System.out.println` instead of `System.out.print`. Lastly, to reference each index and find its corresponding string character, use `mystery_string.charAt(i)`.\n\n**Solution:**\n```java\nfor (int i = 0; i < mystery_string.length(); i++) {\n  System.out.println(mystery_string.charAt(i));\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "string iteration"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StringForLoop.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/StringForLoop.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT construct a for loop that iterates over a string",
+   "tokens": {
+    "blank": [
+     "length",
+     "println",
+     "charAt",
+     "i"
+    ],
+    "text": [
+     "```java\nfor (int i = 0; i < mystery_string.",
+     0,
+     "(); i++) {\n  System.out.",
+     0,
+     "(mystery_string.",
+     0,
+     "(",
+     0,
+     "));\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-443018017",
+  "source": {
+   "name": "Iterating Strings with While Loop",
+   "showName": true,
+   "instructions": "Assume you have a string variable called `my_string`. Fill in the blanks below so that the program uses a `while` loop to iterate over `my_string` and print each character.",
+   "showValues": false,
+   "text": "```java\nString my_string = \"Codio\";\n<<<int>>> len = <<<my_string>>>.length();\n<<<int>>> i = 0;\n\nwhile (i < len) {\n  System.out.print(<<<my_string>>>.<<<charAt>>>(<<<i>>>));\n  <<<i>>>++;\n}\n```",
+   "distractors": "",
+   "guidance": "First, you should recognize that both `len` and `i` should be typed as `int` because one returns an integer (`len`) and the other is a counting variable (`i`). Next, the print statement needs to incorporate the string `my_string` followed by the method `charAt` and `i` as the parameter. Remember, we are referencing the character at each index from beginning to end and `charAt(i)` allows us to do that. The last step is to increment the counting variable `i` by one, otherwise it will not traverse the string and result in an infinite loop.\n\n**Solution:**\n```java\nString my_string = \"Codio\";\nint len = my_string.length();\nint i = 0;\n\nwhile (i < len) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "string iteration"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StringWhileLoop.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/StringWhileLoop.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT iterate a string with a while loop",
+   "tokens": {
+    "blank": [
+     "int",
+     "my_string",
+     "int",
+     "my_string",
+     "charAt",
+     "i",
+     "i"
+    ],
+    "text": [
+     "```java\nString my_string = \"Codio\";\n",
+     0,
+     " len = ",
+     0,
+     ".length();\n",
+     0,
+     " i = 0;\n\nwhile (i < len) {\n  System.out.print(",
+     0,
+     ".",
+     0,
+     "(",
+     0,
+     "));\n  ",
+     0,
+     "++;\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2191857171",
+  "source": {
+   "name": "String Iteration For Loop",
+   "showName": true,
+   "instructions": "Use the code below to help you answer the following question:\n\njava\n```\nString my_string = \"Hello world\";\nfor (int i = 0; i < my_string.length(); i++) {\n  System.out.print(my_string.charAt(i));\n}\n```\n\nWhat does the variable `i` represent?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "2bb46eb8-3acd-c493-0cf8-0e61e601429d",
+     "correct": false,
+     "answer": "`i` represents the length of `my_string`."
+    },
+    {
+     "_id": "e332e38e-99de-5859-84a7-7a38876e2182",
+     "correct": false,
+     "answer": "`i` represents a copy of `my_string`."
+    },
+    {
+     "_id": "105c6aae-4dc7-b2a0-5532-cf3b65808705",
+     "correct": false,
+     "answer": "`i` represents the data type of `my_string`."
+    },
+    {
+     "_id": "fc46a890-5d68-a37f-d63b-f4de385f6aab",
+     "correct": true,
+     "answer": "`i` represents each index or character of `my_string`."
+    }
+   ],
+   "guidance": "`i` is also known as the iterating variable and in strings, `i` takes on the index of each character of the string. ",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string iteration"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT identify the purpose of the iterating variable in a for loop when iterating over a string"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-4012056221",
+  "source": {
+   "name": "String Iteration While Loop",
+   "showName": true,
+   "instructions": "Drag and drop the code blocks below to construct a program that outputs:\n```java\nToday is a good day\n```\n\n**Remember to indent** any iterating command(s) or you will not receive credit for your work.\n**Hint:** You will not need to use all of the code blocks.",
+   "initial": "String my_string = &quot;Today is a good day&quot;;\nint i = 0;\nwhile (i &lt; my_string.length()) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\nint i = my_string.length();   #distractor\nwhile (my_string.length() &lt; i) {   #distractor\nSystem.out.println(my_string.charAt(i));   #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "**Guide:**\n1. Create the string: `String my_string = \"Today is a good day\";`\n1. Create the counting variable `i` to keep track of string indices.\n1. Keep iterating through the string while `i` is less than the length of the string.\n1. Print the string horizontally with `System.out.print` instead of `System.out.println` and access each index of each character by using `my_string.charAt(i)`.\n1. Increment the counting variable `i`.\n\n**Solution:**\n```java\nString my_string = \"Today is a good day\";\nint i = 0;\nwhile (i < my_string.length()) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

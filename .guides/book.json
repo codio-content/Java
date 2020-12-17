@@ -1145,20 +1145,14 @@
        "type": "page"
       },
       {
-       "id": "94d5f387-d294-c170-da1b-3f8de74da793",
-       "title": "Multiline Strings",
-       "pageId": "392cd1d8-beae-e8f6-9bee-2d58056b87b4",
-       "type": "page"
-      },
-      {
        "id": "cc5c141d-929e-23e7-62e1-8b97863c6485",
-       "title": "In Operator",
+       "title": "Contains",
        "pageId": "88973a1e-8e7d-a59b-f698-0be9bf51e117",
        "type": "page"
       },
       {
        "id": "4befece3-98f4-3a94-5c34-f7fa10f1aefe",
-       "title": "The Slice Operator",
+       "title": "Substring",
        "pageId": "dc0dd891-1386-8b85-15e8-f593c9f7b75d",
        "type": "page"
       },
@@ -1171,7 +1165,7 @@
      ]
     },
     {
-     "title": "Formative Assessment - String Basics",
+     "title": "Formative Assessment: String Basics",
      "id": "29064b5b-518a-2250-0263-34612c771296",
      "type": "section",
      "children": [
@@ -1202,7 +1196,7 @@
       },
       {
        "id": "4f8b0c10-4fb3-6cd6-23de-36724a28595a",
-       "title": "Strip",
+       "title": "Trim & Replace",
        "pageId": "ae8182ea-03e6-ee43-2538-39de1da38af7",
        "type": "page"
       },
@@ -1213,45 +1207,21 @@
        "type": "page"
       },
       {
-       "id": "a03da937-b12e-df92-b8c6-65e9a4d2da04",
-       "title": "Replace",
-       "pageId": "450a0a34-4cc3-ac99-7ed7-044cdf7d885f",
-       "type": "page"
-      },
-      {
        "id": "6f00538f-2a4f-6135-b329-9d158a8312d4",
-       "title": "Find",
+       "title": "Index Of",
        "pageId": "b28e2bfa-00b3-7dfa-c332-a750df45b36a",
        "type": "page"
       },
       {
        "id": "c6f0aa41-93c9-4932-73d1-f9af15d95c19",
-       "title": "Upper",
+       "title": "Uppercase & Lowercase",
        "pageId": "edc2d032-e0ff-e6fa-0c43-14553d6e5b24",
-       "type": "page"
-      },
-      {
-       "id": "24a00f61-66c2-9fa9-b385-965dcf9cdff1",
-       "title": "Lower",
-       "pageId": "214be55f-7036-6047-1a30-60e5172095a0",
-       "type": "page"
-      },
-      {
-       "id": "a79692ab-c82c-aae3-8475-ac9b5b971f02",
-       "title": "Capitalize",
-       "pageId": "3e628257-964a-1440-51e2-a0bdbff5ac2d",
-       "type": "page"
-      },
-      {
-       "id": "f169d976-99ca-6e09-5287-c181afb83200",
-       "title": "Title",
-       "pageId": "ff15cd31-250d-d764-91a7-e103c7a9648b",
        "type": "page"
       }
      ]
     },
     {
-     "title": "Formative Assessment - String Methods",
+     "title": "Formative Assessment: String Methods",
      "id": "0e2c3f68-35eb-1817-c138-e7d0d60cac20",
      "type": "section",
      "children": [
@@ -1295,7 +1265,7 @@
      ]
     },
     {
-     "title": "Formative Assessment - String Iteration",
+     "title": "Formative Assessment: String Iteration",
      "id": "a752d9c1-a3eb-507f-bffe-37da8ce0cec5",
      "type": "section",
      "children": [
@@ -1357,7 +1327,7 @@
      ]
     },
     {
-     "title": "Formative Assessment - String Comparison",
+     "title": "Formative Assessment: String Comparison",
      "id": "40c57d53-4413-1173-607c-9b4fdde41ce3",
      "type": "section",
      "children": [
@@ -1406,7 +1376,7 @@
       },
       {
        "id": "a0b18b48-e94a-0d48-b713-1ee5c37d0189",
-       "title": "Lab Challenge",
+       "title": "Lab Challenge: lala",
        "pageId": "7227852f-bc63-785d-fcc4-7317550cca94",
        "type": "page"
       }

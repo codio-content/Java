@@ -12,5 +12,3 @@ Write a program that takes input from a user and prints the first character of t
 [Code Visualizer](open_tutor code/strings/exercise1.py)
 {try it|terminal}(python3 code/strings/exercise1.py)
 
-{Check It!|assessment}(code-output-compare-2841054492)
-
