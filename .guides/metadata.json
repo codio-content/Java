@@ -3694,7 +3694,18 @@
   {
    "id": "9180a8f1-f4f5-d3c8-968e-f3e6a3690a0e",
    "title": "Tokens",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Tokens.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Tokens-9180.md",

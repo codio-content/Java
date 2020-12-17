@@ -8026,5 +8026,70 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT define what the readLine method does"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3272895920",
+  "source": {
+   "name": "reading question file iteration",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhy do the examples on this page use a while loop instead of a for loop?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "a3f0a49f-a2db-13d1-5986-0f51b412bec7",
+     "correct": true,
+     "answer": "We want to iteration until a condition is met (the end of the file) as opposed to iterating a specific number of times."
+    },
+    {
+     "_id": "a8a8c82a-434e-8307-ce5b-29c5e1c3e213",
+     "correct": false,
+     "answer": "Java throws an error when reading a file with a for loop."
+    },
+    {
+     "_id": "1e3c1719-90cd-a4fa-44d7-33d8d4a58367",
+     "correct": false,
+     "answer": "For loops are slower than while loops."
+    }
+   ],
+   "guidance": "The correct answer is: \n\n```\nYou want to iteration until a condition is met (the end of the file) as opposed to iterating a specific number of times.\n```\n\nWe do not know how many lines of text there are in a file. A for loop is not a good choice because it runs a specified number of times. Instead, use a while loop to test for the end of the file. This way your loop runs the correct amount of iterations.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File Iteration"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [
+     "code/files/FileIteration.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/FileIteration.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT explain why a while loop is preferable to a for loop when iterating over a file"
+  }
  }
 ]

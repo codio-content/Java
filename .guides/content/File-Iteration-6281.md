@@ -15,7 +15,7 @@ public class FileIteration {
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
     try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
-      String currentLine; // = reader.readLine();
+      String currentLine = reader.readLine();
       while(currentLine != null) {
         System.out.println(currentLine);
         currentLine = reader.readLine();
@@ -66,3 +66,31 @@ while((currentLine = reader.readLine()) != null) {
 {Try it}(sh .guides/bg.sh javac code/files/FileIteration.java java -cp code/files/ FileIteration 2)
 
 ## The Ready Method
+
+The `BufferedReader` class has the method `ready` which returns a `true` if the file can be read. It returns `false` when there are no more lines in the file. You no longer need the `currentLine` variable. Instead, use the `ready` method in the while loop, and print the the value of the `readLine` method. Not only is this a more concise way of iterating over a file, you do not have to worry about an infinite loop. 
+
+```java
+import java.io.*;
+
+public class FileIteration {
+  public static void main(String args[]) {
+    
+    //add code below this line
+    String path = "studentFolder/text/readPractice.txt";
+    try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
+      while(reader.ready()) {
+        System.out.println(reader.readLine());
+      }
+    } catch (IOException e) {
+      System.out.println(e);
+    } finally {
+      System.out.println("Finished reading a file.");
+    }
+    //add code above this line 
+  }
+}
+```
+
+{Try it}(sh .guides/bg.sh javac code/files/FileIteration.java java -cp code/files/ FileIteration 3)
+
+{Check It!|assessment}(multiple-choice-3272895920)
