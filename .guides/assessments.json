@@ -8309,5 +8309,75 @@
     "regexPositions": []
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-667076594",
+  "source": {
+   "name": "csv files reading question",
+   "showName": false,
+   "instructions": "##Reading Question\n\nAssume the variable `path` contains the file path to a CSV file. What is the proper way to declare an object work with CSV files using Opencsv?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "f37f6e82-63cc-ecac-cce8-e459ea957b6b",
+     "correct": true,
+     "answer": "CSVReader reader = new CSVReader(new FileReader(path));"
+    },
+    {
+     "_id": "c8a761c6-4ae5-8ef8-3db6-c7494324571b",
+     "correct": false,
+     "answer": "BufferedReader reader = new BufferedReader(new FileReader(path));"
+    },
+    {
+     "_id": "729e041c-0f4f-59d4-724e-6fe307ab41cf",
+     "correct": false,
+     "answer": "CSVReader reader = new CSVReader(new BufferedReader(path));"
+    },
+    {
+     "_id": "783088ef-28dd-fbb6-ff1c-12f73ff1be60",
+     "correct": false,
+     "answer": "FileReader reader = new FileReader(new CSVReader(path));"
+    }
+   ],
+   "guidance": "The correct answer is:\n\n```java\nCSVReader reader = new CSVReader(new FileReader(path));\n```\n\n* The `BufferedReader` class is not used when working with CSV files\n* The `CSVReader` class is wrapped around a `Filewriter` object",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Reading a CSV file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "CSV Files"
+     }
+    ],
+    "files": [
+     "code/files/CsvFiles.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/CsvFiles.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT declare a CSVReader object"
+  }
  }
 ]
