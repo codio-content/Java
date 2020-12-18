@@ -1590,7 +1590,38 @@
      "title": "CSV Files",
      "id": "960e15cc-c04d-96e8-fee0-662fb49ca232",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "df356ff2-f8aa-db54-7df7-081ab5650152",
+       "title": "Learning Objectives - CSV",
+       "pageId": "4108f285-fd0f-040b-1bb1-26065f034cc9",
+       "type": "page"
+      },
+      {
+       "id": "7373688f-7ca4-7022-fed8-40a99d1d7eec",
+       "title": "CSV Files",
+       "pageId": "dd3aaa9c-6816-0a71-b957-8538c1118132",
+       "type": "page"
+      },
+      {
+       "id": "67e3b354-2aa7-21be-d307-49da0a4cf86a",
+       "title": "Printing CSV Data",
+       "pageId": "5a36f582-3ea7-7ffb-6f9a-ec5dc3eb7de4",
+       "type": "page"
+      },
+      {
+       "id": "718c422e-b9b3-fb7e-7392-a20922888c09",
+       "title": "Delimiters",
+       "pageId": "f7fa653b-33b4-727c-60d1-8730ed792500",
+       "type": "page"
+      },
+      {
+       "id": "77f3738c-f70c-b69e-1744-5acad7c901f7",
+       "title": "Writing to CSV Files",
+       "pageId": "83e3a973-8978-0788-7005-2138d99e1101",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment - CSV",
