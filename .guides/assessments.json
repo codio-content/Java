@@ -8521,5 +8521,68 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT define a delimiter"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2823084271",
+  "source": {
+   "name": "reading/writing to CSV files",
+   "showName": false,
+   "instructions": "## Reading Question\n\nFill in the blanks below.",
+   "showValues": true,
+   "text": "The <<<CSVReader>>> object is used to read a CSV file.\nThe <<<CSVWriter>>> object is used to write to a CSV file.",
+   "distractors": "BufferedReader\nBufferedWriter",
+   "guidance": "The `CSVReader` object is used to read CSV files, while the `CSVWriter` object is used to write to a CSV file. The `BufferedReader` and `BufferedWriter` objects are used to read and write to text files.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Reading and writing objects"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "CSV"
+     }
+    ],
+    "files": [
+     "code/files/WritingCsv.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/WritingCsv.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the objects used to read and write to CSV files",
+   "tokens": {
+    "blank": [
+     "CSVReader",
+     "CSVWriter"
+    ],
+    "text": [
+     "The ",
+     0,
+     " object is used to read a CSV file.\nThe ",
+     0,
+     " object is used to write to a CSV file."
+    ],
+    "regexPositions": []
+   }
+  }
  }
 ]

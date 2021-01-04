@@ -2,7 +2,7 @@
 
 ## Delimiters
 
-Delimiters are a predefined character that separates one piece of information from another. CSV files use commas as the delimiter by default. However, this makes the file hard to read for humans. It is possible to change the delimiter in Java to a tab ([click here](open_file studentFolder/csv/dataWithTabs.csv) to see an example), but your code must reflect this change. We are no longer going to use the OpenCSV package. Instead, we are going to manually parse the file.
+Delimiters are a predefined character that separates one piece of information from another. CSV files use commas as the delimiter by default. However, this makes the file hard to read for humans. It is possible to change the delimiter in Java to a tab ([click here](open_file studentFolder/csv/dataWithTabs.csv) to see an example), but your code must reflect this change. We are no longer going to use the OpenCSV package. Instead, we are going to manually parse the file with a `BufferedReader` object.
 
 Use the `ready` method from the lesson on iterating over a file. Create the string `line` which represents each line of the CSV file. Within `line`, there are tabs (`"\t"`). We want to take the long string and convert it to an array of smaller strings based on the position of the tab. These smaller strings are called tokens.  The `split` method takes a string and returns an array of strings split on a given character. Create the array `tokens` which is the string `line` split on the value of the variable `delimiter`. Finally, iterate over `tokens` and print each token with some formatting.
 
