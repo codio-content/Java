@@ -8379,5 +8379,147 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT declare a CSVReader object"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-956065085",
+  "source": {
+   "name": "printing an csv file reading question",
+   "showName": false,
+   "instructions": "## Reading Question\nHow is the data for each row in a CSV file stored once it is read?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "a5f8b059-7730-d3e1-918e-ae46b2b23d0d",
+     "correct": true,
+     "answer": "As an array of strings"
+    },
+    {
+     "_id": "67cf82ef-32c2-ac7d-14bb-300571b021fd",
+     "correct": false,
+     "answer": "As a string"
+    },
+    {
+     "_id": "386089dc-049c-9517-d9f2-34e78b01c314",
+     "correct": false,
+     "answer": "As a list of booleans"
+    },
+    {
+     "_id": "2bb45f4a-002c-f291-ceb6-8eb8516e895e",
+     "correct": false,
+     "answer": "As floats and ints"
+    }
+   ],
+   "guidance": "Once a CSV has been read, each row is stored as an array of strings. So manipulating CSV information is based on working with arrays (indexing, slicing, methods, functions, etc.) and working with strings (printing, methods, etc.).",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "CSV"
+     }
+    ],
+    "files": [
+     "code/files/CsvFiles.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/CsvFiles.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify how CSV data is stored once it has been read"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-221700422",
+  "source": {
+   "name": "what does a delimiter do",
+   "showName": true,
+   "instructions": "## Reading Question\n\nWhat is the purpose of a delimiter?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "0352f866-49c2-ef0d-ac1d-ac3917f3b723",
+     "correct": true,
+     "answer": "A delimiter is a character that separates units of data."
+    },
+    {
+     "_id": "ec9f7bda-67ea-c2f3-101b-43f1c35f1adf",
+     "correct": false,
+     "answer": "A delimiter is a character that marks the end of a line."
+    },
+    {
+     "_id": "24384492-42ca-33b0-95e3-5bca2caef5d1",
+     "correct": false,
+     "answer": "A delimiter is a character that begins a line of data."
+    },
+    {
+     "_id": "8d51e177-7a05-1367-17e7-c281c90f6123",
+     "correct": false,
+     "answer": "A delimiter is a character that marks the end of a file."
+    }
+   ],
+   "guidance": "A delimiter is a character that separates units of data. In a CSV file, the default delimiter is a comma. Here is an example of a file with a comma delimiter:\n\nName,Breed\nBear,German Shepherd\nRoxy,Black Lab\nBella,Yorkie\nLucky,Terrier",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Delimiter"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "CSV"
+     }
+    ],
+    "files": [
+     "code/files/Delimiters.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Delimiters.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define a delimiter"
+  }
  }
 ]
