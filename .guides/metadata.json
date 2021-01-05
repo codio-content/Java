@@ -3994,9 +3994,14 @@
      "path": "code/files/Lab3.java",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-3-28c8.md",
