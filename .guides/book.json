@@ -1646,7 +1646,38 @@
      "title": "Lab - Files",
      "id": "eeb34368-bf20-bc2f-495c-2f3f745f4a5f",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "073e9639-1da7-047c-6f84-3a1dc1acfaed",
+       "title": "Lab 1",
+       "pageId": "cc4d2a00-9fcf-464b-7003-66f71e4011aa",
+       "type": "page"
+      },
+      {
+       "id": "f32e4443-9ff0-262b-c845-2a0e227aebf3",
+       "title": "Lab 2",
+       "pageId": "059bff7d-61d2-fc1b-227f-3fae3fc27138",
+       "type": "page"
+      },
+      {
+       "id": "f5e353b6-e6b5-323f-43d2-d7f34b95aa97",
+       "title": "Lab 3",
+       "pageId": "28c8200c-f92b-4ebe-211d-515bd644c2e6",
+       "type": "page"
+      },
+      {
+       "id": "185571ff-9137-d912-750b-c030439d516d",
+       "title": "Lab 4",
+       "pageId": "bf587483-7be8-8782-4e49-b8746dfa8102",
+       "type": "page"
+      },
+      {
+       "id": "0dcd9d7f-c968-8d49-3f21-fca34fa1160d",
+       "title": "Lab Challenge",
+       "pageId": "d292af2a-6f89-569a-96d5-b11cc35ff158",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Coding Exercises - Files",
