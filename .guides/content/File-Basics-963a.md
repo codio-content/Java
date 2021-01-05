@@ -9,7 +9,10 @@ This module is all about working with files on a computer. The first step is to 
 Use a string to represent the file path. This string will be passed to the objects used to read and write to files. 
 
 ```java
-String path = "studentFolder/text/practice1.txt";
+    //add code below this line
+    String path = "studentFolder/text/practice1.txt";
+    
+    //add code above this line
 ```
 
 ## Buffers
@@ -23,18 +26,11 @@ Using a buffer can speed up your program. A buffer is a block of memory that sto
 The examples in this module will always use a buffer. We will start with writing to a file. Use the `FileWriter` class, but "wrap" it in the `BufferedWriter` class. This allows you to send data to a buffer (fast) before writing to the file (slow). Be sure to import the `java.io` package. 
 
 ```java
-import java.io.*;
-
-public class FileBasics {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/practice1.txt";
     BufferedWriter writer = new BufferedWriter(new FileWriter(path));
     
     //add code above this line
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/FileBasics.java java -cp code/files/ FileBasics 1)
@@ -51,11 +47,6 @@ Running the code above generates an error message. Your programs that read and w
 Use a `try... catch` block to handle input/output exceptions. In the `try` portion of the block, create a `BufferedWriter` object. If there is an exception, print it in the `catch` portion of the block. This code should run without any errors, but it does not do anything.
 
 ```java
-import java.io.*;
-
-public class FileBasics {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/practice1.txt";
     try {
@@ -64,8 +55,6 @@ public class FileBasics {
       System.out.println(e);
     }
     //add code above this line
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/FileBasics.java java -cp code/files/ FileBasics 2)

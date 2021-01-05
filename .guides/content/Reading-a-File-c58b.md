@@ -7,11 +7,6 @@ Reading a file is similar, in some ways, to writing to a file. You still import 
 The `readLine` method will read from the file until it encounters a newline character. All of the text read up until the newline character will be returned. Combine the `readLine` method with the the `println` command to see the first line of the file.
 
 ```java
-import java.io.*;
-
-public class Read {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
     try {
@@ -24,8 +19,6 @@ public class Read {
       System.out.println("Finished reading a file.");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Read.java java -cp code/files/ Read 1)

@@ -5,11 +5,6 @@
 Let's take the Java code from the previous page and make a few changes. This program will write to the file `practice2.txt`, and there will be two strings to write. The first string, `text1`, has the same value as before. The string `text2` has the value `my friend`. Write both of these strings to the file; then click on the link.
 
 ```java
-import java.io.*;
-
-public class Multiline {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/practice2.txt";
     try {
@@ -25,8 +20,6 @@ public class Multiline {
       System.out.println("Finished writing to a file.");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Multiline.java java -cp code/files/ Multiline 1)

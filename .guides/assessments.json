@@ -8316,7 +8316,7 @@
   "source": {
    "name": "csv files reading question",
    "showName": false,
-   "instructions": "##Reading Question\n\nAssume the variable `path` contains the file path to a CSV file. What is the proper way to declare an object work with CSV files using Opencsv?",
+   "instructions": "## Reading Question\n\nAssume the variable `path` contains the file path to a CSV file. What is the proper way to declare an object work with CSV files using Opencsv?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
@@ -8346,6 +8346,7 @@
    "showExpectedAnswer": true,
    "points": 20,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {

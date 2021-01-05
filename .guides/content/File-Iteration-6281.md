@@ -7,11 +7,6 @@ The `readLine` method only returns one line of a text file. If you want to read 
 Create string `currentLine` and read a line from the file. Construct a while loop that asks if `currentLine` is not equal to `null`. If this is true, print `currentLine` and then update the variable by reading another line from the file.
 
 ```java
-import java.io.*;
-
-public class FileIteration {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
     try {
@@ -28,8 +23,6 @@ public class FileIteration {
       System.out.println("Finished reading a file.");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/FileIteration.java java -cp code/files/ FileIteration 1)
@@ -72,11 +65,6 @@ while((currentLine = reader.readLine()) != null) {
 The `BufferedReader` class has the method `ready` which returns a `true` if the file can be read. It returns `false` when there are no more lines in the file. You no longer need the `currentLine` variable. Instead, use the `ready` method in the while loop, and print the the value of the `readLine` method. Not only is this a more concise way of iterating over a file, you do not have to worry about an infinite loop. 
 
 ```java
-import java.io.*;
-
-public class FileIteration {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
     try {
@@ -91,8 +79,6 @@ public class FileIteration {
       System.out.println("Finished reading a file.");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/FileIteration.java java -cp code/files/ FileIteration 3)

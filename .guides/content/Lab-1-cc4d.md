@@ -7,30 +7,15 @@ As you read a text file, you go line by line until you reach the end of the file
 Before reading the file, create the `path` variable with the file path, and instantiate the ArrayList `text`. 
 
 ```java
-import java.io.*;
-import java.util.ArrayList;
-
-public class Lab1 {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/labs/filesLab1.txt";
     ArrayList<String> text = new ArrayList<String>();
-    
     //add code above this line 
-  }
-}
 ```
 
 Use a `try... catch` block to handle input/output exceptions. In the `try` portion, create a `BufferedReader` object and read through the file. Add each line to the ArrayList `text`. Print any erros in the `catch` portion, and print a message that the file has been read in the `finally` portion.
 
 ```java
-import java.io.*;
-import java.util.ArrayList;
-
-public class Lab1 {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/labs/filesLab1.txt";
     ArrayList<String> text = new ArrayList<String>();
@@ -45,21 +30,12 @@ public class Lab1 {
     } finally {
       System.out.println("Finished reading a file.\n");
     }
-
     //add code above this line 
-  }
-}
 ```
 
 The contents of the text file now reside in the variable `text`. Since the text file is one paragraph (a single newline character at the end of the file), there is only one element in `text`. Go outside of the `try... catch` block and print the first element of the ArrayList `text`.
 
 ```java
-import java.io.*;
-import java.util.ArrayList;
-
-public class Lab1 {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/labs/filesLab1.txt";
     ArrayList<String> text = new ArrayList<String>();
@@ -76,10 +52,7 @@ public class Lab1 {
     }
     
     System.out.println(text.get(0) + "\n");
-
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Lab1.java java -cp code/files/ Lab1 1)
@@ -87,12 +60,6 @@ public class Lab1 {
 You should see a passage from Bram Stoker's *Dracula*. You can access the paragraph again by referencing the variable `text`. We can print each word of the text file by splitting the string on the spaces and printing each element of the resulting array.
 
 ```java
-import java.io.*;
-import java.util.ArrayList;
-
-public class Lab1 {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/labs/filesLab1.txt";
     ArrayList<String> text = new ArrayList<String>();
@@ -114,8 +81,6 @@ public class Lab1 {
       System.out.println(word);
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Lab1.java java -cp code/files/ Lab1 2)
@@ -123,12 +88,6 @@ public class Lab1 {
 Finally, we can print each sentence from the text file by splitting on the periods. **Note**, that the `split` method uses regular expressions. The `.` has special meaning for regular expressions. Instead use `\\.` as the delimiter, that tells Java to use a period and not a regular expression.
 
 ```java
-import java.io.*;
-import java.util.ArrayList;
-
-public class Lab1 {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/labs/filesLab1.txt";
     ArrayList<String> text = new ArrayList<String>();
@@ -150,8 +109,6 @@ public class Lab1 {
       System.out.println(sentence + "\n");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Lab1.java java -cp code/files/ Lab1 3)

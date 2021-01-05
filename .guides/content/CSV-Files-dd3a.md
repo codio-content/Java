@@ -9,13 +9,6 @@ Java can work with files besides just text files. Comma Separated Value (CSV) fi
 In order to read a CSV file, Java needs to import the `opencsv` package and the `apache.commons` package in addition to the `java.io` package. The CSV file will be opened much like a text file; open the file in a `FileReader` object, but wrap it in a `CSVReader` object as opposed to a `BufferedReader` object.
 
 ```java
-import java.io.*;
-import com.opencsv.*;
-import org.apache.commons.lang3.ObjectUtils;
-
-public class CsvFiles {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/csv/montyPythonMovies.csv";
     try {
@@ -28,8 +21,6 @@ public class CsvFiles {
       System.out.println("Finished reading a CSV");
     }
     //add code above this line
-  }
-}
 ```
 
 {Try it}(sh .guides/csv.sh CsvFiles 1)

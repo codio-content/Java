@@ -7,11 +7,6 @@ Delimiters are a predefined character that separates one piece of information fr
 Use the `ready` method from the lesson on iterating over a file. Create the string `line` which represents each line of the CSV file. Within `line`, there are tabs (`"\t"`). We want to take the long string and convert it to an array of smaller strings based on the position of the tab. These smaller strings are called tokens.  The `split` method takes a string and returns an array of strings split on a given character. Create the array `tokens` which is the string `line` split on the value of the variable `delimiter`. Finally, iterate over `tokens` and print each token with some formatting.
 
 ```java
-import java.io.*;
-
-public class Delimiters {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/csv/dataWithTabs.csv";
     String delimiter = "\t";
@@ -32,8 +27,6 @@ public class Delimiters {
       System.out.println("Finished reading a CSV");
     }
     //add code above this line
-  }
-}
 ```
 
 {Try it}(sh .guides/csv.sh Delimiters 1)
@@ -42,13 +35,13 @@ public class Delimiters {
 ## What happens if you:
 * Change the delimiter from `'\t'` to `','`?
 
-|||
-
-{Try it}(sh .guides/csv.sh Delimiters 2)
-
 <details>
   <summary><strong>Why did the output change when the delimiter changed?</strong></summary>
   There is a slight difference when the delimiter is a tab and when it is a comma. With a tab delimiter, each row is an array of three strings. When the delimiter is a comma, each row is an array with a single string. Java cannot divide the data into the month, high temperature, and low temperature because it cannot find the delimiter. So it returns one, long string.
 </details>
+
+|||
+
+{Try it}(sh .guides/csv.sh Delimiters 2)
 
 {Check It!|assessment}(multiple-choice-221700422)

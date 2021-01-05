@@ -5,11 +5,6 @@
 Continuing from the previous page, your program should import the `java.io` package, have the file path stored as a string, use a `BufferWriter` object, and catch any input/output exceptions.
 
 ```java
-import java.io.*;
-
-public class Writing {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/practice1.txt";
     try {
@@ -18,18 +13,11 @@ public class Writing {
       System.out.println(e);
     }
     //add code above this line
-  }
-}
 ```
 
 If there is no input/output exception, create a string with the text you want to write to the file. Then use the `write` method to write this text to the file. Always close the file once you are done writing to it. Add a `finally` block so the user gets a message that the program has finished writing to file. After running the program, you can click the link to open the file and see the message.
 
 ```java
-import java.io.*;
-
-public class Writing {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/practice1.txt";
     try {
@@ -43,8 +31,6 @@ public class Writing {
       System.out.println("Finished writing to a file.");
     }
     //add code above this line 
-  }
-}
 ``` 
 
 {Try it}(sh .guides/bg.sh javac code/files/Writing.java java -cp code/files/ Writing 1)

@@ -5,11 +5,6 @@
 The `skip` method takes an integer as a parameter, and causes Java to go to a specific character in the text file. The integer is the index for the text file. So `skip(0)` is the first character of the file, `skip(1)` is the second character, etc. The code below prints out the first line from the file.
 
 ```java
-import java.io.*;
-
-public class Skip {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
     try {
@@ -22,8 +17,6 @@ public class Skip {
       System.out.println("Finished reading a file.");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Skip.java java -cp code/files/ Skip 1)
@@ -31,11 +24,6 @@ public class Skip {
 Now compare the output above with the code below. Java will skip the first 30 characters and then print the remaining characters from the first line.
 
 ```java
-import java.io.*;
-
-public class Skip {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
     try {
@@ -49,8 +37,6 @@ public class Skip {
       System.out.println("Finished reading a file.");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Skip.java java -cp code/files/ Skip 2)

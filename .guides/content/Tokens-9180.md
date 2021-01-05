@@ -7,11 +7,6 @@ Often times when reading text from a file, you will want to parse or analyze the
 The first way of creating tokens is using the string method `split`. This method takes a delimiter as a parameter. A delimiter is the character used to split the string. The `split` method returns an array of strings. The code below will read just the first line of the file and then split it into words since a space is the delimiter. Finally, use an enhanced loop to iterate through the array and print each token.
 
 ```java
-import java.io.*;
-
-public class Tokens {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
     try {
@@ -28,8 +23,6 @@ public class Tokens {
       System.out.println("Finished reading a file.");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Tokens.java java -cp code/files/ Tokens 1)
@@ -53,12 +46,6 @@ public class Tokens {
 Java has the `StringTokenizer` class which allows you to convert strings into tokens with some added features when compared to the `split` method. You need to import the `java.util` package. When instantiating a `StringTokenizer` object, it requires a string and a delimiter as parameters. The methods `hasMoreTokens` (returns a Boolean) and `nextToken` (returns a string) allow you to iterate over the tokens.
 
 ```java
-import java.io.*;
-import java.util.*;
-
-public class Tokens {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
     try {
@@ -75,8 +62,6 @@ public class Tokens {
       System.out.println("Finished reading a file.");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Tokens.java java -cp code/files/ Tokens 3)
@@ -84,12 +69,6 @@ public class Tokens {
 To convert the entire file to tokens, you will use two nested loops. The first iterates over each line in the file. Use a while loop and the `ready` method from the previous page to read the file. The second loop transforms the string into tokens using another while loop and the `hasMoreTokens` method.
 
 ```java
-import java.io.*;
-import java.util.*;
-
-public class Tokens {
-  public static void main(String args[]) {
-    
     //add code below this line
     String path = "studentFolder/text/readPractice.txt";
     try {
@@ -108,8 +87,6 @@ public class Tokens {
       System.out.println("Finished reading a file.");
     }
     //add code above this line 
-  }
-}
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Tokens.java java -cp code/files/ Tokens 4)
