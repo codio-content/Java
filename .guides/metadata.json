@@ -3962,7 +3962,18 @@
   {
    "id": "059bff7d-61d2-fc1b-227f-3fae3fc27138",
    "title": "Lab 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Lab2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-2-059b.md",
@@ -3974,7 +3985,18 @@
   {
    "id": "28c8200c-f92b-4ebe-211d-515bd644c2e6",
    "title": "Lab 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Lab3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-3-28c8.md",
@@ -3986,7 +4008,18 @@
   {
    "id": "bf587483-7be8-8782-4e49-b8746dfa8102",
    "title": "Lab 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Lab4.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-4-bf58.md",
@@ -3998,7 +4031,18 @@
   {
    "id": "d292af2a-6f89-569a-96d5-b11cc35ff158",
    "title": "Lab Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/LabChallenge.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-Challenge-d292.md",

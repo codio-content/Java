@@ -8703,5 +8703,76 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT to parse a CSV file with a delimiter that is not a comma"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3471810899",
+  "source": {
+   "name": "files lab question 1",
+   "showName": false,
+   "instructions": "## Lab Question\n\nWhy does the code above say `System.out.println(text.get(0))` instead of `System.out.println(text)`?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "d1f6ed88-8d17-8f2b-c364-7715a4c43359",
+     "correct": true,
+     "answer": "The variable `text` is an ArrayList of strings. If you print `text`, it will print the entirety of the list — including square brackets. Printing `text.get(0)` will print just the text, no square brackets."
+    },
+    {
+     "_id": "c7cae6bc-5fd7-0ec4-1579-e83413a66564",
+     "correct": false,
+     "answer": "Both `System.out.println(text.get(0))` and `System.out.println(text)` print the same thing."
+    },
+    {
+     "_id": "b1d63e8e-5c19-68ed-2197-25e1eb377276",
+     "correct": false,
+     "answer": "Using `System.out.println(text)` will cause an error."
+    },
+    {
+     "_id": "8882ce80-af1f-a12b-7bc6-2d006322ca29",
+     "correct": false,
+     "answer": "Text files require `System.out.println(text.get(0))` while CSV files require `System.out.println(text)`."
+    }
+   ],
+   "guidance": "The variable `text` is an ArrayList of strings. If you print `text`, it will print the entirety of the list — including square brackets. Printing `text.get(0)` will print just the first element in the ArrayList, no square brackets. If you want the text, print the string inside the list, not the list itself.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Read a file"
+     }
+    ],
+    "files": [
+     "code/files/Lab1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Lab1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT demonstrate how to read the contents of a file into a variable and then manipulate the text in the variable"
+  }
  }
 ]
