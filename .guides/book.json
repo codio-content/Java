@@ -1627,7 +1627,20 @@
      "title": "Formative Assessment - CSV",
      "id": "7f5d1363-ef56-f6af-0448-bbbf46736592",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "fd351343-851c-63fe-fba9-2c80519fc6f2",
+       "title": "Formative Assessment 1",
+       "pageId": "2c757f76-8a30-ec17-d9ff-147a54fb2467",
+       "type": "page"
+      },
+      {
+       "id": "bbd0e766-46b3-44db-b880-dbcd2faebd1b",
+       "title": "Formative Assessment 2",
+       "pageId": "1b4c16e5-7891-229a-5141-e7ab1c936e9a",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Lab - Files",

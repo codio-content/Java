@@ -8584,5 +8584,124 @@
     "regexPositions": []
    }
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1266046220",
+  "source": {
+   "name": "csv formative assessment 1",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume that the variable `path` contains a file path to a CSV file. Rearrange the code blocks below to read the file and print the contents line by line. **Note**, not all of the code blocks will be used.",
+   "initial": "CSVReader reader = new CSVReader(new FileReader(path));\nfor (String[] row : reader) {\n  for (String item : row) {\n    System.out.print(item + &quot; &quot;);\n  }\n  System.out.println();\n}\nBufferedReader reader = new BufferedReader(new FileReader(path)); #distractor\nfor (String row : reader) { #distractor\nSystem.out.println(item + &quot; &quot;); #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The correct answer is:\n\n```java\nCSVReader reader = new CSVReader(new FileReader(path));\nfor (String[] row : reader) {\n  for (String item : row) {\n    System.out.print(item + \" \");\n  }\n  System.out.println();\n}\n```\n\n* Use a `CSVReader` object when reading a CSV file, which is why `BufferedReader` is incorrect.\n* Each row read from the file is an array of strings which is why `String row` is incorrect. \n* We want to print each row as it appears in the CSV file. That means each element in the array `row` should be printed on the same line. That is why `System.out.println(item + \" \");` is incorrect.",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "CSV Files"
+     }
+    ],
+    "files": [
+     "code/files/WritingCsv.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/WritingCsv.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT iterate over a CSV and print each row"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-543342311",
+  "source": {
+   "name": "delimiter formative assessment",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nYou are reading from a CSV file that uses `|` as the delimiter. How would separate the string `row` into an array of tokens with the delimiter?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "230aa7c4-644d-9b28-994e-4b20010f05bd",
+     "correct": true,
+     "answer": "row.split(\"|\")"
+    },
+    {
+     "_id": "f0c6a71c-e9ee-3610-4345-7da35d362d3b",
+     "correct": false,
+     "answer": "row.separate(\"|\")"
+    },
+    {
+     "_id": "be7e79b8-6e66-2aec-37a3-889b53b5aa5a",
+     "correct": false,
+     "answer": "row.split('|')"
+    },
+    {
+     "_id": "147d1a82-bf39-6f0f-1a09-8b5e4d61a4b1",
+     "correct": false,
+     "answer": "line.split(\"|\")"
+    }
+   ],
+   "guidance": "The correct answer is:\n\n```java\nrow.split(\"|\")\n```\n\n* The method is `split`, which is why `separate` is incorrect\n* The `split` method splits a string based on a string not a character, which is why `'|'` is incorrect\n* The string to be split is `row`, which is why `line` is incorrect",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Delimiters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "CSV"
+     }
+    ],
+    "files": [
+     "code/files/WritingCsv.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/WritingCsv.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT to parse a CSV file with a delimiter that is not a comma"
+  }
  }
 ]
