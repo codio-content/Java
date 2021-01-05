@@ -8774,5 +8774,76 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT demonstrate how to read the contents of a file into a variable and then manipulate the text in the variable"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3332130344",
+  "source": {
+   "name": "lab 2 lab question",
+   "showName": false,
+   "instructions": "## Lab Question\n\nSelect the correct line of code that would allow you to append to a text file rather than overwriting it.",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "5859559a-5d2c-8492-4967-089a327136aa",
+     "correct": true,
+     "answer": "BufferedWriter writer = new BufferedWriter(new FileWriter(path, true));"
+    },
+    {
+     "_id": "a4d0bd67-33d1-95a3-8ec4-e3761e2acc4f",
+     "correct": false,
+     "answer": "BufferedWriter writer = new BufferedWriter(new FileWriter(path));"
+    },
+    {
+     "_id": "9f73219b-68ba-1c33-132b-d6eda59b9beb",
+     "correct": false,
+     "answer": "BufferedWriter writer = new BufferedWriter(new FileWriter(path, append));"
+    },
+    {
+     "_id": "8573cab3-2ddc-8c2c-5a10-7e2bbef7530c",
+     "correct": false,
+     "answer": "BufferedWriter writer = new BufferedWriter(new FileWriter(true, path));"
+    }
+   ],
+   "guidance": "The correct answer is:\n\n```java\nBufferedWriter writer = new BufferedWriter(new FileWriter(path, true));\n```\n\nThe boolean value `true` is used after the file path in the `FileWriter` object.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Writing to files"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [
+     "code/files/Lab2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Lab2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT demonstrate how to append to a text file"
+  }
  }
 ]
