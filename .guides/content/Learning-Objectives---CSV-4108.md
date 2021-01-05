@@ -1,16 +1,14 @@
-* ### Demonstrate how to open a file in a `BufferedReader` object
-* ### Explain what happens when you read from a file that does not exist
-* ### Iterate through a file by checking for `null`
-* ### Iterate through a file by using the `ready` method
-* ### Define the term "token"
-* ### Tokenize a string read from a file
-* ### Read from one file and write to another
-* ### Skip characters in a file with the `skip` method
+* ### Define CSV
+* ### Read data from a CSV file
+* ### Iterate over a CSV file
+* ### Print data from a CSV file with formatting
+* ### Parse a CSV file with a different delimiter
+* ### Write data to a CSV file
 
 |||guidance
 ## Assumptions
-Students have completed the module on strings and loops. Students are familiar with `try... catch... finally` blocks.
+Students are familiar with reading files, writing to text files, and iterating over files. 
 
 ## Limitations
-These problems will be working with text files. Students will only use the `BufferedReader` class to read a file.
+Most of the lessons use the OpenCSV package. Using the `writeAll` method is not covered because it makes use of the `List` interface, which is not covered.
 |||
