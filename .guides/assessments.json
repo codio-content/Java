@@ -8899,5 +8899,71 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT create tokens from a string read from a file"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1705630447",
+  "source": {
+   "name": "lab 4 question",
+   "showName": false,
+   "instructions": "## Lab Question\n\nWhat would happen if you removed the following line of code from the Caesar cipher?\n\n```java\ndestination.newLine();\n```",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "1ba0431e-899b-33f3-6ff6-15e1ecaba728",
+     "correct": true,
+     "answer": "The resulting text would be one long sentence as there would be no newline characters. The `write` method does not add a newline character."
+    },
+    {
+     "_id": "4acea14c-ff9a-d199-abdf-0b269be0b677",
+     "correct": false,
+     "answer": "Nothing, the output would be the same."
+    },
+    {
+     "_id": "7ac63661-0918-f311-48d7-8f84bac7a5b4",
+     "correct": false,
+     "answer": "Removing that line of code would remove the blank line between paragraphs."
+    }
+   ],
+   "guidance": "When you read line from a text file, Java will read up until the newline character. The newly read line does not include the newline character. So when you write the same line to a new file, you need to add a newline character to preserve the original format.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Writing to a file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [
+     "code/files/Lab4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Lab4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT explain why it is important to manually new lines when writing to a file."
+  }
  }
 ]
