@@ -7,6 +7,8 @@
   * indexOf()
   * toUpperCase()
   * toLoweCase()
+  * valueOf()
+  * concat()
 
 |||guidance
 ## Assumptions

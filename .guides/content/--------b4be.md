@@ -4,13 +4,14 @@
 
 The `==` operator can be used with strings just like it is with numbers or boolean values.
 
-```python
-string1 = "It's Friday!"
-string2 = "It's Friday!"
-print(string1 == string2)
+```java
+String string1 = "It's Friday!";
+String string2 = "It's Friday!";
+
+System.out.println(string1 == string2);
 ```
 
-{try it}(python3 code/strings/boolean-comparison.py 1)
+{Try it}(sh .guides/bg.sh javac code/strings/StringEqualsEquals.java java -cp code/strings/ StringEqualsEquals 1)
 
 |||challenge
 ## What happens if you:
@@ -19,19 +20,20 @@ print(string1 == string2)
 
 |||
 
-{try it}(python3 code/strings/boolean-comparison.py 2)
+{Try it}(sh .guides/bg.sh javac code/strings/StringEqualsEquals.java java -cp code/strings/ StringEqualsEquals 2)
 
 ## Comparing with !=
 
 You can also test for string inequality with the `!=` operator.
 
-```python
-string1 = "It's Friday!"
-string2 = "It's Monday."
-print(string1 != string2)
+```java
+String string1 = "It's Friday!";
+String string2 = "It's Monday.";
+
+System.out.println(string1 != string2);
 ```
 
-{try it}(python3 code/strings/boolean-comparison.py 3)
+{Try it}(sh .guides/bg.sh javac code/strings/StringEqualsEquals.java java -cp code/strings/ StringEqualsEquals 3)
 
 |||challenge
 ## What happens if you:
@@ -40,6 +42,6 @@ print(string1 != string2)
 
 |||
 
-{try it}(python3 code/strings/boolean-comparison.py 4)
+{Try it}(sh .guides/bg.sh javac code/strings/StringEqualsEquals.java java -cp code/strings/ StringEqualsEquals 4)
 
-{Check It!|assessment}(fill-in-the-blanks-1789216035)
+{Check It!|assessment}(fill-in-the-blanks-3500325957)

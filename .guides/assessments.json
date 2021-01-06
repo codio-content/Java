@@ -8486,7 +8486,7 @@
   "source": {
    "name": "String Iteration For Loop",
    "showName": true,
-   "instructions": "Use the code below to help you answer the following question:\n\njava\n```\nString my_string = \"Hello world\";\nfor (int i = 0; i < my_string.length(); i++) {\n  System.out.print(my_string.charAt(i));\n}\n```\n\nWhat does the variable `i` represent?",
+   "instructions": "Use the code below to help you answer the following question:\n\n\n```java\nString my_string = \"Hello world\";\nfor (int i = 0; i < my_string.length(); i++) {\n  System.out.print(my_string.charAt(i));\n}\n```\n\nWhat does the variable `i` represent?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
@@ -8516,6 +8516,7 @@
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -8549,7 +8550,7 @@
    "name": "String Iteration While Loop",
    "showName": true,
    "instructions": "Drag and drop the code blocks below to construct a program that outputs:\n```java\nToday is a good day\n```\n\n**Remember to indent** any iterating command(s) or you will not receive credit for your work.\n**Hint:** You will not need to use all of the code blocks.",
-   "initial": "String my_string = &quot;Today is a good day&quot;;\nint i = 0;\nwhile (i &lt; my_string.length()) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\nint i = my_string.length();   #distractor\nwhile (my_string.length() &lt; i) {   #distractor\nSystem.out.println(my_string.charAt(i));   #distractor",
+   "initial": "String my_string = &quot;Today is a good day&quot;;\nint i = 0;\nwhile (i &lt; my_string.length()) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\nint i = my_string.length();     #distractor\nwhile (my_string.length() &lt; i) {     #distractor\nSystem.out.println(my_string.charAt(i));     #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "**Guide:**\n1. Create the string: `String my_string = \"Today is a good day\";`\n1. Create the counting variable `i` to keep track of string indices.\n1. Keep iterating through the string while `i` is less than the length of the string.\n1. Print the string horizontally with `System.out.print` instead of `System.out.println` and access each index of each character by using `my_string.charAt(i)`.\n1. Increment the counting variable `i`.\n\n**Solution:**\n```java\nString my_string = \"Today is a good day\";\nint i = 0;\nwhile (i < my_string.length()) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\n```",
@@ -8561,13 +8562,1249 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "string iteration"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT iterate through strings using a while loop"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3500325957",
+  "source": {
+   "name": "String Equals or Not Equals",
+   "showName": true,
+   "instructions": "Fill in the blanks below so that the program will print `true` for all of the listed print statements.",
+   "showValues": true,
+   "text": "```java\nString string1 = \"I love Java\";\nString string2 = \"I love J@va\";\nString string3 = \"I love Java\";\n\nSystem.out.println(string1 <<<!=>>> string2);\nSystem.out.println(string2 <<<!=>>> string3);\nSystem.out.println(string3 <<<==>>> string1);\n```",
+   "distractors": "",
+   "guidance": "To produce a boolean expression of `true`, the strings must match character for character. Only `string1` and `string3` are equal while `string2` is not.\n\n**Solution:**\n```java\nSystem.out.println(string1 != string2);\nSystem.out.println(string2 != string3);\nSystem.out.println(string3 == string1);\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "string comparison"
+     },
+     {
+      "name": "Programming Language",
+      "value": "java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StringEqualsEquals.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/StringEqualsEquals.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine string equality using == and !=",
+   "tokens": {
+    "blank": [
+     "!=",
+     "!=",
+     "=="
+    ],
+    "text": [
+     "```java\nString string1 = \"I love Java\";\nString string2 = \"I love J@va\";\nString string3 = \"I love Java\";\n\nSystem.out.println(string1 ",
+     0,
+     " string2);\nSystem.out.println(string2 ",
+     0,
+     " string3);\nSystem.out.println(string3 ",
+     0,
+     " string1);\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-703200342",
+  "source": {
+   "name": "Comparing New & Literal Strings",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```java\nString string1 = \"Java\";\nString string2 = new String(\"Java\");\nString string3 = new String(\"Java\");\n```\n\nSelect **all** of the following statements that will print `false`.",
+   "multipleResponse": true,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "7a8336a7-f737-795d-d97a-b46686a15428",
+     "correct": true,
+     "answer": "`System.out.println(string1 == string2);`"
+    },
+    {
+     "_id": "765bf00b-82af-9c09-726d-00e2e4208aba",
+     "correct": true,
+     "answer": "`System.out.println(string2 == string3);`"
+    },
+    {
+     "_id": "2d682646-aae5-ee54-af9b-4263516ce53d",
+     "correct": false,
+     "answer": "`System.out.println(string1.equals(string2));`"
+    },
+    {
+     "_id": "de5c8773-0415-655c-0d8a-bd90ef47441c",
+     "correct": false,
+     "answer": "`System.out.println(string2.equals(string3));`"
+    }
+   ],
+   "guidance": "All of the strings contain the same characters; however, one of them is created using the direct string literal method and two of them are created using the `new` method. As long as the strings contain the same characters, the `equals()` method will always return `true`. On the other hand, `==` can only be used to compare direct string literals, which we only have one of. Thus, you cannot compare any of the strings mentioned using `==` because they will return `false`.\n\n**Solution:**\n`System.out.println(string1 == string2);` and `System.out.println(string2== string3);`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string comparison"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StringEqualsMethod.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/StringEqualsMethod.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT compare strings using == and equals()"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-539043705",
+  "source": {
+   "name": "Lexicographical Order",
+   "showName": true,
+   "instructions": "Given the following strings:\n`45`, `5`, `bob`, `Bob`, and `b`.\n\nWhich of the following order is **correct** if Java sorts the strings **lexicographically**?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "31900653-cb6e-a5d2-da42-decabb289472",
+     "correct": false,
+     "answer": "```java\n45 \n5\nbob \nBob\nb\n```"
+    },
+    {
+     "_id": "8687081b-5928-25b6-203e-0e3e72dcfd30",
+     "correct": false,
+     "answer": "```java\n5\n45 \nbob \nBob\nb\n```"
+    },
+    {
+     "_id": "ed630931-5499-8ca4-b0ef-056cd82e7ee3",
+     "correct": true,
+     "answer": "```java\n45 \n5\nBob\nb \nbob\n```"
+    },
+    {
+     "_id": "eb575e0b-ceb9-4e62-d6f0-b4bac965f3bd",
+     "correct": false,
+     "answer": "```java\n5\n45 \nBob\nb \nbob\n```"
+    }
+   ],
+   "guidance": "If you follow the *precedence* rule, `empty strings < numbers < uppercase letters < lowercase letters`, you'll be able to determine the order of the strings.\n\nFirst, there are no empty strings, which means the first two strings must be either `45` or `5`. Remember that Java checks characters from left to right and since `4` comes before `5`, `45` is considered to be ordered before `5`.\n\nSecond, there is only one uppercase string, `Bob`, so `Bob` will be next in the order.\n\nLast, `bob` and `b` are left. Since `b` has fewer characters, `b` will come before `bob` just like how it will in the dictionary.\n\n**Solution:**\n```java\n45 \n5\nBob\nb \nbob\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string comparison"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/CompareTo.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/CompareTo.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT compare strings using compareTo()"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-929826638",
+  "source": {
+   "name": "The valueOf() Method",
+   "showName": true,
+   "instructions": "What is the purpose of the `valueOf()` method?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "78c20b7c-dbed-eaec-047e-220ac92092cc",
+     "correct": false,
+     "answer": "To split strings into individual characters separated by commas."
+    },
+    {
+     "_id": "5f8660bd-0827-7ea9-92ef-85785f6673e9",
+     "correct": false,
+     "answer": "To sort a string lexicographically."
+    },
+    {
+     "_id": "858ac6d1-c323-4191-0c38-2aa67677558c",
+     "correct": false,
+     "answer": "To combine strings together."
+    },
+    {
+     "_id": "ae2d11ee-f2a9-28e9-31cd-51a07ad2361b",
+     "correct": true,
+     "answer": "To convert other data types to strings."
+    }
+   ],
+   "guidance": "By default, the `valueOf()` method only **converts other types of data into strings**. Though it can be helpful in combining converted strings together, it does not do so directly.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/ValueOf.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/ValueOf.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT explain the purpose of the valueOf() method"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3726193520",
+  "source": {
+   "name": "Using the concat() Method",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```java\nString a = \"apple\";\nString b = \" banana\";\nString c = \"cherry \";\nString d = \" durian \";\n```\n\nWhich of the following pairs of statements produce the same output?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "ac026fea-430b-7499-9354-7793e4e083ef",
+     "correct": false,
+     "answer": "`System.out.println(\"apple\" + \" banana\")` & `System.out.println(a.concat(\" \" + b))`"
+    },
+    {
+     "_id": "46044adb-237e-bd0a-5916-15cbbdea165a",
+     "correct": true,
+     "answer": "`System.out.println(\" durian\" + \" apple\")` & `System.out.println(d.concat(a))`"
+    },
+    {
+     "_id": "c99b727f-38e3-d782-4d9c-6247614e3031",
+     "correct": false,
+     "answer": "`System.out.println(\"cherry\" + d)` & `System.out.println(c.concat(d))`"
+    },
+    {
+     "_id": "a5b48c20-921c-a346-8026-a5f3759547e4",
+     "correct": false,
+     "answer": "`System.out.println(b + \"banana\")` & `System.out.println(b.concat(b))`"
+    }
+   ],
+   "guidance": "**Guide:**\n* `System.out.println(\"apple\" + \" banana\")` ---> `apple banana`\n* `System.out.println(a.concat(\" \" + b))` ---> `apple  banana`\n* `System.out.println(\" durian\" + \" apple\")` ---> ` durian apple`\n* `System.out.println(d.concat(a))` ---> ` durian apple`\n* `System.out.println(\"cherry\" + d)` ---> `cherry durian `\n* `System.out.println(c.concat(d))` ---> `cherry  durian `\n* `System.out.println(b + \"banana\")` ---> `banana banana`\n* `System.out.println(b.concat(b))` ---> `banana banana `\n\n**Solution:**\nIf you go through and make note of all of the white spaces, you should notice that only `System.out.println(\" durian\" + \" apple\")` & `System.out.println(d.concat(a))` produce the exact same results.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/StringConcat.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/StringConcat.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT determine string equality using the `concat()` method"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1419146657",
+  "source": {
+   "name": "Check String Equality",
+   "showName": true,
+   "instructions": "Given the following:\n```java\nString string1 = \"CS is awesome!\";\nString string2 = new String(\"CS is awesome!\");\n```\n\nRearrange the code below to write a program that checks to see if two strings (`string1` and `string2`) are equal. If yes, print the message `The two strings are equal.`. If not, print the message `The two strings are not equal.` \n\n**Hint**, you will not use all of the code blocks. Also, remember to **indent** any associated conditional command(s) or you **will not** receive credit for your work!",
+   "initial": "if (string1.equals(string2)) {\n  System.out.println(&quot;The two strings are equal.&quot;);\n}\nelse {\n  System.out.println(&quot;The two strings are not equal.&quot;);\n}\nif (string1 == string2) {   #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Since the `new` string method is involved, you cannot use the `==` operator to compare the two strings. Only the `equals()` method is viable in this situation.\n\n**Solution:**\n```java\nif (string1.equals(string2)) {\n  System.out.println(\"The two strings are equal.\");\n}\nelse {\n  System.out.println(\"The two strings are not equal.\");\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "string comparison"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT compare two strings for equality"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-482366406",
+  "source": {
+   "name": "String Comparison Methods",
+   "showName": true,
+   "instructions": "Given the following:\n```java\nString a = \"123\";\nString b = \"19\";\n```\n\nSelect **all** of the statements below that will print `yes`.",
+   "multipleResponse": true,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "a38a3d42-5c03-6bda-a0e5-193b264350eb",
+     "correct": false,
+     "answer": "```java\nif (a.compareTo(b) > 0) {\n  System.out.println(\"yes\");\n} \n```"
+    },
+    {
+     "_id": "56d2d367-15ea-e635-2d82-a43f58eff397",
+     "correct": false,
+     "answer": "```java\nif (a.equals(b)) {\n  System.out.println(\"yes\");\n} \n```"
+    },
+    {
+     "_id": "b51d02b2-b4ad-2e00-823b-32e557826ddf",
+     "correct": true,
+     "answer": "```java\nif (a.compareTo(b) < 0) {\n  System.out.println(\"yes\");\n} \n```"
+    },
+    {
+     "_id": "dcc54f52-f70c-572a-34f4-50f83a3e3310",
+     "correct": true,
+     "answer": "```java\nif (a != b) {\n  System.out.println(\"yes\");\n} \n```"
+    }
+   ],
+   "guidance": "Before solving, it is important to note that `123` and `19` are not equal strings. Additionally, `123` comes **before** `19` because lexicographically speaking, the `2` is prioritized over the `9`. These two facts cause the following to print `yes`:\n\n```java\nif (a != b) {\n  System.out.println(\"yes\");\n} \n```\nand\n```java\nif (a.compareTo(b) < 0) {\n  System.out.println(\"yes\");\n} \n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string comparison"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT compare strings using various string methods"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2754293245",
+  "source": {
+   "name": "Iterating Through Strings",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  ch = my_string.charAt(i);\n}\n```\n\nWhat does `ch` represent?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "67ff4248-0db1-cf08-661d-1e8cfb1fd736",
+     "correct": false,
+     "answer": "`ch` represents the string `my_string`."
+    },
+    {
+     "_id": "c6c04c3a-4256-063b-ea8d-8cc5cdcd14c1",
+     "correct": false,
+     "answer": "`ch` represents the index number of `my_string` from `0` to the end."
+    },
+    {
+     "_id": "124e56c2-be82-ddba-fdad-3bfd50dbac8e",
+     "correct": false,
+     "answer": "`ch` represents the length of `my_string`."
+    },
+    {
+     "_id": "0e0ee091-f7d9-248f-f7b6-67ba1c58f830",
+     "correct": true,
+     "answer": "`ch` represents each character of `my_string` from left to right."
+    }
+   ],
+   "guidance": "The `charAt()` method returns a character at a particular index in a string. Since we have  the iterating variable `i` that takes on the index number of the string from `0` through its length, `ch` will take on each **character** of the string.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++, Python, Java, JavaScript"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Lab1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Lab1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine the purpose of the charAt() method"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3495664816",
+  "source": {
+   "name": "String Properties",
+   "showName": true,
+   "instructions": "All of the following are true regarding strings **except**:",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "59350f22-3842-07f4-2056-148b19b27179",
+     "correct": false,
+     "answer": "Strings are immutable."
+    },
+    {
+     "_id": "ed6d72fc-5a3a-aeba-a929-b5af08e1ee68",
+     "correct": true,
+     "answer": "String characters can be manipulated using the `charAt()` method."
+    },
+    {
+     "_id": "26852913-1919-af25-bc04-1bbf951aa8a4",
+     "correct": false,
+     "answer": "You can use the `length()` method to determine how many characters are in a string."
+    },
+    {
+     "_id": "060fa02f-0a69-9558-3c56-bacd002fb675",
+     "correct": false,
+     "answer": "String indices represent the location at which each string character is located."
+    }
+   ],
+   "guidance": "All of the options are true with the exception of `String characters can be manipulated using the charAt() method.`. By default, strings are *immutable*, meaning they cannot be manipulated once they are created. They can, however, be overwritten or replaced completely. The `charAt()` only returns a character at a particular index. You cannot use it to manipulate string characters.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string properties"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Lab2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Lab2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine the properties of strings"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2430300286",
+  "source": {
+   "name": "Changing to Upper or Lowercase",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```java\nch = original_string.charAt(i);\nif (Character.isLowerCase(ch)) {\n  modified_string += Character.toUpperCase(ch);\n}\n```\n\nWhat is the function of `Character.toUpperCase(ch)`?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "6f42e659-e0d0-3b33-7bd9-c87ac78b9327",
+     "correct": false,
+     "answer": "`Character.toUpperCase(ch)` converts **all** characters in the *original* string to uppercase."
+    },
+    {
+     "_id": "97763e4e-697b-8aea-029b-8f7e683b2990",
+     "correct": true,
+     "answer": "`Character.toUpperCase(ch)` converts **lowercase** characters in the *original* string to uppercase."
+    },
+    {
+     "_id": "1731796b-9ea7-010e-bd07-b13e697a5e73",
+     "correct": false,
+     "answer": "`Character.toUpperCase(ch)` checks to see if **all** characters in the *original* string are uppercase."
+    },
+    {
+     "_id": "db7ce5d8-3993-2b42-39e8-835dbb809754",
+     "correct": false,
+     "answer": "`Character.toUpperCase(ch)` checks to see if **all** characters in the *modified* string are uppercase."
+    }
+   ],
+   "guidance": "`Character.toUpperCase(ch)` doesn't check to see if a character is uppercase; instead, it **converts** the character to its uppercase form. Remember that the conditional `if (Character.isLowerCase(ch))` precedes `Character.toUpperCase(ch)`, so it will only convert characters to uppercase if those characters are originally lowercase. ",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Lab3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Lab3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine the purpose of the toUpperCase() method"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4005886288",
+  "source": {
+   "name": "== vs. equals() for Characters",
+   "showName": true,
+   "instructions": "Why is the `==` operator used over the `equals()` method when checking to see if specific **characters** are in a string?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "cf7e5819-638d-784f-ae21-5631cf2edde7",
+     "correct": false,
+     "answer": "Both the `==` operator and `equals()` method will work but `==` is faster."
+    },
+    {
+     "_id": "4f1747ac-0eeb-9442-1a4e-f8cd1dafcb39",
+     "correct": false,
+     "answer": "The `equals()` method will only work for one character, not multiple."
+    },
+    {
+     "_id": "5da61280-400b-8a59-3915-a2e17047da11",
+     "correct": true,
+     "answer": "The `equals()` method is a string method and will not work with characters."
+    },
+    {
+     "_id": "2a75189f-f53f-c3c3-84f9-86ef40478d5f",
+     "correct": false,
+     "answer": "The `==` operator can check for both uppercase and lowercase, but `equals()` can't."
+    }
+   ],
+   "guidance": "Since characters and strings are technically different data types, some string methods such as `equals()` are not compatible with characters. Thus, only the `==` operator can be used in this case.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Lab4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Lab4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between == and equals()"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1980739544",
+  "source": {
+   "name": "Lab Challenge: Vowel Replacement",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/strings/ LabChallenge",
+   "preExecuteCommand": "javac code/strings/LabChallenge.java",
+   "guidance": "The first task is to iterate through `my_string` to check to see if any of its character matches any of the vowels. Since we are working with characters, the `==` operator should be used instead of the `equals()` method. Note that the `ch = my_string.charAt(i);` is optional but it will be helpful in shortening the code for our compound conditional statement.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  ch = my_string.charAt(i);\n  if (ch == 'a' || ch == 'e' || ch == 'i' || \n      ch == 'o' || ch == 'u' || ch == 'A' ||\n      ch == 'E' || ch == 'I' || ch == 'O' ||\n      ch == 'U') {\n    System.out.print('*');\n  }\n  else {\n    System.out.print(ch);\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "Hello",
+     "input": "",
+     "output": "H*ll*",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Apple",
+     "input": "",
+     "output": "*ppl*",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Watermelon!",
+     "input": "",
+     "output": "W*t*rm*l*n!",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "aEiOu",
+     "input": "",
+     "output": "*****",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "12345",
+     "input": "",
+     "output": "12345",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/LabChallenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT determine character equality with the == operator"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-388959606",
+  "source": {
+   "name": "Strings: Exercise 1",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/strings/ Exercise1",
+   "preExecuteCommand": "javac code/strings/Exercise1.java",
+   "guidance": "In order to get the first and last character of the string, you'll need to access the string's indices. You can do this by using the `charAt()` method. Remember that `charAt(0)` returns the first character of a string. Another key point is to use `my_string.length()-1` because that enables you to access the last character of the string. Finally, all that's left is to print the appropriate responses.\n\n**Sample Solution:**\n```java\nchar first = my_string.charAt(0);\nchar last = my_string.charAt(my_string.length()-1);\n\nSystem.out.println(first + \" is the first character and \" + last + \" is the last character\");\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "balloon",
+     "input": "",
+     "output": "b is the first character and n is the last character",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "!!box**",
+     "input": "",
+     "output": "! is the first character and * is the last character",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "house",
+     "input": "",
+     "output": "h is the first character and e is the last character",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Exercise1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Exercise1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT capture input from the user and determine the first and last characters of a string"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2833772907",
+  "source": {
+   "name": "Strings: Exercise 2",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/strings/ Exercise2",
+   "preExecuteCommand": "javac code/strings/Exercise2.java",
+   "guidance": "One possible solution is to use a nested `for` loop. Both inner and outer loops will run for the duration of the string's length. However, it is important to note when to print the string with a newline and when to not. When `j` reaches the end of the string, direct the system to print the string with a newline; otherwise, just print the string by itself.\n\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  for (int j = 0; j < my_string.length(); j++) {\n    if (j == my_string.length()-1) {\n      System.out.println(my_string);\n    }\n    else {\n      System.out.print(my_string);\n    }\n  }\n}\n```\n\nAlternatively, you can use a regular `for` to print the string **squared** times. This way forces you to tweak both the loop header and the conditional statement. To make things easier, first create a variable to store the string's length. Next, start the loop at `i = 1` and allow it to run until it reaches squared times plus one. Then, change the conditional statement to `if (i % len == 0)`. This conditional is important because it enables the system to print a newline once it prints the string a `len` number of time.\n\n```java\nint len = my_string.length();\n\nfor (int i = 1; i < len * len + 1; i++) {\n  if (i % len == 0) {\n    System.out.println(my_string);\n  }\n  else {\n    System.out.print(my_string);\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "hike",
+     "input": "",
+     "output": "hikehikehikehike\nhikehikehikehike\nhikehikehikehike\nhikehikehikehike",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "to",
+     "input": "",
+     "output": "toto\ntoto",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "!",
+     "input": "",
+     "output": "!",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "string iteration"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Exercise2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Exercise2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT repeat a string with a loop"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-267012679",
+  "source": {
+   "name": "Strings: Exercise 3",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/strings/ Exercise3",
+   "preExecuteCommand": "javac code/strings/Exercise3.java",
+   "guidance": "You will need to iterate through the string in order to accomplish this exercise. First, set up a loop that iterates through the string. The variable `ch` will then take on each character of the original string. Next, set up conditionals to check for the case of each `ch` character. Finally, direct the system to print the appropriate responses.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < original.length(); i++) {\n  ch = original.charAt(i);\n  if (Character.isUpperCase(ch)) {\n    modified += \"u\";\n  }\n  else if (Character.isLowerCase(ch)) {\n    modified += \"l\";\n  }\n  else {\n    modified += \"-\";\n  }\n}\n    \nSystem.out.println(original);\nSystem.out.println(modified);\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "Cat!",
+     "input": "",
+     "output": "Cat!\null-",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "*h*A*t*",
+     "input": "",
+     "output": "*h*A*t*\n-l-u-l-",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1$%!",
+     "input": "",
+     "output": "1$%!\n----",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "string iteration and string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Exercise3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT iterate through a string with conditionals"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2783924374",
+  "source": {
+   "name": "Strings: Exercise 4",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/strings/ Exercise4",
+   "preExecuteCommand": "javac code/strings/Exercise4.java",
+   "guidance": "There are multiple ways to solve this problem. One way is to make use of two loops. First, create an integer variable to keep track of the string's midpoint. Remember that integers in Java disregard any decimal places so `2.5` converted into an integer will be `2`. Next, set up the first loop to iterate from the beginning to midpoint of the string. Then, set up the second loop to iterate through the remainder of the string. After the first loop, make sure to use a `System.out.println()` to separate the two strings. However, this is *optional* for the second loop.\n\n**Sample Solution:**\n```java\nint mid = my_string.length() / 2;\n\nfor (int i = 0; i < mid; i++) {\n  System.out.print(my_string.charAt(i));\n}\nSystem.out.println();\n\nfor (int j = mid; j < my_string.length(); j++) {\n  System.out.print(my_string.charAt(j));\n}\nSystem.out.println();\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "coding",
+     "input": "",
+     "output": "cod\ning",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "mouse",
+     "input": "",
+     "output": "mo\nuse",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "world!",
+     "input": "",
+     "output": "wor\nld!",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "string iteration and string methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Exercise4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Exercise4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT find the midpoint of a string and print the first and second halves"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2628182780",
+  "source": {
+   "name": "Strings: Exercise 5",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/strings/ Exercise5",
+   "preExecuteCommand": "javac code/strings/Exercise5.java",
+   "guidance": "One way to solve this problem is to set up conditionals. The conditionals will check to see if the index is divisible by 2 or not. If it is divisible by 2, the system will print the next character in the string. If not, then the system will print the previous character.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  if (i % 2 == 0) {\n    System.out.print(my_string.charAt(i + 1));\n  }\n  else {\n    System.out.print(my_string.charAt(i - 1));\n  }\n}\n```",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "sips",
+     "input": "",
+     "output": "issp",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "boston",
+     "input": "",
+     "output": "obtsno",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "^4h-12",
+     "input": "",
+     "output": "4^-h21",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "string iteration and conditionals"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "strings"
+     }
+    ],
+    "files": [
+     "code/strings/Exercise5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/strings/Exercise5.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT swap characters in an even string"
   }
  }
 ]

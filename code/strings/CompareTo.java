@@ -1,4 +1,4 @@
-public class TrimRemove {
+public class CompareTo {
   public static void main(String args[]) {
     
     //add code below this line

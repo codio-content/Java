@@ -3251,6 +3251,52 @@
    "learningObjectives": ""
   },
   {
+   "id": "67987be3-e2c5-428c-adbd-fe43f81c9761",
+   "title": "Value Of",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/strings/ValueOf.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Value-Of-6798.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0b44765f-9de2-dc9e-15d9-72ad2f085956",
+   "title": "Concat",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/strings/StringConcat.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Concat-0b44.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "5de21aba-5a44-1a03-e7aa-f24d464606fd",
    "title": "Formative Assessment 1",
    "files": [
@@ -3411,6 +3457,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/StringEqualsEquals.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -3424,53 +3475,22 @@
   },
   {
    "id": "4fc3f574-79b3-77be-1284-333064bd24c3",
-   "title": "Is & Is Not",
+   "title": "Equals",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/StringEqualsMethod.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Is---Is-Not-4fc3.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "6a2c7875-0b4d-fc4c-4ad2-d28d78b83a03",
-   "title": "== vs. Is",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/---vs--Is-6a2c.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "361066f4-1789-000a-87bc-d324505aa8ea",
-   "title": "Capitalization",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Capitalization-3610.md",
+   "content-file": ".guides/content/Equals-4fc3.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3478,17 +3498,22 @@
   },
   {
    "id": "2ae7a7a2-29d9-30c8-78bc-865590c924e2",
-   "title": "Alphabetical Order",
+   "title": "Compare To",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/CompareTo.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Alphabetical-Order-2ae7.md",
+   "content-file": ".guides/content/Compare-To-2ae7.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3537,6 +3562,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/Lab1.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -3555,6 +3585,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/Lab2.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -3573,6 +3608,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/Lab3.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -3591,6 +3631,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/Lab4.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -3604,17 +3649,22 @@
   },
   {
    "id": "7227852f-bc63-785d-fcc4-7317550cca94",
-   "title": "Lab Challenge: lala",
+   "title": "Lab Challenge: Vowel Replacement",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/LabChallenge.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-Challenge--lala-7227.md",
+   "content-file": ".guides/content/Lab-Challenge--Vowel-Replacement-7227.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3627,6 +3677,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/Exercise1.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -3645,6 +3700,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/Exercise2.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -3663,6 +3723,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/Exercise3.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -3681,6 +3746,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/Exercise4.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
@@ -3699,6 +3769,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/strings/Exercise5.java",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",

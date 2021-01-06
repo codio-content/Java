@@ -3,21 +3,37 @@
 ## Exercise 4
 
 **Problem**
-Write a program that takes input from a user. Print the first half of the string on one line, and the second half on another. In the case of a string that has an odd number of characters, the second line will have the extra character. **Important**, do not put a prompt when asking for user input. Just use `input()`. Adding a prompt will cause your program to not pass the tests.
+Write a program that takes input **without white spaces** from a user, prints the first half of the string on one line, and the second half on another. In the case of a string that has an odd number of characters, the second line will have the extra character.
 
-**Expected Output**
-* If the user inputs `home`, the output will be:
-```python
-ho
-me
+Here is what you have so far:
+```java
+public class Exercise4 {
+  public static void main(String args[]) {
+    
+    String my_string = args[0];
+    
+    //add code below this line
+    
+
+    
+    //add code above this line
+  }
+}
 ```
-* If the user inputs `hooray Python`, the output will be:
-```python
-hooray
- Python
-```
 
-[Code Visualizer](open_tutor code/strings/exercise4.py)
-{try it|terminal}(python3 code/strings/exercise4.py)
+### Click to compile your code
+{Compile Code}(javac code/strings/Exercise4.java)
 
-{Check It!|assessment}(code-output-compare-3592969337)
+### Test your code with a few different values
+
+{Test with Java}(java -cp code/strings/ Exercise4 Java)
+<details><summary><b>Expected Output</b></summary><code>Ja</code><br><code>va</code></details><br>
+
+{Test with hello}(java -cp code/strings/ Exercise4 hello)
+<details><summary><b>Expected Output</b></summary><code>he</code><br><code>llo</code></details><br>
+
+### Requirements
+* You **should not** make any changes to the code that already exists. If you accidentally delete any existing code, you can copy and paste the entire program from above.
+* You can use **any** number of string methods and/or conditionals to produce the desired output.
+
+{Check It!|assessment}(code-output-compare-2783924374)
