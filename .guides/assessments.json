@@ -9078,8 +9078,8 @@
    "instructions": "Submit your code when ready",
    "command": "java -cp code/files Exercise1",
    "preExecuteCommand": "javac code/files/Exercise1.java",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "Here is one possible solution:\n\n```java\nimport java.io.*;\n\npublic class Exercise1 {\n  public static void main(String args[]) {\n    \n    String path = args[0];\n    //add code below this line\n    try {\n      BufferedReader reader = new BufferedReader(new FileReader(path));\n      int lineCount = 0;\n      int characterCount = 0;\n      while (reader.ready()) {\n        String line = reader.readLine();\n        lineCount++;\n        characterCount += line.length();\n      }\n      System.out.println(String.valueOf(lineCount) + \" lines\");\n      System.out.println(String.valueOf(characterCount) + \" characters\");\n      reader.close();\n    } catch (IOException e) {\n      System.out.println(e);\n    } finally {\n      System.out.println(\"Finished reading a file.\\n\");\n    }\n    //add code above this line \n  }\n}\n```\n\nThis program takes the following steps:\n* Open the file in a `BufferedReader` objects\n* Initialize variables to count the lines and the characters\n* Iterate over the text file\n* Read a line from the file\n* Increment the line counting variable by 1\n* Increment the character counting variable by the length of the line read\n* After the loop runs, print the results",
+   "showGuidanceAfterResponse": true,
    "points": 20,
    "oneTimeTest": true,
    "options": {
