@@ -4059,7 +4059,18 @@
   {
    "id": "ebdd6cb5-43b9-0ec5-4a49-e845c8f143e1",
    "title": "Exercise 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Exercise1.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-ebdd.md",
@@ -4071,7 +4082,18 @@
   {
    "id": "44502dc0-1273-e3e8-f57f-8bfa471f8367",
    "title": "Exercise 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Exercise2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-4450.md",
@@ -4083,7 +4105,18 @@
   {
    "id": "f2b14444-6b02-a917-72d4-eea125352d66",
    "title": "Exercise 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Exercise3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-f2b1.md",
@@ -4095,7 +4128,18 @@
   {
    "id": "774b8d0e-6221-6f21-baf5-da460aceab75",
    "title": "Exercise 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Exercise4.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-4-774b.md",
@@ -4107,7 +4151,18 @@
   {
    "id": "e1ff0d45-48f8-aa45-b322-0d42aac39469",
    "title": "Exercise 5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/Exercise5.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-e1ff.md",

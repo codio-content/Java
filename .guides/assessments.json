@@ -9068,5 +9068,72 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1933829280",
+  "source": {
+   "name": "exercise 1 files",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "java -cp code/files Exercise1",
+   "preExecuteCommand": "javac code/files/Exercise1.java",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 20,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure/files/exercise1Test1.txt",
+     "input": "",
+     "output": "4 lines\n245 characters",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise1Test2.txt",
+     "input": "",
+     "output": "7 lines\n934 characters",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise1Test3.txt",
+     "input": "",
+     "output": "0 lines\n0 characters",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/files/Exercise1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Exercise1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
