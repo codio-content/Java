@@ -9119,6 +9119,18 @@
      {
       "name": "Assessment Type",
       "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Read a text file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
      }
     ],
     "files": [
@@ -9132,8 +9144,87 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read from a text file, count the number of lines of text and the number of characters"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1707150472",
+  "source": {
+   "name": "files exercise 2",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "java -cp code/files Exercise2",
+   "preExecuteCommand": "javac code/files/Exercise2.java",
+   "guidance": "Here is one potential solution:\n\n```java\nimport java.io.*;\nimport com.opencsv.*;\nimport org.apache.commons.lang3.ObjectUtils;\n\npublic class Exercise2 {\n  public static void main(String args[]) {\n    \n    String path = args[0];\n    //add code below this line\n    try {\n      CSVReader reader = new CSVReader(new FileReader(path));\n      double column0 = 0.0;\n      double column1 = 0.0;\n      double column2 = 0.0;\n      double column3 = 0.0;\n      int rows = 0;\n      \n      for (String[] row : reader) {\n        rows++;\n        for (int i = 0; i < 4; i++) {\n          if (i == 0) {\n            column0 += Float.parseFloat(row[i]);\n          } else if (i == 1) {\n            column1 += Float.parseFloat(row[i]);\n          } else if (i == 2) {\n            column2 += Float.parseFloat(row[i]);\n          } else if (i == 3) {\n            column3 += Float.parseFloat(row[i]);\n          }\n        }\n      }\n      System.out.print(String.valueOf(column0/rows) + \" \");\n      System.out.print(String.valueOf(column1/rows) + \" \");\n      System.out.print(String.valueOf(column2/rows) + \" \");\n      System.out.println(column3/rows);\n      \n      reader.close();\n    } catch (Exception e) {\n      System.out.println(e);\n    } finally {\n      System.out.println(\"Finished reading a CSV\");\n    }    \n    //add code above this line \n  }\n}\n```\n\nThis program does the following things:\n* Create a `CSVReader` object with the `path` variable\n* Create variables for the total values for each of the four columns in the CSV file\n* Create a variable for the number of rows in the CSV file\n* Iterate over the CSV file; for each row increment the row variable\n* Each row in the CSV is an array of strings, iterate over this array\n* Add the floating point value for each element to its respective column variable\n* After iterating over the CSV file, print the average value for each column",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure/files/exercise2Test1.csv",
+     "input": "",
+     "output": "15.0 2.0 8.0 4.0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise2Test2.csv",
+     "input": "",
+     "output": "1.0 2.0 3.0 4.0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise2Test3.csv",
+     "input": "",
+     "output": "3.0 4.0 5.0 6.0",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Read a CSV file"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Files"
+     }
+    ],
+    "files": [
+     "code/files/Exercise2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Exercise2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read a CSV file and find the average for each column in the file"
   }
  }
 ]
