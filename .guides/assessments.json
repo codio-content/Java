@@ -8965,5 +8965,108 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT explain why it is important to manually new lines when writing to a file."
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1319880366",
+  "source": {
+   "name": "lab challenge",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "bash .guides/secure/files/labChallenge.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 20,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/files/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/LabChallenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-4082543202",
+  "source": {
+   "name": "lab challenge",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "java -cp code/files LabChallenge",
+   "preExecuteCommand": "javac code/files/LabChallenge.java",
+   "guidance": "Here is one possible solution:\n\n```java\nimport java.io.*;\nimport java.util.ArrayList;\n\npublic class LabChallenge {\n  public static void main(String args[]) {\n    \n    String path = args[0];\n    //add code below this line\n    \n    ArrayList<String> text = new ArrayList<String>();\n    try {\n      BufferedReader reader = new BufferedReader(new FileReader(path));\n      while (reader.ready()) {\n        text.add(reader.readLine());\n      }\n      reader.close();\n    } catch (IOException e) {\n      System.out.println(e);\n    } finally {\n      System.out.println(\"Finished reading a file.\\n\");\n    }\n    for (String line : text) {\n      String replaceLine = line.replace(\"Burma\", \"Myanmar\");\n      System.out.println(replaceLine);\n    }\n    \n    //add code above this line \n  }\n}\n```\n\nThis solution performs the following steps:\n* Create an ArrayList\n* Iterate over the text file\n* Read a line from the text file and append it to the ArrayList\n* Once the file has been read, iterate over the elements in the ArrayList\n* Use the `replace` method to replace the word `Burma` with `Myanmar`\n* Print this new line",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure/files/labChallengeText1.txt",
+     "input": "",
+     "output": "My name is Myanmar.\nMyanmar is 10 years old.\nHello Myanmar.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/labChallengeText2.txt",
+     "input": "",
+     "output": "Nothing left to do but Myanmar, Myanmar, Myanmar.\nMyanmar gone and he ain't never coming back.\nDark Myanmar rising.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/labChallengeText3.txt",
+     "input": "",
+     "output": "Take me out to the Myanmar\nBuy me some Myanmar and Myanmar\nRoot, root for the Myanmar",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/files/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/LabChallenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
