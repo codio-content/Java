@@ -4,7 +4,7 @@
 Write a program that reads a tab delimited CSV file and prints the name of the oldest person in the file.
 
 **Expected Output**
-The CSV file will look something like the one below. **Note**, there will be a row with header titles.
+The CSV file will look something like the one below. **Note**, there will **NOT** be a row with header titles.
 
 |Name |Age |Career|
 |-----|:--:|------|
@@ -32,3 +32,7 @@ The oldest person is Paul.
   <summary><strong>Where is the code visualizer?</strong></summary>
   Unfortunately, the code visualizer does not work with external files, so it cannot be used for this problem.
 </details><br>
+
+{Try it}(sh .guides/csv.sh Exercise4 studentFolder/exercises/exercise4Check.csv)
+
+{Check It!|assessment}(code-output-compare-208143736)

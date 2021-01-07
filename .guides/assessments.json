@@ -9293,5 +9293,84 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-208143736",
+  "source": {
+   "name": "files exercise 4",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "java -cp code/files Exercise4",
+   "preExecuteCommand": "javac code/files/Exercise4.java",
+   "guidance": "Here is one possible solution:\n\n```java\nimport java.io.*;\n\npublic class Exercise4 {\n  public static void main(String args[]) {\n    \n    String path = args[0];\n    //add code below this line \n    try {\n      BufferedReader reader = new BufferedReader(new FileReader(path));\n      String delimiter = \"\\t\";\n      int oldestAge = 0;\n      String oldestName = \"\";\n      while(reader.ready()) {\n        String line = reader.readLine();\n        String[] tokens = line.split(delimiter);\n        if (Integer.parseInt(tokens[1]) > oldestAge) {\n          oldestAge = Integer.parseInt(tokens[1]);\n          oldestName = tokens[0];\n        }\n      }\n      System.out.println(\"The oldest person is \" + oldestName + \".\");\n      reader.close();\n    } catch (IOException e) {\n      System.out.println(e);\n    } finally {\n      System.out.println(\"Finished reading a CSV\");\n    }\n    //add code above this line \n  }\n}\n```\n\nThe program does the following things:\n* This problem uses a tab (`\\t`) for the delimiter, so use a `BufferedReader` object instead of a `CSVReader` object\n* Create variables to keep track of the oldest age (`oldestAge`) and oldest name (`oldestName`); set `oldestAge` to 0\n* Iterate over the CSV file\n* Use the `split` method and a tab to create tokens from each row in the CSV\n* Compare the second element in each row to the oldest age\n* If the number in the CSV file is greater than `oldestAge`, store the number from the CSV in the variable\n* Set `oldestName` to the name from CSV file\n* After the loop runs, print out the name of the person who is the oldest",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure/files/exercise4Test1.csv",
+     "input": "",
+     "output": "The oldest person is Raphael.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise4Test2.csv",
+     "input": "",
+     "output": "The oldest person is Ringo.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise4Test3.csv",
+     "input": "",
+     "output": "The oldest person is Agatha.",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Read CSV file, delimiters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "CSV"
+     }
+    ],
+    "files": [
+     "code/files/Exercise4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Exercise4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read a tab delimited CSV file and print the oldest person in the file"
+  }
  }
 ]
