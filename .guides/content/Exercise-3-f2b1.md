@@ -30,3 +30,5 @@ He struggled violently. ‘Let me go,’ he cried; ‘monster! Ugly wretch! You 
 </details><br>
 
 {Try it}(sh .guides/bg.sh javac code/files/Exercise3.java java -cp code/files/ Exercise3 studentFolder/exercises/exercise3Check.txt)
+
+{Check It!|assessment}(code-output-compare-1486473699)

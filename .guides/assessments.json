@@ -9226,5 +9226,72 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT read a CSV file and find the average for each column in the file"
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1486473699",
+  "source": {
+   "name": "files exercise 3",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "java -cp code/files Exercise3",
+   "preExecuteCommand": "javac code/files/Exercise3.java",
+   "guidance": "Here is one potential solution:\n\n```java\nimport java.io.*;\nimport java.util.ArrayList;\n\npublic class Exercise3 {\n  public static void main(String args[]) {\n    \n    String path = args[0];\n    //add code below this line\n    ArrayList<String> text = new ArrayList<String>();\n    try {\n      BufferedReader reader = new BufferedReader(new FileReader(path));\n      while (reader.ready()) {\n        text.add(reader.readLine());\n      }\n      reader.close();\n    } catch (IOException e) {\n      System.out.println(e);\n    } finally {\n      System.out.println(\"Finished reading a file.\\n\");\n    }    \n    for (int i = text.size() - 1; i >= 0; i--) {\n      System.out.println(text.get(i));\n    } \n    //add code above this line  \n  }\n}\n```\n\nThe program does the following things:\n* ",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure/files/exercise3Test1.txt",
+     "input": "",
+     "output": "For the moment, at least, I was free.\nWith a steady movement—cautious, sidelong, shrinking, and slow—I slid from the embrace of the bandage and beyond the reach of the scimitar.\nAt a wave of my hand my deliverers hurried tumultuously away.\nBut the moment of escape had arrived.\nTwice again it swung, and a sharp sense of pain shot through every nerve.\nIt had cut through the linen beneath.\nIt had divided the serge of the robe.\nBut the stroke of the pendulum already pressed upon my bosom.\nThe surcingle hung in ribands from my body.\nI at length felt that I was free.\nNor had I erred in my calculations—nor had I endured in vain.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise3Test2.txt",
+     "input": "",
+     "output": "The ringing became more distinct:—It continued and became more distinct: I talked more freely to get rid of the feeling: but it continued and gained definiteness—until, at length, I found that the noise was not within my ears.\nMy head ached, and I fancied a ringing in my ears: but still they sat and still chatted.\nBut, ere long, I felt myself getting pale and wished them gone.\nThey sat, and while I answered cheerily, they chatted of familiar things.\nI was singularly at ease.\nMy manner had convinced them.\nThe officers were satisfied.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise3Test3.txt",
+     "input": "",
+     "output": "Only this, and nothing more.'\n'Tis some visiter,' I muttered, 'tapping at my chamber door—\nAs of some one gently rapping, rapping at my chamber door.\nWhile I nodded, nearly napping, suddenly there came a tapping,\nOver many a quaint and curious volume of forgotten lore,\nOnce upon a midnight dreary, while I pondered, weak and weary,",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/files/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Exercise3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
