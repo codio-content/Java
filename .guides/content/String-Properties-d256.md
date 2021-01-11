@@ -8,7 +8,7 @@ We have already seen strings in the "Fundamentals"section. We are going to dig a
 2) **Length** - Each string has a length (total number of characters).
 3) **Index** - Each character in a string has a position, called an index.
 
- To calculate the length of a string, use the `length()` method. This method will return an integer that is the sum of all of the characters between the quotation marks.
+To calculate the length of a string, use the `length()` method. This method will return an integer that is the sum of all of the characters between the quotation marks.
 
 ```java
 String my_string = "Hello";
