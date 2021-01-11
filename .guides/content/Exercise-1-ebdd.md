@@ -29,3 +29,5 @@ The variable `path` allows for different text files to be sent to your program f
 {Try it}(sh .guides/bg.sh javac code/files/Exercise1.java java -cp code/files/ Exercise1 studentFolder/exercises/exercise1Check.txt)
 
 {Check It!|assessment}(code-output-compare-1933829280)
+
+

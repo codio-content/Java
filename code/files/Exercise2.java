@@ -7,10 +7,9 @@ public class Exercise2 {
     
     String path = args[0];
     //add code below this line
-        
+    
     
     
     //add code above this line 
-    
   }
 }

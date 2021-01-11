@@ -9155,12 +9155,12 @@
    "name": "files exercise 2",
    "showName": false,
    "instructions": "Submit your code when ready",
-   "command": "java -cp code/files Exercise2",
-   "preExecuteCommand": "javac code/files/Exercise2.java",
+   "command": "sh  .guides/csv.sh Exercise2",
+   "preExecuteCommand": "",
    "guidance": "Here is one potential solution:\n\n```java\nimport java.io.*;\nimport com.opencsv.*;\nimport org.apache.commons.lang3.ObjectUtils;\n\npublic class Exercise2 {\n  public static void main(String args[]) {\n    \n    String path = args[0];\n    //add code below this line\n    try {\n      CSVReader reader = new CSVReader(new FileReader(path));\n      double column0 = 0.0;\n      double column1 = 0.0;\n      double column2 = 0.0;\n      double column3 = 0.0;\n      int rows = 0;\n      \n      for (String[] row : reader) {\n        rows++;\n        for (int i = 0; i < 4; i++) {\n          if (i == 0) {\n            column0 += Float.parseFloat(row[i]);\n          } else if (i == 1) {\n            column1 += Float.parseFloat(row[i]);\n          } else if (i == 2) {\n            column2 += Float.parseFloat(row[i]);\n          } else if (i == 3) {\n            column3 += Float.parseFloat(row[i]);\n          }\n        }\n      }\n      System.out.print(String.valueOf(column0/rows) + \" \");\n      System.out.print(String.valueOf(column1/rows) + \" \");\n      System.out.print(String.valueOf(column2/rows) + \" \");\n      System.out.println(column3/rows);\n      \n      reader.close();\n    } catch (Exception e) {\n      System.out.println(e);\n    } finally {\n      System.out.println(\"Finished reading a CSV\");\n    }    \n    //add code above this line \n  }\n}\n```\n\nThis program does the following things:\n* Create a `CSVReader` object with the `path` variable\n* Create variables for the total values for each of the four columns in the CSV file\n* Create a variable for the number of rows in the CSV file\n* Iterate over the CSV file; for each row increment the row variable\n* Each row in the CSV is an array of strings, iterate over this array\n* Add the floating point value for each element to its respective column variable\n* After iterating over the CSV file, print the average value for each column",
    "showGuidanceAfterResponse": true,
    "points": 20,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "options": {
     "ignoreCase": true,
     "ignoreWhitespaces": true,
@@ -9186,7 +9186,7 @@
      "feedback": ""
     },
     {
-     "arguments": ".guides/secure/files/exercise2Test3.csv",
+     "arguments": " .guides/secure/files/exercise2Test3.csv",
      "input": "",
      "output": "3.0 4.0 5.0 6.0",
      "showFeedback": false,
@@ -9371,6 +9371,193 @@
    },
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT read a tab delimited CSV file and print the oldest person in the file"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-177534035",
+  "source": {
+   "name": "files exercise 5",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "sh  .guides/csv.sh Exercise5",
+   "preExecuteCommand": "",
+   "guidance": "Here is one possible solution:\n\n```java\nimport java.io.*;\nimport com.opencsv.*;\nimport org.apache.commons.lang3.ObjectUtils;\nimport java.util.ArrayList;\n\npublic class Exercise5 {\n  public static void main(String args[]) {\n    \n    String path = args[0];\n    //add code below this line\n    ArrayList<String> cities = new ArrayList<String>();\n    try {\n      CSVReader reader = new CSVReader(new FileReader(path));\n      reader.skip(1);\n      for (String[] row : reader) {\n        if (Integer.parseInt(row[2]) < 0) {\n          cities.add(row[0]);\n        }\n      }\n      System.out.print(\"The following cities are in the Southern Hemisphere: \");\n      for (String city : cities) {\n        int lastCity = cities.size() - 1;\n        if (city.equals(cities.get(lastCity))) {\n          System.out.println(city + \".\");\n        } else {\n          System.out.print(city + \", \");\n        }\n      }\n      reader.close();\n    } catch (Exception e) {\n      System.out.println(e);\n    } finally {\n      System.out.println(\"Finished reading a CSV\");\n    }\n    //add code above this line \n  }\n}\n```\n\nThe program does the following things:\n* Create an ArrayList for the cities in the Southern Hemisphere\n* Read over the CSV file and skip the header row\n* Iterate over the CSV file\n* If the latitude is less than 0, add the city to the ArrayList\n* Use `print` to print the text `\"The following cities are in the Southern Hemisphere: \"`\n* Calculate the last index of the ArrayList\n* Iterate over the ArrayList\n* If it is the last city, use `println` to print the city name and a period\n* If not the last city, use `print` to print the city name followed by a comma and a space",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure/files/exercise5Test1.csv",
+     "input": "",
+     "output": "The following cities are in the Southern Hemisphere: Santiago, Tananarive, Nairobi, Montevideo.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise5Test2.csv",
+     "input": "",
+     "output": "The following cities are in the Southern Hemisphere: Lima, Rio de Janeiro.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure/files/exercise5Test3.csv",
+     "input": "",
+     "output": "The following cities are in the Southern Hemisphere: Melbourne, Asunción.",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "CSV"
+     }
+    ],
+    "files": [
+     "code/files/Exercise5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Exercise5.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read a CSV and print out relevant information"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1514833152",
+  "source": {
+   "name": "adfadg",
+   "showName": true,
+   "instructions": "agafg",
+   "multipleResponse": true,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "881e76aa-6967-a8a8-cff0-eb6b1e795828",
+     "correct": true,
+     "answer": "$$\ny=x^2\n\\sum_{i=0}^n i^2 = \\frac{(n^2+n)(2n+1)}{6}\n$$"
+    },
+    {
+     "_id": "e0e189de-6f6f-9f68-3653-a383a8ccc3f0",
+     "correct": false,
+     "answer": "blah"
+    },
+    {
+     "_id": "01fa8ca4-9139-e946-d27b-24c2fe94cf7f",
+     "correct": true,
+     "answer": "<strong>test</strong>"
+    },
+    {
+     "_id": "1b9726d9-2f67-94c8-9cc3-99e48cda5e18",
+     "correct": false,
+     "answer": ";ahf"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/files/Exercise3.java",
+     "my_file.html"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Exercise3.java"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "my_file.html"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text-auto",
+  "taskId": "free-text-auto-2224487025",
+  "source": {
+   "name": "test",
+   "showName": true,
+   "instructions": "test",
+   "command": "python3 .guides/secure/partial_points_test.py",
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "previewType": "NONE",
+   "points": 20,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text Autograde"
+     }
+    ],
+    "files": [
+     "code/files/Exercise3.java",
+     "my_file.html"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/Exercise3.java"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "my_file.html"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]
