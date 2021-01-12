@@ -79,10 +79,11 @@ Modify the base case so that `factorial(0)` does not result in an error. Test yo
   
   ```java
     public static int factorial(int n) {
-    if (n <= 0) {
-      return 1;
-    } else {
-      return n * factorial(n - 1);
+      if (n <= 0) {
+        return 1;
+      } else {
+        return n * factorial(n - 1);
+      }
     }
   ```
               
