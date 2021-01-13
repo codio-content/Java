@@ -1145,19 +1145,13 @@
        "pageId": "1ffb2b88-a8cc-1ceb-299e-30034f7ee40e"
       },
       {
-       "title": "Multiline Strings",
-       "id": "94d5f387-d294-c170-da1b-3f8de74da793",
-       "type": "page",
-       "pageId": "392cd1d8-beae-e8f6-9bee-2d58056b87b4"
-      },
-      {
-       "title": "In Operator",
+       "title": "Contains",
        "id": "cc5c141d-929e-23e7-62e1-8b97863c6485",
        "type": "page",
        "pageId": "88973a1e-8e7d-a59b-f698-0be9bf51e117"
       },
       {
-       "title": "The Slice Operator",
+       "title": "Substring",
        "id": "4befece3-98f4-3a94-5c34-f7fa10f1aefe",
        "type": "page",
        "pageId": "dc0dd891-1386-8b85-15e8-f593c9f7b75d"
@@ -1171,7 +1165,7 @@
      ]
     },
     {
-     "title": "Formative Assessment - String Basics",
+     "title": "Formative Assessment: String Basics",
      "id": "29064b5b-518a-2250-0263-34612c771296",
      "type": "section",
      "children": [
@@ -1201,7 +1195,7 @@
        "pageId": "7785a46d-bd06-791e-0e05-bc833128d817"
       },
       {
-       "title": "Strip",
+       "title": "Trim & Replace",
        "id": "4f8b0c10-4fb3-6cd6-23de-36724a28595a",
        "type": "page",
        "pageId": "ae8182ea-03e6-ee43-2538-39de1da38af7"
@@ -1213,45 +1207,33 @@
        "pageId": "310f7746-c0e0-28a0-1c9a-fed5ddbdf7ce"
       },
       {
-       "title": "Replace",
-       "id": "a03da937-b12e-df92-b8c6-65e9a4d2da04",
-       "type": "page",
-       "pageId": "450a0a34-4cc3-ac99-7ed7-044cdf7d885f"
-      },
-      {
-       "title": "Find",
+       "title": "Index Of",
        "id": "6f00538f-2a4f-6135-b329-9d158a8312d4",
        "type": "page",
        "pageId": "b28e2bfa-00b3-7dfa-c332-a750df45b36a"
       },
       {
-       "title": "Upper",
+       "title": "Uppercase & Lowercase",
        "id": "c6f0aa41-93c9-4932-73d1-f9af15d95c19",
        "type": "page",
        "pageId": "edc2d032-e0ff-e6fa-0c43-14553d6e5b24"
       },
       {
-       "title": "Lower",
-       "id": "24a00f61-66c2-9fa9-b385-965dcf9cdff1",
+       "title": "Value Of",
+       "id": "a170e225-44e7-484a-509a-478eda5fa4b1",
        "type": "page",
-       "pageId": "214be55f-7036-6047-1a30-60e5172095a0"
+       "pageId": "67987be3-e2c5-428c-adbd-fe43f81c9761"
       },
       {
-       "title": "Capitalize",
-       "id": "a79692ab-c82c-aae3-8475-ac9b5b971f02",
+       "title": "Concat",
+       "id": "acc64996-523c-52c2-7ba0-c0c65118356a",
        "type": "page",
-       "pageId": "3e628257-964a-1440-51e2-a0bdbff5ac2d"
-      },
-      {
-       "title": "Title",
-       "id": "f169d976-99ca-6e09-5287-c181afb83200",
-       "type": "page",
-       "pageId": "ff15cd31-250d-d764-91a7-e103c7a9648b"
+       "pageId": "0b44765f-9de2-dc9e-15d9-72ad2f085956"
       }
      ]
     },
     {
-     "title": "Formative Assessment - String Methods",
+     "title": "Formative Assessment: String Methods",
      "id": "0e2c3f68-35eb-1817-c138-e7d0d60cac20",
      "type": "section",
      "children": [
@@ -1295,7 +1277,7 @@
      ]
     },
     {
-     "title": "Formative Assessment - String Iteration",
+     "title": "Formative Assessment: String Iteration",
      "id": "a752d9c1-a3eb-507f-bffe-37da8ce0cec5",
      "type": "section",
      "children": [
@@ -1331,25 +1313,13 @@
        "pageId": "b4be72b7-14c8-3412-486e-928e65907c9e"
       },
       {
-       "title": "Is & Is Not",
+       "title": "Equals",
        "id": "968e1849-257b-e7cf-2c64-0fb43f4589c1",
        "type": "page",
        "pageId": "4fc3f574-79b3-77be-1284-333064bd24c3"
       },
       {
-       "title": "== vs. Is",
-       "id": "7d606f67-ebb2-befd-95f7-9079198e3152",
-       "type": "page",
-       "pageId": "6a2c7875-0b4d-fc4c-4ad2-d28d78b83a03"
-      },
-      {
-       "title": "Capitalization",
-       "id": "8505a123-1d74-21ca-34f8-ac9a2c8021be",
-       "type": "page",
-       "pageId": "361066f4-1789-000a-87bc-d324505aa8ea"
-      },
-      {
-       "title": "Alphabetical Order",
+       "title": "Compare To",
        "id": "4d6cb62b-6ad8-3db9-88ef-e27ca9cb8e2e",
        "type": "page",
        "pageId": "2ae7a7a2-29d9-30c8-78bc-865590c924e2"
@@ -1357,7 +1327,7 @@
      ]
     },
     {
-     "title": "Formative Assessment - String Comparison",
+     "title": "Formative Assessment: String Comparison",
      "id": "40c57d53-4413-1173-607c-9b4fdde41ce3",
      "type": "section",
      "children": [
@@ -1405,7 +1375,7 @@
        "pageId": "c0d58869-5a28-31f9-bef5-c5c73f3cfcc1"
       },
       {
-       "title": "Lab Challenge",
+       "title": "Lab Challenge: Vowel Replacement",
        "id": "a0b18b48-e94a-0d48-b713-1ee5c37d0189",
        "type": "page",
        "pageId": "7227852f-bc63-785d-fcc4-7317550cca94"
@@ -1452,20 +1422,357 @@
    ]
   },
   {
-   "title": "Functions",
+   "title": "User-Defined Methods",
    "id": "1c4913e4-848e-cf3c-4dfb-14d1b758c4ef",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Method Basics",
+     "id": "46ccce9c-8018-668b-139c-1e4248941717",
+     "type": "section",
+     "children": [
+      {
+       "title": "Learning Objectives: Method Basics",
+       "id": "d41631ab-5307-27d2-b1e8-8e3c1ad3e9dc",
+       "type": "page",
+       "pageId": "5707c8eb-d96f-c48e-ae09-c3a4d1857fb7"
+      },
+      {
+       "title": "Method Definition",
+       "id": "900f96ec-720a-1c70-0f22-432f778af6d2",
+       "type": "page",
+       "pageId": "9033daee-c51f-b181-4293-9d9093043b31"
+      },
+      {
+       "title": "Methods and Whitespace",
+       "id": "93a4c307-cb4a-9916-cb16-15b3e5afa9b8",
+       "type": "page",
+       "pageId": "739738d6-4ebc-5ec0-9b5f-8d40e869d0c6"
+      },
+      {
+       "title": "Docstring",
+       "id": "7ec01570-279b-02a1-0827-0764884cf2fe",
+       "type": "page",
+       "pageId": "ddafa977-3a2f-4b90-2e81-8547740af6d6"
+      },
+      {
+       "title": "When to Use a Method",
+       "id": "2647358b-cf03-ee04-12d8-5d826d9d1c37",
+       "type": "page",
+       "pageId": "98f4466e-8578-9c54-231e-c6541f41d105"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment: Method Basics",
+     "id": "523981cc-0d7f-4e1c-933f-af5724537dc4",
+     "type": "section",
+     "children": [
+      {
+       "title": "Formative Assessment 1",
+       "id": "2f7524e9-c29e-db24-d9cb-28b19f4a2c47",
+       "type": "page",
+       "pageId": "22b8db93-f6ce-e129-e53c-ae41d1d0ec63"
+      },
+      {
+       "title": "Formative Assessment 2",
+       "id": "a020785c-a615-4bf2-971c-54108a849865",
+       "type": "page",
+       "pageId": "649289da-c92c-de74-1ab8-fe46d61037fa"
+      }
+     ]
+    },
+    {
+     "title": "Parameters",
+     "id": "8cee419e-6aa7-24df-bba7-4db072310f74",
+     "type": "section",
+     "children": [
+      {
+       "title": "Learning Objectives: Parameters",
+       "id": "eb073d49-2eae-f3c9-55fb-57bc9404fb17",
+       "type": "page",
+       "pageId": "e1a39a3b-d232-c49f-1825-2a26fbdfabd9"
+      },
+      {
+       "title": "Passing Parameters",
+       "id": "3681fe48-a431-f276-ca39-9b637d2160b6",
+       "type": "page",
+       "pageId": "52386be5-9da6-cd33-2cee-d9c08ab0ae20"
+      },
+      {
+       "title": "Parameter Values",
+       "id": "0e4f8276-abb7-f778-769e-a3251eba6c97",
+       "type": "page",
+       "pageId": "3548d9e3-0aa7-46e5-ddc1-5de40a778b55"
+      },
+      {
+       "title": "Checking Parameters",
+       "id": "5cbe811d-3a6c-1a77-9963-cbbb70f7d4ff",
+       "type": "page",
+       "pageId": "2ba49925-06f8-894e-f07e-4b375764de9b"
+      },
+      {
+       "title": "Parameters: Advanced Topics",
+       "id": "07450dee-6831-6b69-e222-80c687d69839",
+       "type": "page",
+       "pageId": "d0d8a7a8-6f69-2c9e-5fbb-62aa7d5e6842"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment: Parameters",
+     "id": "e4eecd9a-8634-61c5-f217-1775662d46f8",
+     "type": "section",
+     "children": [
+      {
+       "title": "Formative Assessment 1",
+       "id": "34746a3a-7474-e6d1-bc20-d88ce2ebef49",
+       "type": "page",
+       "pageId": "e958b385-8eda-f8c3-1b12-c0808e30fd6d"
+      },
+      {
+       "title": "Formative Assessment 2",
+       "id": "25275f1d-93a7-a104-b9ba-8ff357c06422",
+       "type": "page",
+       "pageId": "cea6032a-fe5b-aa2f-47e1-d1bbd2206ac7"
+      }
+     ]
+    },
+    {
+     "title": "Variable Scope",
+     "id": "6dbc35d0-4173-575b-caa7-2cdf44737d46",
+     "type": "section",
+     "children": [
+      {
+       "title": "Learning Objectives: Variable Scope",
+       "id": "a55a18af-e2bb-641b-7946-d0ea4fcab327",
+       "type": "page",
+       "pageId": "d0558580-9852-590e-36bc-8c597dc93838"
+      },
+      {
+       "title": "Local Scope",
+       "id": "fbc7de65-8a2a-00d4-a8fe-199e99f48202",
+       "type": "page",
+       "pageId": "96413a67-ebba-1ca2-898d-a1c7df302540"
+      },
+      {
+       "title": "Global Scope",
+       "id": "9eb751e4-ecc7-d226-8335-fc7e700ecfcc",
+       "type": "page",
+       "pageId": "7c744c39-4ad9-152a-94f4-9f86aa32eb08"
+      },
+      {
+       "title": "Global vs. Local Scope",
+       "id": "db467d04-c49a-3ea8-2a49-009ee4ab0704",
+       "type": "page",
+       "pageId": "bf8ee061-32b7-b594-276d-69b96318104c"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment: Variable Scope",
+     "id": "072622bf-ce8b-438e-f9a0-82dfa8ed547f",
+     "type": "section",
+     "children": [
+      {
+       "title": "Formative Assessment 1",
+       "id": "4bb53032-d407-d800-76f1-c8484b8e6318",
+       "type": "page",
+       "pageId": "8abfc36b-e16c-31b5-2388-66e40354d578"
+      },
+      {
+       "title": "Formative Assessment 2",
+       "id": "22e74cbd-1db9-3670-0dd3-d97fe48fd7f2",
+       "type": "page",
+       "pageId": "30d55795-41bd-89e4-646a-c594e4185aba"
+      }
+     ]
+    },
+    {
+     "title": "Returning Values",
+     "id": "4d56a893-efc6-50d0-6bd3-50bda0c9e987",
+     "type": "section",
+     "children": [
+      {
+       "title": "Learning Objectives: Returning Values",
+       "id": "20b8dcc0-4db4-eee0-f32b-1ddbed994b14",
+       "type": "page",
+       "pageId": "01090fee-ee2e-4a86-ac66-523771b0cb68"
+      },
+      {
+       "title": "Returning Values",
+       "id": "20296d2c-b731-9f6f-3559-e944d7ff9898",
+       "type": "page",
+       "pageId": "0f55c750-d04e-5740-416a-27f9303547be"
+      },
+      {
+       "title": "Side Effects",
+       "id": "fed81f9e-b766-cb52-61f3-51560fecdd02",
+       "type": "page",
+       "pageId": "6f0e6d06-b66b-b79a-ad14-967be96c49ea"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment: Returning Values",
+     "id": "f38ccc30-deb2-97b0-8349-b437d497ca44",
+     "type": "section",
+     "children": [
+      {
+       "title": "Formative Assessment 1",
+       "id": "5f7f6cbd-45a0-6d3c-ffd9-1e248f47519a",
+       "type": "page",
+       "pageId": "b381edd0-0ded-3524-bb26-c665cc451bbf"
+      },
+      {
+       "title": "Formative Assessment 2",
+       "id": "ef5e995d-fd68-370c-53c4-3d06dc3b7fd9",
+       "type": "page",
+       "pageId": "e095536d-14b9-2411-ccca-3f02e7036362"
+      }
+     ]
+    },
+    {
+     "title": "Advanced Topics",
+     "id": "857e818e-e1f9-738a-7ed8-02f6c88f2165",
+     "type": "section",
+     "children": [
+      {
+       "title": "Learning Objectives: Advanced Topics",
+       "id": "8c9a2963-14b1-0754-0455-3434adbf8049",
+       "type": "page",
+       "pageId": "667b1eac-da5d-9fe1-f13c-86aed17716fd"
+      },
+      {
+       "title": "Helper Functions",
+       "id": "4b86269c-d3d4-4c86-a606-9f211f32e8b0",
+       "type": "page",
+       "pageId": "52c900f0-5eb8-2d20-4608-bc1d3bfdf938"
+      },
+      {
+       "title": "Function Composition",
+       "id": "9aca6681-2250-0d62-b79e-32154aa98c6f",
+       "type": "page",
+       "pageId": "da43d3df-e868-6b40-8c3f-88f7fb58e01c"
+      },
+      {
+       "title": "Modularity",
+       "id": "307cfade-0d37-f626-deee-4375aefd24a9",
+       "type": "page",
+       "pageId": "813d63d3-1ba2-0cb3-55a4-d5ab4405e60b"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment: Advanced Topics",
+     "id": "692f8b47-5d2a-83f9-5e1a-62f6f37225a5",
+     "type": "section",
+     "children": [
+      {
+       "title": "Formative Assessment 1",
+       "id": "4196e624-ff90-83a0-379e-26ceb6dc6464",
+       "type": "page",
+       "pageId": "194e4f92-7626-aea9-c44b-f7c33cc49489"
+      },
+      {
+       "title": "Formative Assessment 2",
+       "id": "dc1c6d30-fef9-6f16-5f37-1229be669124",
+       "type": "page",
+       "pageId": "de44db71-74a4-625a-63f9-3dbdf848c762"
+      }
+     ]
+    },
+    {
+     "title": "Lab: Functions",
+     "id": "0f412c58-cab3-9ee7-4862-8710e344786a",
+     "type": "section",
+     "children": [
+      {
+       "title": "Lab 1",
+       "id": "be5c7fe9-5ddf-9fa8-df7f-88d9977c0e57",
+       "type": "page",
+       "pageId": "78dda7a4-d979-3404-68b3-65beb50ec59b"
+      },
+      {
+       "title": "Lab 2",
+       "id": "184d0ca5-1b62-8e06-3fdb-2eee711c5448",
+       "type": "page",
+       "pageId": "1306cb1b-4f11-4969-9496-5839fa3d391c"
+      },
+      {
+       "title": "Lab 3",
+       "id": "8273c3fe-e0d4-d96a-98ce-4e52883b4162",
+       "type": "page",
+       "pageId": "8bb4966e-4623-a5fd-beac-820b306f70e6"
+      },
+      {
+       "title": "Lab 4",
+       "id": "f4c0af67-fa1d-0e01-e599-6287a8e53150",
+       "type": "page",
+       "pageId": "e54b9357-5c90-21b1-3dd9-e22cb0948621"
+      },
+      {
+       "title": "Lab 5",
+       "id": "0de9de7e-be4b-b9d9-57ec-654a6c18dfb6",
+       "type": "page",
+       "pageId": "2e425131-6104-b356-9115-b738591584f9"
+      },
+      {
+       "title": "Lab Challenge",
+       "id": "9b2ca2cc-db8e-31fd-4625-90ec82757978",
+       "type": "page",
+       "pageId": "73f9a0d3-a8f8-0005-0d14-c73681ca6228"
+      }
+     ]
+    },
+    {
+     "title": "Coding Exercises: Functions",
+     "id": "ba8b899d-7d1d-b417-2410-70dbaeac3191",
+     "type": "section",
+     "children": [
+      {
+       "title": "Exercise 1",
+       "id": "8ee6f825-8656-dc97-db6b-a5598a59bcb8",
+       "type": "page",
+       "pageId": "63c5eb23-b0d4-1a88-9044-18582f578da0"
+      },
+      {
+       "title": "Exercise 2",
+       "id": "e97e9440-94fc-0367-bc73-d9b05e80d7af",
+       "type": "page",
+       "pageId": "c98988f1-3e02-2a96-fd44-69915f0e7f53"
+      },
+      {
+       "title": "Exercise 3",
+       "id": "7920cb0e-00f9-07a0-1024-a35d7925435a",
+       "type": "page",
+       "pageId": "ab25fee4-3e1b-2993-626b-7305961d64c0"
+      },
+      {
+       "title": "Exercise 4",
+       "id": "af964759-11dd-5dd6-cf4a-9ea49569f789",
+       "type": "page",
+       "pageId": "bd8d28dd-5b08-4279-5949-d1fa7b279bc7"
+      },
+      {
+       "title": "Exercise 5",
+       "id": "86a87fca-a34f-f89b-7c81-f17a4ca1ff07",
+       "type": "page",
+       "pageId": "c8f3487f-56e0-4ed7-8330-c4a5fb56ec41"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Files",
+   "id": "47b8e812-23f8-6c2b-e599-0747f911bd35",
    "type": "chapter",
    "children": []
   },
   {
    "title": "Recursion",
    "id": "72d8a87d-27da-51a9-6bc8-c8da8af6d8aa",
-   "type": "chapter",
-   "children": []
-  },
-  {
-   "title": "Files",
-   "id": "47b8e812-23f8-6c2b-e599-0747f911bd35",
    "type": "chapter",
    "children": [
     {
