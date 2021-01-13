@@ -5,10 +5,9 @@ public class Fibonacci {
     
     //add code below this line
     Hashtable fibCache = new Hashtable(); 
-    int fibonacciLength = 8;
+    int fibonacciLength = 50;
     for (int num = 0; num < fibonacciLength; num++) {
       System.out.println(fibonacci(num, fibCache));
-      System.out.println("----" + num + "----");
     }
 
     //add code above this line
@@ -28,7 +27,6 @@ public class Fibonacci {
       return n;
     } else {
       int fib = fibonacci(n-1, h) + fibonacci(n-2, h);
-//       System.out.println(fib);
       return fib;
     }
   }

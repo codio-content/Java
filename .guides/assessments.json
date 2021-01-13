@@ -7528,5 +7528,179 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT Apply correct ArrayList syntax"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3595242721",
+  "source": {
+   "name": "reading question what is recursion",
+   "showName": false,
+   "instructions": "## Reading Question\n\nUnder what circumstances does it make sense to use recursion?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "81216422-50cd-d838-13de-28b741a43204",
+     "correct": true,
+     "answer": "Recursion works best when the solution is self-similar"
+    },
+    {
+     "_id": "60f793b8-94ab-a3fe-4752-3cba83d874b3",
+     "correct": false,
+     "answer": "Recursion can be used at any time"
+    },
+    {
+     "_id": "ea6534c1-b38a-85c8-c259-058197516929",
+     "correct": false,
+     "answer": "Recursion is too hard; avoid it at all costs"
+    },
+    {
+     "_id": "f23fd1b7-fced-abc7-a09a-f30ff18d4ac7",
+     "correct": false,
+     "answer": "Recursion only works with mathematical concepts like factorial and the Fibonacci sequence"
+    }
+   ],
+   "guidance": "Recursion works best when the solution is self-similar. That is, when the problem is broken down into smaller parts, and the smaller parts are a variation of the large problem.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "When to use recursion"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/recursion/WhatIsRecursion.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/WhatIsRecursion.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify when recursion can be used"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-450895435",
+  "source": {
+   "name": "recursion formative assessment 1",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create a recursive function that finds the sum of `n` integers. For example, `findFum(5)` would add up the numbers 0 to 5. **Note**, not all of the blocks will be used.",
+   "initial": "public static int findSum(int n) {\n  if (n == 0) {\n    return 0;\n  } else {\n    return(n + findSum(n-1));\n  }\n}\nprint(0);  #distractor\nreturn(n - findSum(n-1));  #distractor\nreturn(n + findSum(n+1));  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Start off with the function header. The next line of code is the base case `if (n == 0)`. Recursive functions return values, they do not print them. Ignore the code block that says `print(0);`, and use `return 0;`. Next is the else statement. There are two incorrect blocks for the recursive case. First, ignore the code block that says `return(n - findSum(n-1));`. The function should find the sum, but this code block is subtracting from `n`. Also, the recursive function call should move `n` closer to the base case. Since the base case is 0, `n` should get smaller. Use the code block that says, `return(n + findSum(n-1));`.",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Create recursive function"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT create a recursive function to find the sum"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-375867482",
+  "source": {
+   "name": "formative assessment 2 recursion",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume you want to write a recursive function that multiplies each element in a list by the number 5. What should the base case be?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "b6acb22b-f5f6-ca3e-68fe-1b642291654a",
+     "correct": true,
+     "answer": "When the length of the list is 1"
+    },
+    {
+     "_id": "f5830626-1466-b11c-b592-179e68f28adf",
+     "correct": false,
+     "answer": "When the length of the list is 0"
+    },
+    {
+     "_id": "73cfe0b6-a1cd-5d48-5a9f-dcd2ce42c5cb",
+     "correct": false,
+     "answer": "When the list is equal to 1"
+    },
+    {
+     "_id": "59ab9c47-9262-90d0-62d0-dfa3c151af75",
+     "correct": false,
+     "answer": "When the list is equal to 0"
+    }
+   ],
+   "guidance": "The program should keep recursing until the **length** of the list is 1. A length of 1 means there is only one element left in the list. There is no reason to keep calling the function when once the list is empty.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Base Case"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT identify the base case for a recursive function"
+  }
  }
 ]

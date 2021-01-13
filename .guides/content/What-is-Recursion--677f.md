@@ -93,3 +93,5 @@ Modify the base case so that `factorial(0)` does not result in an error. Test yo
 
 [Code Visualizer](open_tutor code/recursion/WhatIsRecursion.java)
 {Try it}(sh .guides/bg.sh javac code/recursion/WhatIsRecursion.java java -cp code/recursion/ WhatIsRecursion 3)
+  
+{Check It!|assessment}(multiple-choice-3595242721)
