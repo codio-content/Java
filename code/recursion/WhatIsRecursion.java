@@ -1,5 +1,5 @@
 public class WhatIsRecursion {
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     
     //add code below this line
 

@@ -7702,5 +7702,76 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT identify the base case for a recursive function"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3931991688",
+  "source": {
+   "name": "reading question base case",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat is the purpose of the base case in recursion?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "1d5b2d26-b0d8-4bdc-bee6-ddadb8b5db66",
+     "correct": true,
+     "answer": "When true, the base case stops the recursive calls and returns a value."
+    },
+    {
+     "_id": "0dba4997-6595-cf2a-cb02-8ee9c8bad9d7",
+     "correct": false,
+     "answer": "The base case tells the function to call itself."
+    },
+    {
+     "_id": "20f41b03-0f03-1420-6270-afa56cdfdd9d",
+     "correct": false,
+     "answer": "The base case is another name for recursion."
+    },
+    {
+     "_id": "cf1b88f7-fa8f-c989-3b6f-2020f8650e01",
+     "correct": false,
+     "answer": "The base case is the name of the recursive function."
+    }
+   ],
+   "guidance": "When true, the base case stops the recursive calls and returns a value. In the example of factorial, the base case is when `n` is less than or equal to 1. The function returns `1` and the long line of multiplication happens.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Base Case"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/recursion/Fibonacci.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/Fibonacci.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define the base case in recursion"
+  }
  }
 ]

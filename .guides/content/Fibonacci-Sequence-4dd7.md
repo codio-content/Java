@@ -10,7 +10,7 @@ Calculating a Fibonacci number is self-similar, which means it can be define wit
 
 ```java
 public class Fibonacci {
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     
     //add code below this line
 
@@ -88,27 +88,39 @@ Fibonacci numbers are most often talked about as a sequence. The code below adds
   The code written above is terribly inefficient. Each time through the loop, Java is calculating the same Fibonacci numbers again and again. When <code>num</code> is 1, Java calculates the Fibonacci numbers for 0 and 1. When <code>num</code> is 2, Java is calculating the Fibonacci numbers for 0, 1, and 2. Once <code>num</code> becomes large enough, it becomes too much work for Java to have to recalculate these large numbers over and over again. There is a more efficient way to do this by using a data structure called a hash table. The idea is to store previously calculated Fibonacci numbers in the hash table. So instead of recalculating the same numbers again and again, you can get these numbers from the hash table. If a Fibonacci number is not in the hash table, then calculate it and add it to the hash table. Data structures are a bit beyond the scope of these lessons, but here is the code of a more efficient way to calculate and print the Fibonacci sequence. Copy and paste the code below into the IDE if you want to run it.
 
   ```java
-  fibcache = {} #dictionary of Fibonacci numbers
+  import java.util.*;
 
-  def fibonacci(n):
-      """Check to see if a Fibonacci number has been calculated (in the dictionary).
-      If not, add it to the dictionary and return it.
-      If yes, return the number from the dictionary."""
-      if n not in fibcache.keys():
-          fibcache[n] = _fibonacci(n)
-      return fibcache[n]
+  public class Fibonacci {
+    public static void main(String[] args) {
 
-  def _fibonacci(n):
-      """Calculate Fibonacci number"""
-      if n <= 1:
-          return n
-      else:
-          fib = fibonacci(n-1) + fibonacci(n-2)
-          return fib
-      
-  fibonacci_length = 90
-  for num in range(fibonacci_length):
-      print(fibonacci(num))
+      //add code below this line
+      Map<Integer, Long> fibCache = new HashMap<>(); 
+      int fibonacciLength = 90;
+      for (int num = 0; num < fibonacciLength; num++) {
+        System.out.println(fibonacci(num, fibCache));
+      }
+      //add code above this line
+    }
+
+    //add method definitions below this line
+    public static long fibonacci(int n, Map<Integer, Long> h) {
+      if (!h.containsKey(n)) {
+        h.put(n, calculateFib(n, h));
+      }
+      return h.get(n);
+    }
+
+    public static long calculateFib(int n, Map<Integer, Long> h) {
+      if (n <= 1) {
+        return n;
+      } else {
+        return fibonacci(n-1, h) + fibonacci(n-2, h);
+      }
+    }
+    //add method definitions above this line
+  }
   ```
   
 </details>
+  
+{Check It!|assessment}(multiple-choice-3931991688)
