@@ -7849,5 +7849,58 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT identify the need for a parameter to change when using recursion"
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2130962492",
+  "source": {
+   "name": "recursion lab 2 question",
+   "showName": false,
+   "instructions": "## Lab Question\n\nRearrange the blocks below to create a recursive function. Assume that the recursive function is called with this code:\n\n`myRecursiveFunction(15);`\n\n**Note**, not all of the code blocks will be used.",
+   "initial": "public static int myRecursiveFunction(int num){\n    if (num &lt; 0) {\n        return 1;\n    } else {\n        return num + my_recursive_function(num - 1);\n    }\n}\nprint(1); #distractor\nreturn num + my_recursive_function(num + 1);  #distractor\nprint(num + my_recursive_function(num - 1)); #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Recursive functions need to return values, not print them. So you can ignore the code blocks that say `print`. Since the base case is testing if `num` is less than 0 and `myRecursiveFunction` was initially called with a parameter of 15, you need to use the code block that says `return num + myRecursiveFunction(num - 1)`. The value of `num` must get to be equal to or less than 0. If not, the recursive function will become an infinite loop.\n\n```java\npublic static int myRecursiveFunction(int num){\n    if (num < 0) {\n        return 1;\n    } else {\n        return num + my_recursive_function(num - 1);\n    }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Create a recursive function"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/recursion/Hilbert.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/Hilbert.java"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT construct a recursive function"
+  }
  }
 ]
