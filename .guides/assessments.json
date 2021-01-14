@@ -7773,5 +7773,81 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT define the base case in recursion"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3183499461",
+  "source": {
+   "name": "recursion lab 1 question",
+   "showName": false,
+   "instructions": "## Lab Question\n\nLook at the code below. Select the answer that best describes why the code is problematic.\n\n```java\npublic static int recursiveFunction(num){\n    if (num < 0) {\n        return 1\n    } else {\n        return num + recursiveFunction(num)\n    }\n}\n```",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "7e0b0fbd-623a-410e-38ea-04d980037bff",
+     "correct": true,
+     "answer": "When using recursion, `num` should get smaller so that the base case becomes true"
+    },
+    {
+     "_id": "80e46a90-564c-a716-88f9-fd4402506800",
+     "correct": false,
+     "answer": "There is nothing wrong with the function"
+    },
+    {
+     "_id": "21d9f794-20fa-3acb-25e0-59e030404fce",
+     "correct": false,
+     "answer": "The base case should be `if (num < 5)`"
+    },
+    {
+     "_id": "96928de2-fa95-a18a-c701-ad539e6718f0",
+     "correct": false,
+     "answer": "It should be `return num - recursiveFunction(num)`"
+    }
+   ],
+   "guidance": "```java\npublic static int recursiveFunction(num){\n    if (num < 0) {\n        return 1\n    } else {\n        return num + recursiveFunction(num)\n    }\n}\n```\n\nIn the code above, `recursiveFunction` is called with `num` staying the same value. If it never gets smaller, then `num` will never be less than 0. The function will be stuck in an infinite loop. The parameter in the recursive function should change so that the base case becomes true, e.g. `recursiveFunction(n - 1)`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Base Case"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/recursion/RecursiveTree.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/RecursiveTree.java"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the need for a parameter to change when using recursion"
+  }
  }
 ]
