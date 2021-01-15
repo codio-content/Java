@@ -1,1 +1,13 @@
-# Sample content New Page
+----------
+
+## Recursion Exercise 2
+
+**Problem**
+Write a recursive method called `listsum` that takes a array of integers as a parameter. Return the sum of all of the integers in the array. **Hint**, the `slice` operator will be helpful in solving this problem.
+
+**Expected Output**
+* If the function call is `list_sum([1, 2, 3, 4, 5])`, then the function would return `15`
+* If the function call is `list_sum([10, 12, 10, 7])`, then the function would return `39`
+
+[Code Visualizer](open_tutor code/recursion/Exercise2.java)
+{Try it}(sh .guides/bg.sh javac code/recursion/Exercise2.java java -cp code/recursion/ Exercise2 1)
