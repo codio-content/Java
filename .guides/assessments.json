@@ -7902,5 +7902,179 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT construct a recursive function"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3127395084",
+  "source": {
+   "name": "recursion lab 3 question",
+   "showName": false,
+   "instructions": "## Lab Question\n\nWhat is the relationship between the `drawTriangle` method and the `sierpinski` method?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "5ab5a81c-b4a0-0862-ba05-d025da747a82",
+     "correct": true,
+     "answer": "`drawTriangle` is a helper method for `sierpinski`"
+    },
+    {
+     "_id": "bb44cccb-87e0-75bd-2b7d-d8f578e3da3f",
+     "correct": false,
+     "answer": "`sierpinski` is a helper method for `drawtriangle`"
+    },
+    {
+     "_id": "8d725659-d507-7337-bc56-a312fbacb4f8",
+     "correct": false,
+     "answer": "`drawtriangle` is declared inside `sierpinski`"
+    },
+    {
+     "_id": "fd8e67fd-c25d-33f6-d4c1-a310c94dc523",
+     "correct": false,
+     "answer": "`drawTriangle` is called as a parameter for the `sierpinski` method"
+    }
+   ],
+   "guidance": "`drawTriangle` is a helper method for `sierpinski` because the `sierpinski` method calls `drawTriangle`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Helper Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Functions"
+     }
+    ],
+    "files": [
+     "code/recursion/Sierpinski.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/Sierpinski.java"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify a helper function"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2039919375",
+  "source": {
+   "name": "lab challenge unit test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\".guides/secure/recursion/LabChallengeTester.java\",\"className\":\"LabChallengeTester\"}],\"partialPoints\":true,\"maxPoints\":20,\"wd\":\"\",\"sources\":\"code/recursion\",\"libs\":\"\",\"testsources\":\"\"}",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 300,
+   "guidance": "The recursive pattern is to multiply the base by `recursivePower` with the exponent decreased by one. The base case is when the exponent is 0. In this case, return 1. Here is one possible solution:\n\n```java\npublic class LabChallenge {\n  public static void main(String[] args) {\n\n    //add code below this line\n\n    System.out.println(recursivePower(5, 3));\n    \n    //add code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int recursivePower(int base, int exponent) {\n    if (exponent == 0) {\n      return 1;\n    } else {\n      return base * recursivePower(base, exponent - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Create Recursive Method"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/recursion/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/LabChallenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a recursive method to calculate a number raised to a power"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4045561410",
+  "source": {
+   "name": "recursion coding exercise 1",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\".guides/secure/recursion/Exercise1Tester.java\",\"className\":\"Exercise1Tester\"}],\"partialPoints\":false,\"maxPoints\":20,\"wd\":\"\",\"sources\":\"code/recursion\",\"libs\":\"\",\"testsources\":\"\"}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "The recursive pattern is to take the `num` passed as a parameter and add it to `recursiveSum` with the number minus 1. The base case is when the number passed is 0. `recursiveSum` should return 0 when the parameter is 0. Here is a solution to the problem:\n\n```java\npublic class Exercise1 {\n  public static void main(String[] args) {\n\n    //add code below this line\n\n    System.out.println(recursiveSum(10));\n    \n    //add code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int recursiveSum(int n) {\n    if (n == 0) {\n      return 0;\n    } else {\n      return n + recursiveSum(n - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Create Recursive Method"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/recursion/Exercise1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/Exercise1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a recursive method that find the sum for all numbers 0 to the original parameter"
+  }
  }
 ]

@@ -940,5 +940,37 @@
    "active": null
   },
   "results": []
+ },
+ {
+  "taskId": "test-2039919375",
+  "points": 20,
+  "results": [
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<b>4</b> tests, <b>0</b> failures, <b>0.054s</b> duration\n\n<strong>LabChallengeTester</strong>\ntestPower1, 0.002s, <span style=\"color: green\">passed</span>\ntestPower2, 0.0s, <span style=\"color: green\">passed</span>\ntestPower3, 0.0s, <span style=\"color: green\">passed</span>\ntestPower4, 0.0s, <span style=\"color: green\">passed</span>\n",
+    "timestamp": "2021-01-15T00:00:33.176Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "\n.guides/secure/recursion/LabChallengeTester.java:7: error: cannot find symbol\n    assertEquals(LabChallenge.recursivePower(2, 3), 8);\n                 ^\n  symbol:   variable LabChallenge\n  location: class LabChallengeTester\n.guides/secure/recursion/LabChallengeTester.java:12: error: cannot find symbol\n    assertEquals(LabChallenge.recursivePower(7, 4), 2401);\n                 ^\n  symbol:   variable LabChallenge\n  location: class LabChallengeTester\n.guides/secure/recursion/LabChallengeTester.java:17: error: cannot find symbol\n    assertEquals(LabChallenge.recursivePower(3, 7), 2187);\n                 ^\n  symbol:   variable LabChallenge\n  location: class LabChallengeTester\n.guides/secure/recursion/LabChallengeTester.java:22: error: cannot find symbol\n    assertEquals(LabChallenge.recursivePower(5, 0), 1);\n                 ^\n  symbol:   variable LabChallenge\n  location: class LabChallengeTester\n4 errors\n\nCompile sources problems",
+    "timestamp": "2021-01-14T23:58:20.333Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "\n.guides/secure/recursion/LabChallengeTester.java:7: error: cannot find symbol\n    assertEquals(LabChallenge.recursivePower(2, 3), 8);\n                 ^\n  symbol:   variable LabChallenge\n  location: class LabChallengeTester\n.guides/secure/recursion/LabChallengeTester.java:12: error: cannot find symbol\n    assertEquals(LabChallenge.recursivePower(7, 4), 2401);\n                 ^\n  symbol:   variable LabChallenge\n  location: class LabChallengeTester\n.guides/secure/recursion/LabChallengeTester.java:17: error: cannot find symbol\n    assertEquals(LabChallenge.recursivePower(3, 7), 2187);\n                 ^\n  symbol:   variable LabChallenge\n  location: class LabChallengeTester\n.guides/secure/recursion/LabChallengeTester.java:22: error: cannot find symbol\n    assertEquals(LabChallenge.recursivePower(5, 0), 1);\n                 ^\n  symbol:   variable LabChallenge\n  location: class LabChallengeTester\n4 errors\n\nCompile sources problems",
+    "timestamp": "2021-01-14T23:56:32.275Z",
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "test-4045561410",
+  "points": 0,
+  "results": []
  }
 ]
