@@ -21,4 +21,8 @@ public class Exercise1Tester {
   public void testPower4() {
     assertEquals(Exercise1.recursiveSum(0), 0);
   }
+  
+  public void checkRecursion() {
+    
+  }
 }

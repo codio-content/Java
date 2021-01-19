@@ -15,10 +15,8 @@ def main():
       code_without_comments = strip_comments(student_code.read())
       
       if not(check_code_for_recursive_call(code_without_comments, 'reverseString', 'public static int reverseString')):
-        print('Code did not recursively call the "reverseString" method')
         sys.exit(1)
       else:
-        print('Code recursively called the "reverseString" method')
         sys.exit(0)
 
 if __name__ == "__main__":

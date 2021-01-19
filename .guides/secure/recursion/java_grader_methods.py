@@ -5,11 +5,11 @@ def copy_code_file(file_path, file):
   shutil.copyfile(file_path, '.guides/secure/' + file)
 
 ## check function of code using output - keyboard flag to indicate input type
-def check_output(file, arguments, expected_output, keyboard=False):
+def check_output(file_path, file_name, arguments, expected_output, keyboard=False):
   expected_output = expected_output.rstrip('\x00')
   #compile and run code with given input
-  compile_cmd = "javac " + file
-  file_no_ext = os.path.splitext(file)[0]
+  compile_cmd = 'javac {}{}'.format(file_path, file_name)
+  file_no_ext = os.path.splitext(file_name)[0]
   if keyboard:
     subprocess.Popen(compile_cmd, shell=True)
     #https://stackoverflow.com/questions/33976094/subprocess-stdin-input
@@ -17,7 +17,7 @@ def check_output(file, arguments, expected_output, keyboard=False):
     student_output = p.communicate(input=str.encode(arguments))[0]
   else:
     subprocess.Popen(compile_cmd, shell=True)
-    student_output = subprocess.check_output(['java', file_no_ext]).rstrip()
+    student_output = subprocess.check_output('java -cp {} {} {}'.format(file_path, file_no_ext, arguments), shell=True).rstrip()
   #check generated output
   if student_output.decode("utf-8").strip() == expected_output:
     return True

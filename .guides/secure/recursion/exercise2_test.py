@@ -15,10 +15,8 @@ def main():
       code_without_comments = strip_comments(student_code.read())
       
       if not(check_code_for_recursive_call(code_without_comments, 'listSum', 'public static int listSum')):
-        print('Code did not recursively call the "listSum" method')
         sys.exit(1)
       else:
-        print('Code recursively called the "listSum" method')
         sys.exit(0)
 
 if __name__ == "__main__":
