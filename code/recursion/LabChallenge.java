@@ -8,7 +8,7 @@ public class LabChallenge {
 
   //add method definitions below this line
   
-  
+    
   
   //add method definitions above this line
 }

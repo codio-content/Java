@@ -8,9 +8,7 @@ import java_grader_methods as jgm
 def check_lab_challenge():
     path = 'code/recursion/'
     file = 'LabChallenge.java'
-    destination = 'recursion/' + file
     student_code = os.path.join(path, file)
-    jgm.copy_code_file(student_code, destination)
     points = 100
     feedback = ''
     

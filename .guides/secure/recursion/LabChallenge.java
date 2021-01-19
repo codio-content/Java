@@ -8,13 +8,12 @@ public class LabChallenge {
 
   //add method definitions below this line
   
-  public static int recursivePower(int base, int exponent) {
+    public static int recursivePower(int base, int exponent) {
     if (exponent == 0) {
       return 1;
     } else {
       return base * recursivePower(base, exponent - 1);
     }
-  }
   
   //add method definitions above this line
 }
