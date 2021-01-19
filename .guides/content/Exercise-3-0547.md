@@ -3,7 +3,7 @@
 ## Recursion Exercise 3
 
 **Problem**
-Write a recursive method called `bunnyEars` that takes the number of bunnies (an integer) as a parameter. Return the number of bunny ears (2 per bunny). Do not use multiplication; instead use addition.
+Write a recursive method called `bunnyEars` that takes the number of bunnies (an integer) as a parameter. Return the number of bunny ears (2 per bunny). Use addition instead of multiplication. **Do not** alter the code on line 5; this is needed for the evaluation.
 
 **Expected Output**
 * If the method call is `bunnyEars(8)`, then the method would return `16`

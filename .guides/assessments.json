@@ -7985,7 +7985,7 @@
   "source": {
    "name": "lab challenge unit test",
    "showName": false,
-   "instructions": "Submit your code when ready",
+   "instructions": "Submit your code when ready. **Do not** alter the code on line 5; this is needed for the evaluation.",
    "command": "python .guides/secure/recursion/lab_challenge_test.py",
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 300,
@@ -8033,12 +8033,11 @@
   "source": {
    "name": "recursion coding exercise 1",
    "showName": false,
-   "instructions": "Submit your code when ready",
-   "command": "python /usr/share/codio/assessments/assessments.py",
-   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\".guides/secure/recursion/Exercise1Tester.java\",\"className\":\"Exercise1Tester\"}],\"partialPoints\":false,\"maxPoints\":20,\"wd\":\"\",\"sources\":\"code/recursion\",\"libs\":\"\",\"testsources\":\"\"}",
-   "arePartialPointsAllowed": false,
+   "instructions": "Submit your code when ready. **Do not** alter the code on line 5; this is needed for the evaluation.",
+   "command": "python .guides/secure/recursion/exercise1_test.py",
+   "arePartialPointsAllowed": true,
    "timeoutSeconds": 300,
-   "guidance": "The recursive pattern is to take the `num` passed as a parameter and add it to `recursiveSum` with the number minus 1. The base case is when the number passed is 0. `recursiveSum` should return 0 when the parameter is 0. Here is a solution to the problem:\n\n```java\npublic class Exercise1 {\n  public static void main(String[] args) {\n\n    //add code below this line\n\n    System.out.println(recursiveSum(10));\n    \n    //add code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int recursiveSum(int n) {\n    if (n == 0) {\n      return 0;\n    } else {\n      return n + recursiveSum(n - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
+   "guidance": "The recursive pattern is to take the `num` passed as a parameter and add it to `recursiveSum` with the number minus 1. The base case is when the number passed is 0. `recursiveSum` should return 0 when the parameter is 0. Here is a solution to the problem:\n\n```java\npublic class Exercise1 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    System.out.println(recursiveSum(Integer.parseInt(args[0])));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int recursiveSum(int n) {\n    if (n == 0) {\n      return 0;\n    } else {\n      return n + recursiveSum(n - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 20,
    "oneTimeTest": true,
@@ -8074,6 +8073,54 @@
    },
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT create a recursive method that find the sum for all numbers 0 to the original parameter"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-737721285",
+  "source": {
+   "name": "recursion coding exercise 2",
+   "showName": false,
+   "instructions": "Submit your code for evaluation. Do not alter the code on lines 7 to 11; this is needed for the evaluation.",
+   "command": "python .guides/secure/recursion/exercise2_test.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "The recursive pattern is to take the first item from the list and add it to the `listSum` of the original list from element 1 to the end of the list. The base case is when the list has just one element in it; return this last element. Here is a possible solution:\n\n```java\nimport java.util.Arrays;\n\npublic class Exercise2 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    int[] nums = new int[args.length];\n    for (int i = 0; i < args.length; i++) {\n      nums[i] = Integer.parseInt(args[i]);\n    }\n    System.out.println(listSum(nums));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int listSum(int[] nums) {\n    if (nums.length == 1) {\n      return nums[0];\n    } else {\n      int lastIndex = nums.length;\n      int tail[] = Arrays.copyOfRange(nums, 1, lastIndex);\n      return nums[0] + listSum(tail);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "List"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/recursion/Exercise2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/Exercise2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a recursive function to calculate the sum of a list"
   }
  }
 ]

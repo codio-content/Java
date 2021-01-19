@@ -29,18 +29,16 @@ def check_lab_challenge():
       points -= 16
     
     # loop through line-by-line to check for more than keywords
-    with open('.guides/secure/recursion/' + file, 'r') as student_code:
-      code_without_comments = jgm.strip_comments(student_code.read())
-        
-      
+    with open(student_code, 'r') as java_code:
+      code_without_comments = jgm.strip_comments(java_code.read())
         
       banned = ['Math.pow']
       if not(jgm.check_code_for_banned(code_without_comments, banned)):
         feedback += 'Method should not use <code>Math.pow</code> \n'
         points -= 18
         
-    with open('.guides/secure/recursion/' + file, 'r') as student_code:
-      if not(jgm.check_code_for_recursive_call(student_code.readlines(), 'recursivePower', 'public static int recursivePower')):
+    with open(student_code, 'r') as java_code:
+      if not(jgm.check_code_for_recursive_call(java_code.readlines(), 'recursivePower', 'public static int recursivePower')):
         feedback += '<code>recursivePower</code> method is not recursive \n'
         points -= 18
         
