@@ -3,11 +3,13 @@ import java.util.Arrays;
 public class Exercise5 {
   public static void main(String[] args) {
 
-    //add code below this line
-    int[] myList = {11, 22, 3, 41, 15};
-    System.out.println(getMax(myList));
-    
-    //add code above this line
+    //DO NOT alter code below this line
+    int[] nums = new int[args.length];
+    for (int i = 0; i < args.length; i++) {
+      nums[i] = Integer.parseInt(args[i]);
+    }
+    System.out.println(getMax(nums));
+    //DO NOT alter code above this line
   }
 
   //add method definitions below this line

@@ -3,7 +3,7 @@
 ## Recursion Exercise 5
 
 **Problem**
-Write a recursive method called `getMax` that takes an array of integers as a parameter. Return the largest integer in the array.
+Write a recursive method called `getMax` that takes an array of integers as a parameter. Return the largest integer in the array. **Do not** alter the code on lines 7 to 11; this is needed for the evaluation.
 
 <details>
   <summary><strong>Hint</strong></summary>
@@ -11,22 +11,10 @@ Write a recursive method called `getMax` that takes an array of integers as a pa
 </details><br>
 
 **Expected Output**
-* The following method call would print `5`
-```java
-    //add code below this line
-    int[] myList = {1, 2, 3, 4, 5};
-    System.out.println(getMax(myList));
-    //add code above this line
-```
-
-* The following method call would print `41`
-```java
-    //add code below this line
-    int[] myList = {11, 22, 3, 41, 15};
-    System.out.println(getMax(myList));
-    //add code above this line
-```
+* If the `getMax` method is called with the array `{1, 2, 3, 4, 5}` then it would return `5`
+* If the `getMax` method is called with the array `{11, 22, 3, 41, 15}` then it would return `41`
 
 [Code Visualizer](open_tutor code/recursion/Exercise5.java)
-{Try it}(sh .guides/bg.sh javac code/recursion/Exercise5.java java -cp code/recursion/ Exercise5 1)
+{Try with 1, 2, 3, 4, 5}(sh .guides/bg.sh javac code/recursion/Exercise5.java java -cp code/recursion/ Exercise5 1 2 3 4 5)
+{Try with 11, 22, 3, 41, 15}(sh .guides/bg.sh javac code/recursion/Exercise5.java java -cp code/recursion/ Exercise5 11 22 3 41 15)
 
