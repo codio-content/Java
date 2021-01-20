@@ -8170,5 +8170,53 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT create a recursive function that calculates the product of 2 and another number"
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2513534229",
+  "source": {
+   "name": "recursion coding exercise 4",
+   "showName": false,
+   "instructions": "Submit your code when ready. **Do not** alter the code on line 5; this is needed for the evaluation.",
+   "command": "python .guides/secure/recursion/exercise4_test.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "The recursive pattern is to take the last character from the string pass (`s.substring(s.length() - 1`) and concatenate it with the `reverseString` using the string minus the last character. This is done with `s.substring(0, s.length() - 1)`. The base case is when the length of the string is 1, then you return the string. Here is one possible solution:\n\n```java\npublic class Exercise4 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    System.out.println(reverseString(args[0]));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static String reverseString(String s) {\n    if (s.length() == 1) {\n      return s;\n    } else {\n      return s.substring(s.length() - 1) + reverseString(s.substring(0, s.length() - 1));\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Strings"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/recursion/Exercise4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/Exercise4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT recursively reverse a string"
+  }
  }
 ]
