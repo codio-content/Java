@@ -8081,7 +8081,7 @@
   "source": {
    "name": "recursion coding exercise 2",
    "showName": false,
-   "instructions": "Submit your code for evaluation. Do not alter the code on lines 7 to 11; this is needed for the evaluation.",
+   "instructions": "Submit your code when ready. Do not alter the code on lines 7 to 11; this is needed for the evaluation.",
    "command": "python .guides/secure/recursion/exercise2_test.py",
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
@@ -8217,6 +8217,54 @@
    },
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT recursively reverse a string"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2073587953",
+  "source": {
+   "name": "recursion coding exercise 5",
+   "showName": false,
+   "instructions": "Submit your code when ready. **Do not** alter the code on lines 7 to 11; this is needed for the evaluation.",
+   "command": "python .guides/secure/recursion/exercise5_test.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "The recursive pattern is to select the largest value between the first number in the array and `getMax` which takes the rest of the array. The base case is when the array only has one number in it. In this case, return the number in the array. Here is one example of the solution:\n\n```java\nimport java.util.Arrays;\n\npublic class Exercise5 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    int[] nums = new int[args.length];\n    for (int i = 0; i < args.length; i++) {\n      nums[i] = Integer.parseInt(args[i]);\n    }\n    System.out.println(getMax(nums));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int getMax (int[] nums) {\n    if (nums.length == 1) {\n      return nums[0];\n    } else {\n      int lastIndex = nums.length;\n      int tail[] = Arrays.copyOfRange(nums, 1, lastIndex);\n      return Math.max(nums[0], getMax(tail));\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Arrays"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/recursion/Exercise5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/Exercise5.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a recursive function to find the largest number in an array"
   }
  }
 ]

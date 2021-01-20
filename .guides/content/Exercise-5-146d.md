@@ -18,3 +18,4 @@ Write a recursive method called `getMax` that takes an array of integers as a pa
 {Try with 1, 2, 3, 4, 5}(sh .guides/bg.sh javac code/recursion/Exercise5.java java -cp code/recursion/ Exercise5 1 2 3 4 5)
 {Try with 11, 22, 3, 41, 15}(sh .guides/bg.sh javac code/recursion/Exercise5.java java -cp code/recursion/ Exercise5 11 22 3 41 15)
 
+{Check It!|assessment}(test-2073587953)
