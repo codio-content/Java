@@ -955,5 +955,19 @@
   "taskId": "test-737721285",
   "points": 0,
   "results": []
+ },
+ {
+  "taskId": "test-639952948",
+  "points": 20,
+  "results": [
+   {
+    "guidance": "The problem is asking you to perform multiplication between 2 and the number of bunnies. The recursive pattern is adding 2 then calling `bunnyEars` with the number of bunnies minus 1. The base case is when the number of bunnies is 0. Here is a possible solution:\n\n```java\npublic class Exercise3 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    System.out.println(bunnyEars(Integer.parseInt(args[0])));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int bunnyEars(int n) {\n    if (n == 0) {\n      return 0;\n    } else {\n      return 2 + bunnyEars(n - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
+    "feedback": "<h2>On this question you earned 100% out of 100%</h2>",
+    "format": 3,
+    "output": "",
+    "timestamp": "2021-01-20T00:23:54.329Z",
+    "state": "pass"
+   }
+  ]
  }
 ]

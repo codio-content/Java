@@ -10,4 +10,7 @@ Write a recursive method called `bunnyEars` that takes the number of bunnies (an
 * If the method call is `bunnyEars(0)`, then the method would return `0`
 
 [Code Visualizer](open_tutor code/recursion/Exercise3.java)
-{Try it}(sh .guides/bg.sh javac code/recursion/Exercise3.java java -cp code/recursion/ Exercise3 1)
+{Try with 8}(sh .guides/bg.sh javac code/recursion/Exercise3.java java -cp code/recursion/ Exercise3 8)
+{Try with 0}(sh .guides/bg.sh javac code/recursion/Exercise3.java java -cp code/recursion/ Exercise3 0)
+
+{Check It!|assessment}(test-639952948)
