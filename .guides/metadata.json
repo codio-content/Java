@@ -285,6 +285,290 @@
    "learningObjectives": ""
   },
   {
+   "id": "7e614dd6-3000-f97c-103d-9cfb75682381",
+   "title": "Learning Objectives - Printing",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Printing-7e61.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e0f4c5e4-fd4d-4708-d83a-b3ac8f0a31d7",
+   "title": "Printing to the Console",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundPrinting1.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Printing-to-the-Console-e0f4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b1842de6-2990-a9a7-fe0f-17ae29a8f6d6",
+   "title": "Printing",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundPrinting2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Printing-b184.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0a78a4dd-02f8-a1c0-8207-83da24d11ea3",
+   "title": "Formative Assessment 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-0a78.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ccbb35ac-6f93-5258-2b81-4f3a888fe4d4",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-ccbb.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "543e1988-8933-a9e3-7649-2ccc025f672f",
+   "title": "Learning Objectives - Variables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Variables-543e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e9f8ad54-0091-57dd-510c-09a52d11197c",
+   "title": "Variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables1.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/fundamentals/PlaygroundVariables1.java",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Variables-e9f8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2038a28e-a1bf-9f1d-766b-eb2cbcf3f0c2",
+   "title": "Data Types - Integers",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Data-Types---Integers-2038.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "469c57e1-6eff-a679-8cf3-13e201145f7f",
+   "title": "Data Types - Floating Point Numbers",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Data-Types---Floating-Point-Numbers-469c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f1abddba-2216-5461-a129-adae8b3d901a",
+   "title": "Data Types - Boolean",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables4.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Data-Types---Boolean-f1ab.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "da560394-ef8a-4ece-d95a-adb6b68b4ed6",
+   "title": "Data Types - Strings",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables5.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Data-Types---Strings-da56.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "25d8ad82-8f97-c08a-4b7a-d145a270c406",
+   "title": "Declaring Variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables6.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Declaring-Variables-25d8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1256260a-b636-3d14-9914-b4b3600a5e64",
+   "title": "Initializing, Assigning, and Accessing",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/PlaygroundVariables7.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Initializing--Assigning--and-Accessing-1256.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "aee7ff8f-04c5-5934-8f26-2087db8ec881",
+   "title": "Formative Assessment 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-aee7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "2a2ff45f-d53f-a4d2-1ef0-45a03fe58d96",
    "title": "Formative Assessment 2",
    "files": [
@@ -3482,328 +3766,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-1086.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "66a1843e-4e86-287b-bd5f-f051da57c94a",
-   "title": "Learning Objectives - Recursion",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives---Recursion-66a1.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "677f2d80-1f40-4e1d-f5fd-37fb0cec5100",
-   "title": "What is Recursion?",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/WhatIsRecursion.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/What-is-Recursion--677f.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "4dd761ed-9929-bcae-e495-c8daac947a49",
-   "title": "Fibonacci Sequence",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/Fibonacci.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Fibonacci-Sequence-4dd7.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "1c830ef3-c455-24c6-8332-e117a5a58662",
-   "title": "Formative Assessment 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-1c83.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "c269f5d7-c057-3d13-6307-4657d0fd4368",
-   "title": "Formative Assessment 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-c269.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "e60811cd-00f8-50c0-4bfa-23e10ce75647",
-   "title": "Lab 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/RecursiveTree.java",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain3000}}/",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab-1-e608.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "da47862c-6c5e-753b-b247-278827fec4c7",
-   "title": "Lab 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/Hilbert.java",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain3000}}/",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab-2-da47.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "aa175d18-c540-431b-0b69-300d4651eb90",
-   "title": "Lab 3",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/Sierpinski.java",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain3000}}/",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab-3-aa17.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "dde3fb13-5791-5f28-0593-e3d726aec1f7",
-   "title": "Lab Challenge",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/LabChallenge.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab-Challenge-dde3.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "2a3a3851-c996-2638-0363-69e6e70c0697",
-   "title": "Exercise 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/Exercise1.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-1-2a3a.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "4f76d7cb-33c4-4254-94f1-99c96f17203d",
-   "title": "Exercise 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/Exercise2.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-2-4f76.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "0547cf95-603b-b62a-4e61-f1f9eef3d531",
-   "title": "Exercise 3",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/Exercise3.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-3-0547.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "79f05399-371c-a8b0-1cac-a4dbd139e531",
-   "title": "Exercise 4",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/Exercise4.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-4-79f0.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "146d926c-de58-a4fe-80b0-566e6fb921e7",
-   "title": "Exercise 5",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/recursion/Exercise5.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-5-146d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

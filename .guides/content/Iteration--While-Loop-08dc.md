@@ -1,36 +1,55 @@
-# Sample content New Page----------
+----------
 
 ## While Loop
 
-String iteration is most often done with a for loop. However, a while can be used as well.
+String iteration is most often done with a `for` loop. However, a `while` can be used as well.
 
-```python
-my_string = "Calvin and Hobbes"
-length = len(my_string)
-i = 0
+```java
+String my_string = "Calvin and Hobbes";
+int i = 0;
 
-while i < length:
-    print(my_string[i])
-    i += 1
+while (i < my_string.length()) {
+  System.out.print(my_string.charAt(i));
+  i++;
+}
 ```
 
-[Code Visualizer](open_tutor code/strings/string-while-loop.py)
-{try it}(python3 code/strings/string-while-loop.py 1)
+{Try it}(sh .guides/bg.sh javac code/strings/StringWhileLoop.java java -cp code/strings/ StringWhileLoop 1)
+
+[Code Visualizer](open_tutor code/strings/StringWhileLoop.java)
 
 |||challenge
 ## What happens if you:
-* Change the loop to `while i <= length:`?
-* Change the `print` statement to `print(i)`?
-* Remove `i += 1`?
+* Change the loop to `while (i <= my_string.length())`?
+* Copy the original code but change the `print` statement to `System.out.print(i)`?
+* Copy the original code but remove `i++`?
 
 |||
 
-{try it}(python3 code/strings/string-while-loop.py 2)
+{Try it}(sh .guides/bg.sh javac code/strings/StringWhileLoop.java java -cp code/strings/ StringWhileLoop 2)
 
 ## Comparing While & For Loops
 
-![Compare While & For Loops](.guides/images/compare-for-while-loops-strings.png)
+```java
+String my_string = "Java";
 
-The for loop is more efficient than a while loop when iterating over a string. You do not need to declare variables for the length of the string (red text), declare a variable for the index of the string (blue text), or increment the index variable (orange text). All of this is handled by the `in` statement. In for loops, you can use the iteration variable to reference the string character. With a while loop, however, you need to use the string and index to reference the character (purple text).
+for (int i = 0; i < my_string.length(); i++) {
+  System.out.print(my_string.charAt(i));
+}
+```
 
-{Check It!|assessment}(fill-in-the-blanks-172748421)
+```java
+String my_string = "Java";
+int i = 0;
+
+while (i < my_string.length()) {
+  System.out.print(my_string.charAt(i));
+  i++;
+}
+```
+
+{Try it}(sh .guides/bg.sh javac code/strings/StringWhileLoop.java java -cp code/strings/ StringWhileLoop 2)
+
+Above are two ways of iterating through a string. The first way uses the `for` loop and the second uses a `while` loop. Both produces the same result. However, the `for` loop is usually preferred because it requires less code to accomplish the same task.
+
+{Check It!|assessment}(fill-in-the-blanks-443018017)

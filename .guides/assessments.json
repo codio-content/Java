@@ -634,6 +634,640 @@
   }
  },
  {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2074845473",
+  "source": {
+   "name": "If Else",
+   "showName": true,
+   "instructions": "Drag the appropriate code blocks into the box below. Your program should check to see if a number is even and print \"Even\". If the number is odd, then print \"Odd\". Assume the variable `x` represents the number to be tested.\n\nRemember to indent your code!",
+   "initial": "if(x % 2 == 0)\n    {System.out.print(\"Even\");}\nelse\n    {System.out.print(\"Odd\");}\nif(x % 2 = 0) #distractor\nif(x / 2 == 0) #distractor\nSystem.out.print(Even); #distractor\nSystem.out.print(Odd); #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "Here is the correct answer:\n\n```java\nif(x % 2 == 0)\n    {System.out.print(\"Even\");}\nelse\n    {System.out.print(\"Odd\");}\n```\n\nHere is why the other options are incorrect:\n\n* `if x % 2 = 0` - The equality operator (`==`) is not used.\n* `if x / 2 == 0` - The `/` operator is division. To be even, there can be no remainder. The modulo operator (`%`) must be used instead.\n* `System.out.print(Even);` - The quotation marks are missing. Without them, Java will try to print the variable `Even`, which has not been declared. \n* `System.out.print(Odd);` - The quotation marks are missing. Without them, Java will try to print the variable `Odd`, which has not been declared. ",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Conditionals"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "If else statement"
+     }
+    ],
+    "files": [
+     "code/conditionals/Lab_IfElse.java",
+     "code/selection/lab_challenge.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Lab_IfElse.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT construct an if else statement"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3649559415",
+  "source": {
+   "name": "If Statements",
+   "showName": false,
+   "instructions": "Select all of the statements below that are true with regards to if statements. \n\n**Hint:** There is more than one correct answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "ae9339af-fb42-8d8e-417c-fb46b58232bf",
+     "correct": true,
+     "answer": "If statements only ask if a boolean expression is true."
+    },
+    {
+     "_id": "3acea470-c092-f47c-fa6f-d2e9cda607a7",
+     "correct": false,
+     "answer": "If statements will perform a set of actions if the boolean expression is false."
+    },
+    {
+     "_id": "2aefb536-6703-74bd-6e97-314c0d90dd7b",
+     "correct": false,
+     "answer": "If statements provide the most precision of all the conditional statements."
+    },
+    {
+     "_id": "279c31cc-b47f-1756-d5ef-c97da61a6514",
+     "correct": true,
+     "answer": "If statements are the simplest of all the conditionals."
+    }
+   ],
+   "guidance": "The correct answers are:\n\n```\nIf statements only ask if a boolean expression is true.\n\nIf statements are the simplest of all the conditionals.\n```\n\nIf statements can only ask if a boolean expression is true. An else statement takes into account a false boolean expression.\n\nIf statements are the simplest because they ignore when a boolean expression is false, and they do not ask subsequent boolean expressions.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Conditionals"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Pyh"
+     },
+     {
+      "name": "Category",
+      "value": "If statement"
+     }
+    ],
+    "files": [
+     "code/conditionals/Lab_IfStatement.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/Lab_IfStatement.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand the characteristics of an if statement"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2919609863",
+  "source": {
+   "name": "Make a Triangle",
+   "showName": true,
+   "instructions": "Construct a program by drag&amp;dropping and reordering lines from the left to the right. You can change the loop header (<span class=\"jsparson-toggle\"></span>) by clicking them. The constructed program should draw a triangle like shown below.\n\nHint: You need to indent the lines of code within the loop by dragging the blocks slightly to the right. We'll talk about this next.",
+   "initial": "REPEAT $$toggle::2::3::4$$ TIMES\nforward(100)\nleft(120)\nENDREPEAT\n",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\n  \"executable_code\": \"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\n  \"programmingLang\": \"pseudo\"\n}",
+   "grader": "5",
+   "guidance": "The loop header is setting up how many times code is repeated. In the case of a triangle, it makes sense to repeat 3 times - one for each side.\n\n```\nREPEAT 3 TIMES\n  forward(100)\n  left(120)\nENDREPEAT\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Loop Headers"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Psuedo"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT... define a loop header"
+  },
+  "linkedId": "5038b41f-51e1-4de2-bba9-0435fc132d47",
+  "libraryId": "a6135984-c66a-483f-9eb2-48cdba182812",
+  "version": 0
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1264740481",
+  "source": {
+   "name": "Make a Square",
+   "showName": true,
+   "instructions": "Construct a program by drag&amp;dropping and reordering lines from the left to the right. You can change the loop header (<span class=\"jsparson-toggle\"></span>) by clicking them. The constructed program should draw a square like shown below. Be sure to indent the loop body by dragging repeated blocks slightly to the right.",
+   "initial": "REPEAT $$toggle::2::3::4$$ TIMES\nforward(100)\nleft(90)\nENDREPEAT\n",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"max_wrong_lines\": 1,\n  \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(90)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(90)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(90)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(90)\",\n  \"executable_code\": \"for i in range(0,4):\\nmyTurtle.forward(100)\\nmyTurtle.left(90)\\npass\",\n  \"programmingLang\": \"pseudo\"\n}",
+   "grader": "5",
+   "guidance": "The loop header is setting up how many times code is repeated. In the case of a square, it makes sense to repeat 4 times - one for each side.\n\nThe loop body are the lines to be repeated, in this case the blocks instructing the turtle to turn and step forward.\n\n```\nREPEAT 4 TIMES\n  forward(100)\n  left(90)\nENDREPEAT\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     },
+     {
+      "name": "Content",
+      "value": "Loop Body"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Psuedo"
+     }
+    ],
+    "files": [
+     "loop.flode"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT... define a loop body"
+  },
+  "libraryId": "a6135984-c66a-483f-9eb2-48cdba182812",
+  "version": 0,
+  "linkedId": "5f45c731-8ac5-40c6-bc8a-39bdd9fb9098"
+ },
+ {
+  "type": "test",
+  "taskId": "test-2965980592",
+  "source": {
+   "name": "Fence-Posting Answer",
+   "showName": true,
+   "instructions": "Click here to see the bug-free flow chart",
+   "command": "/bin/true",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "![](.guides/img/fenceSoln.png)",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "fence.flode"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "fence.flode"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2167968400",
+  "source": {
+   "name": "Loop Vocabulary",
+   "showName": true,
+   "instructions": "Select the appropriate vocabulary words in the paragraph below.",
+   "text": "In code, we use loops to repeat or <<<iterate>>> over sections of code. The <<<loop header>>> indicates how many times the loop will repeat the code. The code section that is repeated is called the <<<loop body>>>.",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "iterate",
+     "loop header",
+     "loop body"
+    ],
+    "text": [
+     "In code, we use loops to repeat or ",
+     0,
+     " over sections of code. The ",
+     0,
+     " indicates how many times the loop will repeat the code. The code section that is repeated is called the ",
+     0,
+     "."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1835017652",
+  "source": {
+   "name": "How many repetitions?",
+   "showName": true,
+   "instructions": "Looking at the psuedo-code below, how many times will the loop repeat?\n\n```\ni = 0;\nloop while i <= 5\n    print(i);\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "a808549d-ff49-8b80-25f6-82e574dbb137",
+     "correct": false,
+     "answer": "4"
+    },
+    {
+     "_id": "e0673c9d-66a3-ac21-5859-66d305a1c788",
+     "correct": false,
+     "answer": "5"
+    },
+    {
+     "_id": "cd425d6d-bb39-2944-a89b-e2718ae7df0b",
+     "correct": false,
+     "answer": "6"
+    },
+    {
+     "_id": "dc97bc08-3ee0-5559-e9f0-8015a7ee8826",
+     "correct": true,
+     "answer": "infinite"
+    }
+   ],
+   "guidance": "`i` is never incremented, so `i` remains `0` forever. Because `i=0` forever, `i<=5` will ALWAYS be true.\n\nWithout the incriminator, we get an infinite loop!",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3591130309",
+  "source": {
+   "name": "What is the output?",
+   "showName": true,
+   "instructions": "What is the output of the following psuedo-code?\n\n```\ni = 0;\nloop while i < 10\n    i = i + 2;\n    print(i + \",\");\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "f52be2d7-c7cf-c811-84e4-78bb3063bf56",
+     "correct": false,
+     "answer": "0,2,4,6,8"
+    },
+    {
+     "_id": "ee4b10b2-8a26-9023-5442-12fff710589e",
+     "correct": false,
+     "answer": "0,2,4,6,8,"
+    },
+    {
+     "_id": "18bdba2f-5a19-7cff-849d-73140f3b2bc9",
+     "correct": false,
+     "answer": "2,4,6,8,10"
+    },
+    {
+     "_id": "ef6389af-113a-b054-fdde-ccf361074cd4",
+     "correct": true,
+     "answer": "2,4,6,8,10,"
+    }
+   ],
+   "guidance": "Because the print statement is *after* the increment of i, we see values 2-10. Flipping the two lines within the loop body would change the values to 0-8.\n\nBecause we do not use fence-posting, we have an extraneous `,` in our output.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3185531965",
+  "source": {
+   "name": "For Loop flow",
+   "showName": true,
+   "instructions": "After completing the loop body, what part of the for loop header is run?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "02056a52-0228-34db-d77e-2a6f318f6148",
+     "correct": false,
+     "answer": "int i = 10"
+    },
+    {
+     "_id": "85e8fcaa-693d-2843-0ce4-12c0bb9d400d",
+     "correct": false,
+     "answer": "i >= 0"
+    },
+    {
+     "_id": "37555a97-5218-c552-09f5-bc2a668f6156",
+     "correct": true,
+     "answer": "i--"
+    }
+   ],
+   "guidance": "Even though it is the last part of the for loop header, the incrementing is the first piece of the header run after an iteration.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/ForLoop.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ForLoop.java"
+     },
+     {
+      "type": "tutor",
+      "panelNumber": 1,
+      "content": "code/ForLoop.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-336859680",
+  "source": {
+   "name": "For Loop Flow",
+   "showName": true,
+   "instructions": "Re-arrange the blocks below so that is shows the flow of execution for the code:\n```java\nfor(int i = 0; i < 2; i++) {\n    System.out.println(i);\n}\n```\n",
+   "initial": "for(int i = 0;\ni < 2;\nSystem.out.println(i);\ni++\ni < 2;\nSystem.out.println(i);\ni++\ni < 2;\nfor(int i = 0; #distractor\ni < 2; #distractor\nSystem.out.println(i); #distractor\ni++ #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"can_indent\": false,\n  \"max_wrong_lines\": 2\n}",
+   "grader": "1",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/ForLoop.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ForLoop.java"
+     },
+     {
+      "type": "tutor",
+      "panelNumber": 1,
+      "content": "code/ForLoop.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2547412741",
+  "source": {
+   "name": "Printing - Reading Question 1",
+   "showName": true,
+   "instructions": "What is wrong with the code snippet below?\n```\nSystem.out.println(Hello world);\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "98269ac4-221e-99c2-a370-5bb9a7a1e43f",
+     "correct": false,
+     "answer": "Capitalize `print`"
+    },
+    {
+     "_id": "24ba2369-1319-d169-5724-ae922d7b9a84",
+     "correct": false,
+     "answer": "Use `{}` instead of `()`"
+    },
+    {
+     "_id": "d9d0f578-f0b5-9920-478b-5dedad2afc65",
+     "correct": true,
+     "answer": "Missing `\"` around `Hello world`"
+    },
+    {
+     "_id": "5b259746-35ab-8daf-e7f7-e85013da0125",
+     "correct": false,
+     "answer": "Add a `;` at the end of the line of code"
+    }
+   ],
+   "guidance": "After the print command use parentheses and quotation marks around the words to be printed.\n```\nSystem.out.print(\"Hello world\");\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundPrinting1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundPrinting1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2710921318",
+  "source": {
+   "name": "Printing - Reading Question 2",
+   "showName": true,
+   "instructions": "Which of the following commands adds a newline character?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "0f4cd3f1-1bc1-7bca-c5b7-b3ed441ad84a",
+     "correct": false,
+     "answer": "`System.out.print(\"Hello\");`"
+    },
+    {
+     "_id": "06080af5-6086-6f81-d3ba-ecc73cc8b1f6",
+     "correct": true,
+     "answer": "`System.out.println(\"Hello\");`"
+    }
+   ],
+   "guidance": "`System.out.println(\"Hello\");` inserts a new line character after `Hello` which is hard to see when you only print one line of text. However, if you print two lines like:\n```\nSystem.out.println(\"Hello\");\nSystem.out.println(\"World!\");\n```\nIt outputs:\n```\nHello\nWorld!\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/PlaygroundPrinting2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/PlaygroundPrinting2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1191669709",
+  "source": {
+   "name": "Print Statement",
+   "showName": true,
+   "instructions": "What does the `System.out.print();` or `print` statement do?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "d7d80be3-ec5a-1dd2-3dec-7f197270a0a2",
+     "correct": false,
+     "answer": "Sends your output to the printer"
+    },
+    {
+     "_id": "8c3f2936-de60-039c-ab3b-923944853e61",
+     "correct": false,
+     "answer": "Sends your output to a file"
+    },
+    {
+     "_id": "47224aaf-0efb-46b5-471b-eb90cec3cd6e",
+     "correct": true,
+     "answer": "Sends your output to the screen"
+    },
+    {
+     "_id": "9311dd34-afec-1afa-4a22-40bd88277de9",
+     "correct": false,
+     "answer": "Sends your output to the compiler"
+    }
+   ],
+   "guidance": "The `print` command sends your output to your computer's default output which is the computer console or terminal.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-2355446782",
   "source": {
@@ -7527,744 +8161,6 @@
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT Apply correct ArrayList syntax"
-  }
- },
- {
-  "type": "multiple-choice",
-  "taskId": "multiple-choice-3595242721",
-  "source": {
-   "name": "reading question what is recursion",
-   "showName": false,
-   "instructions": "## Reading Question\n\nUnder what circumstances does it make sense to use recursion?",
-   "multipleResponse": false,
-   "isRandomized": true,
-   "answers": [
-    {
-     "_id": "81216422-50cd-d838-13de-28b741a43204",
-     "correct": true,
-     "answer": "Recursion works best when the solution is self-similar"
-    },
-    {
-     "_id": "60f793b8-94ab-a3fe-4752-3cba83d874b3",
-     "correct": false,
-     "answer": "Recursion can be used at any time"
-    },
-    {
-     "_id": "ea6534c1-b38a-85c8-c259-058197516929",
-     "correct": false,
-     "answer": "Recursion is too hard; avoid it at all costs"
-    },
-    {
-     "_id": "f23fd1b7-fced-abc7-a09a-f30ff18d4ac7",
-     "correct": false,
-     "answer": "Recursion only works with mathematical concepts like factorial and the Fibonacci sequence"
-    }
-   ],
-   "guidance": "Recursion works best when the solution is self-similar. That is, when the problem is broken down into smaller parts, and the smaller parts are a variation of the large problem.",
-   "showGuidanceAfterResponse": true,
-   "showExpectedAnswer": true,
-   "points": 20,
-   "incorrectPoints": 0,
-   "arePartialPointsAllowed": false,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Multiple Choice"
-     },
-     {
-      "name": "Content",
-      "value": "When to use recursion"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/WhatIsRecursion.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/WhatIsRecursion.java"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT identify when recursion can be used"
-  }
- },
- {
-  "type": "parsons-puzzle",
-  "taskId": "parsons-puzzle-450895435",
-  "source": {
-   "name": "recursion formative assessment 1",
-   "showName": false,
-   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create a recursive function that finds the sum of `n` integers. For example, `findFum(5)` would add up the numbers 0 to 5. **Note**, not all of the blocks will be used.",
-   "initial": "public static int findSum(int n) {\n  if (n == 0) {\n    return 0;\n  } else {\n    return(n + findSum(n-1));\n  }\n}\nprint(0);  #distractor\nreturn(n - findSum(n-1));  #distractor\nreturn(n + findSum(n+1));  #distractor",
-   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
-   "grader": "1",
-   "guidance": "Start off with the function header. The next line of code is the base case `if (n == 0)`. Recursive functions return values, they do not print them. Ignore the code block that says `print(0);`, and use `return 0;`. Next is the else statement. There are two incorrect blocks for the recursive case. First, ignore the code block that says `return(n - findSum(n-1));`. The function should find the sum, but this code block is subtracting from `n`. Also, the recursive function call should move `n` closer to the base case. Since the base case is 0, `n` should get smaller. Use the code block that says, `return(n + findSum(n-1));`.",
-   "showGuidanceAfterResponse": true,
-   "points": 20,
-   "oneTimeTest": true,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Parsons Puzzle"
-     },
-     {
-      "name": "Content",
-      "value": "Create recursive function"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [],
-    "opened": []
-   },
-   "bloomsObjectiveLevel": "3",
-   "learningObjectives": "SWBAT create a recursive function to find the sum"
-  }
- },
- {
-  "type": "multiple-choice",
-  "taskId": "multiple-choice-375867482",
-  "source": {
-   "name": "formative assessment 2 recursion",
-   "showName": false,
-   "instructions": "## Formative Assessment\n\nAssume you want to write a recursive function that multiplies each element in a list by the number 5. What should the base case be?",
-   "multipleResponse": false,
-   "isRandomized": true,
-   "answers": [
-    {
-     "_id": "b6acb22b-f5f6-ca3e-68fe-1b642291654a",
-     "correct": true,
-     "answer": "When the length of the list is 1"
-    },
-    {
-     "_id": "f5830626-1466-b11c-b592-179e68f28adf",
-     "correct": false,
-     "answer": "When the length of the list is 0"
-    },
-    {
-     "_id": "73cfe0b6-a1cd-5d48-5a9f-dcd2ce42c5cb",
-     "correct": false,
-     "answer": "When the list is equal to 1"
-    },
-    {
-     "_id": "59ab9c47-9262-90d0-62d0-dfa3c151af75",
-     "correct": false,
-     "answer": "When the list is equal to 0"
-    }
-   ],
-   "guidance": "The program should keep recursing until the **length** of the list is 1. A length of 1 means there is only one element left in the list. There is no reason to keep calling the function when once the list is empty.",
-   "showGuidanceAfterResponse": true,
-   "showExpectedAnswer": true,
-   "points": 20,
-   "incorrectPoints": 0,
-   "arePartialPointsAllowed": false,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Multiple Choice"
-     },
-     {
-      "name": "Content",
-      "value": "Base Case"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [],
-    "opened": []
-   },
-   "bloomsObjectiveLevel": "3",
-   "learningObjectives": "SWBAT identify the base case for a recursive function"
-  }
- },
- {
-  "type": "multiple-choice",
-  "taskId": "multiple-choice-3931991688",
-  "source": {
-   "name": "reading question base case",
-   "showName": false,
-   "instructions": "## Reading Question\n\nWhat is the purpose of the base case in recursion?",
-   "multipleResponse": false,
-   "isRandomized": true,
-   "answers": [
-    {
-     "_id": "1d5b2d26-b0d8-4bdc-bee6-ddadb8b5db66",
-     "correct": true,
-     "answer": "When true, the base case stops the recursive calls and returns a value."
-    },
-    {
-     "_id": "0dba4997-6595-cf2a-cb02-8ee9c8bad9d7",
-     "correct": false,
-     "answer": "The base case tells the function to call itself."
-    },
-    {
-     "_id": "20f41b03-0f03-1420-6270-afa56cdfdd9d",
-     "correct": false,
-     "answer": "The base case is another name for recursion."
-    },
-    {
-     "_id": "cf1b88f7-fa8f-c989-3b6f-2020f8650e01",
-     "correct": false,
-     "answer": "The base case is the name of the recursive function."
-    }
-   ],
-   "guidance": "When true, the base case stops the recursive calls and returns a value. In the example of factorial, the base case is when `n` is less than or equal to 1. The function returns `1` and the long line of multiplication happens.",
-   "showGuidanceAfterResponse": true,
-   "showExpectedAnswer": true,
-   "points": 20,
-   "incorrectPoints": 0,
-   "arePartialPointsAllowed": false,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Multiple Choice"
-     },
-     {
-      "name": "Content",
-      "value": "Base Case"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/Fibonacci.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/Fibonacci.java"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "1",
-   "learningObjectives": "SWBAT define the base case in recursion"
-  }
- },
- {
-  "type": "multiple-choice",
-  "taskId": "multiple-choice-3183499461",
-  "source": {
-   "name": "recursion lab 1 question",
-   "showName": false,
-   "instructions": "## Lab Question\n\nLook at the code below. Select the answer that best describes why the code is problematic.\n\n```java\npublic static int recursiveFunction(num){\n    if (num < 0) {\n        return 1\n    } else {\n        return num + recursiveFunction(num)\n    }\n}\n```",
-   "multipleResponse": false,
-   "isRandomized": true,
-   "answers": [
-    {
-     "_id": "7e0b0fbd-623a-410e-38ea-04d980037bff",
-     "correct": true,
-     "answer": "When using recursion, `num` should get smaller so that the base case becomes true"
-    },
-    {
-     "_id": "80e46a90-564c-a716-88f9-fd4402506800",
-     "correct": false,
-     "answer": "There is nothing wrong with the function"
-    },
-    {
-     "_id": "21d9f794-20fa-3acb-25e0-59e030404fce",
-     "correct": false,
-     "answer": "The base case should be `if (num < 5)`"
-    },
-    {
-     "_id": "96928de2-fa95-a18a-c701-ad539e6718f0",
-     "correct": false,
-     "answer": "It should be `return num - recursiveFunction(num)`"
-    }
-   ],
-   "guidance": "```java\npublic static int recursiveFunction(num){\n    if (num < 0) {\n        return 1\n    } else {\n        return num + recursiveFunction(num)\n    }\n}\n```\n\nIn the code above, `recursiveFunction` is called with `num` staying the same value. If it never gets smaller, then `num` will never be less than 0. The function will be stuck in an infinite loop. The parameter in the recursive function should change so that the base case becomes true, e.g. `recursiveFunction(n - 1)`.",
-   "showGuidanceAfterResponse": true,
-   "showExpectedAnswer": true,
-   "points": 20,
-   "incorrectPoints": 0,
-   "arePartialPointsAllowed": false,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Multiple Choice"
-     },
-     {
-      "name": "Content",
-      "value": "Base Case"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/RecursiveTree.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/RecursiveTree.java"
-     },
-     {
-      "type": "preview",
-      "panelNumber": 1,
-      "content": "https://{{domain3000}}/"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT identify the need for a parameter to change when using recursion"
-  }
- },
- {
-  "type": "parsons-puzzle",
-  "taskId": "parsons-puzzle-2130962492",
-  "source": {
-   "name": "recursion lab 2 question",
-   "showName": false,
-   "instructions": "## Lab Question\n\nRearrange the blocks below to create a recursive function. Assume that the recursive function is called with this code:\n\n`myRecursiveFunction(15);`\n\n**Note**, not all of the code blocks will be used.",
-   "initial": "public static int myRecursiveFunction(int num){\n    if (num &lt; 0) {\n        return 1;\n    } else {\n        return num + my_recursive_function(num - 1);\n    }\n}\nprint(1); #distractor\nreturn num + my_recursive_function(num + 1);  #distractor\nprint(num + my_recursive_function(num - 1)); #distractor",
-   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
-   "grader": "1",
-   "guidance": "Recursive functions need to return values, not print them. So you can ignore the code blocks that say `print`. Since the base case is testing if `num` is less than 0 and `myRecursiveFunction` was initially called with a parameter of 15, you need to use the code block that says `return num + myRecursiveFunction(num - 1)`. The value of `num` must get to be equal to or less than 0. If not, the recursive function will become an infinite loop.\n\n```java\npublic static int myRecursiveFunction(int num){\n    if (num < 0) {\n        return 1;\n    } else {\n        return num + my_recursive_function(num - 1);\n    }\n}\n```",
-   "showGuidanceAfterResponse": true,
-   "points": 20,
-   "oneTimeTest": true,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Parsons Puzzle"
-     },
-     {
-      "name": "Content",
-      "value": "Create a recursive function"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/Hilbert.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/Hilbert.java"
-     },
-     {
-      "type": "preview",
-      "panelNumber": 1,
-      "content": "https://{{domain3000}}/"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT construct a recursive function"
-  }
- },
- {
-  "type": "multiple-choice",
-  "taskId": "multiple-choice-3127395084",
-  "source": {
-   "name": "recursion lab 3 question",
-   "showName": false,
-   "instructions": "## Lab Question\n\nWhat is the relationship between the `drawTriangle` method and the `sierpinski` method?",
-   "multipleResponse": false,
-   "isRandomized": true,
-   "answers": [
-    {
-     "_id": "5ab5a81c-b4a0-0862-ba05-d025da747a82",
-     "correct": true,
-     "answer": "`drawTriangle` is a helper method for `sierpinski`"
-    },
-    {
-     "_id": "bb44cccb-87e0-75bd-2b7d-d8f578e3da3f",
-     "correct": false,
-     "answer": "`sierpinski` is a helper method for `drawtriangle`"
-    },
-    {
-     "_id": "8d725659-d507-7337-bc56-a312fbacb4f8",
-     "correct": false,
-     "answer": "`drawtriangle` is declared inside `sierpinski`"
-    },
-    {
-     "_id": "fd8e67fd-c25d-33f6-d4c1-a310c94dc523",
-     "correct": false,
-     "answer": "`drawTriangle` is called as a parameter for the `sierpinski` method"
-    }
-   ],
-   "guidance": "`drawTriangle` is a helper method for `sierpinski` because the `sierpinski` method calls `drawTriangle`.",
-   "showGuidanceAfterResponse": true,
-   "showExpectedAnswer": true,
-   "points": 20,
-   "incorrectPoints": 0,
-   "arePartialPointsAllowed": false,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Multiple Choice"
-     },
-     {
-      "name": "Content",
-      "value": "Helper Functions"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Functions"
-     }
-    ],
-    "files": [
-     "code/recursion/Sierpinski.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/Sierpinski.java"
-     },
-     {
-      "type": "preview",
-      "panelNumber": 1,
-      "content": "https://{{domain3000}}/"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT identify a helper function"
-  }
- },
- {
-  "type": "test",
-  "taskId": "test-2039919375",
-  "source": {
-   "name": "lab challenge unit test",
-   "showName": false,
-   "instructions": "Submit your code when ready. **Do not** alter the code on line 5; this is needed for the evaluation.",
-   "command": "python .guides/secure/recursion/lab_challenge_test.py",
-   "arePartialPointsAllowed": true,
-   "timeoutSeconds": 300,
-   "guidance": "The recursive pattern is to multiply the base by `recursivePower` with the exponent decreased by one. The base case is when the exponent is 0. In this case, return 1. Here is one possible solution:\n\n```java\npublic class LabChallenge {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    System.out.println(recursivePower(Integer.parseInt(args[0]), Integer.parseInt(args[1])));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int recursivePower(int base, int exponent) {\n    if (exponent == 0) {\n      return 1;\n    } else {\n      return base * recursivePower(base, exponent - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
-   "showGuidanceAfterResponse": true,
-   "points": 20,
-   "oneTimeTest": true,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Advanced Code Test"
-     },
-     {
-      "name": "Content",
-      "value": "Create Recursive Method"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/LabChallenge.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/LabChallenge.java"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "SWBAT create a recursive method to calculate a number raised to a power"
-  }
- },
- {
-  "type": "test",
-  "taskId": "test-4045561410",
-  "source": {
-   "name": "recursion coding exercise 1",
-   "showName": false,
-   "instructions": "Submit your code when ready. **Do not** alter the code on line 5; this is needed for the evaluation.",
-   "command": "python .guides/secure/recursion/exercise1_test.py",
-   "arePartialPointsAllowed": true,
-   "timeoutSeconds": 300,
-   "guidance": "The recursive pattern is to take the `num` passed as a parameter and add it to `recursiveSum` with the number minus 1. The base case is when the number passed is 0. `recursiveSum` should return 0 when the parameter is 0. Here is a solution to the problem:\n\n```java\npublic class Exercise1 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    System.out.println(recursiveSum(Integer.parseInt(args[0])));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int recursiveSum(int n) {\n    if (n == 0) {\n      return 0;\n    } else {\n      return n + recursiveSum(n - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
-   "showGuidanceAfterResponse": true,
-   "points": 20,
-   "oneTimeTest": true,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Advanced Code Test"
-     },
-     {
-      "name": "Content",
-      "value": "Create Recursive Method"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/Exercise1.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/Exercise1.java"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "SWBAT create a recursive method that find the sum for all numbers 0 to the original parameter"
-  }
- },
- {
-  "type": "test",
-  "taskId": "test-737721285",
-  "source": {
-   "name": "recursion coding exercise 2",
-   "showName": false,
-   "instructions": "Submit your code when ready. Do not alter the code on lines 7 to 11; this is needed for the evaluation.",
-   "command": "python .guides/secure/recursion/exercise2_test.py",
-   "arePartialPointsAllowed": true,
-   "timeoutSeconds": 40,
-   "guidance": "The recursive pattern is to take the first item from the list and add it to the `listSum` of the original list from element 1 to the end of the list. The base case is when the list has just one element in it; return this last element. Here is a possible solution:\n\n```java\nimport java.util.Arrays;\n\npublic class Exercise2 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    int[] nums = new int[args.length];\n    for (int i = 0; i < args.length; i++) {\n      nums[i] = Integer.parseInt(args[i]);\n    }\n    System.out.println(listSum(nums));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int listSum(int[] nums) {\n    if (nums.length == 1) {\n      return nums[0];\n    } else {\n      int lastIndex = nums.length;\n      int tail[] = Arrays.copyOfRange(nums, 1, lastIndex);\n      return nums[0] + listSum(tail);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
-   "showGuidanceAfterResponse": true,
-   "points": 20,
-   "oneTimeTest": true,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Advanced Code Test"
-     },
-     {
-      "name": "Content",
-      "value": "List"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/Exercise2.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/Exercise2.java"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "SWBAT create a recursive function to calculate the sum of a list"
-  }
- },
- {
-  "type": "test",
-  "taskId": "test-639952948",
-  "source": {
-   "name": "recursion coding exercise 3",
-   "showName": false,
-   "instructions": "Submit your code when ready. **Do not** alter the code on line 5; this is needed for the evaluation.",
-   "command": "python .guides/secure/recursion/exercise3_test.py",
-   "arePartialPointsAllowed": true,
-   "timeoutSeconds": 40,
-   "guidance": "The problem is asking you to perform multiplication between 2 and the number of bunnies. The recursive pattern is adding 2 then calling `bunnyEars` with the number of bunnies minus 1. The base case is when the number of bunnies is 0. Here is a possible solution:\n\n```java\npublic class Exercise3 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    System.out.println(bunnyEars(Integer.parseInt(args[0])));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int bunnyEars(int n) {\n    if (n == 0) {\n      return 0;\n    } else {\n      return 2 + bunnyEars(n - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
-   "showGuidanceAfterResponse": true,
-   "points": 20,
-   "oneTimeTest": true,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Advanced Code Test"
-     },
-     {
-      "name": "Content",
-      "value": "Perform multiplication recursively with addition"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/Exercise3.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/Exercise3.java"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "SWBAT create a recursive function that calculates the product of 2 and another number"
-  }
- },
- {
-  "type": "test",
-  "taskId": "test-2513534229",
-  "source": {
-   "name": "recursion coding exercise 4",
-   "showName": false,
-   "instructions": "Submit your code when ready. **Do not** alter the code on line 5; this is needed for the evaluation.",
-   "command": "python .guides/secure/recursion/exercise4_test.py",
-   "arePartialPointsAllowed": true,
-   "timeoutSeconds": 40,
-   "guidance": "The recursive pattern is to take the last character from the string pass (`s.substring(s.length() - 1`) and concatenate it with the `reverseString` using the string minus the last character. This is done with `s.substring(0, s.length() - 1)`. The base case is when the length of the string is 1, then you return the string. Here is one possible solution:\n\n```java\npublic class Exercise4 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    System.out.println(reverseString(args[0]));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static String reverseString(String s) {\n    if (s.length() == 1) {\n      return s;\n    } else {\n      return s.substring(s.length() - 1) + reverseString(s.substring(0, s.length() - 1));\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
-   "showGuidanceAfterResponse": true,
-   "points": 20,
-   "oneTimeTest": true,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Advanced Code Test"
-     },
-     {
-      "name": "Content",
-      "value": "Strings"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/Exercise4.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/Exercise4.java"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "SWBAT recursively reverse a string"
-  }
- },
- {
-  "type": "test",
-  "taskId": "test-2073587953",
-  "source": {
-   "name": "recursion coding exercise 5",
-   "showName": false,
-   "instructions": "Submit your code when ready. **Do not** alter the code on lines 7 to 11; this is needed for the evaluation.",
-   "command": "python .guides/secure/recursion/exercise5_test.py",
-   "arePartialPointsAllowed": true,
-   "timeoutSeconds": 40,
-   "guidance": "The recursive pattern is to select the largest value between the first number in the array and `getMax` which takes the rest of the array. The base case is when the array only has one number in it. In this case, return the number in the array. Here is one example of the solution:\n\n```java\nimport java.util.Arrays;\n\npublic class Exercise5 {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    int[] nums = new int[args.length];\n    for (int i = 0; i < args.length; i++) {\n      nums[i] = Integer.parseInt(args[i]);\n    }\n    System.out.println(getMax(nums));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int getMax (int[] nums) {\n    if (nums.length == 1) {\n      return nums[0];\n    } else {\n      int lastIndex = nums.length;\n      int tail[] = Arrays.copyOfRange(nums, 1, lastIndex);\n      return Math.max(nums[0], getMax(tail));\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
-   "showGuidanceAfterResponse": true,
-   "points": 20,
-   "oneTimeTest": true,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Advanced Code Test"
-     },
-     {
-      "name": "Content",
-      "value": "Arrays"
-     },
-     {
-      "name": "Programming Language",
-      "value": "Java"
-     },
-     {
-      "name": "Category",
-      "value": "Recursion"
-     }
-    ],
-    "files": [
-     "code/recursion/Exercise5.java"
-    ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/recursion/Exercise5.java"
-     }
-    ]
-   },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "SWBAT create a recursive function to find the largest number in an array"
   }
  }
 ]
