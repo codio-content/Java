@@ -1,80 +1,59 @@
 ## Global Scope - Referencing Variables
 
-When a variable is declared inside a function, it has local scope. When a variable is declared in the main program, it has global scope. Global variables are declared outside of functions, but can be referenced inside a function.
+When a variable is declared inside a method, it has local scope. When a variable is declared in the main program within **class**, it has global scope. Global variables are declared outside of methods, but can be referenced inside a method. Look at the image below. The yellow block holds everything within the program including the variable `greeting`. This enables all methods within the program to access that variable since it is considered to be **global**. Copy and paste the code below and then click `TRY IT`.
 
-![Global Scope 1](.guides/images/global-scope1.png)
+![.guides/img/GlobalScope](.guides/img/GlobalScope.png)
 
-```python
-greeting = "Hello"
+```java
+static String greeting = "Hello";
 
-def say_hello():
-    """Print a greeting"""
-    print(greeting)
+public static void sayHello() {
+  System.out.println(greeting);
+}
 
-say_hello()
+public static void main(String args[]) {
+  sayHello();
+}
 ```
 
-{try it}(python3 code/functions/global-scope.py 1)
+{Try it}(sh .guides/bg.sh javac code/methods/Global.java java -cp code/methods/ Global 1)
 
-There is a dotted line around the function because there are limitations on what can be done to global variables. 
+Notice how the keyword `static` is used. This is due to the fact that both the `sayHello()` and `main()` method are `static` methods. Only **static** variables can be accessed by static methods.
 
 |||challenge
 ## What happens if you:
-* Modify `greeting` inside the function:
-```python
-greeting = "Hello"
-
-def say_hello():
-    """Print a greeting"""
-    greeting = "Bonjour"
-    print(greeting)
-
-say_hello()
-print(greeting)
-```
+* Remove the keyword `static` from `static String greeting = "Hello";`?
 
 |||
 
-{try it}(python3 code/functions/global-scope.py 2)
+{Try it}(sh .guides/bg.sh javac code/methods/Global.java java -cp code/methods/ Global 2)
 
 
 ## Global Scope - Modifying Variables
 
-The suggestion above asked you to try and modify `greeting` inside the function. However, the output of the program did not change the value of the original `greeting`. Be default, you can reference a global variable in a function, but you cannot modify it. The `global` keyword allows you to modify global variables inside a function. In the image below, there is no more dotted line around the function. `global` removes the restriction for modifying `greeting`. That is why the output is `Bonjour` and `Bonjour`.
+Once a global variable (whether static or not) becomes available, a method can modify the content of that variable as needed.
 
-![Global Scope 2](.guides/images/global-scope2.png)
+```java
+static String greeting = "Hello";
 
-```python
-greeting = "Hello"
+public static void sayHello() {
+  greeting = "Bonjour";
+  System.out.println(greeting);
+}
 
-def say_hello():
-    """Demonstrate how to use the global keyword"""
-    global greeting
-    greeting = "Bonjour"
-    print(greeting)
-
-say_hello()
-print(greeting)
+public static void main(String args[]) {
+  sayHello();
+}
 ```
 
-{try it}(python3 code/functions/global-scope.py 3)
+{Try it}(sh .guides/bg.sh javac code/methods/Global.java java -cp code/methods/ Global 3)
 
 |||challenge
 ## What happens if you:
-* Make the code look like this:
-```python
-def say_hello():
-    """Demonstrate how to use the global keyword"""
-    global greeting
-    greeting = "Bonjour"
-    print(greeting)
-
-say_hello()
-print(greeting)
-```
-* Flip the order of `say_hello()` and `print(greeting)`, and run the program again?
+* Change `greeting = "Bonjour";` within `sayHello()` to `greeting = "Hola";`?
 
 |||
 
-{try it}(python3 code/functions/global-scope.py 4)
+{Try it}(sh .guides/bg.sh javac code/methods/Global.java java -cp code/methods/ Global 4)
 
+{Check It!|assessment}(multiple-choice-3527686902)

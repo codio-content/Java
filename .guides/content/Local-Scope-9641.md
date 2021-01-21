@@ -2,70 +2,82 @@
 
 ## Local Scope
 
-Take a look at the code below. The first function declares the variable `my_var` and then prints it. The second function also prints `my_var`. What do you think the output will be?
+Take a look at the code below. The first method declares the variable `myVar` and then prints it. The second method also prints `myVar`. What do you think the output will be?
 
-```python
-def function_1():
-    my_var = "Hello"
-    print(my_var)
-    
-def function_2():
-    print(my_var)
-    
-function_1()
-function_2()
+```java
+public static void myMethod1() {
+  String myVar = "Hello";
+  System.out.println(myVar);
+}
+
+public static void myMethod2() {
+  System.out.println(myVar);
+}
+
+public static void main(String args[]) {
+  myMethod1();
+  myMethod2();
+}
 ```
 
-{try it}(python3 code/functions/local-scope.py 1)
+{Try it}(sh .guides/bg.sh javac code/methods/Local.java java -cp code/methods/ Local 1)
 
-Python says the problem is that `my_var` is not defined even though the variable is defined on line 3. Variables declared inside a function have local scope. That means `my_var` only "exists" in `function_1`, it cannot be referenced outside of its function. In the image below, light blue box represents the scope of `my_var`. Since `function_2` is outside the scope of `my_var` an error occurs.
+Java returns an error such as `error: cannot find symbol` at the line containing `System.out.println(myVar);` within the second method. This happens because variables declared inside a method have **local** scope. Variables with local scope can **only** be used within that method. Outside of that method, those local variables cannot be accessed. In the image below, the light blue box represents the scope of `myVar`. Since `myMethod2` (denoted in a light red box) is outside the scope of `my_var`, an error occurs.
 
-![Local Scope](.guides/images/local-scope.png)
+![.guides/img/LocalScope](.guides/img/LocalScope.png)
 
 |||challenge
 ## What happens if you:
-* Change `function_2` to look like this:
-```python
-def function_2():
-    my_var2 = "Hello"
-    print(my_var2)
+* Change `myMethod2` to look like this:
+```java
+public static void myMethod2() {
+  String myVar2 = "Hello";
+  System.out.println(myVar2);
+}
 ```
 
 |||
 
-{try it}(python3 code/functions/local-scope.py 2)
+{Try it}(sh .guides/bg.sh javac code/methods/Local.java java -cp code/methods/ Local 2)
 
 ## More Local Scope
 
-Each function has its own local scope. That means you can declare two variables with the same name as long as they are in separate functions. The red `my_var` exists only in the light red box, and the blue `my_var` exists only in the light blue box. The boundaries of local scope keep Python from overwriting the value of the first variable with the contents of the second.
+Each method has its own local scope. That means you can declare two variables with the same name as long as they are in separate methods. The blue `myVar` exists only in the light blue box, and the red `myVar` exists only in the light red box. The boundaries of local scope keep Java from overwriting the value of the first variable with the contents of the second.
 
-![Local Scope](.guides/images/local-scope2.png)
+![.guides/img/LocalScope2](.guides/img/LocalScope2.png)
 
-```python
-def function_1():
-    my_var = "Hello"
-    print(my_var)
-    
-def function_2():
-    my_var = "Bonjour"
-    print(my_var)
-    
-function_1()
-function_2()
+```java
+public static void myMethod1() {
+  String myVar = "Hello";
+  System.out.println(myVar);
+}
+
+public static void myMethod2() {
+  String myVar = "Bonjour";
+  System.out.println(myVar);
+}
+
+public static void main(String args[]) {
+  myMethod1();
+  myMethod2();
+}
 ```
 
-{try it}(python3 code/functions/local-scope.py 3)
+{Try it}(sh .guides/bg.sh javac code/methods/Local.java java -cp code/methods/ Local 3)
 
 |||challenge
 ## What happens if you:
-* Declare and call `function_3`:
-```python
-def function_3():
-    my_var = "Hola"
-    print(my_var)
+* Declare `myMethod3()` as:
+```java
+public static void myMethod3() {
+  String myVar = "Hola";
+  System.out.println(myVar);
+}
 ```
+and call it by including `myMethod3();` within the `main()` method.
 
 |||
 
-{try it}(python3 code/functions/local-scope.py 4)
+{Try it}(sh .guides/bg.sh javac code/methods/Local.java java -cp code/methods/ Local 4)
 
+{Check It!|assessment}(fill-in-the-blanks-2523601916)

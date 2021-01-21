@@ -2,7 +2,7 @@
 
 ## The Return Keyword
 
-Every function in Python returns a value. Think of the `len` function. This function returns the length (an int) of either a string or list. So the return value of `len` is of type int. `len` does not print anything to the screen, it just returns a number. From here on out, functions will no longer use the print statement. Instead, functions will return a value — use the `return` keyword in place of `print`.
+Rather than **printing** data, methods can also **return** data. Think of the `length()` method. This method returns the length (an int) of either a string or list. So the return value of `len` is of type int. `len` does not print anything to the screen, it just returns a number. From here on out, methods will no longer use the print statement. Instead, methods will return a value — use the `return` keyword in place of `print`.
 
 ```python
 def add_five(num):
@@ -14,7 +14,7 @@ add_five(10)
 
 {try it}(python3 code/functions/returning-values.py 1)
 
-The program no longer prints anything to the screen. That is because the function only adds 5 to whatever parameter is passed to the function, and back the function returns this value to the program. Explicitly tell Python to print the return value of the function.
+The program no longer prints anything to the screen. That is because the method only adds 5 to whatever parameter is passed to the method, and back the method returns this value to the program. Explicitly tell Python to print the return value of the method.
 
 ```python
 def add_five(num):
@@ -36,8 +36,8 @@ print(new_number)
 {try it}(python3 code/functions/returning-values.py 3)
 
 <details>
-  <summary><strong>What is the return value for functions that use <code>print</code>?</strong></summary>
-  If every function in Python has a return value, what is the return value for functions that use <code>print</code>? The keyword <code>return</code> is not used, so you cannot see if it returns a string, a float, a list, etc. Functions that use <code>print</code> instead of <code>return</code> have a special return value called <code>NoneType</code>. Enter the code below to see the return type of the print statement as compared to the return value of the <code>len</code> function.
+  <summary><strong>What is the return value for methods that use <code>print</code>?</strong></summary>
+  If every method in Python has a return value, what is the return value for methods that use <code>print</code>? The keyword <code>return</code> is not used, so you cannot see if it returns a string, a float, a list, etc. Methods that use <code>print</code> instead of <code>return</code> have a special return value called <code>NoneType</code>. Enter the code below to see the return type of the print statement as compared to the return value of the <code>len</code> method.
   
   ```python
   def print_hello():
@@ -52,7 +52,7 @@ print(new_number)
 
 ## Returning Values
 
-Functions can return any value in Python — ints, floats, strings, lists, etc.
+Methods can return any value in Python — ints, floats, strings, lists, etc.
 
 ```python
 def return_int(num1, num2):
@@ -75,7 +75,7 @@ print(return_string(" friend"))
 {try it}(python3 code/functions/returning-values.py 4)
 
 |||challenge
-## Can you write a function that returns a list?
+## Can you write a method that returns a list?
 If you want to return a list, it is a good idea to have a list be passed as a parameter. Modify the list in some way, and then return it to the program.
 <details>
   <summary><strong>One possible solution</strong></summary>

@@ -3788,7 +3788,13 @@
   {
    "id": "5707c8eb-d96f-c48e-ae09-c3a4d1857fb7",
    "title": "Learning Objectives: Method Basics",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Method-Basics-5707.md",
@@ -3800,7 +3806,13 @@
   {
    "id": "9033daee-c51f-b181-4293-9d9093043b31",
    "title": "Method Definition",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Method-Definition-9033.md",
@@ -3810,12 +3822,23 @@
    "learningObjectives": ""
   },
   {
-   "id": "739738d6-4ebc-5ec0-9b5f-8d40e869d0c6",
-   "title": "Methods and Whitespace",
-   "files": [],
+   "id": "82eda0f8-f141-92c6-8192-d8d26c11a79c",
+   "title": "Method Calls",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/MethodCall.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Methods-and-Whitespace-7397.md",
+   "content-file": ".guides/content/Method-Calls-82ed.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3823,23 +3846,22 @@
   },
   {
    "id": "ddafa977-3a2f-4b90-2e81-8547740af6d6",
-   "title": "Docstring",
-   "files": [],
+   "title": "Javadoc",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Javadoc.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Docstring-ddaf.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "98f4466e-8578-9c54-231e-c6541f41d105",
-   "title": "When to Use a Method",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/When-to-Use-a-Method-98f4.md",
+   "content-file": ".guides/content/Javadoc-ddaf.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3848,7 +3870,13 @@
   {
    "id": "22b8db93-f6ce-e129-e53c-ae41d1d0ec63",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-22b8.md",
@@ -3860,7 +3888,13 @@
   {
    "id": "649289da-c92c-de74-1ab8-fe46d61037fa",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-6492.md",
@@ -3872,7 +3906,13 @@
   {
    "id": "e1a39a3b-d232-c49f-1825-2a26fbdfabd9",
    "title": "Learning Objectives: Parameters",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Parameters-e1a3.md",
@@ -3884,7 +3924,18 @@
   {
    "id": "52386be5-9da6-cd33-2cee-d9c08ab0ae20",
    "title": "Passing Parameters",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Parameters.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Passing-Parameters-5238.md",
@@ -3894,21 +3945,20 @@
    "learningObjectives": ""
   },
   {
-   "id": "3548d9e3-0aa7-46e5-ddc1-5de40a778b55",
-   "title": "Parameter Values",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Parameter-Values-3548.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
    "id": "2ba49925-06f8-894e-f07e-4b375764de9b",
    "title": "Checking Parameters",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/CheckParameters.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Checking-Parameters-2ba4.md",
@@ -3919,11 +3969,45 @@
   },
   {
    "id": "d0d8a7a8-6f69-2c9e-5fbb-62aa7d5e6842",
-   "title": "Parameters: Advanced Topics",
-   "files": [],
+   "title": "Parameter Types",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/ParameterTypes.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Parameters--Advanced-Topics-d0d8.md",
+   "content-file": ".guides/content/Parameter-Types-d0d8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "98f4466e-8578-9c54-231e-c6541f41d105",
+   "title": "Alternative Parameters",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/AltParameters.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Alternative-Parameters-98f4.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3932,7 +4016,13 @@
   {
    "id": "e958b385-8eda-f8c3-1b12-c0808e30fd6d",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-e958.md",
@@ -3944,7 +4034,13 @@
   {
    "id": "cea6032a-fe5b-aa2f-47e1-d1bbd2206ac7",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-cea6.md",
@@ -3956,7 +4052,13 @@
   {
    "id": "d0558580-9852-590e-36bc-8c597dc93838",
    "title": "Learning Objectives: Variable Scope",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Variable-Scope-d055.md",
@@ -3968,7 +4070,18 @@
   {
    "id": "96413a67-ebba-1ca2-898d-a1c7df302540",
    "title": "Local Scope",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Local.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Local-Scope-9641.md",
@@ -3980,7 +4093,18 @@
   {
    "id": "7c744c39-4ad9-152a-94f4-9f86aa32eb08",
    "title": "Global Scope",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Global.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Global-Scope-7c74.md",
@@ -3992,7 +4116,18 @@
   {
    "id": "bf8ee061-32b7-b594-276d-69b96318104c",
    "title": "Global vs. Local Scope",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/LocalGlobal.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Global-vs--Local-Scope-bf8e.md",
@@ -4050,6 +4185,30 @@
    "learningObjectives": ""
   },
   {
+   "id": "52c900f0-5eb8-2d20-4608-bc1d3bfdf938",
+   "title": "Helper Methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Helper-Methods-52c9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "da43d3df-e868-6b40-8c3f-88f7fb58e01c",
+   "title": "Method Composition",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Method-Composition-da43.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "6f0e6d06-b66b-b79a-ad14-967be96c49ea",
    "title": "Side Effects",
    "files": [],
@@ -4080,78 +4239,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-e095.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "667b1eac-da5d-9fe1-f13c-86aed17716fd",
-   "title": "Learning Objectives: Advanced Topics",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives--Advanced-Topics-667b.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "52c900f0-5eb8-2d20-4608-bc1d3bfdf938",
-   "title": "Helper Functions",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Helper-Functions-52c9.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "da43d3df-e868-6b40-8c3f-88f7fb58e01c",
-   "title": "Function Composition",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Function-Composition-da43.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "813d63d3-1ba2-0cb3-55a4-d5ab4405e60b",
-   "title": "Modularity",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Modularity-813d.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "194e4f92-7626-aea9-c44b-f7c33cc49489",
-   "title": "Formative Assessment 1",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-194e.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "de44db71-74a4-625a-63f9-3dbdf848c762",
-   "title": "Formative Assessment 2",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-de44.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

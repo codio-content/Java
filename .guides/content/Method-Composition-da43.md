@@ -4,8 +4,6 @@
 
 Function composition is similar to helper functions in that two or more functions are used together to complete a larger task. However, function composition is a specific way in which functions are combined. Instead of calling the helper function from within another function, the helper function is called as a parameter of the function it is helping.
 
-![Function Composition](.guides/images/function-composition.png)
-
 It is important to note that the function definition for `area` **does not** take a function as a parameter. It expects a value (the radius of the circle). There is an order of operation for function composition. The `radius` function is executed first, and then the value it returns is passed to the `area` function.
 
 ```python
