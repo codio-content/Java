@@ -1,7 +1,10 @@
 [
  {
-  "taskId": "test-2073587953",
+  "taskId": "multiple-choice-1223430986",
   "points": 0,
+  "state": {
+   "active": null
+  },
   "results": []
  }
 ]
