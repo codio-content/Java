@@ -1604,18 +1604,6 @@
        "id": "4b86269c-d3d4-4c86-a606-9f211f32e8b0",
        "type": "page",
        "pageId": "52c900f0-5eb8-2d20-4608-bc1d3bfdf938"
-      },
-      {
-       "title": "Method Composition",
-       "id": "9aca6681-2250-0d62-b79e-32154aa98c6f",
-       "type": "page",
-       "pageId": "da43d3df-e868-6b40-8c3f-88f7fb58e01c"
-      },
-      {
-       "title": "Side Effects",
-       "id": "fed81f9e-b766-cb52-61f3-51560fecdd02",
-       "type": "page",
-       "pageId": "6f0e6d06-b66b-b79a-ad14-967be96c49ea"
       }
      ]
     },
@@ -1644,37 +1632,31 @@
      "type": "section",
      "children": [
       {
-       "title": "Lab 1",
+       "title": "Lab: Parameters",
        "id": "be5c7fe9-5ddf-9fa8-df7f-88d9977c0e57",
        "type": "page",
        "pageId": "78dda7a4-d979-3404-68b3-65beb50ec59b"
       },
       {
-       "title": "Lab 2",
+       "title": "Lab: Variable Scope",
        "id": "184d0ca5-1b62-8e06-3fdb-2eee711c5448",
        "type": "page",
        "pageId": "1306cb1b-4f11-4969-9496-5839fa3d391c"
       },
       {
-       "title": "Lab 3",
+       "title": "Lab: Return Values",
        "id": "8273c3fe-e0d4-d96a-98ce-4e52883b4162",
        "type": "page",
        "pageId": "8bb4966e-4623-a5fd-beac-820b306f70e6"
       },
       {
-       "title": "Lab 4",
-       "id": "f4c0af67-fa1d-0e01-e599-6287a8e53150",
+       "title": "Lab: Helper Methods",
+       "id": "02ae6377-4433-6470-3e7f-c38a6ed7f4ec",
        "type": "page",
-       "pageId": "e54b9357-5c90-21b1-3dd9-e22cb0948621"
+       "pageId": "a8d73611-2e1e-ab52-c3e2-3e1038531be6"
       },
       {
-       "title": "Lab 5",
-       "id": "0de9de7e-be4b-b9d9-57ec-654a6c18dfb6",
-       "type": "page",
-       "pageId": "2e425131-6104-b356-9115-b738591584f9"
-      },
-      {
-       "title": "Lab Challenge",
+       "title": "Lab Challenge: Design Your Own Method",
        "id": "9b2ca2cc-db8e-31fd-4625-90ec82757978",
        "type": "page",
        "pageId": "73f9a0d3-a8f8-0005-0d14-c73681ca6228"

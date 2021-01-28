@@ -1,16 +1,47 @@
-----------
+---
 
-## Functions Exercise 4
+## Methods Exercise 4
 
-**Problem**
-Write a function called `best_team` that takes a csv file as a parameter. Read the comma-delimited CSV file specified by the variable `mlb_data`. The CSV file has a list of all of the MLB teams and their performance from the 2019 season. The function should return the team name for the team with the most wins. **Important**, the CSV file has a header of `Tm,Lg,G,W,L`, which stands for team name, league, games played, wins, and losses. Below are the file name and file path variables you will need for this exercise.
+Write a method called `isPalindrome()` that takes a **string** as a parameter. If the string is a palindrome (a word that is spelled the same forward and backward), then the method will return a **boolean** of `true`. If the string is not a palindrome, then `false` is returned. Note that **capitalization** matters. For example, `"Level"` would not be considered a palindrome because uppercase `"L"` and lowercase `"l"` are not the same.
 
-```python
-mlb_data = "student_folder/.exercises/mlb_data.csv"
+**Existing Code:**
+```java
+import java.util.*;
+
+public class Exercise4 {
+  
+  //add code below this line
+
+
+
+  //add code above this line
+  
+  public static void main(String args[]) {
+    String x = args[0];
+    System.out.println(isPalindrome(x));
+  }
+  
+}
 ```
 
-**Expected Output**
-The function call should look like this, `best_team(file)`, and the function should return `HOU`. However, your function will be tested with other CSV files in which different teams will have the highest win total.
+<details><summary><b>Hint</b></summary>Consider creating a new empty string and populating it with characters of the specified string in reverse order. Then check the two strings for equality. Remember that the method should return a boolean, therefore, you should declare a boolean variable and have that boolean change based on certain conditions. Then return that variable.</details><br>
 
-{try it}(python3 code/functions/exercise4.py)
+### Requirements
+* You **should not** make any changes to the code that already exists. If you accidentally delete any existing code, you can copy and paste the entire program from above.
+* You can use **any** number of methods, loops, and/or conditionals to produce the desired output.
 
+### Compile and test your code with a few different values
+
+{Compile and test with uppercase "Level"}(sh .guides/methods/exercise4.sh Level)
+<details><summary><b>Expected Output</b></summary><code>false</code></details><br>
+
+{Compile and test with lowercase "anna"}(sh .guides/methods/exercise4.sh anna)
+<details><summary><b>Expected Output</b></summary><code>true</code></details><br>
+
+{Compile and test with "022220"}(sh .guides/methods/exercise4.sh 022220)
+<details><summary><b>Expected Output</b></summary><code>true</code></details><br>
+
+{Compile and test with "10"}(sh .guides/methods/exercise4.sh 10)
+<details><summary><b>Expected Output</b></summary><code>false</code></details><br>
+
+{Check It!|assessment}(test-260794075)

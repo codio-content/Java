@@ -4139,7 +4139,13 @@
   {
    "id": "8abfc36b-e16c-31b5-2388-66e40354d578",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-8abf.md",
@@ -4151,7 +4157,13 @@
   {
    "id": "30d55795-41bd-89e4-646a-c594e4185aba",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-30d5.md",
@@ -4163,7 +4175,13 @@
   {
    "id": "01090fee-ee2e-4a86-ac66-523771b0cb68",
    "title": "Learning Objectives: Returning Values",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Returning-Values-0109.md",
@@ -4175,7 +4193,18 @@
   {
    "id": "0f55c750-d04e-5740-416a-27f9303547be",
    "title": "Returning Values",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Return.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Returning-Values-0f55.md",
@@ -4187,7 +4216,18 @@
   {
    "id": "52c900f0-5eb8-2d20-4608-bc1d3bfdf938",
    "title": "Helper Methods",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/HelperMethods.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Helper-Methods-52c9.md",
@@ -4197,33 +4237,15 @@
    "learningObjectives": ""
   },
   {
-   "id": "da43d3df-e868-6b40-8c3f-88f7fb58e01c",
-   "title": "Method Composition",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Method-Composition-da43.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "6f0e6d06-b66b-b79a-ad14-967be96c49ea",
-   "title": "Side Effects",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Side-Effects-6f0e.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
    "id": "b381edd0-0ded-3524-bb26-c665cc451bbf",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-b381.md",
@@ -4235,7 +4257,13 @@
   {
    "id": "e095536d-14b9-2411-ccca-3f02e7036362",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-e095.md",
@@ -4246,11 +4274,22 @@
   },
   {
    "id": "78dda7a4-d979-3404-68b3-65beb50ec59b",
-   "title": "Lab 1",
-   "files": [],
+   "title": "Lab: Parameters",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/LabParameters.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-1-78dd.md",
+   "content-file": ".guides/content/Lab--Parameters-78dd.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4258,11 +4297,27 @@
   },
   {
    "id": "1306cb1b-4f11-4969-9496-5839fa3d391c",
-   "title": "Lab 2",
-   "files": [],
+   "title": "Lab: Variable Scope",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/LabScope.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-2-1306.md",
+   "content-file": ".guides/content/Lab--Variable-Scope-1306.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4270,35 +4325,55 @@
   },
   {
    "id": "8bb4966e-4623-a5fd-beac-820b306f70e6",
-   "title": "Lab 3",
-   "files": [],
+   "title": "Lab: Return Values",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/LabReturn.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-3-8bb4.md",
+   "content-file": ".guides/content/Lab--Return-Values-8bb4.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "e54b9357-5c90-21b1-3dd9-e22cb0948621",
-   "title": "Lab 4",
-   "files": [],
+   "id": "a8d73611-2e1e-ab52-c3e2-3e1038531be6",
+   "title": "Lab: Helper Methods",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/LabHelperMethods.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-4-e54b.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "2e425131-6104-b356-9115-b738591584f9",
-   "title": "Lab 5",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab-5-2e42.md",
+   "content-file": ".guides/content/Lab--Helper-Methods-a8d7.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4306,11 +4381,22 @@
   },
   {
    "id": "73f9a0d3-a8f8-0005-0d14-c73681ca6228",
-   "title": "Lab Challenge",
-   "files": [],
+   "title": "Lab Challenge: Design Your Own Method",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/LabChallenge.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-Challenge-73f9.md",
+   "content-file": ".guides/content/Lab-Challenge--Design-Your-Own-Method-73f9.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4319,7 +4405,18 @@
   {
    "id": "63c5eb23-b0d4-1a88-9044-18582f578da0",
    "title": "Exercise 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Exercise1.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-63c5.md",
@@ -4331,7 +4428,18 @@
   {
    "id": "c98988f1-3e02-2a96-fd44-69915f0e7f53",
    "title": "Exercise 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Exercise2.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-c989.md",
@@ -4343,7 +4451,18 @@
   {
    "id": "ab25fee4-3e1b-2993-626b-7305961d64c0",
    "title": "Exercise 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Exercise3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-ab25.md",
@@ -4355,7 +4474,18 @@
   {
    "id": "bd8d28dd-5b08-4279-5949-d1fa7b279bc7",
    "title": "Exercise 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Exercise4.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-4-bd8d.md",
@@ -4367,7 +4497,18 @@
   {
    "id": "c8f3487f-56e0-4ed7-8330-c4a5fb56ec41",
    "title": "Exercise 5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/methods/Exercise5.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-c8f3.md",

@@ -2,7 +2,7 @@
 * ### Identify which value is assigned to each parameter
 * ### Catch exceptions with a try catch block
 * ### Define methods with the same name but different parameters
-* ### Demonstrate how to declare a method with an array and ArrayList as parameters
+* ### Demonstrate how to declare a method with an array and ArrayList as a parameter
 
 |||guidance
 ## Assumptions

@@ -1,7 +1,7 @@
 * ### Use the `return` keyword to return a value
 * ### Identify the return value of the print statement
 * ### Demonstrate the ability to return several different data types
-* ### Define side effects
+* ### Create and apply helper methods
 
 |||guidance
 ## Assumptions

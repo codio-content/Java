@@ -1,5 +1,6 @@
 * ### Differentiate between global and local scope
 * ### Explain the purpose of the keyword "static"
+* ### Explain what the keyword "final" does
 
 |||guidance
 ## Assumptions

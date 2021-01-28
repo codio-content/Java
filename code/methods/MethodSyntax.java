@@ -1,6 +1,6 @@
 public class MethodSyntax {
   
-  public static void GreetTwice() {
+  public static void myMethod() {
     
     //add method definitions below this line
 
