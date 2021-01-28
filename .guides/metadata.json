@@ -4381,7 +4381,7 @@
   },
   {
    "id": "73f9a0d3-a8f8-0005-0d14-c73681ca6228",
-   "title": "Lab Challenge: Design Your Own Method",
+   "title": "Lab Challenge: Greeting Machine",
    "files": [
     {
      "path": "#tabs",
@@ -4396,7 +4396,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-Challenge--Design-Your-Own-Method-73f9.md",
+   "content-file": ".guides/content/Lab-Challenge--Greeting-Machine-73f9.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
