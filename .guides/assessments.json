@@ -9559,5 +9559,1879 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3810149836",
+  "source": {
+   "name": "Method Terminologies",
+   "showName": true,
+   "instructions": "Fill in the blanks below with the correct method terminologies.",
+   "showValues": true,
+   "text": "* <<<public>>> - Determines the visibility of the method.\n* <<<static>>> - Determines the association of the method.\n* <<<void>>> - Determines the return value of the method.\n* <<<parameters>>> - Are optional and go within the parentheses following the method name.",
+   "distractors": "",
+   "guidance": "Generally speaking, methods typically start with the following keywords: `public`, `static`, and `void`. These determine the visibility, association, and return value of the method respectively. Then the name of the method is declared followed by parentheses. Within the parentheses are the **parameters**, which are optional.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "method syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/MethodSyntax.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define method terminologies",
+   "tokens": {
+    "blank": [
+     "public",
+     "static",
+     "void",
+     "parameters"
+    ],
+    "text": [
+     "* ",
+     0,
+     " - Determines the visibility of the method.\n* ",
+     0,
+     " - Determines the association of the method.\n* ",
+     0,
+     " - Determines the return value of the method.\n* ",
+     0,
+     " - Are optional and go within the parentheses following the method name."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3096310326",
+  "source": {
+   "name": "Method Calls",
+   "showName": true,
+   "instructions": "Given the following method:\n```java\npublic static void sayThanks() {\n  System.out.println(\"Thanks\");\n}\n```\n\nWhich of the following method calls will be correctly **executed** if it was to be called within `main()`?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "547a9162-f793-e453-5b86-9c4fe3a3d752",
+     "correct": false,
+     "answer": "`System.out.println(\"Thanks\");`"
+    },
+    {
+     "_id": "4b149c44-414e-b404-fbba-719f61b70340",
+     "correct": false,
+     "answer": "`sayThanks;`"
+    },
+    {
+     "_id": "48f53de5-b0a2-5ea4-d3fc-504b0757af6a",
+     "correct": true,
+     "answer": "`sayThanks();`"
+    },
+    {
+     "_id": "910e7a1b-3413-9a50-a3d7-474f8bc02783",
+     "correct": false,
+     "answer": "`sayThanks(\"Thanks\");`"
+    }
+   ],
+   "guidance": "Though `System.out.println(\"Thanks\");` will print what the method is defined to do, doing so is not the correct way to call a method. To call a method, you need to specific the method's name, followed by parentheses, followed by parameters if any are required. Notice that the method has no parameters, so `sayThanks();` is the correct way to call the method.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "method call"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/MethodCall.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/MethodCall.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT successfully call a method"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-347897813",
+  "source": {
+   "name": "Javadoc",
+   "showName": true,
+   "instructions": "Type into the blanks below the correct Java documentation code. **Remember** to include `@` or you will not receive any credit for your work!",
+   "showValues": false,
+   "text": "* Specifies any parameters that are used within the method: <<<@param>>>\n* Specifies any values that are returned from the method: <<<@return>>>\n* Specifies the names of those who wrote or developed the method: <<<@author>>>\n* Specifies what version the method is currently on: <<<@version>>>",
+   "distractors": "",
+   "guidance": "The four most commonly used Java documentation code are: `@param`, `@return`, `@author`, and `@version`. These correspond to what parameters the method uses, what values the method returns, who wrote the method, and what version the method is on respectively.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Javadoc"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/Javadoc.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Javadoc.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT write simple Java code documentation for methods",
+   "tokens": {
+    "blank": [
+     "@param",
+     "@return",
+     "@author",
+     "@version"
+    ],
+    "text": [
+     "* Specifies any parameters that are used within the method: ",
+     0,
+     "\n* Specifies any values that are returned from the method: ",
+     0,
+     "\n* Specifies the names of those who wrote or developed the method: ",
+     0,
+     "\n* Specifies what version the method is currently on: ",
+     0
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3473571299",
+  "source": {
+   "name": "Calling a Defined Method",
+   "showName": true,
+   "instructions": "The `main()` method of a program calls a user-defined method by the name of `printActors()`. Here is the output of the program:\n```java\nBen Affleck\nKevin Bacon\nGeorge Clooney\n```\n\nDrag and arrange the code blocks below so that the output above is printed when `printActors();` is called. **Remember** to indent any associated method commands within the body of the method or you will not receive credit for your work!\n\n**Hint:** Not all code blocks will be used.",
+   "initial": "public static void printActors() {\n  System.out.println(&quot;Ben Affleck&quot;);\n  System.out.println(&quot;Kevin Bacon&quot;);\n  System.out.println(&quot;George Clooney&quot;);\n}\npublic static void main(printActors) {    #distractor\npublic static void printActors {    #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Most methods start with `public static void` but all methods will include the name of the method, followed by parentheses, followed by any parameter(s) within those parentheses. Given this rule, only `public static void printActors()` is suitable as a method. Within the body of this method, we want the names of the actors to be printed in this order: `Ben Affleck`, then `Kevin Bacon`, and finally `George Clooney`. To do so, simply include the print statements for all of the names **with** a newline.\n\n**Solution:***\n```java\npublic static void printActors() {\n  System.out.println(\"Ben Affleck\");\n  System.out.println(\"Kevin Bacon\");\n  System.out.println(\"George Clooney\");\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "method definitions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "methods"
+     }
+    ],
+    "files": [
+     "code/methods/Javadoc.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT put together a simple method"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1522160354",
+  "source": {
+   "name": "Javadoc Within Method",
+   "showName": true,
+   "instructions": "Fill in the blanks below with correct Javadoc and method syntax.",
+   "showValues": false,
+   "text": "```java\n/**\n * This method prints the message \"This is my method\"\n * \n * <<<@author>>>  FirstName LastName\n * <<<@verison>>> 2.0\n */\npublic static void myMethod<<<()>>> {\n  System.out.println(\"This is my method\");\n}\n```",
+   "distractors": "",
+   "guidance": "There are two parts to the this problem. The first part is recognizing that Javadoc is involved and the second part is completing the method. Notice that the documents includes `FirstName` and `LastName` which represent the author and a decimal number which represents a version of that method. Therefore, `@author` and `@version` are needed respectively. Next, the method header needs to have parentheses `()` following the method name by definition.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "method syntax & Javadoc"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT determine correct method syntax and Java code documentation",
+   "tokens": {
+    "blank": [
+     "@author",
+     "@verison",
+     "()"
+    ],
+    "text": [
+     "```java\n/**\n * This method prints the message \"This is my method\"\n * \n * ",
+     0,
+     "  FirstName LastName\n * ",
+     0,
+     " 2.0\n */\npublic static void myMethod",
+     0,
+     " {\n  System.out.println(\"This is my method\");\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-4180499661",
+  "source": {
+   "name": "Matching Arguments with Parameters",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```java\npublic static void multDiv(double x, double y, double z) {\n  System.out.println(x * y / z);\n}\n  \npublic static void main(String args[]) {\n  multDiv(2, 5, 4);\n}\n```\n\nFill in the blanks below matching the parameters to the appropriate arguments.",
+   "showValues": false,
+   "text": "The argument for `z` is <<<4>>>.\nThe argument for `y` is <<<5>>>.\nThe argument for `x` is <<<2>>>.",
+   "distractors": "",
+   "guidance": "Java reads the arguments from left to right and matches those to the parameters from left to right as well. Thus, `x` will become `2`, `y` will become `5`, and `z` will become `4`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Parameters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/Parameters.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Parameters.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT match arguments to parameters",
+   "tokens": {
+    "blank": [
+     "4",
+     "5",
+     "2"
+    ],
+    "text": [
+     "The argument for `z` is ",
+     0,
+     ".\nThe argument for `y` is ",
+     0,
+     ".\nThe argument for `x` is ",
+     0,
+     "."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-524437350",
+  "source": {
+   "name": "Try Catch Block",
+   "showName": true,
+   "instructions": "Which of the following can a `try catch` block catch?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "2890a975-96b1-ef78-126e-441a4456eb39",
+     "correct": false,
+     "answer": "A compilation error."
+    },
+    {
+     "_id": "5016d04b-3219-94da-f3d7-74aa5e58d156",
+     "correct": true,
+     "answer": "An exception."
+    },
+    {
+     "_id": "6fa1bffe-2887-1339-98b6-bd7e71336133",
+     "correct": false,
+     "answer": "A syntax error."
+    },
+    {
+     "_id": "e5b334ba-a3b5-0750-6572-8fd6becb49f4",
+     "correct": false,
+     "answer": "Code that produces no output."
+    }
+   ],
+   "guidance": "The `try catch` block can be used to catch exceptions. It cannot be used to catch compilation errors, which is the job of the compiler itself.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Parameters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/CheckParameters.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/CheckParameters.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT determine the usage of a try catch block"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-304882085",
+  "source": {
+   "name": "Methods & Parameters",
+   "showName": true,
+   "instructions": "Fill in the code below so that when printed, the output will be `High5`.",
+   "showValues": false,
+   "text": "```java\npublic static void myMethod(<<<String>>> x, int <<<y>>>) {\n  System.out.println(x + y);\n}\n\npublic static void main(String args[]) {\n  myMethod(<<<\"High\">>>, <<<5>>>);\n}\n```",
+   "distractors": "",
+   "guidance": "The output that we are looking for is `High5`. We know that there are two parameters and one of them is an `int`. Thus, the other parameter must be a `String` with the value of `\"High\"`. This leaves the previous variable to be `5`.\n\n**Solution:**\n```java\npublic static void myMethod(String x, int y) {\n  System.out.println(x + y);\n}\n\npublic static void main(String args[]) {\n  myMethod(\"High\", 5);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Parameters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/ParameterTypes.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/ParameterTypes.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT define methods to produce the desired output",
+   "tokens": {
+    "blank": [
+     "String",
+     "y",
+     "\"High\"",
+     "5"
+    ],
+    "text": [
+     "```java\npublic static void myMethod(",
+     0,
+     " x, int ",
+     0,
+     ") {\n  System.out.println(x + y);\n}\n\npublic static void main(String args[]) {\n  myMethod(",
+     0,
+     ", ",
+     0,
+     ");\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1860665674",
+  "source": {
+   "name": "ArrayList Parameter",
+   "showName": true,
+   "instructions": "Rearrange the code blocks so that the method takes in an ArrayList called `arrayList` and prints its element(s). Within the `main()` method, an ArrayList called `names` is created and the element `Alan` is added to it. Then the `printArrayList` method is called. For this problem, the method definition goes **before** `main()`.\n\n**Remember to indent** all commands associated with a method, loop, or conditional! Otherwise, you **will not** receive  credit for your work!",
+   "initial": "public static void printArrayList(ArrayList&lt;String&gt; arrayList) {\n  for (String s : arrayList) {\n    System.out.println(s);\n  }\n}\npublic static void main(String args[]) {\n  ArrayList&lt;String&gt; names = new ArrayList&lt;String&gt;();\n  names.add(&quot;Alan&quot;);\n  printArrayList(names);\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+   "grader": "1",
+   "guidance": "First, the method needs to be defined. The only method available other than `main()` is `public static void printArrayList(ArrayList<String> arrayList)`. To print the ArrayList, you will need a `for` loop, thus `for (String s : arrayList)` comes next. Lastly, to print the elements, simply use `System.out.println(s)`.\n\nFor the `main()` method, an ArrayList needs to be created before elements can be added. This means `ArrayList<String> names = new ArrayList<String>()` and `names.add(\"Alan\")` are needed respectively. Finally, to call the method and provide an ArrayList as an argument, use `printArrayList(names)`.\n\n**Solution:**\n```java\npublic static void printArrayList(ArrayList<String> arrayList) {\n  for (String s : arrayList) {\n    System.out.println(s);\n  }\n}\npublic static void main(String args[]) {\n  ArrayList<String> names = new ArrayList<String>();\n  names.add(\"Alan\");\n  printArrayList(names);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Parameters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/AltParameters.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/AltParameters.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT define a method and call it in main()"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2349088476",
+  "source": {
+   "name": "Parameter and Argument Pairs",
+   "showName": true,
+   "instructions": "Which of the following arguments are appropriate for the method:\n```java\npublic static void combine(int x, int y, String z) {\n...\n}\n```",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "194da989-c637-b129-aa90-a14b376b01cc",
+     "correct": true,
+     "answer": "`5, 10, \"15\"`"
+    },
+    {
+     "_id": "09bd1c10-452c-3c7d-c8c1-eaf1b26e005a",
+     "correct": false,
+     "answer": "`5, 10, 15`"
+    },
+    {
+     "_id": "361080e9-59ee-6f48-884b-70b651282bc8",
+     "correct": false,
+     "answer": "`\"5\", 10, 15`"
+    },
+    {
+     "_id": "92b7efe0-dc64-66af-0d51-e519cd0f12de",
+     "correct": false,
+     "answer": "`\"5\", \"10\", \"15\"`"
+    }
+   ],
+   "guidance": "The parameters' order matters. According to the method, two integers and then a String are needed respectively. Only the arguments `5, 10, \"15\"` follow the specified parameter types `int, int, String`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Parameters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/AltParameters.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/AltParameters.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine appropriate arguments for specified parameters"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3200463388",
+  "source": {
+   "name": "Math Method",
+   "showName": true,
+   "instructions": "Complete the program below so that the method takes in a **double** called `diameter`, calculates the circumference, and prints it.",
+   "showValues": false,
+   "text": "```java\npublic static void findCircumference(<<<double>>> diameter) {\n  System.out.println(<<<diameter>>> * 3.14);\n}\n\npublic static void main(String args[]) {\n  <<<findCircumference>>>(2.2);\n}\n```",
+   "distractors": "",
+   "guidance": "To specify a **double** as a parameter, simply use `double`. To print the circumference, multiply the `diameter` by `3.14` within the print statement. To call the method, use the method's name `findCircumference()`.\n\n**Solution:**\n```java\npublic static void findCircumference(double diameter) {\n  System.out.println(diameter * 3.14);\n}\n\npublic static void main(String args[]) {\n  findCircumference(2.2);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Parameters and method syntax"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT define a math method and call it",
+   "tokens": {
+    "blank": [
+     "double",
+     "diameter",
+     "findCircumference"
+    ],
+    "text": [
+     "```java\npublic static void findCircumference(",
+     0,
+     " diameter) {\n  System.out.println(",
+     0,
+     " * 3.14);\n}\n\npublic static void main(String args[]) {\n  ",
+     0,
+     "(2.2);\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2523601916",
+  "source": {
+   "name": "Local Scope Variables",
+   "showName": true,
+   "instructions": "Fill in the blanks below to accurately complete the statements.",
+   "showValues": true,
+   "text": "<<<Variables>>> declared inside a method have <<<local>>> scope. This means you can only reference the variable from <<<inside>>> the method. Trying to reference the variable from <<<outside>>> the method will cause an error.",
+   "distractors": "",
+   "guidance": "Variables used within a particular method are said to be **local** to that method alone. Other methods cannot access that variable. An attempt to do so will result in an error signaling that the variable cannot be found.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "local variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/Local.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Local.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define what a local variable is",
+   "tokens": {
+    "blank": [
+     "Variables",
+     "local",
+     "inside",
+     "outside"
+    ],
+    "text": [
+     0,
+     " declared inside a method have ",
+     0,
+     " scope. This means you can only reference the variable from ",
+     0,
+     " the method. Trying to reference the variable from ",
+     0,
+     " the method will cause an error."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3527686902",
+  "source": {
+   "name": "Global Scope Variables",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```java\nstatic double a = 3.14;\n\npublic static void findCircumference(int b) {\n  double c = a * b;\n  System.out.println(c);\n}\n\npublic static void findArea(int b) {\n  double d = a * (b/2) * (b/2);\n  System.out.println(d);\n}\n```\n\nWhich of the following variables is considered a **global** variable?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "74c29787-de44-f9f3-9ee1-38011f55c5d1",
+     "correct": true,
+     "answer": "a"
+    },
+    {
+     "_id": "aa63b3a0-ee3b-4b33-76cc-3ad36368a4df",
+     "correct": false,
+     "answer": "b"
+    },
+    {
+     "_id": "ddf07057-e7b4-cbe2-fc24-829afefec527",
+     "correct": false,
+     "answer": "c"
+    },
+    {
+     "_id": "714807fc-82a6-936b-62a6-78a72f0bf0e8",
+     "correct": false,
+     "answer": "d"
+    }
+   ],
+   "guidance": "If you go through each variable, you'll notice that only variable `a` is not contained within a method. This is the most telling sign that it is a **global** variable. `b`, on the other hand, is a parameter, and c and d are local variables.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "global variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/Global.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Global.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT distinguish between global and local variables"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-158451930",
+  "source": {
+   "name": "Local vs. Global Scope",
+   "showName": true,
+   "instructions": "Fill in the blanks below with the correct terms.",
+   "showValues": true,
+   "text": "If a variable is declared and initialized both globally and locally, that variable will <<<retain>>> its value depending on its <<<scope>>>.\n\nIf a global variable is modified by a method, it will <<<lose>>> its <<<global>>> value and take on its <<<local>>> value instead.\n\nVariables that are **final** are also known as <<<constants>>> and cannot be <<<modified>>> after initialization.",
+   "distractors": "",
+   "guidance": "In Java, declared global and local variables are considered separate. The only exception is if a method modifies a global variable locally. In such a case, the global value is lost and the local value is gained. Lastly, constants are **final** because they cannot be altered after they are declared and initialized.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "variable scope"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/LocalGlobal.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/LocalGlobal.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT distinguish between global and local variables",
+   "tokens": {
+    "blank": [
+     "retain",
+     "scope",
+     "lose",
+     "global",
+     "local",
+     "constants",
+     "modified"
+    ],
+    "text": [
+     "If a variable is declared and initialized both globally and locally, that variable will ",
+     0,
+     " its value depending on its ",
+     0,
+     ".\n\nIf a global variable is modified by a method, it will ",
+     0,
+     " its ",
+     0,
+     " value and take on its ",
+     0,
+     " value instead.\n\nVariables that are **final** are also known as ",
+     0,
+     " and cannot be ",
+     0,
+     " after initialization."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3886212512",
+  "source": {
+   "name": "Using Constants",
+   "showName": true,
+   "instructions": "Fill in the partial program below with code so that the method `isEligible()` will use the **constant** `MIN_AGE` to determine voter eligibility.",
+   "showValues": false,
+   "text": "```java\nstatic <<<final>>> int MIN_AGE = 18;\n\npublic <<<static>>> void isEligible(<<<int>>> age) {\n  if (age >= <<<MIN_AGE>>>) {\n    System.out.println(\"Eligible\");\n  }\n  else {\n    System.out.println(\"Not eligible\");\n  }\n}\n```",
+   "distractors": "",
+   "guidance": "Remember that constants cannot be modified and are denoted in all uppercase and underscores along with being declared as `final`. The constant here is `MIN_AGE` and it is being used in comparison with the integer parameter `age`. The method can only access the constant if it is `static`. If `age` is greater than or equal to the constant, then the voter is eligible. If not, then the voter is not eligible.\n\n**Solution:**\n```java\nstatic final int MIN_AGE = 18;\n\npublic static void isEligible(int age) {\n  if (age >= MIN_AGE) {\n    System.out.println(\"Eligible\");\n  }\n  else {\n    System.out.println(\"Not eligible\");\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "constants"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/LocalGlobal.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT define constants and use them in a method",
+   "tokens": {
+    "blank": [
+     "final",
+     "static",
+     "int",
+     "MIN_AGE"
+    ],
+    "text": [
+     "```java\nstatic ",
+     0,
+     " int MIN_AGE = 18;\n\npublic ",
+     0,
+     " void isEligible(",
+     0,
+     " age) {\n  if (age >= ",
+     0,
+     ") {\n    System.out.println(\"Eligible\");\n  }\n  else {\n    System.out.println(\"Not eligible\");\n  }\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1685138938",
+  "source": {
+   "name": "Modifying a Global Variable",
+   "showName": true,
+   "instructions": "Given the variable:\n```java\nstatic String result = \"pass\";\n```\n\nDrag and arrange the code blocks below so that the method `passFall(int grade)` will **modify** `result` to `\"fail\"` if the `grade` is less than 65.\n\n**Hint:** Not all of the code blocks will be needed and **remember** to indent all associated commands or you **will not** receive credit for your work.",
+   "initial": "public static void passFail(int grade) {\n  if (grade &lt; 65) {\n    result = &quot;fail&quot;;\n  }\n  System.out.println(result);\n}\npublic static void passFail(String result) {    #distractor\nif (grade &lt;= 65) {    #distractor\nString result = &quot;fail&quot;;    #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The first thing to notice is that `grade` is an `int` because it is being compared to the integer `65`. Remember that we want `< 65`, not `<= 65`. Since `result` is being modified to `\"fail\"`, all you need is the assignment operator `=`. Using `String result = \"fail\";` will create a local variable, which we do not want. Then all that's left is to print `result`.\n\n**Solution:**\n```java\npublic static void passFail(int grade) {\n  if (grade < 65) {\n    result = \"fail\";\n  }\n  System.out.println(result);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "global and local variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT modify a global variable within a local scope"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3464223914",
+  "source": {
+   "name": "Determine the Return Type",
+   "showName": true,
+   "instructions": "Given the following method definition:\n```java\npublic static int[] getNumbersList(int[] numbers) {\n  return numbers;\n}\n```\n\nWhat is the **return** type of the method?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "f5483e5d-1f0f-d1f3-9d71-4ca4e2fdded5",
+     "correct": false,
+     "answer": "integer"
+    },
+    {
+     "_id": "ed0a55ef-c9b1-6bbf-3951-642406e891b1",
+     "correct": true,
+     "answer": "integer array"
+    },
+    {
+     "_id": "c8eecd2f-5660-1713-e963-85ae023bbc01",
+     "correct": false,
+     "answer": "numbers"
+    },
+    {
+     "_id": "75fe9c0e-a8b2-bf89-b056-879285c13735",
+     "correct": false,
+     "answer": "void"
+    }
+   ],
+   "guidance": "The return type is specified in every method header, usually behind the `static` or `public` keyword. In this case, the return type is `int[]` which represents an integer array. Note that `numbers` is a representation for the integer array. It is **not** an actual data type.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/methods/Return.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Return.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2501190990",
+  "source": {
+   "name": "Determine the Helper Method",
+   "showName": true,
+   "instructions": "Given the code snippet:\n```java\npublic static double getBaseHeight(double b, double h) {\n  return b * h;\n}\npublic static double getTriangleArea(double b, double h) {\n  return getBaseHeight(b, h) / 2;\n}\npublic static void main(String args[]) {\n  System.out.println(getTriangleArea(3, 4));\n}\n```\n\nWhich of the following serves as a helper method within the code above?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "9bc5226d-a900-c68e-624f-cd9d31373b4f",
+     "correct": false,
+     "answer": "`String args[]`"
+    },
+    {
+     "_id": "a4d8e1ea-7cb9-bb92-fa31-9832df25f3d5",
+     "correct": false,
+     "answer": "`void`"
+    },
+    {
+     "_id": "3cc65227-8c47-d3cf-1e6a-9ad1ed8455fb",
+     "correct": false,
+     "answer": "`getTriangleArea()`"
+    },
+    {
+     "_id": "e4c43356-741e-c26e-3af1-fec623419efd",
+     "correct": true,
+     "answer": "`getBaseHeight()`"
+    }
+   ],
+   "guidance": "If you follow the program, you'll notice that the `getBaseHeight()` method is returned within the `getTriangleArea()` method. In other words, `getBaseHeight()` helps `getTriangleArea()` perform a particular task. This makes `getBaseHeight()` function as a helper method. `String args[]` is a parameter and `void` is a return type; neither are actually methods.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "helper methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/HelperMethods.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/HelperMethods.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT determine helper methods within programs"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-775046561",
+  "source": {
+   "name": "Returning a \"Pass\" or \"Fail\"",
+   "showName": true,
+   "instructions": "Using the code block below, construct a method called `passes()` that takes in an integer parameter called `grade` and returns a value of `true` if the grade is \"passing\". A passing grade is defined as having a grade of `65` or higher.\n\n**Hint:** Not all of the code blocks will be needed and **remember** to indent all associated commands or you **will not** receive credit for your work.",
+   "initial": "public static boolean passes(int grade) {\n  return (grade &gt;= 65);\n}\npublic static int passes(int grade) {  #distractor\npublic static void passes(int grade) {  #distractor\nreturn true;  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The first step is to determine the return value of the method. The problem asks for a **boolean** return value, therefore the method header should be `public static boolean passes(int grade)`. Note how the parameter is an **int** since the method requires an integer. Next, the boolean statement needs to be returned as **true** if the `grade` is **greater than or equal to** `65`. Rather than using a conditional, we can simply return a boolean expression: `return (grade >= 65);`.\n\n**Solution:**\n```java\npublic static boolean passes(int grade) {\n  return (grade >= 65);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "return values"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/HelperMethods.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/HelperMethods.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT return a boolean method"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-578554951",
+  "source": {
+   "name": "Helper Math Methods",
+   "showName": true,
+   "instructions": "In physics, velocity can be defined as `velocity = change in position / time` and a **change in position** can be defined as `pChange = pFinal - pStart`. Fill in the blanks below so that the method `findPositionChange()` is called within `findVelocity()`.\n\n**Sample Output:**\nIf `System.out.println(findVelocity(0, 100, 10));` is printed, then the output will be `10.0`.",
+   "showValues": false,
+   "text": "```java\npublic static <<<double>>> findPositionChange(double pStart, double pFinal) {\n  double pChange = <<<pFinal>>> - <<<pStart>>>;\n  return <<<pChange>>>;\n}\n\npublic static double findVelocity(double pStart, double <<<pFinal>>>, double time) {\n  return <<<findPositionChange>>>(pStart, pFinal) / <<<time>>>;\n}\n```",
+   "distractors": "",
+   "guidance": "The first step is to determine the return value for `findPositionChange()`. Since we know that `pStart` and `pFinal` are doubles, it is best practice to also keep change in position as `double`. Otherwise, valuable information will be lost if converted to an `int`. Next, you need to recognize that the change in position `pChange` is the difference between `pFinal` and `pStart`. Then return `pChange`.\n\nFor `findVelocity()`, you'll want to keep the two parameters the same, `pStart` and `pFinal`. Notice that there is a third parameter called `time`. As per the formula, `velocity = change in position / time`, `findPositionChange(pStart, pFinal)` can be called to calculate change in position. Thus, all that's left to divide that calculation by `time`. \n\n**Solution:**\n```java\npublic static double findPositionChange(double pStart, double pFinal) {\n  double pChange = pFinal - pStart;\n  return pChange;\n}\n\npublic static double findVelocity(double pStart, double pFinal, double time) {\n  return findPositionChange(pStart, pFinal) / time;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "helper methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/HelperMethods.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/HelperMethods.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT determine how to call a method from within another method",
+   "tokens": {
+    "blank": [
+     "double",
+     "pFinal",
+     "pStart",
+     "pChange",
+     "pFinal",
+     "findPositionChange",
+     "time"
+    ],
+    "text": [
+     "```java\npublic static ",
+     0,
+     " findPositionChange(double pStart, double pFinal) {\n  double pChange = ",
+     0,
+     " - ",
+     0,
+     ";\n  return ",
+     0,
+     ";\n}\n\npublic static double findVelocity(double pStart, double ",
+     0,
+     ", double time) {\n  return ",
+     0,
+     "(pStart, pFinal) / ",
+     0,
+     ";\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-667592639",
+  "source": {
+   "name": "Methods: Exercise 1",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/methods/exercise1.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "There are three important tasks in this exercise. The first is to declare the correct method type, the second is to declare the correct parameters, and the last is to return the correct calculation. Since the method returns a double, the correct method header should be `public static double` followed by the specified method name and parameter types `getAvg(double x, double y)`. Note that the variable names do not have to be `x` and `y`. Finally, to find the average between two numbers, first add them together and then divide by 2.\n\n**Sample Solution:**\n```java\npublic static double getAvg(double x, double y) {\n  return (x + y) / 2;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "parameters and return values"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/Exercise1.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Exercise1.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a method that averages two numerical parameters"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-186732078",
+  "source": {
+   "name": "Methods: Exercise 2",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/methods/exercise2.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "In order for output to be printed to the console, at least one method has to contain some sort of print statement. The existing code has no print statement, therefore, `getOddsEvens()` should incorporate one. One strategy is to make the return type as `void`; this way, the outputs can be returned and printed without requiring any specific return types. The parameters must be typed as `boolean` and `ArrayList<Integer>` respectively in order to match the `main()` method's specifications. Finally, the last task is to create conditionals and loops to determine the boolean value and print the appropriate integers.\n\n**Sample Solution:**\n```java\npublic static void getOddsEvens(boolean x, ArrayList<Integer> y) {\n  if (x == true) {\n    for (Integer I1: y) {\n      if (I1 % 2 == 0) {\n        System.out.println(I1);\n      }\n    }\n  }\n  if (x == false) {\n    for (Integer I2: y) {\n      if (I2 % 2 == 1) {\n        System.out.println(I2);\n      }\n    }\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "parameters and return types"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/Exercise2.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Exercise2.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT develop a method that meets specific output requirements"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3156119608",
+  "source": {
+   "name": "Methods: Exercise 3",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/methods/exercise3.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "As specified, the parameters of `findTerm()` needs to be `String` and `ArrayList<String>` respectively. Additionally, the problem requests that the return type of `findTerm()` be `boolean`. Therefore, the method header should be similar to something like `public static boolean findTerm(String x, ArrayList<String> y)`. As for the method statements, you can use any statements as long as you check whether the specified string parameter is `equal` to any of the string elements inside the ArrayList. Note that since the ArrayList is created using the `new` keyword within `main()`, you must use `equal()` instead of `==` to check for string equality.\n\n**Sample Solution:**\n```java\npublic static boolean findTerm(String x, ArrayList<String> y) {\n  boolean b = false;\n  for (String S : y) {\n    if (S.equals(x)) {\n      b = true;\n    }\n  }\n  return b;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "parameters and return values"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/Exercise3.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Exercise3.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT develop a method that meets specific output requirements"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-260794075",
+  "source": {
+   "name": "Methods: Exercise 4",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/methods/exercise4.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "As suggested, the first step is to create a boolean variable and empty string. The boolean in the sample solution is initialized to `false` but can also be initialized to `true` if preferred. Once the variables are created, create a loop that iterates through the given string from back to front. During this process, every character should be appended to the empty string. Once the loop is finished, the new string should be the reverse of the given string. To check for equality, use `equals()`. If the strings are equal, change the boolean value to `true`, then return the boolean.\n\n**Sample Solution:**\n```java\npublic static boolean isPalindrome(String x) {\n  boolean palindrome = false;\n  String y = \"\";\n  for (int i = x.length() - 1; i >= 0; i--) {\n    y += x.charAt(i);\n  }\n  if (x.equals(y)) {\n    palindrome = true;\n  }\n  return palindrome;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "parameters and return values"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/Exercise4.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Exercise4.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT develop a method that meets specific output requirements"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-229697381",
+  "source": {
+   "name": "Methods: Exercise 5",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/methods/exercise5.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The helper method `reverse()` is supposed to help `isPalindrome()` reverse the string parameter. You'll still need to declare and initialize a boolean variable but then all that's left to do is to call the `reverse()` method and check to see if it returns a string that is the same as the given one. If so, the boolean value should be changed. Finally, the boolean is returned.\n\n**Sample Solution:**\n```java\npublic static boolean isPalindrome(String x) {\n  boolean palindrome = false;\n  if (x.equals(reverse(x))) {\n    palindrome = true;\n  }\n  return palindrome;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "parameters, return values, and helper methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/Exercise5.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/Exercise5.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT use a helper method to develop another method"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3835726565",
+  "source": {
+   "name": "Determine the Argument Type",
+   "showName": true,
+   "instructions": "Given the following partial code:\n```java\npublic static void myMethod(int a, double b, String c, boolean d) {\n...\n}\n\npublic static void main(String args[]) {\n  ....\n  myMethod(t, u, v, w);\n}\n```\n\nWhich of the following data type is the variable `v` associated with?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "69a95f1c-e977-1e38-18d9-1c8bfec2da94",
+     "correct": false,
+     "answer": "int"
+    },
+    {
+     "_id": "a80e7533-5bc8-9bc9-647e-115f83b91b91",
+     "correct": false,
+     "answer": "double"
+    },
+    {
+     "_id": "9b3f796b-3e95-6433-892b-fc600f9be8d8",
+     "correct": true,
+     "answer": "String"
+    },
+    {
+     "_id": "32131f07-38f4-bb89-eb51-a384c2001f0d",
+     "correct": false,
+     "answer": "boolean"
+    }
+   ],
+   "guidance": "There is parallelism between declared parameters and arguments. `v` is the third argument, therefore it should correspond with the third parameter `String c`. This means that `v` is of type `String`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Parameters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/LabParameters.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/LabParameters.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT determine parameter and argument types"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-303524134",
+  "source": {
+   "name": "Local & Global Variables",
+   "showName": true,
+   "instructions": "Determine whether each statement below is `true` or `false`.",
+   "showValues": true,
+   "text": "1. Only static methods can access static global variables: <<<true>>>\n1. Local variables can be accessed by other methods as long as those methods are static: <<<false>>>\n1. A local and global variable cannot be declared with the same name or the compiler will fail: <<<false>>>\n1. Global parameters can be declared as method parameters: <<<true>>>",
+   "distractors": "",
+   "guidance": "**Explanation:**\n1. **true**: If global variables are not declared as `static`, they cannot be accessed by static methods.\n1. **false**: Local variables are exclusive to the methods they are declared in. They cannot be accessed anywhere else.\n1. **false**: Declared local and global variables are considered to be separate variables. This means they do not affect each other and are allowed in Java.\n1. **true**: Method parameters are similar to local variables; they are both declared within a method. This separates them from global variables which means it is possible to declare parameters that share the same name as the global variables.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "local and global variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/LabScope.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/LabScope.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT distinguish between global and local variables",
+   "tokens": {
+    "blank": [
+     "true",
+     "false",
+     "false",
+     "true"
+    ],
+    "text": [
+     "1. Only static methods can access static global variables: ",
+     0,
+     "\n1. Local variables can be accessed by other methods as long as those methods are static: ",
+     0,
+     "\n1. A local and global variable cannot be declared with the same name or the compiler will fail: ",
+     0,
+     "\n1. Global parameters can be declared as method parameters: ",
+     0
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1045027758",
+  "source": {
+   "name": "Checking for Correct Return Types",
+   "showName": true,
+   "instructions": "Which of the following method has an **incorrect** return type?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "6b786130-2dfc-4928-00b9-582e62bebaac",
+     "correct": false,
+     "answer": "```java\npublic static int myMethod(int a, int b) {\n  return a + b;\n}\n```"
+    },
+    {
+     "_id": "d0da1cca-9d55-632a-2739-7b3d847c9983",
+     "correct": true,
+     "answer": "```java\npublic static String myMethod(int a, int b) {\n  return a + b;\n}\n```"
+    },
+    {
+     "_id": "24a09058-52cc-757d-0b60-21657b15a392",
+     "correct": false,
+     "answer": "```java\npublic static double myMethod(int a, int b) {\n  return a + b;\n}\n```"
+    },
+    {
+     "_id": "2a3fc715-7c8b-6f8d-6182-a3132af85132",
+     "correct": false,
+     "answer": "```java\npublic static void myMethod(int a, int b) {\n  System.out.println(a + b);\n}\n```"
+    }
+   ],
+   "guidance": "Both \n```java\npublic static int myMethod(int a, int b) {\n  return a + b;\n}\n```\nand \n```java\npublic static void myMethod(int a, int b) {\n  System.out.println(a + b);\n}\n```\nare correct because they have matching return types: `int` with `int` and `void` with `System.out.println()`.\n\n```java\npublic static double myMethod(int a, int b) {\n  return a + b;\n}\n```\nworks because integers can be expressed as doubles without any information being lost in the process. The opposite is not true however! (e.g. Doubles converted to integers lose their decimal format.)\n\nThat leaves\n```java\npublic static String myMethod(int a, int b) {\n  return a + b;\n}\n```\nas the method with the incorrect return type because it is trying to return an `int` while being a `String` method. Without string concatenation, Java will not automatically convert the integers into strings.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "return values"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/LabReturn.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/LabReturn.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT identify incorrect return types for specified methods"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-621579554",
+  "source": {
+   "name": "Calling a Helper Method",
+   "showName": true,
+   "instructions": "To determine the volume of a cylinder, you first have to calculate the base of the cylinder and then multiply it by the calculated height of the cylinder. The formula is `cylinderVolume = baseArea * height`. Given the following helper method:\n```java\npublic static double getBaseArea(double radius) {\n  return Math.PI * radius * radius;\n}\n```\nDrag and arrange the code blocks below so that the method `getCylinderVolume()` takes in two parameters, `double radius` and `double height`, and returns the volume of the cylinder as a double.\n\n**Hint:** You will not need to use all of the code blocks. Also, **remember to indent** all associated commands or you will not receive credit for your work!",
+   "initial": "public static double getCylinderVolume(double radius, double height) {\n  return getBaseArea(radius) * height;\n}\npublic static int getCylinderVolume(double radius, double height) {  #distractor\npublic static void getCylinderVolume(double radius, double height) {  #distractor\nreturn Math.PI * raidus * height;  #distractor\nreturn getBaseArea();  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The first step is to determine the correct method header. Based on the prompt, the method should return a double. This means the method should be declared as `public static double` making `public static double getCylinderVolume(double radius, double height) {` the correct header.\n\nNext, you would want to call the helper method `getBaseArea()` to help you calculate part of the volume. Only `getBaseArea(radius)` satisfies the method's parameter requirement. Finally, based on the formula, you'll need to multiply the calculated base by the height to find the total volume of the cylinder. This makes `return getBaseArea(radius) * height;` the only acceptable return statement.\n\n**Solution:**\n```java\npublic static double getCylinderVolume(double radius, double height) {\n  return getBaseArea(radius) * height;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "helper methods"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/LabHelperMethods.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/LabHelperMethods.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a method that calls another method"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2170460350",
+  "source": {
+   "name": "Greeting Machine",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "java -cp code/methods LabChallenge",
+   "preExecuteCommand": "javac code/methods/LabChallenge.java",
+   "guidance": "If you are going to use just one method in your code, this method will have to be a `void` method because the `main()` method only calls the method `sayHello()`, it doesn't print anything to the screen. Remember, `sayHello()` takes in an **ArrayList** of **strings**, therefore the correct parameter for the method is `sayHello(ArrayList<String> insertName)`. The `insertName` can be whatever you want to call the ArrayList, it does not have to necessarily be named `names` like it did in `main()`.\n\nAfter that, define the method so that it iterates through the ArrayList and says `Hello` to each element with a newline.\n\n**Sample Solution:**\n```java\npublic static void sayHello(ArrayList<String> names) {\n  for (String s : names) {\n    System.out.println(\"Hello \" + s);\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "Alan Bob",
+     "input": "",
+     "output": "Hello Alan\nHello Bob",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "Hello 1\nHello 2\nHello 3",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Codio",
+     "input": "",
+     "output": "Hello Codio",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "@",
+     "input": "",
+     "output": "Hello @",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 + 1 = 2",
+     "input": "",
+     "output": "Hello 1\nHello +\nHello 1\nHello =\nHello 2",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "method syntax and parameters"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
+     }
+    ],
+    "files": [
+     "code/methods/LabChallenge.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/methods/LabChallenge.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT develop a method that meets specific output requirements"
+  }
  }
 ]

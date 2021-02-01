@@ -1,85 +1,66 @@
-## Checking Parameter Data Types
+## Checking Parameter Usage
 
-Functions can fail with the wrong data type is passed as a parameter. The function definition below expects two numbers, but the function calls passes a string.
+Copy and paste the code below into the text editor and then `TRY IT`.
 
-```python
-def addition(num1, num2):
-    """Add the two parameters together"""
-    print(num1 + num2)
-    
-addition(5, "cat")
+```java
+/**
+ * This method divides one integer by the other
+ * 
+ * @param num1 The first integer
+ * @param num2 The second integer
+ */
+public static void divide(int num1, int num2) {
+  System.out.println(num1 / num2);
+}
+
+public static void main(String args[]) {
+  divide(5, 0);
+}
 ```
 
-{try it}(python3 code/functions/check-parameters.py 1)
+{Try it}(sh .guides/bg.sh javac code/methods/CheckParameters.java java -cp code/methods/ CheckParameters 1)
 
-This code generates a type error. Python says the `+` operator cannot work with operands (the items being used with `+`) of type string. The program terminates with a cryptic error message. The `try... except` keywords allow for a more user-friendly error message.
+You'll notice that the code produces an **exception**. An exception occurs when an operation cannot be successfully completed because a rule is broken. For example, dividing by `0` results in an *undefined* answer. Thus when you try to divide `5` by `0`, you get an exception as a response. Not all exception messages are created equal. Some are more clear than others. However, you may choose to clearly define an exception by using a `try catch` block.
 
-![Try Except](.guides/images/try-except.png)
+![.guides/img/TryCatchException](.guides/img/TryCatchException.png)
 
-```python
-def addition(num1, num2):
-    """Add the two parameters together
-    Use try/except to catch any errors"""
-    try:
-        print(num1 + num2)
-    except:
-        print("There is an error in your code.")
-    
-addition(5, "cat")
+```java
+/**
+ * This method divides one integer by the other
+ * 
+ * @param num1 The first integer
+ * @param num2 The second integer
+ */
+public static void divide(int num1, int num2) {
+  try {
+    System.out.println(num1 / num2);
+  }
+  catch (Exception e) {
+    System.out.println("Cannot divide by zero.");
+  }
+}
+
+public static void main(String args[]) {
+  divide(5, 0);
+}
 ```
 
-{try it}(python3 code/functions/check-parameters.py 2)
-
-Notice that a green check mark appears even though there is an error in the function call. `try... except` keeps the program running while providing feedback to the user.
-
-<details>
-  <summary><strong>Failing Gracefully</strong></summary>
-  No computer program works as intended 100% of the time. It is a good idea to design your code to "fail gracefully". That is, your program should not come crashing to a halt with each error. Think of ways that your program can roll with the punches even when mistakes happen.
-</details>
+{Try it}(sh .guides/bg.sh javac code/methods/CheckParameters.java java -cp code/methods/ CheckParameters 2)
 
 |||challenge
 ## What happens if you:
-* Change the function call to `addition(5, 3)`?
+* Change the method call to `divide(5, 2)`?
+* Change the method call to `divide(0, 2)`?
+* Change the method call to `divide(14.5, 2)`?
 
 |||
 
-{try it}(python3 code/functions/check-parameters.py 3)
+{Try it}(sh .guides/bg.sh javac code/methods/CheckParameters.java java -cp code/methods/ CheckParameters 3)
 
-## Error Types
-
-The code above provides an error message that is easy to understand, but it is not very helpful. What exactly is the problem? Python allows you to customize the exception messages based on the type of error. Trying to add a string to an int causes a type error, so the exception and message should reflect this.
-
-```python
-def addition(num1, num2):
-    """Add the two parameters together
-    Use try/except to catch any type errors"""
-    try:
-        print(num1 + num2)
-    except TypeError:
-        print("Please pass the function two numbers")
-    
-addition(5, "cat")
-```
-
-{try it}(python3 code/functions/check-parameters.py 4)
-
-<details>
-  <summary><strong>Python Errors</strong></summary>
-  There are many kinds of <a href="https://docs.python.org/3/tutorial/errors.html">errors</a> that can be used with the <code>except</code> keyword, but here is a list of some of the more common ones:
-  <ul>
-    <li><strong>SyntaxError</strong> - Incorrect syntax; missing parentheses for example</li>
-    <li><strong>ZeroDivisionError</strong> - Divide a number by zero</li>
-    <li><strong>NameError</strong> - Reference a variable that has not been declared</li>
-    <li><strong>TypeError</strong> - Function or operation is applied to an incorrect type</li>
-    <li><strong>IndexError</strong> - Reference an index that is out of range</li>
-  </ul>
-</details>
-
-|||challenge
-## What happens if you:
-* Change the print statement in the `try` block to `print(num1 + num3)`?
+|||important
+## IMPORTANT
+**Note** that you can only catch Java **exceptions**, not compilation **errors**. If you attempt to provide an argument that is not the same type as a specified parameter (i.e. `14.5` is a double and not an int), the compiler will simply fail and the compilation error will be returned. `Exception` is the generic exception keyword that will catch any exception produced. `e` is the variable name for which you are calling the exception by. For now, we will only focus on `Exception`. For a list of other exceptions, visit: [Java Exceptions](https://www.geeksforgeeks.org/types-of-exception-in-java-with-examples/).
 
 |||
 
-{try it}(python3 code/functions/check-parameters.py 5)
-
+{Check It!|assessment}(multiple-choice-524437350)

@@ -1444,22 +1444,16 @@
        "pageId": "9033daee-c51f-b181-4293-9d9093043b31"
       },
       {
-       "title": "Methods and Whitespace",
-       "id": "93a4c307-cb4a-9916-cb16-15b3e5afa9b8",
+       "title": "Method Calls",
+       "id": "bb6cd621-0805-073d-ea52-d787d838912a",
        "type": "page",
-       "pageId": "739738d6-4ebc-5ec0-9b5f-8d40e869d0c6"
+       "pageId": "82eda0f8-f141-92c6-8192-d8d26c11a79c"
       },
       {
-       "title": "Docstring",
+       "title": "Javadoc",
        "id": "7ec01570-279b-02a1-0827-0764884cf2fe",
        "type": "page",
        "pageId": "ddafa977-3a2f-4b90-2e81-8547740af6d6"
-      },
-      {
-       "title": "When to Use a Method",
-       "id": "2647358b-cf03-ee04-12d8-5d826d9d1c37",
-       "type": "page",
-       "pageId": "98f4466e-8578-9c54-231e-c6541f41d105"
       }
      ]
     },
@@ -1500,22 +1494,22 @@
        "pageId": "52386be5-9da6-cd33-2cee-d9c08ab0ae20"
       },
       {
-       "title": "Parameter Values",
-       "id": "0e4f8276-abb7-f778-769e-a3251eba6c97",
-       "type": "page",
-       "pageId": "3548d9e3-0aa7-46e5-ddc1-5de40a778b55"
-      },
-      {
        "title": "Checking Parameters",
        "id": "5cbe811d-3a6c-1a77-9963-cbbb70f7d4ff",
        "type": "page",
        "pageId": "2ba49925-06f8-894e-f07e-4b375764de9b"
       },
       {
-       "title": "Parameters: Advanced Topics",
+       "title": "Parameter Types",
        "id": "07450dee-6831-6b69-e222-80c687d69839",
        "type": "page",
        "pageId": "d0d8a7a8-6f69-2c9e-5fbb-62aa7d5e6842"
+      },
+      {
+       "title": "Alternative Parameters",
+       "id": "2647358b-cf03-ee04-12d8-5d826d9d1c37",
+       "type": "page",
+       "pageId": "98f4466e-8578-9c54-231e-c6541f41d105"
       }
      ]
     },
@@ -1606,10 +1600,10 @@
        "pageId": "0f55c750-d04e-5740-416a-27f9303547be"
       },
       {
-       "title": "Side Effects",
-       "id": "fed81f9e-b766-cb52-61f3-51560fecdd02",
+       "title": "Helper Methods",
+       "id": "4b86269c-d3d4-4c86-a606-9f211f32e8b0",
        "type": "page",
-       "pageId": "6f0e6d06-b66b-b79a-ad14-967be96c49ea"
+       "pageId": "52c900f0-5eb8-2d20-4608-bc1d3bfdf938"
       }
      ]
     },
@@ -1633,92 +1627,36 @@
      ]
     },
     {
-     "title": "Advanced Topics",
-     "id": "857e818e-e1f9-738a-7ed8-02f6c88f2165",
-     "type": "section",
-     "children": [
-      {
-       "title": "Learning Objectives: Advanced Topics",
-       "id": "8c9a2963-14b1-0754-0455-3434adbf8049",
-       "type": "page",
-       "pageId": "667b1eac-da5d-9fe1-f13c-86aed17716fd"
-      },
-      {
-       "title": "Helper Functions",
-       "id": "4b86269c-d3d4-4c86-a606-9f211f32e8b0",
-       "type": "page",
-       "pageId": "52c900f0-5eb8-2d20-4608-bc1d3bfdf938"
-      },
-      {
-       "title": "Function Composition",
-       "id": "9aca6681-2250-0d62-b79e-32154aa98c6f",
-       "type": "page",
-       "pageId": "da43d3df-e868-6b40-8c3f-88f7fb58e01c"
-      },
-      {
-       "title": "Modularity",
-       "id": "307cfade-0d37-f626-deee-4375aefd24a9",
-       "type": "page",
-       "pageId": "813d63d3-1ba2-0cb3-55a4-d5ab4405e60b"
-      }
-     ]
-    },
-    {
-     "title": "Formative Assessment: Advanced Topics",
-     "id": "692f8b47-5d2a-83f9-5e1a-62f6f37225a5",
-     "type": "section",
-     "children": [
-      {
-       "title": "Formative Assessment 1",
-       "id": "4196e624-ff90-83a0-379e-26ceb6dc6464",
-       "type": "page",
-       "pageId": "194e4f92-7626-aea9-c44b-f7c33cc49489"
-      },
-      {
-       "title": "Formative Assessment 2",
-       "id": "dc1c6d30-fef9-6f16-5f37-1229be669124",
-       "type": "page",
-       "pageId": "de44db71-74a4-625a-63f9-3dbdf848c762"
-      }
-     ]
-    },
-    {
-     "title": "Lab: Functions",
+     "title": "Lab: Methods",
      "id": "0f412c58-cab3-9ee7-4862-8710e344786a",
      "type": "section",
      "children": [
       {
-       "title": "Lab 1",
+       "title": "Lab: Parameters",
        "id": "be5c7fe9-5ddf-9fa8-df7f-88d9977c0e57",
        "type": "page",
        "pageId": "78dda7a4-d979-3404-68b3-65beb50ec59b"
       },
       {
-       "title": "Lab 2",
+       "title": "Lab: Variable Scope",
        "id": "184d0ca5-1b62-8e06-3fdb-2eee711c5448",
        "type": "page",
        "pageId": "1306cb1b-4f11-4969-9496-5839fa3d391c"
       },
       {
-       "title": "Lab 3",
+       "title": "Lab: Return Values",
        "id": "8273c3fe-e0d4-d96a-98ce-4e52883b4162",
        "type": "page",
        "pageId": "8bb4966e-4623-a5fd-beac-820b306f70e6"
       },
       {
-       "title": "Lab 4",
-       "id": "f4c0af67-fa1d-0e01-e599-6287a8e53150",
+       "title": "Lab: Helper Methods",
+       "id": "02ae6377-4433-6470-3e7f-c38a6ed7f4ec",
        "type": "page",
-       "pageId": "e54b9357-5c90-21b1-3dd9-e22cb0948621"
+       "pageId": "a8d73611-2e1e-ab52-c3e2-3e1038531be6"
       },
       {
-       "title": "Lab 5",
-       "id": "0de9de7e-be4b-b9d9-57ec-654a6c18dfb6",
-       "type": "page",
-       "pageId": "2e425131-6104-b356-9115-b738591584f9"
-      },
-      {
-       "title": "Lab Challenge",
+       "title": "Lab Challenge: Greeting Machine",
        "id": "9b2ca2cc-db8e-31fd-4625-90ec82757978",
        "type": "page",
        "pageId": "73f9a0d3-a8f8-0005-0d14-c73681ca6228"
@@ -1726,7 +1664,7 @@
      ]
     },
     {
-     "title": "Coding Exercises: Functions",
+     "title": "Coding Exercises: Methods",
      "id": "ba8b899d-7d1d-b417-2410-70dbaeac3191",
      "type": "section",
      "children": [

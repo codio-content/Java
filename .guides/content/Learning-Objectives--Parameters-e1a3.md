@@ -1,15 +1,13 @@
-* ### Demonstrate how to define a function with parameters
+* ### Demonstrate how to define a method with parameters
 * ### Identify which value is assigned to each parameter
-* ### Assign a parameter a value based on its name
-* ### Identify which data types can be used as parameters
-* ### Check parameter types and provide feedback when there is an error
-* ### Explain how optional parameters work
-* ### Demonstrate how to declare a function with an undetermined amount of parameters
+* ### Catch exceptions with a try catch block
+* ### Define methods with the same name but different parameters
+* ### Demonstrate how to declare a method with an array and ArrayList as a parameter
 
 |||guidance
 ## Assumptions
-All of the functions lessons assume the students have done everything but recursion. 
+Students have completed all previous modules with the exception of files and recursion.
 
 ## Limitations
-These lessons are more focused on providing information about functions in general. Students will not yet be writing a variety of functions.
+These lessons are more focused on providing information about methods in general. Students will not yet be writing complex methods.
 |||
