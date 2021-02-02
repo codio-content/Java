@@ -11,18 +11,18 @@ We have already seen strings in the "Fundamentals"section. We are going to dig a
 To calculate the length of a string, use the `length()` method. This method will return an integer that is the sum of all of the characters between the quotation marks.
 
 ```java
-String my_string = "Hello";
-int len_string = my_string.length();
-System.out.println(len_string);
+String myString = "Hello";
+int lenString = myString.length();
+System.out.println(lenString);
 ```
 
 {Try it}(sh .guides/bg.sh javac code/strings/StringProperties.java java -cp code/strings/ StringProperties 1)
 
 |||challenge
 ## What happens if you:
-* Change `my_string` to `"Hello world!"`?
-* Change `my_string` to `""`?
-* Change `my_string` to `"-1"`?
+* Change `myString` to `"Hello world!"`?
+* Change `myString` to `""`?
+* Change `myString` to `"-1"`?
 
 |||
 
@@ -44,8 +44,8 @@ To reference a character, use the string name followed by the `charAt()` method.
 ![.guides/img/StringCharAt](.guides/img/StringCharAt.png)
 
 ```java
-String my_string = "Hello!";
-char character = my_string.charAt(1);
+String myString = "Hello!";
+char character = myString.charAt(1);
 System.out.println(character);
 ```
 
@@ -53,9 +53,9 @@ System.out.println(character);
 
 |||challenge
 ## What happens if you:
-* Change `char character` to `my_string.charAt(my_string.length())`?
-* Change `char character` to `my_string.charAt(my_string.length()-1)`?
-* Change `char character` to `my_string.charAt(-1)`?
+* Change `char character` to `myString.charAt(myString.length())`?
+* Change `char character` to `myString.charAt(myString.length()-1)`?
+* Change `char character` to `myString.charAt(-1)`?
 
 |||
 
