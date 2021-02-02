@@ -11894,36 +11894,37 @@
   "source": {
    "name": "The replace() Method",
    "showName": true,
-   "instructions": "Assume you have the code `String my_string = \"The cat in the hat\";`. Which of the following code snippets below **will not** make any changes to `my_string`?",
+   "instructions": "Assume you have the code `String myString = \"The cat in the hat\";`. Which of the following code snippets below **will not** make any changes to `myString`?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
     {
      "_id": "710486f0-d43f-bd4b-047c-065cd4ab1422",
      "correct": false,
-     "answer": "`my_string.replace(\"cat\", \"rat\")`"
+     "answer": "`myString.replace(\"cat\", \"rat\")`"
     },
     {
      "_id": "4d451918-7b2d-2bc2-1bc4-8d6baed54547",
      "correct": true,
-     "answer": "`my_string.replace(\"Hat\", \"Bat\")`"
+     "answer": "`myString.replace(\"Hat\", \"Bat\")`"
     },
     {
      "_id": "f5d0fa38-7a23-8c05-39c2-634419f6e471",
      "correct": false,
-     "answer": "`my_string.replace(\"The\", \"A\")`"
+     "answer": "`myString.replace(\"The\", \"A\")`"
     },
     {
      "_id": "ca311c2d-a91a-0bf8-fecb-db6247d43817",
      "correct": false,
-     "answer": "`my_string.replace(\" \", \"\")`"
+     "answer": "`myString.replace(\" \", \"\")`"
     }
    ],
-   "guidance": "In order for the `replace()` method to return a **changed** string, you need to specify a string parameter that actually exists in the original string. `The`, `cat`, and white space (`\" \"`) all exist in the original string. The only parameter that **does not** exist is `Hat`, therefore, the system will not return a string that is different.\n\n**Solution:**\n`my_string.replace(\"Hat\", \"Bat\")`",
+   "guidance": "In order for the `replace()` method to return a **changed** string, you need to specify a string parameter that actually exists in the original string. `The`, `cat`, and white space (`\" \"`) all exist in the original string. The only parameter that **does not** exist is `Hat`, therefore, the system will not return a string that is different.\n\n**Solution:**\n`myString.replace(\"Hat\", \"Bat\")`",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {

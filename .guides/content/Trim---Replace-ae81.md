@@ -5,8 +5,8 @@
 The `trim()` method removes white space characters from the beginning and end of a string. `trim()` will return a modified copy of the original string.
 
 ```java
-String my_string = "    Hello    world    ";
-System.out.println(my_string.trim());
+String myString = "    Hello    world    ";
+System.out.println(myString.trim());
 ```
 
 {Try it}(sh .guides/bg.sh javac code/strings/TrimRemove.java java -cp code/strings/ TrimRemove 1)
