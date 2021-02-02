@@ -1,28 +1,34 @@
 ----------
 
-## The Starts With Method
+## The startsWith() Method
 
-The `startswith` method returns either `True` or `False` if a string starts with another string. For example, `my_string.startswith("this")` will return `True` if `my_string` starts with `"this"`. If not, it will return false. The `startswith` method is a bit different because some of the parameters are optional. The first parameter, a string, is mandatory. `startswith` will start the comparison with the first character in the string. However, you can change where the comparison starts and ends with the optional parameters. 
+The `startsWith()` method returns either `true` or `false` depending on whether a string starts a specific character(s). For example, `my_string.startsWith("this")` will return `true` if `my_string` starts with `"this"`. If not, it will return `false`. The `startsWith()` method has two parameters. The first parameter, a string, is mandatory. `startsWith` will start the comparison with the first character in the string by default. However, you can change where the comparison starts and ends with an optional second parameter. **Remember** that string indices start at `0`, which corresponds with the first letter in the string!
 
-![Optional Parameters](.guides/images/string-method-optional-parameters.png)
+![.guides/img/StringStartsWith](.guides/img/StringStartsWith.png)
 
-```python
-my_string = "this is a string"
-my_bool = my_string.startswith("this")
-print(my_bool)
+<details>
+  <summary><strong>The endsWith() method</strong></summary>
+  You can use the <code>endsWith()</code> method to see if a string ends with a specific character(s). Unlike the <code>startsWith()</code> method, there is no optional second parameter. Here is an example, given the string <code>this is a string</code>, <code>my_string.endsWith("ring")</code> will return <code>true</code>.
+</details><br>
+
+```java
+String my_string = "this is a string";
+boolean my_bool = my_string.startsWith("this");
+
+System.out.println(my_bool);
 ```
 
-{try it}(python3 code/strings/startswith-method.py 1)
+{Try it}(sh .guides/bg.sh javac code/strings/StartsWith.java java -cp code/strings/ StartsWith 1)
 
 |||challenge
 ## What happens if you:
-* Change `my_bool` to `my_string.startswith("This")`?
-* Change `my_bool` to `my_string.startswith("is", 2)`?
-* Change `my_bool` to `my_string.startswith("is", 2, 3)`?
-* Change `my_bool` to `my_string.startswith("is", 2, 4)`?
+* Set `my_bool` to `my_string.startsWith("This")`?
+* Set `my_bool` to `my_string.startsWith("is", 2)`?
+* Set `my_bool` to `my_string.startsWith("is", 4)`?
+* Set `my_bool` to `my_string.startsWith("is", 5)`?
 
 |||
 
-{try it}(python3 code/strings/startswith-method.py 2)
+{Try it}(sh .guides/bg.sh javac code/strings/StartsWith.java java -cp code/strings/ StartsWith 2)
 
-{Check It!|assessment}(fill-in-the-blanks-1792875991)
+{Check It!|assessment}(fill-in-the-blanks-2517337307)

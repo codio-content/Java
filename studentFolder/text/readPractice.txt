@@ -1,0 +1,5 @@
+Java was created by James Gosling.
+It was originally named Oak for the tree outside Gosling's window.
+Sun Microsystems released version 1 in 1996.
+Version 15 was released in September 2020.
+Java has a mascot name Duke.

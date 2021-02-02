@@ -6,8 +6,6 @@
 
 |||guidance
 ## Assumptions
-Students should be comfortable with string basics, string methods and functions, and loops.
+Students should be comfortable with string basics, string methods and functions, and loops. Though not necessary, being familiar with nested loops may be helpful.
 
-## Limitations
-No direct comparison is made to lists in case strings are covered before lists.
 |||

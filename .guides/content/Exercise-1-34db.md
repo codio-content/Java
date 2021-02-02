@@ -3,14 +3,39 @@
 ## Strings Exercise 1
 
 **Problem**
-Write a program that takes input from a user and prints the first character of the input and the last character with some context. **Important**, do not put a prompt when asking for user input. Just use `input()`. Adding a prompt will cause your program to not pass the tests.
+Write a program that takes input from a user and prints the first character of the input and the last character with some context. For example, if `baseball` is the string, then the program will output `b is the first character and l is the last character`. If `cat` is the string, then `c is the first character and t is the last character` will be printed.
 
-**Expected Output**
-* If `baseball` then you will print `b is the first character and l is the last character`
-* If `cat` then you will print `c is the first character and t is the last character`
+```java
+public class Exercise1 {
+  public static void main(String args[]) {
+    
+    String my_string = args[0];
+    
+    //add code below this line
+    
 
-[Code Visualizer](open_tutor code/strings/exercise1.py)
-{try it|terminal}(python3 code/strings/exercise1.py)
+    
+    //add code above this line
+  }
+}
+```
 
-{Check It!|assessment}(code-output-compare-2841054492)
+### Click to compile your code
+{Compile Code}(javac code/strings/Exercise1.java)
 
+### Test your code with a few different values
+
+{Test with baseball}(java -cp code/strings/ Exercise1 baseball)
+<details><summary><b>Expected Output</b></summary><code>b is the first character and l is the last character</code></details><br>
+
+{Test with cat}(java -cp code/strings/ Exercise1 cat)
+<details><summary><b>Expected Output</b></summary><code>c is the first character and t is the last character</code></details><br>
+
+{Test with 123!}(java -cp code/strings/ Exercise1 123!)
+<details><summary><b>Expected Output</b></summary><code>1 is the first character and ! is the last character</code></details><br>
+
+### Requirements
+* You **should not** make any changes to the code that already exists. If you accidentally delete any existing code, you can copy and paste the entire program from above.
+* You can use **any** number of string methods and/or conditionals to produce the desired output.
+
+{Check It!|assessment}(code-output-compare-388959606)
