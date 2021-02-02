@@ -11448,6 +11448,7 @@
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -11530,11 +11531,12 @@
      "answer": "You can assign a variable a new string value"
     }
    ],
-   "guidance": "A string is immutable because you cannot alter individual characters. For example, `my_string.charAt(0) = \"A\"` is trying to change the first character of a string to `A`. However, this is not possible due to string immutability.",
+   "guidance": "A string is immutable because you cannot alter individual characters. For example, `myString.charAt(0) = \"A\"` is trying to change the first character of a string to `A`. However, this is not possible due to string immutability.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
