@@ -5,20 +5,20 @@ The `substring()` method returns a portion of the string. Within parentheses `()
 ![.guides/img/StringSubstring](.guides/img/StringSubstring.png)
 
 ```java
-String my_string = "The brown dog jumps over the lazy fox.";
-String my_slice = my_string.substring(4, 9);
+String myString = "The brown dog jumps over the lazy fox.";
+String mySlice = myString.substring(4, 9);
 
-System.out.println(my_slice);
+System.out.println(mySlice);
 ```
 
 {Try it}(sh .guides/bg.sh javac code/strings/Substring.java java -cp code/strings/ Substring 1)
 
 |||challenge
 ## What happens if you:
-* Change `my_slice` to be `my_string.substring(1, 2)`?
-* Change `my_slice` to be `my_string.substring(0, my_string.length())`?
-* Change `my_slice` to be `my_string.substring(1, 1)`?
-* Change `my_slice` to be `my_string.substring(2)`?
+* Change `mySlice` to be `myString.substring(1, 2)`?
+* Change `mySlice` to be `myString.substring(0, myString.length())`?
+* Change `mySlice` to be `myString.substring(1, 1)`?
+* Change `mySlice` to be `myString.substring(2)`?
 
 |||
 
@@ -26,7 +26,7 @@ System.out.println(my_slice);
 
 <details>
   <summary><strong><code>substring()</code> default stop index</strong></summary>
-  If only one index number is present, such as <code>my_string.substring(2)</code>, Java will force the start index to that index number and the end index number will be the index of the last character of the string + 1. Essentially, <code>my_string.substring(2)</code> will become <code>my_string.substring(2, my_string.length())</code> which is also the same as <code>my_string.substring(2, 38)</code>.
+  If only one index number is present, such as <code>myString.substring(2)</code>, Java will force the start index to that index number and the end index number will be the index of the last character of the string + 1. Essentially, <code>myString.substring(2)</code> will become <code>myString.substring(2, myString.length())</code> which is also the same as <code>myString.substring(2, 38)</code>.
 </details>
 
 {Check It!|assessment}(multiple-choice-2182641556)

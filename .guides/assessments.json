@@ -11607,6 +11607,7 @@
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -11647,7 +11648,7 @@
   "source": {
    "name": "The substring() method",
    "showName": true,
-   "instructions": "Use the code below to help you answer the following question:\n\n```java\nString my_string = \"Calvin and Hobbes\";\nString my_slice = my_string.substring(3, 8);\n```\n\nWhat is the value of `my_slice`?",
+   "instructions": "Use the code below to help you answer the following question:\n\n```java\nString myString = \"Calvin and Hobbes\";\nString mySlice = myString.substring(3, 8);\n```\n\nWhat is the value of `mySlice`?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
@@ -11672,11 +11673,12 @@
      "answer": "`lvin a`"
     }
    ],
-   "guidance": "The `contains()` method has start and stop index values. The start index value is inclusive, meaning this value is a part of the substring. The stop index value is exclusive, meaning that this value will not be part of the substring. Since the code reads `String my_slice = my_string.substring(3, 8);`, the substring will include all characters from indices 3 to 7, which is `\"vin a\"`.",
+   "guidance": "The `contains()` method has start and stop index values. The start index value is inclusive, meaning this value is a part of the substring. The stop index value is exclusive, meaning that this value will not be part of the substring. Since the code reads `String mySlice = myString.substring(3, 8);`, the substring will include all characters from indices 3 to 7, which is `\"vin a\"`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -11724,29 +11726,30 @@
     {
      "_id": "e9c45e6d-00bc-df91-f13c-7ef8ef43ac4f",
      "correct": true,
-     "answer": "`String my_string = \"It's my birthday today!\";`"
+     "answer": "`String myString = \"It's my birthday today!\";`"
     },
     {
      "_id": "eb9bd82c-8b7f-7411-0409-4af9ba375b31",
      "correct": false,
-     "answer": "`String my_string = 'It's my birthday today!';`"
+     "answer": "`String myString = 'It's my birthday today!';`"
     },
     {
      "_id": "de3036f5-ad72-7b48-7c04-3e810a4ece97",
      "correct": false,
-     "answer": "`String my_string = \"It/'s my birthday today!\";`"
+     "answer": "`String myString = \"It/'s my birthday today!\";`"
     },
     {
      "_id": "e71acf7a-1a07-08a0-b2ca-14f940963232",
      "correct": true,
-     "answer": "`String my_string = \"It\\'s my birthday today!\";`"
+     "answer": "`String myString = \"It\\'s my birthday today!\";`"
     }
    ],
-   "guidance": "There are two possible ways to make a contraction such as `It's` inside a string.\n1) Use double quotation marks for the string declaration and a single quote `'` for the contraction. `String my_string = \"It's my birthday today!\";`\n2) Use double quotation marks for the string declaration and the escape character `\\'` for the contraction. `my_string = \"It\\'s my birthday today!\"`\n\n**Note** that you cannot use single quotes `'` to declare strings. Single quotes can only be used for characters typed as `char`.",
+   "guidance": "There are two possible ways to make a contraction such as `It's` inside a string.\n1) Use double quotation marks for the string declaration and a single quote `'` for the contraction. `String myString = \"It's my birthday today!\";`\n2) Use double quotation marks for the string declaration and the escape character `\\'` for the contraction. `myString = \"It\\'s my birthday today!\"`\n\n**Note** that you cannot use single quotes `'` to declare strings. Single quotes can only be used for characters typed as `char`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -11788,7 +11791,7 @@
    "name": "Comparing String Lengths",
    "showName": true,
    "instructions": "Use the code blocks below to help construct a program that checks if `string1` is longer than `string2`. Then prints the message `string1 is longer` if true. **Remember to indent** any command(s) that is associated with the conditional statement or you will not receive credit for your work!\n\n**Hint:** not all of the code blocks will be used.",
-   "initial": "if (string1.length() > string2.length()) {\n  System.out.println(\"string1 is longer\");\n}\nif (string1.length > string2.length) {    #distractor\nif (length(string1) > length(string2)) {     #distractor",
+   "initial": "if (string1.length() &gt; string2.length()) {\n  System.out.println(&quot;string1 is longer&quot;);\n}\nif (string1.length &gt; string2.length) {     #distractor\nif (length(string1) &gt; length(string2)) {      #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "`length(string1)` is not valid Java syntax and `string1.length` will only work for arrays since `length` by itself is an instance variable, not a method. `length()`, on the other hand, is a method used to determine string length.\n\n**Solution:**\n```java\nif (string1.length() > string2.length()) {\n  System.out.println(\"string1 is longer\");\n}\n```",
