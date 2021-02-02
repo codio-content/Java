@@ -1,5 +1,5 @@
 {
- "name": "CS: Introduction in Java",
+ "name": "Java",
  "children": [
   {
    "title": "Fundamentals",
@@ -1703,118 +1703,6 @@
    ]
   },
   {
-   "title": "Recursion",
-   "id": "72d8a87d-27da-51a9-6bc8-c8da8af6d8aa",
-   "type": "chapter",
-   "children": [
-    {
-     "title": "Learning Objectives - Recursion",
-     "id": "8fb4a54a-e9e1-9a15-3ede-1d52294a1bff",
-     "type": "page",
-     "pageId": "66a1843e-4e86-287b-bd5f-f051da57c94a"
-    },
-    {
-     "title": "What is Recursion?",
-     "id": "3b92d4b0-e3cf-e85d-3b20-f54e0d7dd9c0",
-     "type": "page",
-     "pageId": "677f2d80-1f40-4e1d-f5fd-37fb0cec5100"
-    },
-    {
-     "title": "Fibonacci Sequence",
-     "id": "3200e97f-620e-745e-0614-55767d92b4c2",
-     "type": "page",
-     "pageId": "4dd761ed-9929-bcae-e495-c8daac947a49"
-    },
-    {
-     "title": "Formative Assessments - Recursion",
-     "id": "5561f2fe-ffeb-038d-300d-22eb930b7ee0",
-     "type": "section",
-     "children": [
-      {
-       "id": "8ccec713-8634-ea48-ba7c-ede6261cc5d8",
-       "title": "Formative Assessment 1",
-       "pageId": "1c830ef3-c455-24c6-8332-e117a5a58662",
-       "type": "page"
-      },
-      {
-       "id": "967358c9-37e0-fec4-68e7-94076eae270e",
-       "title": "Formative Assessment 2",
-       "pageId": "c269f5d7-c057-3d13-6307-4657d0fd4368",
-       "type": "page"
-      }
-     ]
-    },
-    {
-     "title": "Lab - Recursion",
-     "id": "a2e18d89-e42f-1238-d8b7-2bda9f0325cf",
-     "type": "section",
-     "children": [
-      {
-       "id": "7f9e4850-56fe-3283-88c8-8415730b7a7e",
-       "title": "Lab 1",
-       "pageId": "e60811cd-00f8-50c0-4bfa-23e10ce75647",
-       "type": "page"
-      },
-      {
-       "id": "003c93e0-3513-41bb-5f1f-ffe2a2ddfdc5",
-       "title": "Lab 2",
-       "pageId": "da47862c-6c5e-753b-b247-278827fec4c7",
-       "type": "page"
-      },
-      {
-       "id": "3bc0269d-50e2-4da1-76d1-e77d2b239f87",
-       "title": "Lab 3",
-       "pageId": "aa175d18-c540-431b-0b69-300d4651eb90",
-       "type": "page"
-      },
-      {
-       "id": "9fde472a-9258-dda6-b5fb-a562bca2bbd9",
-       "title": "Lab Challenge",
-       "pageId": "dde3fb13-5791-5f28-0593-e3d726aec1f7",
-       "type": "page"
-      }
-     ]
-    },
-    {
-     "title": "Coding Exercises - Recursion",
-     "id": "c698614d-d362-67be-971b-96ffe1eeb72f",
-     "type": "section",
-     "children": [
-      {
-       "title": "Exercise 1",
-       "id": "c737dbfb-42d5-9cf4-9a76-ef4ed8f30f06",
-       "type": "page",
-       "pageId": "2a3a3851-c996-2638-0363-69e6e70c0697"
-      },
-      {
-       "title": "Exercise 2",
-       "id": "4c69bda0-842d-22a9-c2e1-d4a2fa6fcab0",
-       "type": "page",
-       "pageId": "4f76d7cb-33c4-4254-94f1-99c96f17203d"
-      },
-      {
-       "title": "Exercise 3",
-       "id": "9c7d0523-a9f1-a296-0755-c52e49653500",
-       "type": "page",
-       "pageId": "0547cf95-603b-b62a-4e61-f1f9eef3d531"
-      },
-      {
-       "title": "Exercise 4",
-       "id": "f411db5e-04d1-12b6-d87a-48505bf1b0f9",
-       "type": "page",
-       "pageId": "79f05399-371c-a8b0-1cac-a4dbd139e531"
-      },
-      {
-       "title": "Exercise 5",
-       "id": "bb3d6020-0185-48db-1453-18eadcbc4ee4",
-       "type": "page",
-       "pageId": "146d926c-de58-a4fe-80b0-566e6fb921e7"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "title": "Files",
    "id": "47b8e812-23f8-6c2b-e599-0747f911bd35",
    "type": "chapter",
@@ -1887,34 +1775,34 @@
        "pageId": "a6bcddf1-68d5-d54e-8a13-4cd3cda6eddc"
       },
       {
-       "id": "08bdd56a-414f-3b3e-5e52-1f8e26781e46",
        "title": "Reading a File",
-       "pageId": "c58b4514-5292-e283-d1bc-899e8d03b44b",
-       "type": "page"
+       "id": "08bdd56a-414f-3b3e-5e52-1f8e26781e46",
+       "type": "page",
+       "pageId": "c58b4514-5292-e283-d1bc-899e8d03b44b"
       },
       {
-       "id": "d60c8e33-6818-7ca1-06a5-46b0696599d9",
        "title": "File Iteration",
-       "pageId": "62817790-8996-3fa9-fe84-96bc81e82f66",
-       "type": "page"
+       "id": "d60c8e33-6818-7ca1-06a5-46b0696599d9",
+       "type": "page",
+       "pageId": "62817790-8996-3fa9-fe84-96bc81e82f66"
       },
       {
-       "id": "3cacd14a-b825-245b-9714-87fff92afd91",
        "title": "Tokens",
-       "pageId": "9180a8f1-f4f5-d3c8-968e-f3e6a3690a0e",
-       "type": "page"
+       "id": "3cacd14a-b825-245b-9714-87fff92afd91",
+       "type": "page",
+       "pageId": "9180a8f1-f4f5-d3c8-968e-f3e6a3690a0e"
       },
       {
-       "id": "7d84cc08-a69b-0cf1-3101-bbde0db38d5b",
        "title": "Skip Method",
-       "pageId": "e4127028-f015-a4f0-0f45-7413e9c65a39",
-       "type": "page"
+       "id": "7d84cc08-a69b-0cf1-3101-bbde0db38d5b",
+       "type": "page",
+       "pageId": "e4127028-f015-a4f0-0f45-7413e9c65a39"
       },
       {
-       "id": "084d9dbc-0526-01db-0080-0641bd709a74",
        "title": "Read and Write - Two Files",
-       "pageId": "21343a86-20ee-1a9f-4211-d5aff82a9eb0",
-       "type": "page"
+       "id": "084d9dbc-0526-01db-0080-0641bd709a74",
+       "type": "page",
+       "pageId": "21343a86-20ee-1a9f-4211-d5aff82a9eb0"
       }
      ]
     },
@@ -1924,16 +1812,16 @@
      "type": "section",
      "children": [
       {
-       "id": "346433bb-7221-c3d3-986b-0d01c1d4413e",
        "title": "Formative Assessment 1",
-       "pageId": "288d8e8f-bb7e-93d2-05c2-b53aafab36d3",
-       "type": "page"
+       "id": "346433bb-7221-c3d3-986b-0d01c1d4413e",
+       "type": "page",
+       "pageId": "288d8e8f-bb7e-93d2-05c2-b53aafab36d3"
       },
       {
-       "id": "ae6da77b-b844-9822-4b83-b6d35b4bf8a0",
        "title": "Formative Assessment 2",
-       "pageId": "c7bd65e0-a84a-99c7-e1f1-27c2b314af3e",
-       "type": "page"
+       "id": "ae6da77b-b844-9822-4b83-b6d35b4bf8a0",
+       "type": "page",
+       "pageId": "c7bd65e0-a84a-99c7-e1f1-27c2b314af3e"
       }
      ]
     },
@@ -1943,34 +1831,34 @@
      "type": "section",
      "children": [
       {
-       "id": "df356ff2-f8aa-db54-7df7-081ab5650152",
        "title": "Learning Objectives - CSV",
-       "pageId": "4108f285-fd0f-040b-1bb1-26065f034cc9",
-       "type": "page"
+       "id": "df356ff2-f8aa-db54-7df7-081ab5650152",
+       "type": "page",
+       "pageId": "4108f285-fd0f-040b-1bb1-26065f034cc9"
       },
       {
-       "id": "7373688f-7ca4-7022-fed8-40a99d1d7eec",
        "title": "CSV Files",
-       "pageId": "dd3aaa9c-6816-0a71-b957-8538c1118132",
-       "type": "page"
+       "id": "7373688f-7ca4-7022-fed8-40a99d1d7eec",
+       "type": "page",
+       "pageId": "dd3aaa9c-6816-0a71-b957-8538c1118132"
       },
       {
-       "id": "67e3b354-2aa7-21be-d307-49da0a4cf86a",
        "title": "Printing CSV Data",
-       "pageId": "5a36f582-3ea7-7ffb-6f9a-ec5dc3eb7de4",
-       "type": "page"
+       "id": "67e3b354-2aa7-21be-d307-49da0a4cf86a",
+       "type": "page",
+       "pageId": "5a36f582-3ea7-7ffb-6f9a-ec5dc3eb7de4"
       },
       {
-       "id": "718c422e-b9b3-fb7e-7392-a20922888c09",
        "title": "Delimiters",
-       "pageId": "f7fa653b-33b4-727c-60d1-8730ed792500",
-       "type": "page"
+       "id": "718c422e-b9b3-fb7e-7392-a20922888c09",
+       "type": "page",
+       "pageId": "f7fa653b-33b4-727c-60d1-8730ed792500"
       },
       {
-       "id": "77f3738c-f70c-b69e-1744-5acad7c901f7",
        "title": "Writing to CSV Files",
-       "pageId": "83e3a973-8978-0788-7005-2138d99e1101",
-       "type": "page"
+       "id": "77f3738c-f70c-b69e-1744-5acad7c901f7",
+       "type": "page",
+       "pageId": "83e3a973-8978-0788-7005-2138d99e1101"
       }
      ]
     },
@@ -1980,16 +1868,16 @@
      "type": "section",
      "children": [
       {
-       "id": "fd351343-851c-63fe-fba9-2c80519fc6f2",
        "title": "Formative Assessment 1",
-       "pageId": "2c757f76-8a30-ec17-d9ff-147a54fb2467",
-       "type": "page"
+       "id": "fd351343-851c-63fe-fba9-2c80519fc6f2",
+       "type": "page",
+       "pageId": "2c757f76-8a30-ec17-d9ff-147a54fb2467"
       },
       {
-       "id": "bbd0e766-46b3-44db-b880-dbcd2faebd1b",
        "title": "Formative Assessment 2",
-       "pageId": "1b4c16e5-7891-229a-5141-e7ab1c936e9a",
-       "type": "page"
+       "id": "bbd0e766-46b3-44db-b880-dbcd2faebd1b",
+       "type": "page",
+       "pageId": "1b4c16e5-7891-229a-5141-e7ab1c936e9a"
       }
      ]
     },
@@ -1999,34 +1887,34 @@
      "type": "section",
      "children": [
       {
-       "id": "073e9639-1da7-047c-6f84-3a1dc1acfaed",
        "title": "Lab 1",
-       "pageId": "cc4d2a00-9fcf-464b-7003-66f71e4011aa",
-       "type": "page"
+       "id": "073e9639-1da7-047c-6f84-3a1dc1acfaed",
+       "type": "page",
+       "pageId": "cc4d2a00-9fcf-464b-7003-66f71e4011aa"
       },
       {
-       "id": "f32e4443-9ff0-262b-c845-2a0e227aebf3",
        "title": "Lab 2",
-       "pageId": "059bff7d-61d2-fc1b-227f-3fae3fc27138",
-       "type": "page"
+       "id": "f32e4443-9ff0-262b-c845-2a0e227aebf3",
+       "type": "page",
+       "pageId": "059bff7d-61d2-fc1b-227f-3fae3fc27138"
       },
       {
-       "id": "f5e353b6-e6b5-323f-43d2-d7f34b95aa97",
        "title": "Lab 3",
-       "pageId": "28c8200c-f92b-4ebe-211d-515bd644c2e6",
-       "type": "page"
+       "id": "f5e353b6-e6b5-323f-43d2-d7f34b95aa97",
+       "type": "page",
+       "pageId": "28c8200c-f92b-4ebe-211d-515bd644c2e6"
       },
       {
-       "id": "185571ff-9137-d912-750b-c030439d516d",
        "title": "Lab 4",
-       "pageId": "bf587483-7be8-8782-4e49-b8746dfa8102",
-       "type": "page"
+       "id": "185571ff-9137-d912-750b-c030439d516d",
+       "type": "page",
+       "pageId": "bf587483-7be8-8782-4e49-b8746dfa8102"
       },
       {
-       "id": "0dcd9d7f-c968-8d49-3f21-fca34fa1160d",
        "title": "Lab Challenge",
-       "pageId": "d292af2a-6f89-569a-96d5-b11cc35ff158",
-       "type": "page"
+       "id": "0dcd9d7f-c968-8d49-3f21-fca34fa1160d",
+       "type": "page",
+       "pageId": "d292af2a-6f89-569a-96d5-b11cc35ff158"
       }
      ]
     },
@@ -2064,6 +1952,118 @@
        "id": "79ade8be-3ef3-60df-372c-82748d3401f6",
        "type": "page",
        "pageId": "e1ff0d45-48f8-aa45-b322-0d42aac39469"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Recursion",
+   "id": "72d8a87d-27da-51a9-6bc8-c8da8af6d8aa",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Learning Objectives - Recursion",
+     "id": "8fb4a54a-e9e1-9a15-3ede-1d52294a1bff",
+     "type": "page",
+     "pageId": "66a1843e-4e86-287b-bd5f-f051da57c94a"
+    },
+    {
+     "title": "What is Recursion?",
+     "id": "3b92d4b0-e3cf-e85d-3b20-f54e0d7dd9c0",
+     "type": "page",
+     "pageId": "677f2d80-1f40-4e1d-f5fd-37fb0cec5100"
+    },
+    {
+     "title": "Fibonacci Sequence",
+     "id": "3200e97f-620e-745e-0614-55767d92b4c2",
+     "type": "page",
+     "pageId": "4dd761ed-9929-bcae-e495-c8daac947a49"
+    },
+    {
+     "title": "Formative Assessments - Recursion",
+     "id": "5561f2fe-ffeb-038d-300d-22eb930b7ee0",
+     "type": "section",
+     "children": [
+      {
+       "title": "Formative Assessment 1",
+       "id": "8ccec713-8634-ea48-ba7c-ede6261cc5d8",
+       "type": "page",
+       "pageId": "1c830ef3-c455-24c6-8332-e117a5a58662"
+      },
+      {
+       "title": "Formative Assessment 2",
+       "id": "967358c9-37e0-fec4-68e7-94076eae270e",
+       "type": "page",
+       "pageId": "c269f5d7-c057-3d13-6307-4657d0fd4368"
+      }
+     ]
+    },
+    {
+     "title": "Lab - Recursion",
+     "id": "a2e18d89-e42f-1238-d8b7-2bda9f0325cf",
+     "type": "section",
+     "children": [
+      {
+       "title": "Lab 1",
+       "id": "7f9e4850-56fe-3283-88c8-8415730b7a7e",
+       "type": "page",
+       "pageId": "e60811cd-00f8-50c0-4bfa-23e10ce75647"
+      },
+      {
+       "title": "Lab 2",
+       "id": "003c93e0-3513-41bb-5f1f-ffe2a2ddfdc5",
+       "type": "page",
+       "pageId": "da47862c-6c5e-753b-b247-278827fec4c7"
+      },
+      {
+       "title": "Lab 3",
+       "id": "3bc0269d-50e2-4da1-76d1-e77d2b239f87",
+       "type": "page",
+       "pageId": "aa175d18-c540-431b-0b69-300d4651eb90"
+      },
+      {
+       "title": "Lab Challenge",
+       "id": "9fde472a-9258-dda6-b5fb-a562bca2bbd9",
+       "type": "page",
+       "pageId": "dde3fb13-5791-5f28-0593-e3d726aec1f7"
+      }
+     ]
+    },
+    {
+     "title": "Coding Exercises - Recursion",
+     "id": "c698614d-d362-67be-971b-96ffe1eeb72f",
+     "type": "section",
+     "children": [
+      {
+       "title": "Exercise 1",
+       "id": "c737dbfb-42d5-9cf4-9a76-ef4ed8f30f06",
+       "type": "page",
+       "pageId": "2a3a3851-c996-2638-0363-69e6e70c0697"
+      },
+      {
+       "title": "Exercise 2",
+       "id": "4c69bda0-842d-22a9-c2e1-d4a2fa6fcab0",
+       "type": "page",
+       "pageId": "4f76d7cb-33c4-4254-94f1-99c96f17203d"
+      },
+      {
+       "title": "Exercise 3",
+       "id": "9c7d0523-a9f1-a296-0755-c52e49653500",
+       "type": "page",
+       "pageId": "0547cf95-603b-b62a-4e61-f1f9eef3d531"
+      },
+      {
+       "title": "Exercise 4",
+       "id": "f411db5e-04d1-12b6-d87a-48505bf1b0f9",
+       "type": "page",
+       "pageId": "79f05399-371c-a8b0-1cac-a4dbd139e531"
+      },
+      {
+       "title": "Exercise 5",
+       "id": "bb3d6020-0185-48db-1453-18eadcbc4ee4",
+       "type": "page",
+       "pageId": "146d926c-de58-a4fe-80b0-566e6fb921e7"
       }
      ]
     }
