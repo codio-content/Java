@@ -6,21 +6,21 @@ The `toUpperCase()` method returns a copy of the original string with all upperc
 
 ![.guides/img/StringToUpperCase](.guides/img/StringToUpperCase.png)
 
-**Translation:** Convert all the characters of `my_string` to uppercase.
+**Translation:** Convert all the characters of `myString` to uppercase.
 
 ```java
-String my_string = "the big brown dog";
+String myString = "the big brown dog";
 
-System.out.println(my_string.toUpperCase());
+System.out.println(myString.toUpperCase());
 ```
 
 {Try it}(sh .guides/bg.sh javac code/strings/UpperLowerCase.java java -cp code/strings/ UpperLowerCase 1)
 
 |||challenge
 ## What happens if you:
-* Set `my_string` to `"ThE bIg BrOwN dOg"`?
-* Set `my_string` to `"THE BIG BROWN DOG"`?
-* Set `my_string` to `"123!@#"`?
+* Set `myString` to `"ThE bIg BrOwN dOg"`?
+* Set `myString` to `"THE BIG BROWN DOG"`?
+* Set `myString` to `"123!@#"`?
 
 |||
 
@@ -31,18 +31,18 @@ System.out.println(my_string.toUpperCase());
 The `toLowerCase()` method creates a copy of a string, and returns the copy with all lowercase characters. Like the `toUpperCase()` method, the `toLowerCase()` does not take any parameters either.
 
 ```java
-String my_string = "THE BIG BROWN DOG";
+String myString = "THE BIG BROWN DOG";
 
-System.out.println(my_string.toLowerCase());
+System.out.println(myString.toLowerCase());
 ```
 
 {Try it}(sh .guides/bg.sh javac code/strings/UpperLowerCase.java java -cp code/strings/ UpperLowerCase 3)
 
 |||challenge
 ## What happens if you:
-* Set `my_string` to `"tHe BiG bRoWn DoG"`?
-* Set `my_string` to `"the big brown dog"`?
-* Set `my_string` to `"214%#%"`?
+* Set `myString` to `"tHe BiG bRoWn DoG"`?
+* Set `myString` to `"the big brown dog"`?
+* Set `myString` to `"214%#%"`?
 
 |||
 
