@@ -214,15 +214,7 @@
  {
   "taskId": "code-output-compare-1980739544",
   "points": 0,
-  "results": [
-   {
-    "guidance": "The first task is to iterate through `myString` to check to see if any of its character matches any of the vowels. Since we are working with characters, the `==` operator should be used instead of the `equals()` method. Note that the `ch = myString.charAt(i);` is optional but it will be helpful in shortening the code for our compound conditional statement.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < myString.length(); i++) {\n  ch = myString.charAt(i);\n  if (ch == 'a' || ch == 'e' || ch == 'i' || \n      ch == 'o' || ch == 'u' || ch == 'A' ||\n      ch == 'E' || ch == 'I' || ch == 'O' ||\n      ch == 'U') {\n    System.out.print('*');\n  }\n  else {\n    System.out.print(ch);\n  }\n}\n```",
-    "code": 2,
-    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
-    "timestamp": "2021-02-03T01:14:59.854Z",
-    "state": "fail"
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "code-output-compare-388959606",
