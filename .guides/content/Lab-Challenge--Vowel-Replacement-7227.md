@@ -1,7 +1,7 @@
 ----------
 
 ## Replacing Vowels with a *
-You are going to write a program that takes a string called `my_string` and returns the string but with a `*` in the place of vowels. Assume that vowels are upper and lowercase `a, e, i, o, u`. For example, if `my_string = "Hello"`, then your program will print `"H*ll*"`.
+You are going to write a program that takes a string called `myString` and returns the string but with a `*` in the place of vowels. Assume that vowels are upper and lowercase `a, e, i, o, u`. For example, if `myString = "Hello"`, then your program will print `"H*ll*"`.
 
 Some of the code has already been filled out for you. Your task is to complete the program so that it produces some of the sample output below. If  you accidentally change anything from the original code, you can copy and paste the code back into the text editor.
 
@@ -9,7 +9,7 @@ Some of the code has already been filled out for you. Your task is to complete t
 public class LabChallenge {
   public static void main(String args[]) {
     
-    String my_string = args[0];
+    String myString = args[0];
     char ch;
     
     //add code below this line

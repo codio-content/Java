@@ -12952,29 +12952,29 @@
   "source": {
    "name": "Iterating Through Strings",
    "showName": true,
-   "instructions": "Given the following code snippet:\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  ch = my_string.charAt(i);\n}\n```\n\nWhat does `ch` represent?",
+   "instructions": "Given the following code snippet:\n```java\nfor (int i = 0; i < myString.length(); i++) {\n  ch = myString.charAt(i);\n}\n```\n\nWhat does `ch` represent?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
     {
      "_id": "67ff4248-0db1-cf08-661d-1e8cfb1fd736",
      "correct": false,
-     "answer": "`ch` represents the string `my_string`."
+     "answer": "`ch` represents the string `myString`."
     },
     {
      "_id": "c6c04c3a-4256-063b-ea8d-8cc5cdcd14c1",
      "correct": false,
-     "answer": "`ch` represents the index number of `my_string` from `0` to the end."
+     "answer": "`ch` represents the index number of `myString` from `0` to the end."
     },
     {
      "_id": "124e56c2-be82-ddba-fdad-3bfd50dbac8e",
      "correct": false,
-     "answer": "`ch` represents the length of `my_string`."
+     "answer": "`ch` represents the length of `myString`."
     },
     {
      "_id": "0e0ee091-f7d9-248f-f7b6-67ba1c58f830",
      "correct": true,
-     "answer": "`ch` represents each character of `my_string` from left to right."
+     "answer": "`ch` represents each character of `myString` from left to right."
     }
    ],
    "guidance": "The `charAt()` method returns a character at a particular index in a string. Since we have  the iterating variable `i` that takes on the index number of the string from `0` through its length, `ch` will take on each **character** of the string.",
@@ -13094,7 +13094,7 @@
   "source": {
    "name": "Changing to Upper or Lowercase",
    "showName": true,
-   "instructions": "Given the following code snippet:\n```java\nch = original_string.charAt(i);\nif (Character.isLowerCase(ch)) {\n  modified_string += Character.toUpperCase(ch);\n}\n```\n\nWhat is the function of `Character.toUpperCase(ch)`?",
+   "instructions": "Given the following code snippet:\n```java\nch = originalString.charAt(i);\nif (Character.isLowerCase(ch)) {\n  modifiedString += Character.toUpperCase(ch);\n}\n```\n\nWhat is the function of `Character.toUpperCase(ch)`?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
@@ -13239,7 +13239,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ LabChallenge",
    "preExecuteCommand": "javac code/strings/LabChallenge.java",
-   "guidance": "The first task is to iterate through `my_string` to check to see if any of its character matches any of the vowels. Since we are working with characters, the `==` operator should be used instead of the `equals()` method. Note that the `ch = my_string.charAt(i);` is optional but it will be helpful in shortening the code for our compound conditional statement.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  ch = my_string.charAt(i);\n  if (ch == 'a' || ch == 'e' || ch == 'i' || \n      ch == 'o' || ch == 'u' || ch == 'A' ||\n      ch == 'E' || ch == 'I' || ch == 'O' ||\n      ch == 'U') {\n    System.out.print('*');\n  }\n  else {\n    System.out.print(ch);\n  }\n}\n```",
+   "guidance": "The first task is to iterate through `myString` to check to see if any of its character matches any of the vowels. Since we are working with characters, the `==` operator should be used instead of the `equals()` method. Note that the `ch = myString.charAt(i);` is optional but it will be helpful in shortening the code for our compound conditional statement.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < myString.length(); i++) {\n  ch = myString.charAt(i);\n  if (ch == 'a' || ch == 'e' || ch == 'i' || \n      ch == 'o' || ch == 'u' || ch == 'A' ||\n      ch == 'E' || ch == 'I' || ch == 'O' ||\n      ch == 'U') {\n    System.out.print('*');\n  }\n  else {\n    System.out.print(ch);\n  }\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -13332,7 +13332,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ Exercise1",
    "preExecuteCommand": "javac code/strings/Exercise1.java",
-   "guidance": "In order to get the first and last character of the string, you'll need to access the string's indices. You can do this by using the `charAt()` method. Remember that `charAt(0)` returns the first character of a string. Another key point is to use `my_string.length()-1` because that enables you to access the last character of the string. Finally, all that's left is to print the appropriate responses.\n\n**Sample Solution:**\n```java\nchar first = my_string.charAt(0);\nchar last = my_string.charAt(my_string.length()-1);\n\nSystem.out.println(first + \" is the first character and \" + last + \" is the last character\");\n```",
+   "guidance": "In order to get the first and last character of the string, you'll need to access the string's indices. You can do this by using the `charAt()` method. Remember that `charAt(0)` returns the first character of a string. Another key point is to use `my_string.length()-1` because that enables you to access the last character of the string. Finally, all that's left is to print the appropriate responses.\n\n**Sample Solution:**\n```java\nchar first = myString.charAt(0);\nchar last = myString.charAt(myString.length()-1);\n\nSystem.out.println(first + \" is the first character and \" + last + \" is the last character\");\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -13411,7 +13411,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ Exercise2",
    "preExecuteCommand": "javac code/strings/Exercise2.java",
-   "guidance": "One possible solution is to use a nested `for` loop. Both inner and outer loops will run for the duration of the string's length. However, it is important to note when to print the string with a newline and when to not. When `j` reaches the end of the string, direct the system to print the string with a newline; otherwise, just print the string by itself.\n\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  for (int j = 0; j < my_string.length(); j++) {\n    if (j == my_string.length()-1) {\n      System.out.println(my_string);\n    }\n    else {\n      System.out.print(my_string);\n    }\n  }\n}\n```\n\nAlternatively, you can use a regular `for` to print the string **squared** times. This way forces you to tweak both the loop header and the conditional statement. To make things easier, first create a variable to store the string's length. Next, start the loop at `i = 1` and allow it to run until it reaches squared times plus one. Then, change the conditional statement to `if (i % len == 0)`. This conditional is important because it enables the system to print a newline once it prints the string a `len` number of time.\n\n```java\nint len = my_string.length();\n\nfor (int i = 1; i < len * len + 1; i++) {\n  if (i % len == 0) {\n    System.out.println(my_string);\n  }\n  else {\n    System.out.print(my_string);\n  }\n}\n```",
+   "guidance": "One possible solution is to use a nested `for` loop. Both inner and outer loops will run for the duration of the string's length. However, it is important to note when to print the string with a newline and when to not. When `j` reaches the end of the string, direct the system to print the string with a newline; otherwise, just print the string by itself.\n\n```java\nfor (int i = 0; i < myString.length(); i++) {\n  for (int j = 0; j < myString.length(); j++) {\n    if (j == myString.length()-1) {\n      System.out.println(myString);\n    }\n    else {\n      System.out.print(myString);\n    }\n  }\n}\n```\n\nAlternatively, you can use a regular `for` to print the string **squared** times. This way forces you to tweak both the loop header and the conditional statement. To make things easier, first create a variable to store the string's length. Next, start the loop at `i = 1` and allow it to run until it reaches squared times plus one. Then, change the conditional statement to `if (i % len == 0)`. This conditional is important because it enables the system to print a newline once it prints the string a `len` number of time.\n\n```java\nint len = myString.length();\n\nfor (int i = 1; i < len * len + 1; i++) {\n  if (i % len == 0) {\n    System.out.println(myString);\n  }\n  else {\n    System.out.print(myString);\n  }\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -13569,7 +13569,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ Exercise4",
    "preExecuteCommand": "javac code/strings/Exercise4.java",
-   "guidance": "There are multiple ways to solve this problem. One way is to make use of two loops. First, create an integer variable to keep track of the string's midpoint. Remember that integers in Java disregard any decimal places so `2.5` converted into an integer will be `2`. Next, set up the first loop to iterate from the beginning to midpoint of the string. Then, set up the second loop to iterate through the remainder of the string. After the first loop, make sure to use a `System.out.println()` to separate the two strings. However, this is *optional* for the second loop.\n\n**Sample Solution:**\n```java\nint mid = my_string.length() / 2;\n\nfor (int i = 0; i < mid; i++) {\n  System.out.print(my_string.charAt(i));\n}\nSystem.out.println();\n\nfor (int j = mid; j < my_string.length(); j++) {\n  System.out.print(my_string.charAt(j));\n}\nSystem.out.println();\n```",
+   "guidance": "There are multiple ways to solve this problem. One way is to make use of two loops. First, create an integer variable to keep track of the string's midpoint. Remember that integers in Java disregard any decimal places so `2.5` converted into an integer will be `2`. Next, set up the first loop to iterate from the beginning to midpoint of the string. Then, set up the second loop to iterate through the remainder of the string. After the first loop, make sure to use a `System.out.println()` to separate the two strings. However, this is *optional* for the second loop.\n\n**Sample Solution:**\n```java\nint mid = myString.length() / 2;\n\nfor (int i = 0; i < mid; i++) {\n  System.out.print(myString.charAt(i));\n}\nSystem.out.println();\n\nfor (int j = mid; j < myString.length(); j++) {\n  System.out.print(myString.charAt(j));\n}\nSystem.out.println();\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -13648,8 +13648,8 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ Exercise5",
    "preExecuteCommand": "javac code/strings/Exercise5.java",
-   "guidance": "One way to solve this problem is to set up conditionals. The conditionals will check to see if the index is divisible by 2 or not. If it is divisible by 2, the system will print the next character in the string. If not, then the system will print the previous character.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  if (i % 2 == 0) {\n    System.out.print(my_string.charAt(i + 1));\n  }\n  else {\n    System.out.print(my_string.charAt(i - 1));\n  }\n}\n```",
-   "showGuidanceAfterResponse": false,
+   "guidance": "One way to solve this problem is to set up conditionals. The conditionals will check to see if the index is divisible by 2 or not. If it is divisible by 2, the system will print the next character in the string. If not, then the system will print the previous character.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < myString.length(); i++) {\n  if (i % 2 == 0) {\n    System.out.print(myString.charAt(i + 1));\n  }\n  else {\n    System.out.print(myString.charAt(i - 1));\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "options": {
