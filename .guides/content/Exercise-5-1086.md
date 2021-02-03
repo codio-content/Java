@@ -9,7 +9,7 @@ Write a program that captures input from the user and swaps the letters two at a
 public class Exercise5 {
   public static void main(String args[]) {
     
-    String my_string = args[0];
+    String myString = args[0];
     
     //add code below this line
     

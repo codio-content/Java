@@ -11448,6 +11448,7 @@
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -11530,11 +11531,12 @@
      "answer": "You can assign a variable a new string value"
     }
    ],
-   "guidance": "A string is immutable because you cannot alter individual characters. For example, `my_string.charAt(0) = \"A\"` is trying to change the first character of a string to `A`. However, this is not possible due to string immutability.",
+   "guidance": "A string is immutable because you cannot alter individual characters. For example, `myString.charAt(0) = \"A\"` is trying to change the first character of a string to `A`. However, this is not possible due to string immutability.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -11605,6 +11607,7 @@
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -11645,7 +11648,7 @@
   "source": {
    "name": "The substring() method",
    "showName": true,
-   "instructions": "Use the code below to help you answer the following question:\n\n```java\nString my_string = \"Calvin and Hobbes\";\nString my_slice = my_string.substring(3, 8);\n```\n\nWhat is the value of `my_slice`?",
+   "instructions": "Use the code below to help you answer the following question:\n\n```java\nString myString = \"Calvin and Hobbes\";\nString mySlice = myString.substring(3, 8);\n```\n\nWhat is the value of `mySlice`?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
@@ -11670,11 +11673,12 @@
      "answer": "`lvin a`"
     }
    ],
-   "guidance": "The `contains()` method has start and stop index values. The start index value is inclusive, meaning this value is a part of the substring. The stop index value is exclusive, meaning that this value will not be part of the substring. Since the code reads `String my_slice = my_string.substring(3, 8);`, the substring will include all characters from indices 3 to 7, which is `\"vin a\"`.",
+   "guidance": "The `contains()` method has start and stop index values. The start index value is inclusive, meaning this value is a part of the substring. The stop index value is exclusive, meaning that this value will not be part of the substring. Since the code reads `String mySlice = myString.substring(3, 8);`, the substring will include all characters from indices 3 to 7, which is `\"vin a\"`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -11722,29 +11726,30 @@
     {
      "_id": "e9c45e6d-00bc-df91-f13c-7ef8ef43ac4f",
      "correct": true,
-     "answer": "`String my_string = \"It's my birthday today!\";`"
+     "answer": "`String myString = \"It's my birthday today!\";`"
     },
     {
      "_id": "eb9bd82c-8b7f-7411-0409-4af9ba375b31",
      "correct": false,
-     "answer": "`String my_string = 'It's my birthday today!';`"
+     "answer": "`String myString = 'It's my birthday today!';`"
     },
     {
      "_id": "de3036f5-ad72-7b48-7c04-3e810a4ece97",
      "correct": false,
-     "answer": "`String my_string = \"It/'s my birthday today!\";`"
+     "answer": "`String myString = \"It/'s my birthday today!\";`"
     },
     {
      "_id": "e71acf7a-1a07-08a0-b2ca-14f940963232",
      "correct": true,
-     "answer": "`String my_string = \"It\\'s my birthday today!\";`"
+     "answer": "`String myString = \"It\\'s my birthday today!\";`"
     }
    ],
-   "guidance": "There are two possible ways to make a contraction such as `It's` inside a string.\n1) Use double quotation marks for the string declaration and a single quote `'` for the contraction. `String my_string = \"It's my birthday today!\";`\n2) Use double quotation marks for the string declaration and the escape character `\\'` for the contraction. `my_string = \"It\\'s my birthday today!\"`\n\n**Note** that you cannot use single quotes `'` to declare strings. Single quotes can only be used for characters typed as `char`.",
+   "guidance": "There are two possible ways to make a contraction such as `It's` inside a string.\n1) Use double quotation marks for the string declaration and a single quote `'` for the contraction. `String myString = \"It's my birthday today!\";`\n2) Use double quotation marks for the string declaration and the escape character `\\'` for the contraction. `myString = \"It\\'s my birthday today!\"`\n\n**Note** that you cannot use single quotes `'` to declare strings. Single quotes can only be used for characters typed as `char`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -11786,7 +11791,7 @@
    "name": "Comparing String Lengths",
    "showName": true,
    "instructions": "Use the code blocks below to help construct a program that checks if `string1` is longer than `string2`. Then prints the message `string1 is longer` if true. **Remember to indent** any command(s) that is associated with the conditional statement or you will not receive credit for your work!\n\n**Hint:** not all of the code blocks will be used.",
-   "initial": "if (string1.length() > string2.length()) {\n  System.out.println(\"string1 is longer\");\n}\nif (string1.length > string2.length) {    #distractor\nif (length(string1) > length(string2)) {     #distractor",
+   "initial": "if (string1.length() &gt; string2.length()) {\n  System.out.println(&quot;string1 is longer&quot;);\n}\nif (string1.length &gt; string2.length) {     #distractor\nif (length(string1) &gt; length(string2)) {      #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "`length(string1)` is not valid Java syntax and `string1.length` will only work for arrays since `length` by itself is an instance variable, not a method. `length()`, on the other hand, is a method used to determine string length.\n\n**Solution:**\n```java\nif (string1.length() > string2.length()) {\n  System.out.println(\"string1 is longer\");\n}\n```",
@@ -11889,36 +11894,37 @@
   "source": {
    "name": "The replace() Method",
    "showName": true,
-   "instructions": "Assume you have the code `String my_string = \"The cat in the hat\";`. Which of the following code snippets below **will not** make any changes to `my_string`?",
+   "instructions": "Assume you have the code `String myString = \"The cat in the hat\";`. Which of the following code snippets below **will not** make any changes to `myString`?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
     {
      "_id": "710486f0-d43f-bd4b-047c-065cd4ab1422",
      "correct": false,
-     "answer": "`my_string.replace(\"cat\", \"rat\")`"
+     "answer": "`myString.replace(\"cat\", \"rat\")`"
     },
     {
      "_id": "4d451918-7b2d-2bc2-1bc4-8d6baed54547",
      "correct": true,
-     "answer": "`my_string.replace(\"Hat\", \"Bat\")`"
+     "answer": "`myString.replace(\"Hat\", \"Bat\")`"
     },
     {
      "_id": "f5d0fa38-7a23-8c05-39c2-634419f6e471",
      "correct": false,
-     "answer": "`my_string.replace(\"The\", \"A\")`"
+     "answer": "`myString.replace(\"The\", \"A\")`"
     },
     {
      "_id": "ca311c2d-a91a-0bf8-fecb-db6247d43817",
      "correct": false,
-     "answer": "`my_string.replace(\" \", \"\")`"
+     "answer": "`myString.replace(\" \", \"\")`"
     }
    ],
-   "guidance": "In order for the `replace()` method to return a **changed** string, you need to specify a string parameter that actually exists in the original string. `The`, `cat`, and white space (`\" \"`) all exist in the original string. The only parameter that **does not** exist is `Hat`, therefore, the system will not return a string that is different.\n\n**Solution:**\n`my_string.replace(\"Hat\", \"Bat\")`",
+   "guidance": "In order for the `replace()` method to return a **changed** string, you need to specify a string parameter that actually exists in the original string. `The`, `cat`, and white space (`\" \"`) all exist in the original string. The only parameter that **does not** exist is `Hat`, therefore, the system will not return a string that is different.\n\n**Solution:**\n`myString.replace(\"Hat\", \"Bat\")`",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -12024,11 +12030,11 @@
   "source": {
    "name": "The indexOf() Method",
    "showName": true,
-   "instructions": "Assume that you have two strings, `original_string` and `search_term`. Rearrange the code blocks below to test if `search_term` is found in `original_string`. If true, print the message `\"I found it!\"`. **Remember to indent** any command(s) that is associated with a conditional statement or you will not receive credit for your work!\n\n**Hint:** not all of the code blocks will be used.",
-   "initial": "if ((original_string.indexOf(search_term)) != -1) {\n  System.out.println(\"I found it!\");\n}\nif ((search_term.indexOf(original_string)) != -1) {   #distractor\nif ((original_string.indexOf(search_term)) == -1) {    #distractor",
+   "instructions": "Assume that you have two strings, `originalString` and `searchTerm`. Rearrange the code blocks below to test if `searchTerm` is found in `originalString`. If true, print the message `\"I found it!\"`. **Remember to indent** any command(s) that is associated with a conditional statement or you will not receive credit for your work!\n\n**Hint:** not all of the code blocks will be used.",
+   "initial": "if ((originalString.indexOf(searchTerm)) != -1) {\n  System.out.println(&quot;I found it!&quot;);\n}\nif ((searchTerm.indexOf(originalString)) != -1) {    #distractor\nif ((originalString.indexOf(searchTerm)) == -1) {     #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "Here are the steps to constructing the correct conditional statement:\n1) Start with a conditional.\n```java\nif\n```\n2) Add the string that is being searched in parentheses.\n```java\nif (original_string)\n```\n3) Attach the `indexOf()` method.\n```java\nif (original_string.indexOf())\n```\n4) Use `search_term` as the parameter for `indexOf()`.\n```java\nif (original_string.indexOf(search_term))\n```\n5) If `search_term` is not found, it will return `-1`. So any number that is not `-1` means that `search_term` has been found.\n```java\nif ((original_string.indexOf(search_term)) != -1) {\n```\n6) Finally, add the `print` statement.\n```java\nif ((original_string.indexOf(search_term)) != -1) {\n  System.out.println(\"I found it!\");\n}\n```",
+   "guidance": "Here are the steps to constructing the correct conditional statement:\n1) Start with a conditional.\n```java\nif\n```\n2) Add the string that is being searched in parentheses.\n```java\nif (originalString)\n```\n3) Attach the `indexOf()` method.\n```java\nif (originalString.indexOf())\n```\n4) Use `searchTerm` as the parameter for `indexOf()`.\n```java\nif (originalString.indexOf(searchTerm))\n```\n5) If `searchTerm` is not found, it will return `-1`. So any number that is not `-1` means that `searchTerm` has been found.\n```java\nif ((originalString.indexOf(searchTerm)) != -1) {\n```\n6) Finally, add the `print` statement.\n```java\nif ((originalString.indexOf(searchTerm)) != -1) {\n  System.out.println(\"I found it!\");\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -12244,11 +12250,11 @@
   "source": {
    "name": "Iterating Strings with For Loop",
    "showName": true,
-   "instructions": "Assume you have a string variable `String mystery_string = \"mystery\";`. Fill in the blanks below so that the program prints each character of `mystery_string` like so:\n```java\nm\ny\ns\nt\ne\nr\ny\n```",
+   "instructions": "Assume you have a string variable `String mysteryString = \"mystery\";`. Fill in the blanks below so that the program prints each character of `mysteryString` like so:\n```java\nm\ny\ns\nt\ne\nr\ny\n```",
    "showValues": false,
-   "text": "```java\nfor (int i = 0; i < mystery_string.<<<length>>>(); i++) {\n  System.out.<<<println>>>(mystery_string.<<<charAt>>>(<<<i>>>));\n}\n```",
+   "text": "```java\nfor (int i = 0; i < mysteryString.<<<length>>>(); i++) {\n  System.out.<<<println>>>(mysteryString.<<<charAt>>>(<<<i>>>));\n}\n```",
    "distractors": "",
-   "guidance": "In order for the iterating variable `i` to go through the whole string, we need to specify the loop to continue until it reaches `mystery_string.length()`. To print `mystery_string` vertically, use `System.out.println` instead of `System.out.print`. Lastly, to reference each index and find its corresponding string character, use `mystery_string.charAt(i)`.\n\n**Solution:**\n```java\nfor (int i = 0; i < mystery_string.length(); i++) {\n  System.out.println(mystery_string.charAt(i));\n}\n```",
+   "guidance": "In order for the iterating variable `i` to go through the whole string, we need to specify the loop to continue until it reaches `mysteryString.length()`. To print `mysteryString` vertically, use `System.out.println` instead of `System.out.print`. Lastly, to reference each index and find its corresponding string character, use `mysteryString.charAt(i)`.\n\n**Solution:**\n```java\nfor (int i = 0; i < mysteryString.length(); i++) {\n  System.out.println(mysteryString.charAt(i));\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -12293,11 +12299,11 @@
      "i"
     ],
     "text": [
-     "```java\nfor (int i = 0; i < mystery_string.",
+     "```java\nfor (int i = 0; i < mysteryString.",
      0,
      "(); i++) {\n  System.out.",
      0,
-     "(mystery_string.",
+     "(mysteryString.",
      0,
      "(",
      0,
@@ -12313,11 +12319,11 @@
   "source": {
    "name": "Iterating Strings with While Loop",
    "showName": true,
-   "instructions": "Assume you have a string variable called `my_string`. Fill in the blanks below so that the program uses a `while` loop to iterate over `my_string` and print each character.",
+   "instructions": "Assume you have a string variable called `myString`. Fill in the blanks below so that the program uses a `while` loop to iterate over `myString` and print each character.",
    "showValues": false,
-   "text": "```java\nString my_string = \"Codio\";\n<<<int>>> len = <<<my_string>>>.length();\n<<<int>>> i = 0;\n\nwhile (i < len) {\n  System.out.print(<<<my_string>>>.<<<charAt>>>(<<<i>>>));\n  <<<i>>>++;\n}\n```",
+   "text": "```java\nString myString = \"Codio\";\n<<<int>>> len = <<<myString>>>.length();\n<<<int>>> i = 0;\n\nwhile (i < len) {\n  System.out.print(<<<myString>>>.<<<charAt>>>(<<<i>>>));\n  <<<i>>>++;\n}\n```",
    "distractors": "",
-   "guidance": "First, you should recognize that both `len` and `i` should be typed as `int` because one returns an integer (`len`) and the other is a counting variable (`i`). Next, the print statement needs to incorporate the string `my_string` followed by the method `charAt` and `i` as the parameter. Remember, we are referencing the character at each index from beginning to end and `charAt(i)` allows us to do that. The last step is to increment the counting variable `i` by one, otherwise it will not traverse the string and result in an infinite loop.\n\n**Solution:**\n```java\nString my_string = \"Codio\";\nint len = my_string.length();\nint i = 0;\n\nwhile (i < len) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\n```",
+   "guidance": "First, you should recognize that both `len` and `i` should be typed as `int` because one returns an integer (`len`) and the other is a counting variable (`i`). Next, the print statement needs to incorporate the string `myString` followed by the method `charAt` and `i` as the parameter. Remember, we are referencing the character at each index from beginning to end and `charAt(i)` allows us to do that. The last step is to increment the counting variable `i` by one, otherwise it will not traverse the string and result in an infinite loop.\n\n**Solution:**\n```java\nString myString = \"Codio\";\nint len = myString.length();\nint i = 0;\n\nwhile (i < len) {\n  System.out.print(myString.charAt(i));\n  i++;\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -12357,15 +12363,15 @@
    "tokens": {
     "blank": [
      "int",
-     "my_string",
+     "myString",
      "int",
-     "my_string",
+     "myString",
      "charAt",
      "i",
      "i"
     ],
     "text": [
-     "```java\nString my_string = \"Codio\";\n",
+     "```java\nString myString = \"Codio\";\n",
      0,
      " len = ",
      0,
@@ -12391,29 +12397,29 @@
   "source": {
    "name": "String Iteration For Loop",
    "showName": true,
-   "instructions": "Use the code below to help you answer the following question:\n\n\n```java\nString my_string = \"Hello world\";\nfor (int i = 0; i < my_string.length(); i++) {\n  System.out.print(my_string.charAt(i));\n}\n```\n\nWhat does the variable `i` represent?",
+   "instructions": "Use the code below to help you answer the following question:\n\n\n```java\nString myString = \"Hello world\";\nfor (int i = 0; i < myString.length(); i++) {\n  System.out.print(myString.charAt(i));\n}\n```\n\nWhat does the variable `i` represent?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
     {
      "_id": "2bb46eb8-3acd-c493-0cf8-0e61e601429d",
      "correct": false,
-     "answer": "`i` represents the length of `my_string`."
+     "answer": "`i` represents the length of `myString`."
     },
     {
      "_id": "e332e38e-99de-5859-84a7-7a38876e2182",
      "correct": false,
-     "answer": "`i` represents a copy of `my_string`."
+     "answer": "`i` represents a copy of `myString`."
     },
     {
      "_id": "105c6aae-4dc7-b2a0-5532-cf3b65808705",
      "correct": false,
-     "answer": "`i` represents the data type of `my_string`."
+     "answer": "`i` represents the data type of `myString`."
     },
     {
      "_id": "fc46a890-5d68-a37f-d63b-f4de385f6aab",
      "correct": true,
-     "answer": "`i` represents each index or character of `my_string`."
+     "answer": "`i` represents each index or character of `myString`."
     }
    ],
    "guidance": "`i` is also known as the iterating variable and in strings, `i` takes on the index of each character of the string. ",
@@ -12455,10 +12461,10 @@
    "name": "String Iteration While Loop",
    "showName": true,
    "instructions": "Drag and drop the code blocks below to construct a program that outputs:\n```java\nToday is a good day\n```\n\n**Remember to indent** any iterating command(s) or you will not receive credit for your work.\n**Hint:** You will not need to use all of the code blocks.",
-   "initial": "String my_string = &quot;Today is a good day&quot;;\nint i = 0;\nwhile (i &lt; my_string.length()) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\nint i = my_string.length();     #distractor\nwhile (my_string.length() &lt; i) {     #distractor\nSystem.out.println(my_string.charAt(i));     #distractor",
+   "initial": "String myString = &quot;Today is a good day&quot;;\nint i = 0;\nwhile (i &lt; myString.length()) {\n  System.out.print(myString.charAt(i));\n  i++;\n}\nint i = myString.length();      #distractor\nwhile (myString.length() &lt; i) {      #distractor\nSystem.out.println(myString.charAt(i));      #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "**Guide:**\n1. Create the string: `String my_string = \"Today is a good day\";`\n1. Create the counting variable `i` to keep track of string indices.\n1. Keep iterating through the string while `i` is less than the length of the string.\n1. Print the string horizontally with `System.out.print` instead of `System.out.println` and access each index of each character by using `my_string.charAt(i)`.\n1. Increment the counting variable `i`.\n\n**Solution:**\n```java\nString my_string = \"Today is a good day\";\nint i = 0;\nwhile (i < my_string.length()) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\n```",
+   "guidance": "**Guide:**\n1. Create the string: `String myString = \"Today is a good day\";`\n1. Create the counting variable `i` to keep track of string indices.\n1. Keep iterating through the string while `i` is less than the length of the string.\n1. Print the string horizontally with `System.out.print` instead of `System.out.println` and access each index of each character by using `myString.charAt(i)`.\n1. Increment the counting variable `i`.\n\n**Solution:**\n```java\nString myString = \"Today is a good day\";\nint i = 0;\nwhile (i < myString.length()) {\n  System.out.print(myString.charAt(i));\n  i++;\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -12946,29 +12952,29 @@
   "source": {
    "name": "Iterating Through Strings",
    "showName": true,
-   "instructions": "Given the following code snippet:\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  ch = my_string.charAt(i);\n}\n```\n\nWhat does `ch` represent?",
+   "instructions": "Given the following code snippet:\n```java\nfor (int i = 0; i < myString.length(); i++) {\n  ch = myString.charAt(i);\n}\n```\n\nWhat does `ch` represent?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
     {
      "_id": "67ff4248-0db1-cf08-661d-1e8cfb1fd736",
      "correct": false,
-     "answer": "`ch` represents the string `my_string`."
+     "answer": "`ch` represents the string `myString`."
     },
     {
      "_id": "c6c04c3a-4256-063b-ea8d-8cc5cdcd14c1",
      "correct": false,
-     "answer": "`ch` represents the index number of `my_string` from `0` to the end."
+     "answer": "`ch` represents the index number of `myString` from `0` to the end."
     },
     {
      "_id": "124e56c2-be82-ddba-fdad-3bfd50dbac8e",
      "correct": false,
-     "answer": "`ch` represents the length of `my_string`."
+     "answer": "`ch` represents the length of `myString`."
     },
     {
      "_id": "0e0ee091-f7d9-248f-f7b6-67ba1c58f830",
      "correct": true,
-     "answer": "`ch` represents each character of `my_string` from left to right."
+     "answer": "`ch` represents each character of `myString` from left to right."
     }
    ],
    "guidance": "The `charAt()` method returns a character at a particular index in a string. Since we have  the iterating variable `i` that takes on the index number of the string from `0` through its length, `ch` will take on each **character** of the string.",
@@ -13088,7 +13094,7 @@
   "source": {
    "name": "Changing to Upper or Lowercase",
    "showName": true,
-   "instructions": "Given the following code snippet:\n```java\nch = original_string.charAt(i);\nif (Character.isLowerCase(ch)) {\n  modified_string += Character.toUpperCase(ch);\n}\n```\n\nWhat is the function of `Character.toUpperCase(ch)`?",
+   "instructions": "Given the following code snippet:\n```java\nch = originalString.charAt(i);\nif (Character.isLowerCase(ch)) {\n  modifiedString += Character.toUpperCase(ch);\n}\n```\n\nWhat is the function of `Character.toUpperCase(ch)`?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
@@ -13233,7 +13239,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ LabChallenge",
    "preExecuteCommand": "javac code/strings/LabChallenge.java",
-   "guidance": "The first task is to iterate through `my_string` to check to see if any of its character matches any of the vowels. Since we are working with characters, the `==` operator should be used instead of the `equals()` method. Note that the `ch = my_string.charAt(i);` is optional but it will be helpful in shortening the code for our compound conditional statement.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  ch = my_string.charAt(i);\n  if (ch == 'a' || ch == 'e' || ch == 'i' || \n      ch == 'o' || ch == 'u' || ch == 'A' ||\n      ch == 'E' || ch == 'I' || ch == 'O' ||\n      ch == 'U') {\n    System.out.print('*');\n  }\n  else {\n    System.out.print(ch);\n  }\n}\n```",
+   "guidance": "The first task is to iterate through `myString` to check to see if any of its character matches any of the vowels. Since we are working with characters, the `==` operator should be used instead of the `equals()` method. Note that the `ch = myString.charAt(i);` is optional but it will be helpful in shortening the code for our compound conditional statement.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < myString.length(); i++) {\n  ch = myString.charAt(i);\n  if (ch == 'a' || ch == 'e' || ch == 'i' || \n      ch == 'o' || ch == 'u' || ch == 'A' ||\n      ch == 'E' || ch == 'I' || ch == 'O' ||\n      ch == 'U') {\n    System.out.print('*');\n  }\n  else {\n    System.out.print(ch);\n  }\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -13326,7 +13332,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ Exercise1",
    "preExecuteCommand": "javac code/strings/Exercise1.java",
-   "guidance": "In order to get the first and last character of the string, you'll need to access the string's indices. You can do this by using the `charAt()` method. Remember that `charAt(0)` returns the first character of a string. Another key point is to use `my_string.length()-1` because that enables you to access the last character of the string. Finally, all that's left is to print the appropriate responses.\n\n**Sample Solution:**\n```java\nchar first = my_string.charAt(0);\nchar last = my_string.charAt(my_string.length()-1);\n\nSystem.out.println(first + \" is the first character and \" + last + \" is the last character\");\n```",
+   "guidance": "In order to get the first and last character of the string, you'll need to access the string's indices. You can do this by using the `charAt()` method. Remember that `charAt(0)` returns the first character of a string. Another key point is to use `my_string.length()-1` because that enables you to access the last character of the string. Finally, all that's left is to print the appropriate responses.\n\n**Sample Solution:**\n```java\nchar first = myString.charAt(0);\nchar last = myString.charAt(myString.length()-1);\n\nSystem.out.println(first + \" is the first character and \" + last + \" is the last character\");\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -13405,7 +13411,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ Exercise2",
    "preExecuteCommand": "javac code/strings/Exercise2.java",
-   "guidance": "One possible solution is to use a nested `for` loop. Both inner and outer loops will run for the duration of the string's length. However, it is important to note when to print the string with a newline and when to not. When `j` reaches the end of the string, direct the system to print the string with a newline; otherwise, just print the string by itself.\n\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  for (int j = 0; j < my_string.length(); j++) {\n    if (j == my_string.length()-1) {\n      System.out.println(my_string);\n    }\n    else {\n      System.out.print(my_string);\n    }\n  }\n}\n```\n\nAlternatively, you can use a regular `for` to print the string **squared** times. This way forces you to tweak both the loop header and the conditional statement. To make things easier, first create a variable to store the string's length. Next, start the loop at `i = 1` and allow it to run until it reaches squared times plus one. Then, change the conditional statement to `if (i % len == 0)`. This conditional is important because it enables the system to print a newline once it prints the string a `len` number of time.\n\n```java\nint len = my_string.length();\n\nfor (int i = 1; i < len * len + 1; i++) {\n  if (i % len == 0) {\n    System.out.println(my_string);\n  }\n  else {\n    System.out.print(my_string);\n  }\n}\n```",
+   "guidance": "One possible solution is to use a nested `for` loop. Both inner and outer loops will run for the duration of the string's length. However, it is important to note when to print the string with a newline and when to not. When `j` reaches the end of the string, direct the system to print the string with a newline; otherwise, just print the string by itself.\n\n```java\nfor (int i = 0; i < myString.length(); i++) {\n  for (int j = 0; j < myString.length(); j++) {\n    if (j == myString.length()-1) {\n      System.out.println(myString);\n    }\n    else {\n      System.out.print(myString);\n    }\n  }\n}\n```\n\nAlternatively, you can use a regular `for` to print the string **squared** times. This way forces you to tweak both the loop header and the conditional statement. To make things easier, first create a variable to store the string's length. Next, start the loop at `i = 1` and allow it to run until it reaches squared times plus one. Then, change the conditional statement to `if (i % len == 0)`. This conditional is important because it enables the system to print a newline once it prints the string a `len` number of time.\n\n```java\nint len = myString.length();\n\nfor (int i = 1; i < len * len + 1; i++) {\n  if (i % len == 0) {\n    System.out.println(myString);\n  }\n  else {\n    System.out.print(myString);\n  }\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -13563,7 +13569,7 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ Exercise4",
    "preExecuteCommand": "javac code/strings/Exercise4.java",
-   "guidance": "There are multiple ways to solve this problem. One way is to make use of two loops. First, create an integer variable to keep track of the string's midpoint. Remember that integers in Java disregard any decimal places so `2.5` converted into an integer will be `2`. Next, set up the first loop to iterate from the beginning to midpoint of the string. Then, set up the second loop to iterate through the remainder of the string. After the first loop, make sure to use a `System.out.println()` to separate the two strings. However, this is *optional* for the second loop.\n\n**Sample Solution:**\n```java\nint mid = my_string.length() / 2;\n\nfor (int i = 0; i < mid; i++) {\n  System.out.print(my_string.charAt(i));\n}\nSystem.out.println();\n\nfor (int j = mid; j < my_string.length(); j++) {\n  System.out.print(my_string.charAt(j));\n}\nSystem.out.println();\n```",
+   "guidance": "There are multiple ways to solve this problem. One way is to make use of two loops. First, create an integer variable to keep track of the string's midpoint. Remember that integers in Java disregard any decimal places so `2.5` converted into an integer will be `2`. Next, set up the first loop to iterate from the beginning to midpoint of the string. Then, set up the second loop to iterate through the remainder of the string. After the first loop, make sure to use a `System.out.println()` to separate the two strings. However, this is *optional* for the second loop.\n\n**Sample Solution:**\n```java\nint mid = myString.length() / 2;\n\nfor (int i = 0; i < mid; i++) {\n  System.out.print(myString.charAt(i));\n}\nSystem.out.println();\n\nfor (int j = mid; j < myString.length(); j++) {\n  System.out.print(myString.charAt(j));\n}\nSystem.out.println();\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -13642,8 +13648,8 @@
    "instructions": "When your code is ready, click the button below to submit your work for grading.",
    "command": "java -cp code/strings/ Exercise5",
    "preExecuteCommand": "javac code/strings/Exercise5.java",
-   "guidance": "One way to solve this problem is to set up conditionals. The conditionals will check to see if the index is divisible by 2 or not. If it is divisible by 2, the system will print the next character in the string. If not, then the system will print the previous character.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < my_string.length(); i++) {\n  if (i % 2 == 0) {\n    System.out.print(my_string.charAt(i + 1));\n  }\n  else {\n    System.out.print(my_string.charAt(i - 1));\n  }\n}\n```",
-   "showGuidanceAfterResponse": false,
+   "guidance": "One way to solve this problem is to set up conditionals. The conditionals will check to see if the index is divisible by 2 or not. If it is divisible by 2, the system will print the next character in the string. If not, then the system will print the previous character.\n\n**Sample Solution:**\n```java\nfor (int i = 0; i < myString.length(); i++) {\n  if (i % 2 == 0) {\n    System.out.print(myString.charAt(i + 1));\n  }\n  else {\n    System.out.print(myString.charAt(i - 1));\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "options": {

@@ -5,9 +5,9 @@
 You now know how to reference each character of a string. What do you think the code below will do?
 
 ```java
-String my_string = "House";
-my_string.charAt(0) = "M";
-System.out.println(my_string);
+String myString = "House";
+myString.charAt(0) = "M";
+System.out.println(myString);
 ```
 
 {Try it}(sh .guides/bg.sh javac code/strings/Immutability.java java -cp code/strings/ Immutability 1)
@@ -19,9 +19,9 @@ If you thought the code above would print `Mouse`, that would be a logical guess
 The code below works just fine. Isn't this an example of changing the value of a string?
 
 ```java
-String my_string = "House";
-my_string = "Mouse";
-System.out.println(my_string);
+String myString = "House";
+myString = "Mouse";
+System.out.println(myString);
 ```
 
 {Try it}(sh .guides/bg.sh javac code/strings/Immutability.java java -cp code/strings/ Immutability 2)

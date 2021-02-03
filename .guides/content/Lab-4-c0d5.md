@@ -7,7 +7,7 @@ You are going to write a program that counts the number of vowels that appear in
 For this project, you will need three variables. One will be the string. Another will be a char to represent each character of the string. The final variable will be a count of all the vowels.
 
 ```java
-String my_string = "The Brown Dog Jumps Over The Lazy Fox";
+String myString = "The Brown Dog Jumps Over The Lazy Fox";
 char ch;
 int count = 0;
 ```
@@ -16,8 +16,8 @@ int count = 0;
 Use a `for` loop to iterate through the string. Then set `ch` to check every character in the string.
 
 ```java
-for (int i = 0; i < my_string.length(); i++) {
-  ch = my_string.charAt(i);
+for (int i = 0; i < myString.length(); i++) {
+  ch = myString.charAt(i);
 }
 ```
 
@@ -63,12 +63,12 @@ You should see that there are 9 vowels in the string.
   <summary><strong>Code</strong></summary>
   
 ```java
-String my_string = "The Brown Dog Jumps Over The Lazy Fox";
+String myString = "The Brown Dog Jumps Over The Lazy Fox";
 char ch;
 int count = 0;
 
-for (int i = 0; i < my_string.length(); i++) {
-  ch = my_string.charAt(i);
+for (int i = 0; i < myString.length(); i++) {
+  ch = myString.charAt(i);
   if (ch == 'a' || ch == 'e' || ch == 'i' || 
       ch == 'o' || ch == 'u' || ch == 'A' ||
       ch == 'E' || ch == 'I' || ch == 'O' ||

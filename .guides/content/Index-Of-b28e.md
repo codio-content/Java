@@ -8,7 +8,7 @@ Similar to the `startsWith()` method, the `indexOf()` method searches a specific
 
 <details>
   <summary><strong>The lastIndexOf() method</strong></summary>
-  You can use the <code>lastIndexOf()</code> method to search for a specific character(s) in a string that occurs last. Here is an example, given the string <code>this is his string</code>, <code>my_string.lastIndexOf("his")</code> will return <code>8</code>. If you don't want the system to search the whole string, you can specify an index as a second parameter to direct the system where to start searching.
+  You can use the <code>lastIndexOf()</code> method to search for a specific character(s) in a string that occurs last. Here is an example, given the string <code>this is his string</code>, <code>myString.lastIndexOf("his")</code> will return <code>8</code>. If you don't want the system to search the whole string, you can specify an index as a second parameter to direct the system where to start searching.
 </details><br>
 
 ```java

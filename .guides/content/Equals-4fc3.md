@@ -2,7 +2,9 @@
 
 ## Creating a "New" String
 
-In Java, there are actually two common ways to create a string. One way is to create a string variable and assign string values to it such as `String string1 = "It's Friday!";`. Another way is to use the keyword `new` such as `String string2 = new String("It's Friday!");`. When strings of two *different* methods are compared, you *cannot* use `==` to compare them.
+In Java, there are actually two different common ways to create a string. One way is to create a string variable and assign string values to it such as `String string1 = "It's Friday!";`. Another way is to use the keyword `new` such as `String string2 = new String("It's Friday!");`. These two ways will result in the same output when the strings are printed. Both `string1` and `string2` contain the characters `It's Friday!`.
+
+However, since the strings were created using two **different** methods, Java actually treats them as two different items. Because of this, you *cannot* use the `==` operator to compare `string1` and `string2`. Doing so will result in a boolean of `false`.
 
 ```java
 String string1 = "It's Friday!"; 
