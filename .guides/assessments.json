@@ -12250,11 +12250,11 @@
   "source": {
    "name": "Iterating Strings with For Loop",
    "showName": true,
-   "instructions": "Assume you have a string variable `String mystery_string = \"mystery\";`. Fill in the blanks below so that the program prints each character of `mystery_string` like so:\n```java\nm\ny\ns\nt\ne\nr\ny\n```",
+   "instructions": "Assume you have a string variable `String mysteryString = \"mystery\";`. Fill in the blanks below so that the program prints each character of `mysteryString` like so:\n```java\nm\ny\ns\nt\ne\nr\ny\n```",
    "showValues": false,
-   "text": "```java\nfor (int i = 0; i < mystery_string.<<<length>>>(); i++) {\n  System.out.<<<println>>>(mystery_string.<<<charAt>>>(<<<i>>>));\n}\n```",
+   "text": "```java\nfor (int i = 0; i < mysteryString.<<<length>>>(); i++) {\n  System.out.<<<println>>>(mysteryString.<<<charAt>>>(<<<i>>>));\n}\n```",
    "distractors": "",
-   "guidance": "In order for the iterating variable `i` to go through the whole string, we need to specify the loop to continue until it reaches `mystery_string.length()`. To print `mystery_string` vertically, use `System.out.println` instead of `System.out.print`. Lastly, to reference each index and find its corresponding string character, use `mystery_string.charAt(i)`.\n\n**Solution:**\n```java\nfor (int i = 0; i < mystery_string.length(); i++) {\n  System.out.println(mystery_string.charAt(i));\n}\n```",
+   "guidance": "In order for the iterating variable `i` to go through the whole string, we need to specify the loop to continue until it reaches `mysteryString.length()`. To print `mysteryString` vertically, use `System.out.println` instead of `System.out.print`. Lastly, to reference each index and find its corresponding string character, use `mysteryString.charAt(i)`.\n\n**Solution:**\n```java\nfor (int i = 0; i < mysteryString.length(); i++) {\n  System.out.println(mysteryString.charAt(i));\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -12299,11 +12299,11 @@
      "i"
     ],
     "text": [
-     "```java\nfor (int i = 0; i < mystery_string.",
+     "```java\nfor (int i = 0; i < mysteryString.",
      0,
      "(); i++) {\n  System.out.",
      0,
-     "(mystery_string.",
+     "(mysteryString.",
      0,
      "(",
      0,
@@ -12319,11 +12319,11 @@
   "source": {
    "name": "Iterating Strings with While Loop",
    "showName": true,
-   "instructions": "Assume you have a string variable called `my_string`. Fill in the blanks below so that the program uses a `while` loop to iterate over `my_string` and print each character.",
+   "instructions": "Assume you have a string variable called `myString`. Fill in the blanks below so that the program uses a `while` loop to iterate over `myString` and print each character.",
    "showValues": false,
-   "text": "```java\nString my_string = \"Codio\";\n<<<int>>> len = <<<my_string>>>.length();\n<<<int>>> i = 0;\n\nwhile (i < len) {\n  System.out.print(<<<my_string>>>.<<<charAt>>>(<<<i>>>));\n  <<<i>>>++;\n}\n```",
+   "text": "```java\nString myString = \"Codio\";\n<<<int>>> len = <<<myString>>>.length();\n<<<int>>> i = 0;\n\nwhile (i < len) {\n  System.out.print(<<<myString>>>.<<<charAt>>>(<<<i>>>));\n  <<<i>>>++;\n}\n```",
    "distractors": "",
-   "guidance": "First, you should recognize that both `len` and `i` should be typed as `int` because one returns an integer (`len`) and the other is a counting variable (`i`). Next, the print statement needs to incorporate the string `my_string` followed by the method `charAt` and `i` as the parameter. Remember, we are referencing the character at each index from beginning to end and `charAt(i)` allows us to do that. The last step is to increment the counting variable `i` by one, otherwise it will not traverse the string and result in an infinite loop.\n\n**Solution:**\n```java\nString my_string = \"Codio\";\nint len = my_string.length();\nint i = 0;\n\nwhile (i < len) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\n```",
+   "guidance": "First, you should recognize that both `len` and `i` should be typed as `int` because one returns an integer (`len`) and the other is a counting variable (`i`). Next, the print statement needs to incorporate the string `myString` followed by the method `charAt` and `i` as the parameter. Remember, we are referencing the character at each index from beginning to end and `charAt(i)` allows us to do that. The last step is to increment the counting variable `i` by one, otherwise it will not traverse the string and result in an infinite loop.\n\n**Solution:**\n```java\nString myString = \"Codio\";\nint len = myString.length();\nint i = 0;\n\nwhile (i < len) {\n  System.out.print(myString.charAt(i));\n  i++;\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -12363,15 +12363,15 @@
    "tokens": {
     "blank": [
      "int",
-     "my_string",
+     "myString",
      "int",
-     "my_string",
+     "myString",
      "charAt",
      "i",
      "i"
     ],
     "text": [
-     "```java\nString my_string = \"Codio\";\n",
+     "```java\nString myString = \"Codio\";\n",
      0,
      " len = ",
      0,
@@ -12397,29 +12397,29 @@
   "source": {
    "name": "String Iteration For Loop",
    "showName": true,
-   "instructions": "Use the code below to help you answer the following question:\n\n\n```java\nString my_string = \"Hello world\";\nfor (int i = 0; i < my_string.length(); i++) {\n  System.out.print(my_string.charAt(i));\n}\n```\n\nWhat does the variable `i` represent?",
+   "instructions": "Use the code below to help you answer the following question:\n\n\n```java\nString myString = \"Hello world\";\nfor (int i = 0; i < myString.length(); i++) {\n  System.out.print(myString.charAt(i));\n}\n```\n\nWhat does the variable `i` represent?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
     {
      "_id": "2bb46eb8-3acd-c493-0cf8-0e61e601429d",
      "correct": false,
-     "answer": "`i` represents the length of `my_string`."
+     "answer": "`i` represents the length of `myString`."
     },
     {
      "_id": "e332e38e-99de-5859-84a7-7a38876e2182",
      "correct": false,
-     "answer": "`i` represents a copy of `my_string`."
+     "answer": "`i` represents a copy of `myString`."
     },
     {
      "_id": "105c6aae-4dc7-b2a0-5532-cf3b65808705",
      "correct": false,
-     "answer": "`i` represents the data type of `my_string`."
+     "answer": "`i` represents the data type of `myString`."
     },
     {
      "_id": "fc46a890-5d68-a37f-d63b-f4de385f6aab",
      "correct": true,
-     "answer": "`i` represents each index or character of `my_string`."
+     "answer": "`i` represents each index or character of `myString`."
     }
    ],
    "guidance": "`i` is also known as the iterating variable and in strings, `i` takes on the index of each character of the string. ",
@@ -12461,10 +12461,10 @@
    "name": "String Iteration While Loop",
    "showName": true,
    "instructions": "Drag and drop the code blocks below to construct a program that outputs:\n```java\nToday is a good day\n```\n\n**Remember to indent** any iterating command(s) or you will not receive credit for your work.\n**Hint:** You will not need to use all of the code blocks.",
-   "initial": "String my_string = &quot;Today is a good day&quot;;\nint i = 0;\nwhile (i &lt; my_string.length()) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\nint i = my_string.length();     #distractor\nwhile (my_string.length() &lt; i) {     #distractor\nSystem.out.println(my_string.charAt(i));     #distractor",
+   "initial": "String myString = &quot;Today is a good day&quot;;\nint i = 0;\nwhile (i &lt; myString.length()) {\n  System.out.print(myString.charAt(i));\n  i++;\n}\nint i = myString.length();      #distractor\nwhile (myString.length() &lt; i) {      #distractor\nSystem.out.println(myString.charAt(i));      #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "**Guide:**\n1. Create the string: `String my_string = \"Today is a good day\";`\n1. Create the counting variable `i` to keep track of string indices.\n1. Keep iterating through the string while `i` is less than the length of the string.\n1. Print the string horizontally with `System.out.print` instead of `System.out.println` and access each index of each character by using `my_string.charAt(i)`.\n1. Increment the counting variable `i`.\n\n**Solution:**\n```java\nString my_string = \"Today is a good day\";\nint i = 0;\nwhile (i < my_string.length()) {\n  System.out.print(my_string.charAt(i));\n  i++;\n}\n```",
+   "guidance": "**Guide:**\n1. Create the string: `String myString = \"Today is a good day\";`\n1. Create the counting variable `i` to keep track of string indices.\n1. Keep iterating through the string while `i` is less than the length of the string.\n1. Print the string horizontally with `System.out.print` instead of `System.out.println` and access each index of each character by using `myString.charAt(i)`.\n1. Increment the counting variable `i`.\n\n**Solution:**\n```java\nString myString = \"Today is a good day\";\nint i = 0;\nwhile (i < myString.length()) {\n  System.out.print(myString.charAt(i));\n  i++;\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,

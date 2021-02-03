@@ -5,11 +5,11 @@
 String iteration is most often done with a `for` loop. However, a `while` can be used as well.
 
 ```java
-String my_string = "Calvin and Hobbes";
+String myString = "Calvin and Hobbes";
 int i = 0;
 
-while (i < my_string.length()) {
-  System.out.print(my_string.charAt(i));
+while (i < myString.length()) {
+  System.out.print(myString.charAt(i));
   i++;
 }
 ```
@@ -20,7 +20,7 @@ while (i < my_string.length()) {
 
 |||challenge
 ## What happens if you:
-* Change the loop to `while (i <= my_string.length())`?
+* Change the loop to `while (i <= myString.length())`?
 * Copy the original code but change the `print` statement to `System.out.print(i)`?
 * Copy the original code but remove `i++`?
 
@@ -31,19 +31,19 @@ while (i < my_string.length()) {
 ## Comparing While & For Loops
 
 ```java
-String my_string = "Java";
+String myString = "Java";
 
-for (int i = 0; i < my_string.length(); i++) {
-  System.out.print(my_string.charAt(i));
+for (int i = 0; i < myString.length(); i++) {
+  System.out.print(myString.charAt(i));
 }
 ```
 
 ```java
-String my_string = "Java";
+String myString = "Java";
 int i = 0;
 
-while (i < my_string.length()) {
-  System.out.print(my_string.charAt(i));
+while (i < myString.length()) {
+  System.out.print(myString.charAt(i));
   i++;
 }
 ```
