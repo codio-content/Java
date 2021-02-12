@@ -93,23 +93,11 @@
  },
  {
   "taskId": "multiple-choice-3726193520",
-  "points": 1,
+  "points": 0,
   "state": {
-   "active": "46044adb-237e-bd0a-5916-15cbbdea165a"
+   "active": null
   },
-  "results": [
-   {
-    "guidance": "**Guide:**\n* `System.out.println(\"apple\" + \" banana\")` ---> `apple banana`\n* `System.out.println(a.concat(\" \" + b))` ---> `apple  banana`\n* `System.out.println(\" durian\" + \" apple\")` ---> ` durian apple`\n* `System.out.println(d.concat(a))` ---> ` durian apple`\n* `System.out.println(\"cherry\" + d)` ---> `cherry durian `\n* `System.out.println(c.concat(d))` ---> `cherry  durian `\n* `System.out.println(b + \"banana\")` ---> `banana banana`\n* `System.out.println(b.concat(b))` ---> `banana banana `\n\n**Solution:**\nIf you go through and make note of all of the white spaces, you should notice that only `System.out.println(\" durian\" + \" apple\")` & `System.out.println(d.concat(a))` produce the exact same results.",
-    "current": [
-     "46044adb-237e-bd0a-5916-15cbbdea165a"
-    ],
-    "right": [
-     "46044adb-237e-bd0a-5916-15cbbdea165a"
-    ],
-    "timestamp": "2021-02-02T22:31:25.620Z",
-    "state": "pass"
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "parsons-puzzle-1949499545",
