@@ -20,6 +20,7 @@ public static void add(int num1, int num2) {
  * 
  * @param num1 The first integer
  * @param num2 The second integer
+ * @param num3 The third integer
  */
 public static void add(int num1, int num2, int num3) {
   System.out.println(num1 + num2 + num3);
