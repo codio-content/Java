@@ -2,7 +2,7 @@
 
 ## Method Syntax
 
-You have seen and used built-in methods like the length method (`my_string.length()`). This unit deals with user-defined methods. Methods are composed of two parts, the header and the body.
+You have seen and used built-in methods like the length method (`myString.length()`). This unit deals with user-defined methods. Methods are composed of two parts, the header and the body.
 
 ![.guides/img/MethodFull](.guides/img/MethodFull.png)
 

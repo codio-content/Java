@@ -77,9 +77,9 @@ public class Parameters {
 
 |||challenge
 ## What happens if you:
-* Change the method call in `main()` to `addSub(10, 15, 5)`?
-* Change the method call in `main()` to `addSub(15, 5, 10)`?
-* Change the method call in `main()` to `addSub(10 + 5, 20 / 4, 5 * 2)`?
+* Change the method call in `main()` to `addSub(10, 15, 5);`?
+* Change the method call in `main()` to `addSub(15, 5, 10);`?
+* Change the method call in `main()` to `addSub(10 + 5, 20 / 4, 5 * 2);`?
 
 |||
 
