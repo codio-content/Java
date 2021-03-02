@@ -10,7 +10,6 @@ Write a recursive method called `recursivePower` that takes two integers as para
 * If the method call is `recursivePower(4, 5)`, then the function would return `1024`
 
 [Code Visualizer](open_tutor code/recursion/LabChallenge.java)
-{test with 5 and 3}(sh .guides/bg.sh javac code/recursion/LabChallenge.java java -cp code/recursion/ LabChallenge 5 3)
-{test with 4 and 5}(sh .guides/bg.sh javac code/recursion/LabChallenge.java java -cp code/recursion/ LabChallenge 4 5)
+{try it}(sh .guides/bg.sh javac code/recursion/LabChallenge.java java -cp code/recursion/ LabChallenge 1)
 
 {Check It!|assessment}(test-2039919375)

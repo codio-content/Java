@@ -14174,8 +14174,9 @@
   "source": {
    "name": "lab challenge unit test",
    "showName": false,
-   "instructions": "Submit your code when ready. **Do not** alter the code on line 5; this is needed for the evaluation.",
-   "command": "python .guides/secure/recursion/lab_challenge_test.py",
+   "instructions": "Submit your code when ready.",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\".guides/secure/recursion/LabChallengeTester.java\",\"className\":\"LabChallengeTester\"}],\"partialPoints\":true,\"maxPoints\":20,\"wd\":\"\",\"sources\":\"code/recursion\",\"libs\":\"\",\"testsources\":\"\"}",
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 300,
    "guidance": "The recursive pattern is to multiply the base by `recursivePower` with the exponent decreased by one. The base case is when the exponent is 0. In this case, return 1. Here is one possible solution:\n\n```java\npublic class LabChallenge {\n  public static void main(String[] args) {\n\n    //DO NOT alter code below this line\n    System.out.println(recursivePower(Integer.parseInt(args[0]), Integer.parseInt(args[1])));\n    //DO NOT alter code above this line\n  }\n\n  //add method definitions below this line\n  \n  public static int recursivePower(int base, int exponent) {\n    if (exponent == 0) {\n      return 1;\n    } else {\n      return base * recursivePower(base, exponent - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
