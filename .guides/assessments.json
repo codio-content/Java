@@ -14228,7 +14228,7 @@
    "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\".guides/secure/recursion/Exercise1Tester.java\",\"className\":\"Exercise1Tester\"}],\"partialPoints\":true,\"maxPoints\":20,\"wd\":\"\",\"sources\":\"code/recursion\",\"libs\":\"\",\"testsources\":\"\"}",
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 300,
-   "guidance": "The recursive pattern is to take the `num` passed as a parameter and add it to `recursiveSum` with the number minus 1. The base case is when the number passed is 0. `recursiveSum` should return 0 when the parameter is 0. Here is a solution to the problem:\n\n```java\n  //add method definitions below this line\n  \n  public static int recursiveSum(int n) {\n    if (n == 0) {\n      return 0;\n    } else {\n      return n + recursiveSum(n - 1);\n    }\n  }\n  \n  //add method definitions above this line\n}\n```",
+   "guidance": "The recursive pattern is to take the `num` passed as a parameter and add it to `recursiveSum` with the number minus 1. The base case is when the number passed is 0. `recursiveSum` should return 0 when the parameter is 0. Here is a solution to the problem:\n\n```java\n  //add method definitions below this line\n  \n  public static int recursiveSum(int n) {\n    if (n == 0) {\n      return 0;\n    } else {\n      return n + recursiveSum(n - 1);\n    }\n  }\n  \n  //add method definitions above this line\n```",
    "showGuidanceAfterResponse": true,
    "points": 20,
    "oneTimeTest": true,

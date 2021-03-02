@@ -2,6 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.Before;
 import java.io.*;
+import java.util.ArrayList;
 
 public class LabChallengeTester {
   
@@ -37,7 +38,47 @@ public class LabChallengeTester {
     
     String path = "code/recursion/LabChallenge.java";
     String methodName = "recursivePower";
-    int methodCount = 0;
+    String methodHeader = "public static int recursivePower";
+    boolean hasRecursion = false;
+    ArrayList<String> code = new ArrayList<String>();
+    
+    // read student file into ArrayList
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
+      String currentLine = reader.readLine();
+      while(currentLine != null) {
+        code.add(currentLine);
+        currentLine = reader.readLine();
+      }
+      reader.close();
+    } catch (IOException e) {
+      System.out.println(e);
+    }
+    
+    // find index of recursive method definition
+    int index = 0;
+    for (int i = 0; i < code.size(); i++) {
+      if (code.get(i).contains(methodHeader)) {
+        index = i;
+      }
+    }
+    
+    // starting at method definion, check for recursive method call
+    for (int j = index + 1; j < code.size(); j++) {
+      if (code.get(j).contains(methodName)) {
+        hasRecursion = true;
+      }
+    }
+    
+    assertTrue(hasRecursion);
+  }
+  
+  @Test
+  public void checkForBanned() {
+    
+    String path = "code/recursion/LabChallenge.java";
+    String bannedWord = "Math.pow";
+    int bannedCount = 0;
     String code = "";
     
     // read student file into the variable code
@@ -55,38 +96,6 @@ public class LabChallengeTester {
     
     // turn code into array of tokens; iterate over them
     String[] tokens = code.split(" ");
-    for (String token : tokens) {
-      if (token.contains(methodName)) {
-        methodCount++;
-      }
-    }
-    
-    assertTrue(methodCount > 1);
-  }
-  
-  @Test
-  public void checkForBanned() {
-    
-    String path = "code/recursion/LabChallenge.java";
-    String bannedWord = "Math.pow";
-    int bannedCount = 0;
-    String studentCode = "";
-    
-    // read student file into the variable code
-    try {
-      BufferedReader reader = new BufferedReader(new FileReader(path));
-      String currentLine = reader.readLine();
-      while(currentLine != null) {
-        studentCode += currentLine;
-        currentLine = reader.readLine();
-      }
-      reader.close();
-    } catch (IOException e) {
-      System.out.println(e);
-    }
-    
-    // turn code into array of tokens; iterate over them
-    String[] tokens = studentCode.split(" ");
     for (String token : tokens) {
       if (token.contains(bannedWord)) {
         bannedCount++;

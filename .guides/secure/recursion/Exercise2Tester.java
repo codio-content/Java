@@ -2,6 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.Before;
 import java.io.*;
+import java.util.ArrayList;
 
 public class Exercise2Tester {
   
@@ -41,15 +42,16 @@ public class Exercise2Tester {
     
     String path = "code/recursion/Exercise2.java";
     String methodName = "listSum";
-    int methodCount = 0;
-    String code = "";
+    String methodHeader = "public static int listSum";
+    boolean hasRecursion = false;
+    ArrayList<String> code = new ArrayList<String>();
     
-    // read student file into the variable code
+    // read student file into ArrayList
     try {
       BufferedReader reader = new BufferedReader(new FileReader(path));
       String currentLine = reader.readLine();
       while(currentLine != null) {
-        code += currentLine;
+        code.add(currentLine);
         currentLine = reader.readLine();
       }
       reader.close();
@@ -57,15 +59,22 @@ public class Exercise2Tester {
       System.out.println(e);
     }
     
-    // turn code into array of tokens; iterate over them
-    String[] tokens = code.split(" ");
-    for (String token : tokens) {
-      if (token.contains(methodName)) {
-        methodCount++;
+    // find index of recursive method definition
+    int index = 0;
+    for (int i = 0; i < code.size(); i++) {
+      if (code.get(i).contains(methodHeader)) {
+        index = i;
       }
     }
     
-    assertTrue(methodCount > 1);
+    // starting at method definion, check for recursive method call
+    for (int j = index + 1; j < code.size(); j++) {
+      if (code.get(j).contains(methodName)) {
+        hasRecursion = true;
+      }
+    }
+    
+    assertTrue(hasRecursion);
   }
 
 }
