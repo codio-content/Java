@@ -38,14 +38,14 @@ public class LabChallengeTester {
     String path = "code/recursion/LabChallenge.java";
     String methodName = "recursivePower";
     int methodCount = 0;
-    String studentCode = "";
+    String code = "";
     
     // read student file into the variable code
     try {
       BufferedReader reader = new BufferedReader(new FileReader(path));
       String currentLine = reader.readLine();
       while(currentLine != null) {
-        studentCode += currentLine;
+        code += currentLine;
         currentLine = reader.readLine();
       }
       reader.close();
@@ -54,7 +54,7 @@ public class LabChallengeTester {
     }
     
     // turn code into array of tokens; iterate over them
-    String[] tokens = studentCode.split(" ");
+    String[] tokens = code.split(" ");
     for (String token : tokens) {
       if (token.contains(methodName)) {
         methodCount++;
