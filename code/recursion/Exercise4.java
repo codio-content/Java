@@ -10,7 +10,7 @@ public class Exercise4 {
 
   //add method definitions below this line
   
-  
+
   
   //add method definitions above this line
 }
