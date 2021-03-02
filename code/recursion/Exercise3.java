@@ -1,9 +1,11 @@
 public class Exercise3 {
   public static void main(String[] args) {
 
-    //DO NOT alter code below this line
-    System.out.println(bunnyEars(Integer.parseInt(args[0])));
-    //DO NOT alter code above this line
+    //call recursive method below this line
+    
+    
+    
+    //call recursive method above this line
   }
 
   //add method definitions below this line
