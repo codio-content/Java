@@ -20,11 +20,12 @@ public class Hilbert {
   /**
   * @param integer dist
   * @param integer rule
+  * @param integer angle
   * @param integer depth
   * @param Turtle t
   * @return draws a section of the Hilber Curve
   */
-  public static void hilbert(int dist, int rule, int depth, Turtle t) {
+  public static void hilbert(int dist, int rule, int angle, int depth, Turtle t) {
     
   }
   
@@ -40,11 +41,12 @@ The base case for the method is when `depth` is 0. Another way to think about th
   /**
   * @param integer dist
   * @param integer rule
+  * @param integer angle
   * @param integer depth
   * @param Turtle t
   * @return draws a section of the Hilber Curve
   */
-  public static void hilbert(int dist, int rule, int depth, Turtle t) {
+  public static void hilbert(int dist, int rule, int angle, int depth, Turtle t) {
     if (depth > 0) {
       if (rule == 1) {
         

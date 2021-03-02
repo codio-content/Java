@@ -11,6 +11,6 @@ Write a recursive method called `recursiveSum` that takes an integer as a parame
 
 [Code Visualizer](open_tutor code/recursion/Exercise1.java)
 {try with 5}(sh .guides/bg.sh javac code/recursion/Exercise1.java java -cp code/recursion/ Exercise1 5)
-{try with 10}(sh .guides/bg.sh javac code/recursion/Exercise1.java java -cp code/recursion/ Exercise1 55)
+{try with 10}(sh .guides/bg.sh javac code/recursion/Exercise1.java java -cp code/recursion/ Exercise1 10)
 
 {Check It!|assessment}(test-4045561410)

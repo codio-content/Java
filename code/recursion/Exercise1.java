@@ -8,13 +8,7 @@ public class Exercise1 {
 
   //add method definitions below this line
   
-    public static int recursiveSum(int n) {
-      if (n == 0) {
-        return 0;
-      } else {
-        return n + recursiveSum(n - 1);
-      }
-    }
+    
   
   //add method definitions above this line
 }

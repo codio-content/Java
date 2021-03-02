@@ -84,7 +84,7 @@ You are now going to create a recursive method that draws this cluster of three 
   * @return draws a triangle
   */  
   public static void drawTriangle(int length, Turtle t) {
-    t.setheading(180);
+    t.setDirection(180);
     for (int i = 0; i < 3; i++) {
       t.right(120);
       t.forward(length);
@@ -94,7 +94,7 @@ You are now going to create a recursive method that draws this cluster of three 
   //add method definitions above this line
 ```
 
-Finally, replace the `drawTriangle` method call with `sierpinski(50, 1)`.
+Finally, replace the `drawTriangle` method call with `sierpinski(50, 1, t)`.
 
 ```java
     //add code below this line

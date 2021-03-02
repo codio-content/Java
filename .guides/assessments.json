@@ -13994,7 +13994,7 @@
      "answer": "It should be `return num - recursiveFunction(num)`"
     }
    ],
-   "guidance": "```java\npublic static int recursiveFunction(num){\n    if (num < 0) {\n        return 1\n    } else {\n        return num + recursiveFunction(num)\n    }\n}\n```\n\nIn the code above, `recursiveFunction` is called with `num` staying the same value. If it never gets smaller, then `num` will never be less than 0. The function will be stuck in an infinite loop. The parameter in the recursive function should change so that the base case becomes true, e.g. `recursiveFunction(n - 1)`.",
+   "guidance": "```java\npublic static int recursiveFunction(num){\n    if (num < 0) {\n        return 1\n    } else {\n        return num + recursiveFunction(num - 1)\n    }\n}\n```\n\nIn the code above, `recursiveFunction` is called with `num` staying the same value. If it never gets smaller, then `num` will never be less than 0. The function will be stuck in an infinite loop. The parameter in the recursive function should change so that the base case becomes true, e.g. `recursiveFunction(num - 1)`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 20,
@@ -14045,11 +14045,11 @@
   "source": {
    "name": "recursion lab 2 question",
    "showName": false,
-   "instructions": "## Lab Question\n\nRearrange the blocks below to create a recursive function. Assume that the recursive function is called with this code:\n\n`myRecursiveFunction(15);`\n\n**Note**, not all of the code blocks will be used.",
-   "initial": "public static int myRecursiveFunction(int num){\n    if (num &lt; 0) {\n        return 1;\n    } else {\n        return num + my_recursive_function(num - 1);\n    }\n}\nprint(1); #distractor\nreturn num + my_recursive_function(num + 1);  #distractor\nprint(num + my_recursive_function(num - 1)); #distractor",
+   "instructions": "## Lab Question\n\nRearrange the blocks below to create a recursive function. Assume that the recursive function is called with this code:\n\n`myRecursiveFunction(15);`\n\n**Note**, not all of the code blocks will be used, and the code blocks should be indented properly.",
+   "initial": "public static int myRecursiveFunction(int num){\n    if (num &lt; 0) {\n        return 1;\n    } else {\n        return num + myRecursiveFunction(num - 1);\n    }\n}\nprint(1);  #distractor\nreturn num + myRecursiveFunction(num + 1);   #distractor\nprint(num + myRecursiveFunction(num - 1));  #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "Recursive functions need to return values, not print them. So you can ignore the code blocks that say `print`. Since the base case is testing if `num` is less than 0 and `myRecursiveFunction` was initially called with a parameter of 15, you need to use the code block that says `return num + myRecursiveFunction(num - 1)`. The value of `num` must get to be equal to or less than 0. If not, the recursive function will become an infinite loop.\n\n```java\npublic static int myRecursiveFunction(int num){\n    if (num < 0) {\n        return 1;\n    } else {\n        return num + my_recursive_function(num - 1);\n    }\n}\n```",
+   "guidance": "Recursive functions need to return values, not print them. So you can ignore the code blocks that say `print`. Since the base case is testing if `num` is less than 0 and `myRecursiveFunction` was initially called with a parameter of 15, you need to use the code block that says `return num + myRecursiveFunction(num - 1)`. The value of `num` must get to be equal to or less than 0. If not, the recursive function will become an infinite loop.\n\n```java\npublic static int myRecursiveFunction(int num){\n    if (num < 0) {\n        return 1;\n    } else {\n        return num + myRecursiveFunction(num - 1);\n    }\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 20,
    "oneTimeTest": true,
