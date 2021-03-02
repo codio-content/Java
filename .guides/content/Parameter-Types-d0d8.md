@@ -20,6 +20,7 @@ public static void add(int num1, int num2) {
  * 
  * @param num1 The first integer
  * @param num2 The second integer
+ * @param num3 The third integer
  */
 public static void add(int num1, int num2, int num3) {
   System.out.println(num1 + num2 + num3);
@@ -55,10 +56,10 @@ public static void add(int num1, int num2) {
 }
 
 /**
- * This method adds three integers together
+ * This method adds an integer to a string
  * 
- * @param num1 The first integer
- * @param num2 The second integer
+ * @param num1 The integer
+ * @param num2 The string
  */
 public static void add(int num1, String num2) {
   System.out.println(num1 + num2);
