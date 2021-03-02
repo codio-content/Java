@@ -114,7 +114,7 @@ public static String returnString(String x, String y) { //String method
 public static void main(String args[]) { //void method
   System.out.println(returnInt(1, 2));
   System.out.println(returnDouble(1, 2));
-  System.out.println(returnString(1,2));
+  System.out.println(returnString("1", "2"));
 }
 ```
 

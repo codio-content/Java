@@ -10325,7 +10325,7 @@
   "source": {
    "name": "Global Scope Variables",
    "showName": true,
-   "instructions": "Given the following code snippet:\n```java\nstatic double a = 3.14;\n\npublic static void findCircumference(int b) {\n  double c = a * b;\n  System.out.println(c);\n}\n\npublic static void findArea(int b) {\n  double d = a * (b/2) * (b/2);\n  System.out.println(d);\n}\n```\n\nWhich of the following variables is considered a **global** variable?",
+   "instructions": "Given the following code snippet:\n```java\nstatic double a = 3.14;\n\npublic static void findCircumference(double b) {\n  double c = a * b;\n  System.out.println(c);\n}\n\npublic static void findArea(double b) {\n  double d = a * (b/2) * (b/2);\n  System.out.println(d);\n}\n```\n\nWhich of the following variables is considered a **global** variable?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [
@@ -10613,6 +10613,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "return types"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Java"
+     },
+     {
+      "name": "Category",
+      "value": "Methods"
      }
     ],
     "files": [
@@ -10626,8 +10638,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine a method's return type"
   }
  },
  {
@@ -10707,8 +10719,8 @@
   "source": {
    "name": "Returning a \"Pass\" or \"Fail\"",
    "showName": true,
-   "instructions": "Using the code block below, construct a method called `passes()` that takes in an integer parameter called `grade` and returns a value of `true` if the grade is \"passing\". A passing grade is defined as having a grade of `65` or higher.\n\n**Hint:** Not all of the code blocks will be needed and **remember** to indent all associated commands or you **will not** receive credit for your work.",
-   "initial": "public static boolean passes(int grade) {\n  return (grade &gt;= 65);\n}\npublic static int passes(int grade) {  #distractor\npublic static void passes(int grade) {  #distractor\nreturn true;  #distractor",
+   "instructions": "Using the code block below, construct a method called `passes()` that takes in an integer parameter called `grade` and returns a boolean value of `true` if the grade is \"passing\". A passing grade is defined as having a grade of `65` or higher.\n\n**Hint:** Not all of the code blocks will be needed and **remember** to indent all associated commands or you **will not** receive credit for your work.",
+   "initial": "public static boolean passes(int grade) {\n  return (grade &gt;= 65);\n}\npublic static int passes(int grade) {   #distractor\npublic static void passes(int grade) {   #distractor\nreturn true;   #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "The first step is to determine the return value of the method. The problem asks for a **boolean** return value, therefore the method header should be `public static boolean passes(int grade)`. Note how the parameter is an **int** since the method requires an integer. Next, the boolean statement needs to be returned as **true** if the `grade` is **greater than or equal to** `65`. Rather than using a conditional, we can simply return a boolean expression: `return (grade >= 65);`.\n\n**Solution:**\n```java\npublic static boolean passes(int grade) {\n  return (grade >= 65);\n}\n```",
@@ -10737,13 +10749,7 @@
     "files": [
      "code/methods/HelperMethods.java"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/methods/HelperMethods.java"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT return a boolean method"
@@ -11146,7 +11152,7 @@
    "showName": true,
    "instructions": "Determine whether each statement below is `true` or `false`.",
    "showValues": true,
-   "text": "1. Only static methods can access static global variables: <<<true>>>\n1. Local variables can be accessed by other methods as long as those methods are static: <<<false>>>\n1. A local and global variable cannot be declared with the same name or the compiler will fail: <<<false>>>\n1. Global parameters can be declared as method parameters: <<<true>>>",
+   "text": "1. Only static methods can access static global variables: <<<true>>>\n1. Local variables can be accessed by other methods as long as those methods are static: <<<false>>>\n1. A local and global variable cannot be declared with the same name or the compiler will fail: <<<false>>>\n1. Global variables can be declared as method parameters: <<<true>>>",
    "distractors": "",
    "guidance": "**Explanation:**\n1. **true**: If global variables are not declared as `static`, they cannot be accessed by static methods.\n1. **false**: Local variables are exclusive to the methods they are declared in. They cannot be accessed anywhere else.\n1. **false**: Declared local and global variables are considered to be separate variables. This means they do not affect each other and are allowed in Java.\n1. **true**: Method parameters are similar to local variables; they are both declared within a method. This separates them from global variables which means it is possible to declare parameters that share the same name as the global variables.",
    "showGuidanceAfterResponse": true,
@@ -11204,7 +11210,7 @@
      0,
      "\n1. A local and global variable cannot be declared with the same name or the compiler will fail: ",
      0,
-     "\n1. Global parameters can be declared as method parameters: ",
+     "\n1. Global variables can be declared as method parameters: ",
      0
     ],
     "regexPositions": []
@@ -11217,7 +11223,7 @@
   "source": {
    "name": "Checking for Correct Return Types",
    "showName": true,
-   "instructions": "Which of the following method has an **incorrect** return type?",
+   "instructions": "Which of the following methods has an **incorrect** return type?",
    "multipleResponse": false,
    "isRandomized": true,
    "answers": [

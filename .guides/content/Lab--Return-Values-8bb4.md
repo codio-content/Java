@@ -14,7 +14,7 @@ public static double getSlope(double x1, double y1,
 ```
 
 ## Modifying the Return Value
-Notice that our method returns a single double, which is nice but not extremely helpful when it comes to determining *rise* and *run* for slopes (`rise / run`). Let's say we want instead to express the slope in the `rise / run` format. `rise` is the change in `y` values and `run` is the change `x` values. Unfortunately, we can't simply do `return yChange + " / " + xChange`. Why? Because the `" / "` is a string which is not compatible with the current `return` value of `double`. One way around this is to convert the doubles into strings. Doing so will force us to change our `double` method into a `String` method.
+Notice that our method returns a single double, which is nice but not extremely helpful when it comes to determining *rise* and *run* for slopes (`rise / run`). Let's say we want instead to express the slope in the `rise / run` format. `rise` is the change in `y` values and `run` is the change in `x` values. Unfortunately, we can't simply do `return yChange + " / " + xChange`. Why? Because the `" / "` is a string which is not compatible with the current `return` value of `double`. One way around this is to convert the doubles into strings. Doing so will force us to change our `double` method into a `String` method.
 
 ```java
 public static String getSlope(double x1, double y1, 
