@@ -25,7 +25,7 @@ def main():
       points -= 20
       
     if not(jgm.check_output(path, file, '5 10 15 20', '50', False)):
-      feedback += 'Test case failed: {5, 10, 25, 20} \n'
+      feedback += 'Test case failed: {5, 10, 15, 20} \n'
       points -= 20
     
     # loop through line-by-line to check for more than keywords
