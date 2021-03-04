@@ -40,7 +40,7 @@ Now add the `try`, `catch`, and `finally` blocks. Create `BufferedReader` and `B
 
 {Try it}(sh .guides/bg.sh javac code/files/Lab4.java java -cp code/files/ Lab4 1)
 
-Next, you need set the key (a number from 0 to 25), the cipher mode (encrypt or decrypt), the list of symbols, and an empty string of the new characters (either encrypted or decrypted).
+Next, you need set the key (a number from 0 to 25), the cipher mode (encrypt or decrypt), and the list of symbols.
 
 ```java
     //add code below this line
@@ -52,7 +52,6 @@ Next, you need set the key (a number from 0 to 25), the cipher mode (encrypt or 
       int key = 13;
       String mode = "encrypt";
       final String SYMBOLS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.,-";
-      String newText = "";
       
       source.close();
       destination.close();
@@ -69,7 +68,7 @@ Next, you need set the key (a number from 0 to 25), the cipher mode (encrypt or 
   There is a type of variable called a constant. This variable should never change its value. The <code>final</code> keyword turns a variable into a constant. The Java community also uses the convention of writing constants in all caps as well.
 </details><br>
 
-Read the first line from the `source` file. If it is not an empty string (the end of the text file), then you are going to loop through each character of the line.
+Use a while loop to iterate through `source` as long as the end of the file has not yet been reached. Read the next line of the file. The string `newIndex` will represented the index of the encrypted (or decrypted) character, and `newText` will be the encrypted (or decrypted) text.
 
 ```java
     //add code below this line
@@ -83,8 +82,10 @@ Read the first line from the `source` file. If it is not an empty string (the en
       final String SYMBOLS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.,-";
       String newText = "";
       
-      String line = reader.readLine();
-      for (char ch : line.toCharArray()) {
+      while (source.ready()) {
+        String line = source.readLine();
+        int newIndex = -1;
+        String newText = "";
         
       }
       
@@ -99,94 +100,93 @@ Read the first line from the `source` file. If it is not an empty string (the en
 ```
 
 ### The Caesar Cipher
-The Caesar cipher can only encrypt those characters that are in the `SYMBOLS` variable. Iterate over the string `line`, where `ch` represents each character of the string. Create the variable `charIndex` and set its value to `-1`. This variable will represent if `ch` is in `SYMBOLS`. Next, iterate over `SYMBOLS`. Ask if `ch` is equal to each character of `SYMBOLS`. If yes, set the value of `charIndex` to `i` which is the index of the character in the string `SYMBOLS`. To summarize, if `charIndex` is `-1`, then the character in `line` is not found in `SYMBOLS`. If `charIndex` is not equal to `-1`, then the character in `line` is found in `SYMBOLS` and `charIndex` represents the character's index in `SYMBOLS`
+The Caesar cipher can only encrypt those characters that are in the `SYMBOLS` variable. Iterate over the string `line`, where `ch` represents each character of the string. Create the variable `charIndex` and set its value to `-1`. This variable will represent if `ch` is in `SYMBOLS`. Next, iterate over `SYMBOLS`. Ask if `ch` is equal to each character of `SYMBOLS`. If yes, set the value of `charIndex` to `i` which is the index of the character in the string `SYMBOLS`. To summarize, if `charIndex` is `-1`, then the character in `line` is not found in `SYMBOLS`. If `charIndex` is not equal to `-1`, then the character in `line` is found in `SYMBOLS` and `charIndex` represents the character's index in `SYMBOLS`. Add the code below after the declaration of `newText`.
 
 ```java
-      String line = reader.readLine();
-      for (char ch : line.toCharArray()) {
-        int charIndex = -1;
-        for (int i = 0; i < SYMBOLS.length(); i++) {
-          if (ch == SYMBOLS.charAt(i)) {
-            charIndex = i;
+        for (char ch : line.toCharArray()) {
+          int charIndex = -1;
+          for (int i = 0; i < SYMBOLS.length(); i++) {
+            if (ch == SYMBOLS.charAt(i)) {
+              charIndex = i;
+            }
           }
+          
         }
-      }
 ```
 
 You only want to encrypt characters that appear in `SYMBOLS`, so determine if `charIndex` is not equal to `-1` (the character is in `SYMBOLS`). Then determine if you are encrypting or decrypting the text. If encrypting, add `key` to `charIndex`; if you are decrypting, subtract `key` from `charIndex`.
 
 ```java
-      String line = reader.readLine();
-      for (char ch : line.toCharArray()) {
-        int charIndex = -1;
-        for (int i = 0; i < SYMBOLS.length(); i++) {
-          if (ch == SYMBOLS.charAt(i)) {
-            charIndex = i;
+        for (char ch : line.toCharArray()) {
+          int charIndex = -1;
+          for (int i = 0; i < SYMBOLS.length(); i++) {
+            if (ch == SYMBOLS.charAt(i)) {
+              charIndex = i;
+            }
           }
-        }
-        if (charIndex != -1) {
-          if (mode.equals("encrypt")) {
-            int newIndex = key + charIndex;
-          } else if (mode.equals("decrypt")) {
-            int newIndex = charIndex - key;
+          if (charIndex != -1) {
+            if (mode.equals("encrypt")) {
+              newIndex = key + charIndex;
+            } else if (mode.equals("decrypt")) {
+              newIndex = charIndex - key;
+            }
           }
+          
         }
-      }
 ```
 
 It is possible that `newIndex` is less than 0 or greater than the length of `SYMBOLS`. These indexes will cause a problem. If `newIndex` is negative, add it to the length of `SYMBOLS`. If `newIndex` is greater than the length of `SYMBOLS`, subtract the length of `SYMBOLS`. 
 
 ```java
-      String line = reader.readLine();
-      for (char ch : line.toCharArray()) {
-        int charIndex = -1;
-        for (int i = 0; i < SYMBOLS.length(); i++) {
-          if (ch == SYMBOLS.charAt(i)) {
-            charIndex = i;
+        for (char ch : line.toCharArray()) {
+          int charIndex = -1;
+          for (int i = 0; i < SYMBOLS.length(); i++) {
+            if (ch == SYMBOLS.charAt(i)) {
+              charIndex = i;
+            }
           }
-        }
-        if (charIndex != -1) {
-          if (mode.equals("encrypt")) {
-            int newIndex = key + charIndex;
-          } else if (mode.equals("decrypt")) {
-            int newIndex = charIndex - key;
+          if (charIndex != -1) {
+            if (mode.equals("encrypt")) {
+              newIndex = key + charIndex;
+            } else if (mode.equals("decrypt")) {
+              newIndex = charIndex - key;
+            }
           }
+          if (newIndex < 0) {
+            newIndex = newIndex + SYMBOLS.length();
+          } else if (newIndex > SYMBOLS.length()) {
+            newIndex = newIndex - SYMBOLS.length();
+          }
+          
         }
-        if (newIndex < 0) {
-          newIndex = newIndex + SYMBOLS.length();
-        } else if (newIndex > SYMBOLS.length()) {
-          newIndex = newIndex - SYMBOLS.length();
-        }
-      }
 ```
 
 Now that you have a new index, find the character in `SYMBOLS` with this new index and append it to the variable `newText`. After iterating through the entire line, write `newText` to file `destination`. This program reads up until a newline character, but it does not write a newline character to the destination file. Use the `newLine` method to add a newline character to the destination file.
 
 ```java
-      String line = reader.readLine();
-      for (char ch : line.toCharArray()) {
-        int charIndex = -1;
-        for (int i = 0; i < SYMBOLS.length(); i++) {
-          if (ch == SYMBOLS.charAt(i)) {
-            charIndex = i;
+        for (char ch : line.toCharArray()) {
+          int charIndex = -1;
+          for (int i = 0; i < SYMBOLS.length(); i++) {
+            if (ch == SYMBOLS.charAt(i)) {
+              charIndex = i;
+            }
           }
-        }
-        if (charIndex != -1) {
-          if (mode.equals("encrypt")) {
-            int newIndex = key + charIndex;
-          } else if (mode.equals("decrypt")) {
-            int newIndex = charIndex - key;
+          if (charIndex != -1) {
+            if (mode.equals("encrypt")) {
+              newIndex = key + charIndex;
+            } else if (mode.equals("decrypt")) {
+              newIndex = charIndex - key;
+            }
           }
+          if (newIndex < 0) {
+            newIndex = newIndex + SYMBOLS.length();
+          } else if (newIndex > SYMBOLS.length()) {
+            newIndex = newIndex - SYMBOLS.length();
+          }
+          newText += SYMBOLS.charAt(newIndex);
         }
-        if (newIndex < 0) {
-          newIndex = newIndex + SYMBOLS.length();
-        } else if (newIndex > SYMBOLS.length()) {
-          newIndex = newIndex - SYMBOLS.length();
-        }
-        newText += SYMBOLS.charAt(newIndex);
-      }
-      destination.write(newText);
-      destination.newLine();
+        destination.write(newText);
+        destination.newLine();
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Lab4.java java -cp code/files/ Lab4 2)
@@ -210,10 +210,10 @@ Now that you have a new index, find the character in `SYMBOLS` with this new ind
         int key = 13;
         String mode = "encrypt";
         final String SYMBOLS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.,-";
-        String newText = "";
         while (source.ready()) {
           String line = source.readLine();
           int newIndex = -1;
+          String newText = "";
           for (char ch : line.toCharArray()) {
             int charIndex = -1;
             for (int i = 0; i < SYMBOLS.length(); i++) {

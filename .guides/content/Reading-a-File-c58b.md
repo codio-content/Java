@@ -27,26 +27,34 @@ The `readLine` method will read from the file until it encounters a newline char
 ## Try these variations:
 * Add another `readLine` method to the program:
 ```java
-System.out.println(reader.readLine());
-System.out.println(reader.readLine());
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
+      System.out.println(reader.readLine());
+      System.out.println(reader.readLine());
+      reader.close();
+    }
 ```
 * Change the `readLine` method to `read`:
 ```java
-System.out.println(reader.read());
+    try {
+      BufferedReader reader = new BufferedReader(new FileReader(path));
+      System.out.println(reader.read());
+      reader.close();
+    }
 ```
 
 <details>
   <summary><strong>Why does Java print a number?</strong></summary>
-  The <code>read</code> method only reads one character at a time from the file, and it returns the integer value of the character. You can see the character representation of this integer if you change the code to say:
+  The <code>read</code> method only reads one character at a time from the file, and it returns the integer value of the character. You can see the character representation of this integer if you change the code to:
   
   ```java
-  System.out.println((char)(reader.read()));
+        System.out.println((char)(reader.read()));
   ```
 </details><br>
 
 * Change the file path to: 
 ```java
-String path = "studentFolder/text/readPractice2.txt";
+      String path = "studentFolder/text/readPractice2.txt";
 ```
 
 <details>
