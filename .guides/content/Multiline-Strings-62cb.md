@@ -28,8 +28,8 @@ Let's take the Java code from the previous page and make a few changes. This pro
 Notice how Java writes text as one string after another; it does not add a new line, it does not add a space. You need to add these characters yourself. Change the string variables to look like the code below. Run the program, and then look at the file. Each string should be on its own line.
 
 ```java
-String text1 = "Hello there\n";
-String text2 = "my friend";
+      String text1 = "Hello there\n";
+      String text2 = "my friend";
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Multiline.java java -cp code/files/ Multiline 2)
@@ -38,11 +38,22 @@ String text2 = "my friend";
 Another benefit of the `BufferedWriter` class is that it has the method `newLine` which writes a line separator. You can use this method instead of using the newline character in your strings.
 
 ```java
-String text1 = "Hello there";
-String text2 = "my friend";
-writer.write(text1);
-writer.newLine();
-writer.write(text2);
+//add code below this line
+    String path = "studentFolder/text/practice2.txt";
+    try {
+      BufferedWriter writer = new BufferedWriter(new FileWriter(path));
+      String text1 = "Hello there";
+      String text2 = "my friend";
+      writer.write(text1);
+      writer.newLine();
+      writer.write(text2);
+      writer.close();
+    } catch (IOException e) {
+      System.out.println(e);
+    } finally {
+      System.out.println("Finished writing to a file.");
+    }
+    //add code above this line 
 ```
 
 {Try it}(sh .guides/bg.sh javac code/files/Multiline.java java -cp code/files/ Multiline 3)
@@ -50,11 +61,12 @@ writer.write(text2);
 
 ## Substrings
 
-You can also write a part of a string (called a substring) to a file. The `write` method can also take two additional parameters. The first is an integer representing the starting character, and the second is an integer representing the length of the substring.
+You can also write a part of a string (called a substring) to a file. The `write` method can also take two additional parameters. The first is an integer representing the starting character, and the second is an integer representing the length of the substring. Update your code to look like the sample below.
 
 ```java
-writer.write(text1, 6, 6);
-writer.write(text2, 0, 4);
+      writer.write(text1, 6, 6);
+      writer.newLine();
+      writer.write(text2, 0, 4);
 ```
 
 The first `write` method starts at the sixth character (the `t`) and writes the next six characters (`there` plus the newline character) to the file. The second `write` method starts at character zero (the `m`) and writes the next four characters (`my f`) to the file.

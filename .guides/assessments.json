@@ -7893,7 +7893,7 @@
   "source": {
    "name": "reading question skip method",
    "showName": false,
-   "instructions": "## Reading Question\n\nAssume that `reader` is a `BufferedReader` object and that the first line of a text file has 22 characters.",
+   "instructions": "## Reading Question\n\nAssume that `reader` is a `BufferedReader` object and that the first line of a text file has 22 characters. Select **all** of the `skip` statements that will print characters from the first line.",
    "multipleResponse": true,
    "isRandomized": true,
    "answers": [
@@ -7923,6 +7923,7 @@
    "showExpectedAnswer": true,
    "points": 20,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
