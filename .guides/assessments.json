@@ -14000,7 +14000,7 @@
      "answer": "It should be `return num - recursiveFunction(num)`"
     }
    ],
-   "guidance": "```java\npublic static int recursiveFunction(num){\n    if (num < 0) {\n        return 1\n    } else {\n        return num + recursiveFunction(num - 1)\n    }\n}\n```\n\nIn the code above, `recursiveFunction` is called with `num` staying the same value. If it never gets smaller, then `num` will never be less than 0. The function will be stuck in an infinite loop. The parameter in the recursive function should change so that the base case becomes true, e.g. `recursiveFunction(num - 1)`.",
+   "guidance": "In the original code above, `recursiveFunction` is called with `num` staying the same value. If it never gets smaller, then `num` will never be less than 0. The function will be stuck in an infinite loop. The parameter in the recursive function should change so that the base case becomes true, e.g. `recursiveFunction(num - 1)`. Here is the correct code:\n\n```java\npublic static int recursiveFunction(num){\n    if (num < 0) {\n        return 1\n    } else {\n        return num + recursiveFunction(num - 1)\n    }\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 20,
