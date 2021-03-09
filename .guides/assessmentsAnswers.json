@@ -247,5 +247,15 @@
    "active": []
   },
   "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-1860665674",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
  }
 ]

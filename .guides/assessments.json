@@ -9812,7 +9812,7 @@
    "showName": true,
    "instructions": "Fill in the blanks below with correct Javadoc and method syntax.",
    "showValues": true,
-   "text": "```java\n<<</**>>>\n * This method prints the message \"This is my method\"\n * \n * <<<@author>>>  FirstName LastName\n * <<<@verison>>> 2.0\n <<<*/>>>\npublic static void myMethod<<<()>>> {\n  System.out.println(\"This is my method\");\n}\n```",
+   "text": "```java\n<<</**>>>\n * This method prints the message \"This is my method\"\n * \n * <<<@author>>>  FirstName LastName\n * <<<@version>>> 2.0\n <<<*/>>>\npublic static void myMethod<<<()>>> {\n  System.out.println(\"This is my method\");\n}\n```",
    "distractors": "",
    "guidance": "There are two parts to the this problem. The first part is recognizing that Javadoc is involved and the second part is completing the method. All documentation starts with `/**` and ends with `*/`. Additionally, notice that the documentation includes `FirstName` and `LastName` which represent the author and a decimal number which represents a version of that method. Therefore, `@author` and `@version` are needed respectively. Next, the method header needs to have parentheses `()` following the method name by definition.",
    "showGuidanceAfterResponse": true,
@@ -9847,7 +9847,7 @@
     "blank": [
      "/**",
      "@author",
-     "@verison",
+     "@version",
      "*/",
      "()"
     ],
