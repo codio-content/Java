@@ -55,7 +55,7 @@ static double input4;
 
 **Side note:** In Java, *static* local variables do not exist.
 
-You'll notice that you have access to the Terminal which you will use to input any coordinate points you want. If you enter `3`, `2`, `5`, and `6` respectively, you should still get `2.0`. Click the `COMPILE` button first to compile the program, and then click `RUN` to run the program and enter inputs.
+You'll notice that you have access to the Terminal which you will use to input any coordinate points you want. If you enter `3`, `2`, `5`, and `6` respectively, you should get `2.0`. Click the `COMPILE` button first to compile the program, and then click `RUN` to run the program and enter inputs.
 
 {Compile|terminal}(javac code/methods/LabScope.java)
 {Run|terminal}(java -cp code/methods/ LabScope )

@@ -4,7 +4,7 @@
 You are going to write a method that takes in 4 **doubles** as parameters. These parameters represent two sets of coordinate points labeled as `x1`, `y1`, `x2`, and `y2`. The method will then use these points to calculate the slope that their line creates and then prints that slope to the user.
 
 ## Method Header
-First, we need to set up the method header. Per usual we will start off with `public static` followed by our return type. Since the result is simply printing the slope, we will use `void` as the return type. Additionally, we'll name the name `findSlope()`.
+First, we need to set up the method header. Per usual we will start off with `public static` followed by our return type. Since the result is simply printing the slope, we will use `void` as the return type. Additionally, we'll name the name `getSlope()`.
 
 ```java
 public static void getSlope() {
