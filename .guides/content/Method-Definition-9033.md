@@ -14,7 +14,7 @@ The method header contains several keywords to determine the method type. Next i
 
 The method header usually starts with a few keywords:
 * `public` - Determines from where the method can be accessed. Other options include **private** and **protected**. For this module, we will be working with mostly **public** methods.
-* `static` - Determines what can access the method. **static** methods can be accessed without needing a particular instance or object. If you want the method to be exclusive to an object, do not include **static**. For this module, we will working with mostly **static** methods.
+* `static` - Determines what can access the method. **static** methods can be accessed without needing a particular instance or object. If you want the method to be exclusive to an object, do not include **static**. For this module, we will be working with mostly **static** methods.
 * `void` - Determines whether there is a return value or not for the method. If the method has no return value, use **void**. If the method returns an integer, use **int**, etc.
 * `greetTwice` - This is an example of a method name. See above for naming conventions.
 * `()` - Parentheses are required for all methods. Any parameters that the method takes in will go into the parentheses but they are optional.

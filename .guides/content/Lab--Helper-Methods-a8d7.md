@@ -27,7 +27,7 @@ public static double getRun(double x1, double x2) {
 } 
 ```
 
-Above, we have two methods. One that calculates the *rise* of a slope and another that calculates the *run* of a slope. These two helper methods will come in handy in out later slope calculations.
+Above, we have two methods. One that calculates the *rise* of a slope and another that calculates the *run* of a slope. These two helper methods will come in handy in our later slope calculations.
 
 ## Using Helper Methods
 
@@ -61,7 +61,7 @@ public static String getSlopeFraction(double x1, double y1,
 }
 ```
 
-Notice how within the two methods above `getSlopeWhole()` and `getSlopeFraction()`, the previous helper methods `getRise()` and `getRun()` are called. Having 4 methods at our disposal provides us with a flexibility that a single method cannot offer. In this program, we can get the slope in its decimal form and its fraction form in addition to the rise and run individually. If we wanted, we can continue to build more into this program.
+Notice how within the two methods above `getSlopeDecimal()` and `getSlopeFraction()`, the previous helper methods `getRise()` and `getRun()` are called. Having 4 methods at our disposal provides us with a flexibility that a single method cannot offer. In this program, we can get the slope in its decimal form and its fraction form in addition to the rise and run individually. If we wanted, we can continue to build more into this program.
 
 ## Complete and Run the Program
 Copy over the rest of the program and then test it.

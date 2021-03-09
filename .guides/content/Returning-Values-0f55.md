@@ -6,7 +6,7 @@ Instead of just **printing** data, methods can also **return** data. Think of th
 
 ```java
 /**
- * This method adds adds 5 to an integer
+ * This method adds 5 to an integer
  * 
  * @param num An integer
  * @return The integer added to 5

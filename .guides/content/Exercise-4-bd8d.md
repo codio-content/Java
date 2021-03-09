@@ -31,17 +31,20 @@ public class Exercise4 {
 * You can use **any** number of methods, loops, and/or conditionals to produce the desired output.
 
 ### Compile and test your code with a few different values
-
-{Compile and test with uppercase "Level"}(sh .guides/methods/exercise4.sh Level)
+The button below will compile and test the code with `"Level"`.
+{Compile and test}(sh .guides/methods/exercise4.sh Level)
 <details><summary><b>Expected Output</b></summary><code>false</code></details><br>
 
-{Compile and test with lowercase "anna"}(sh .guides/methods/exercise4.sh anna)
+The button below will compile and test the code with `"anna"`.
+{Compile and test}(sh .guides/methods/exercise4.sh anna)
 <details><summary><b>Expected Output</b></summary><code>true</code></details><br>
 
-{Compile and test with "022220"}(sh .guides/methods/exercise4.sh 022220)
+The button below will compile and test the code with `"022220"`.
+{Compile and test}(sh .guides/methods/exercise4.sh 022220)
 <details><summary><b>Expected Output</b></summary><code>true</code></details><br>
 
-{Compile and test with "10"}(sh .guides/methods/exercise4.sh 10)
+The button below will compile and test the code with `"10"`.
+{Compile and test}(sh .guides/methods/exercise4.sh 10)
 <details><summary><b>Expected Output</b></summary><code>false</code></details><br>
 
 {Check It!|assessment}(test-260794075)
