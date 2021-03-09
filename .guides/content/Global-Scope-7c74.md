@@ -18,7 +18,7 @@ public static void main(String args[]) {
 
 {Try it}(sh .guides/bg.sh javac code/methods/Global.java java -cp code/methods/ Global 1)
 
-Notice how the keyword `static` is used. This is due to the fact that both the `sayHello()` and `main()` method are `static` methods. Only **static** variables can be accessed by static methods.
+Notice how the keyword `static` is used. This is due to the fact that both the `sayHello()` and `main()` methods are `static` methods. Only **static** variables can be accessed by static methods.
 
 |||challenge
 ## What happens if you:

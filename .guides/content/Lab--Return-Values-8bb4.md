@@ -1,7 +1,7 @@
 ----------
 
 ## Returning a Value
-When the result of a method is simply a print statement, it is considered to be a `void` method. `void` methods do not have a return type, meaning they do not return data back to the user. To return data, use the keyword `return` followed by the data. Note that methods with `return` must be declared with same data type as the data that they return. For example, a method that returns an `double` must be declared in the header as a `double` method.
+When the result of a method is simply a print statement, it is considered to be a `void` method. `void` methods do not have a return type, meaning they do not return data back to the user. To return data, use the keyword `return` followed by the data. Note that methods with `return` must be declared with the same data type as the data that they return. For example, a method that returns a `double` must be declared in the header as a `double` method.
 
 
 ```java

@@ -8,11 +8,11 @@ Method parameters do not necessarily need to belong to one of the four commonly 
 /**
  * This method prints all values of an array
  * 
- * @param array A string array
+ * @param arr is an array of strings
  */
-public static void printArray(String[] array) {
-  for (int i = 0; i < array.length; i++) {
-    System.out.println(array[i]);
+public static void printArray(String[] arr) {
+  for (int i = 0; i < arr.length; i++) {
+    System.out.println(arr[i]);
   }
 }
 
@@ -28,7 +28,20 @@ public static void main(String args[]) {
 ## What happens if you:
 * Change the method parameter from `String[] array` to `String array[]`?
 * Change the variable `String[] names` to `String[] names = new String[3];`?
+<details>
+  <summary><strong>Explanation</strong></summary>
+  The variable <code>names</code> is an array of three strings. However, no values have been given for each of the elements in the array. Java uses <code>null</code> as a placeholder until a value is given. That is why <code>null</code> is printed three times.
+</details><br>
+
 * Add `names[0] = "Alan";` to the line below `String[] names = new String[3];`?
+```java
+String[] names = new String[3];
+names[0] = "Alan";
+```
+<details>
+  <summary><strong>Explanation</strong></summary>
+  The array <code>names</code> is initialized with no values. Then the first element is given the value <code>"Alan"</code>. That is why the program prints <code>Alan</code> followed <code>null</code> two times.
+</details>
 
 |||
 

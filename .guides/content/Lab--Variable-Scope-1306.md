@@ -1,7 +1,7 @@
 ----------
 
 ## Local and Global Variables
-For this lab, we are going to be adding local and global variables to our previously created `findSlope()` method. Remember that **global** variables exist *outside* of methods while **local** variables exist *inside* methods. Depending on how you declare your local and global variables, they will behave differently per situation.
+For this lab, we are going to be adding local and global variables to our previously created `getSlope()` method. Remember that **global** variables exist *outside* of methods while **local** variables exist *inside* methods. Depending on how you declare your local and global variables, they will behave differently per situation.
 
 ## Global Variables
 First, let's add some global variables to our program.
@@ -30,13 +30,13 @@ To make things more dynamic, we'll actually make use of a `scanner` within the `
 ```java
 public static void main(String args[]) {
   Scanner input = new Scanner (System.in);
-  System.out.println("Enter first x coordinate: ");
+  System.out.println("Enter first x-coordinate: ");
   input1 = input.nextDouble();
-  System.out.println("Enter first y coordinate: ");
+  System.out.println("Enter first y-coordinate: ");
   input2 = input.nextDouble();
-  System.out.println("Enter second x coordinate: ");
+  System.out.println("Enter second x-coordinate: ");
   input3 = input.nextDouble();
-  System.out.println("Enter second y coordinate: ");
+  System.out.println("Enter second y-coordinate: ");
   input4 = input.nextDouble();
   input.close();
   
@@ -74,10 +74,10 @@ You'll notice that you have access to the Terminal which you will use to input a
    * of coordinate points by calculating their coordinate
    * changes separately
    * 
-   * @param x1 A double of the first x-coordinate
-   * @param y1 A double of the first y-coordinate
-   * @param x2 A double of the second x-coordinate
-   * @param y2 A double of the second y-coordinate
+   * @param x1 A double for first x-coordinate
+   * @param y1 A double for first y-coordinate
+   * @param x2 A double for second x-coordinate
+   * @param y2 A double for second y-coordinate
    * @return No return value
    */
   public static void getSlope(double x1, double y1, double x2, double y2) {
@@ -88,13 +88,13 @@ You'll notice that you have access to the Terminal which you will use to input a
   
   public static void main(String args[]) {
     Scanner input = new Scanner (System.in);
-    System.out.println("Enter first x coordinate: ");
+    System.out.println("Enter first x-coordinate: ");
     input1 = input.nextDouble();
-    System.out.println("Enter first y coordinate: ");
+    System.out.println("Enter first y-coordinate: ");
     input2 = input.nextDouble();
-    System.out.println("Enter second x coordinate: ");
+    System.out.println("Enter second x-coordinate: ");
     input3 = input.nextDouble();
-    System.out.println("Enter second y coordinate: ");
+    System.out.println("Enter second y-coordinate: ");
     input4 = input.nextDouble();
     input.close();
   

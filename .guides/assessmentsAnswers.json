@@ -26,5 +26,23 @@
    "toggleStates": "{}"
   },
   "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-3473571299",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1522160354",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
  }
 ]
