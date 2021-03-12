@@ -13,7 +13,7 @@ double input3;
 double input4;
 ```
 
-## The findSlope() Method
+## The getSlope() Method
 As from before, the method will still take 4 **doubles** as parameters named `x1`, `y1`, `x2`, and `y2`. However, we're going to implement two different calculations within the method. Specifically, we are going to calculate the difference between the **y** coordinates first, then calculate the difference between the **x** coordinates. These calculations will then be assigned to **local** variables called `yChange` and `xChange`. Finally, the method will print the quotient between `yChange` and `xChange`, which is also the slope itself.
 
 ```java

@@ -26,7 +26,7 @@ public static void main(String args[]) {
 
 |||challenge
 ## What happens if you:
-* Change the method parameter from `String[] array` to `String array[]`?
+* Change the method parameter from `String[] arr` to `String array[]`?
 * Change the variable `String[] names` to `String[] names = new String[3];`?
 <details>
   <summary><strong>Explanation</strong></summary>
@@ -40,7 +40,7 @@ names[0] = "Alan";
 ```
 <details>
   <summary><strong>Explanation</strong></summary>
-  The array <code>names</code> is initialized with no values. Then the first element is given the value <code>"Alan"</code>. That is why the program prints <code>Alan</code> followed <code>null</code> two times.
+  The array <code>names</code> is initialized with no values. Then the first element is given the value <code>"Alan"</code>. That is why the program prints <code>Alan</code> followed by <code>null</code> two times.
 </details>
 
 |||
