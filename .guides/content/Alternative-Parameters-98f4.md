@@ -26,7 +26,7 @@ public static void main(String args[]) {
 
 |||challenge
 ## What happens if you:
-* Change the method parameter from `String[] arr` to `String array[]`?
+* Change the method parameter from `String[] arr` to `String arr[]`?
 * Change the variable `String[] names` to `String[] names = new String[3];`?
 <details>
   <summary><strong>Explanation</strong></summary>
