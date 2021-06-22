@@ -27,7 +27,7 @@ System.out.println( (double) numerator / denominator);
 <details><summary><b>More Info</b></summary>If either or both numbers in Java division are a <code>double</code>, then <code>double</code> division will occur. In the last example, numerator and denominator are both <code>int</code> when the division takes place - then the integer division result is converted to a double. </details>
 
 ## Parsing Strings
-Do you know why the code below will not work?
+What do you think the code below will print?
 
 ```java
 int a = 5;
@@ -37,7 +37,7 @@ System.out.println(a + b);
 
 {Try it}(sh .guides/bg.sh javac code/operators/PlaygroundCasting.java java -cp code/operators/ PlaygroundCasting 3 )
 
-You cannot add a string to an integer. You can convert `b` to an integer to fix the problem.
+When you try to print an integer and a string added together, Java will automatically convert the integer into a string. This occurs because the system attempts to perform string concatenation. This is why the code above resulted in `53`. To perform integer addition, you can convert `b` to an integer.
 
 ```java
 int a = 5;
