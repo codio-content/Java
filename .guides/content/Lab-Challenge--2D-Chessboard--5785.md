@@ -1,7 +1,7 @@
 ---
 
 ## 2D Chessboard
-You are trying to create a chessboard representation using the alphabetical letters `O` and `X`. The `O` represents the lighter spaces while the `X` represents the darker spaces.
+You are trying to create a chessboard representation using the alphabetical **uppercase** letters `O` and `X`. The `O` represents the lighter spaces while the `X` represents the darker spaces.
 ```java
 OXOXOXOX
 XOXOXOXO
