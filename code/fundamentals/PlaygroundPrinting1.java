@@ -4,7 +4,6 @@ public class PlaygroundPrinting1 {
     //add code below this line
     
     
-    
     //add code above this line
   }
 }

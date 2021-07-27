@@ -1,91 +1,9 @@
 [
  {
-  "taskId": "fill-in-the-blanks-3212025220",
+  "taskId": "multiple-choice-2547412741",
   "points": 0,
   "state": {
-   "active": []
-  },
-  "results": []
- },
- {
-  "taskId": "multiple-choice-2976548927",
-  "points": 0,
-  "state": {
-   "active": null
-  },
-  "results": []
- },
- {
-  "taskId": "fill-in-the-blanks-4285137417",
-  "points": 1,
-  "state": {
-   "active": [
-    "*",
-    "%",
-    "/",
-    "/"
-   ]
-  },
-  "results": [
-   {
-    "current": [
-     "*",
-     "%",
-     "/",
-     "/"
-    ],
-    "right": [
-     "*",
-     "%",
-     "/",
-     "/"
-    ],
-    "timestamp": 1578946841561,
-    "state": "pass"
-   }
-  ]
- },
- {
-  "taskId": "test-3275115534",
-  "points": 1,
-  "results": [
-   {
-    "code": 0,
-    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work",
-    "timestamp": 1578947560050,
-    "state": "pass"
-   },
-   {
-    "code": 1,
-    "output": "python3: can't open file '.guides/secure/operators/labchallenge.py': [Errno 2] No such file or directory\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment",
-    "timestamp": 1578947554776,
-    "state": "fail"
-   },
-   {
-    "code": 1,
-    "output": "python3: can't open file '.guides/secure/operators/labchallenge.py': [Errno 2] No such file or directory\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment",
-    "timestamp": 1578947485376,
-    "state": "fail"
-   },
-   {
-    "code": 1,
-    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputing the correct value. Instead of <code>false</code> it is outputting:\ntrue",
-    "timestamp": 1578947440626,
-    "state": "fail"
-   },
-   {
-    "code": 1,
-    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using <code>System.out.println();</code>",
-    "timestamp": 1578947407654,
-    "state": "fail"
-   }
-  ]
- },
- {
-  "taskId": "fill-in-the-blanks-3628618227",
-  "points": 0,
-  "state": {
-   "active": []
+   "active": "d9d0f578-f0b5-9920-478b-5dedad2afc65"
   },
   "results": []
  }

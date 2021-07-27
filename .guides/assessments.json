@@ -4613,5 +4613,54 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2718464934",
+  "source": {
+   "name": "Predicting Output",
+   "showName": true,
+   "instructions": "What is the output of the following code?\n\n```java\nSystem.out.print(\"Hello\");\nSystem.out.print(\" \");\nSystem.out.print(\"World\");\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "1b461982-25c3-925b-1cb1-581616191f4e",
+     "correct": false,
+     "answer": "Hello\n\nWorld"
+    },
+    {
+     "_id": "d23988e2-ec32-1067-4f0e-69355266d9de",
+     "correct": false,
+     "answer": "HelloWorld"
+    },
+    {
+     "_id": "cdd4858c-759b-7e02-a486-e8b5b786c18d",
+     "correct": false,
+     "answer": "Hello\nWorld"
+    },
+    {
+     "_id": "365d216e-fdae-9fce-7377-3bc1cde27c62",
+     "correct": true,
+     "answer": "Hello World"
+    }
+   ],
+   "guidance": "```java\nSystem.out.print(\"Hello\");\nSystem.out.print(\" \");\nSystem.out.print(\"World\");\n```\n\nBecause all command are `print` commands there are no carriage returns or newlines. This means that all text is on one line.\n\nThe second line of code is a space.\n\nThis makes the output \"Hello World\"",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
